@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian-Vault-Structure/03 - Content/Linking Content.md",
+                "file": "Obsidian-Vault-Structure/01 - Primary Categories/01 - Administration.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Obsidian-Vault-Structure/03 - Content/Linking Content.md",
+                "file": "Obsidian-Vault-Structure/01 - Primary Categories/01 - Administration.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian-Vault-Structure/03 - Content/Linking Content.md",
+                "file": "Obsidian-Vault-Structure/01 - Primary Categories/01 - Administration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian-Vault-Structure/03 - Content/Linking Content.md",
+                "file": "Obsidian-Vault-Structure/01 - Primary Categories/01 - Administration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian-Vault-Structure/03 - Content/Linking Content.md"
+                "file": "Obsidian-Vault-Structure/01 - Primary Categories/01 - Administration.md"
               }
             }
           }
@@ -192,19 +192,19 @@
   },
   "active": "40b74a5db3ce7e9b",
   "lastOpenFiles": [
-    "Obsidian-Vault-Structure/03 - Content/Admonition.md",
-    "Obsidian-Vault-Structure/03 - Content/Linking Content.md",
-    "Obsidian-Vault-Structure/04 - Templates/0400 - Gen_Note.md",
-    "Obsidian-Vault-Structure/03 - Content/Obsidian - Custom CSS.md",
+    "Obsidian-Vault-Structure/03 - Content/Obsidian Git.md",
     "Obsidian-Vault-Structure/03 - Content/Obsidian - Plugins.md",
     "Obsidian-Vault-Structure/03 - Content/Obsidian - Getting Started.md",
+    "Obsidian-Vault-Structure/03 - Content/Obsidian - Custom CSS.md",
+    "Obsidian-Vault-Structure/03 - Content/Linking Content.md",
+    "Obsidian-Vault-Structure/03 - Content/Admonition.md",
+    "Obsidian-Vault-Structure/04 - Templates/0400 - Gen_Note.md",
     "Obsidian-Vault-Structure/02 - Secondary Categories/02 - Obsidian.md",
     "Obsidian-Vault-Structure/01 - Primary Categories/01 - Red Team.md",
     "Obsidian-Vault-Structure/01 - Primary Categories/01 - Pentest.md",
     "Obsidian-Vault-Structure/01 - Primary Categories/01 - Development.md",
     "Obsidian-Vault-Structure/01 - Primary Categories/01 - Administration.md",
     "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
-    "Obsidian-Vault-Structure/03 - Content/Obsidian Git.md",
     "Obsidian-Vault-Structure/README.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0409 - Struct_Secondary_Category_Body.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0407 - Struct_Personal_Body.md",
