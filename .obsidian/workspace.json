@@ -112,7 +112,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.769319618371715,
                   "close": true
                 }
               }
@@ -201,7 +201,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "787963b81fb3f015",
+  "active": "4515329b4ca194b9",
   "lastOpenFiles": [
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0409 - Struct_Secondary_Category_Body.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0407 - Struct_Personal_Body.md",
