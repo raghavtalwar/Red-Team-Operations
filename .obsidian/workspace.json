@@ -18,18 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "15da5211435146ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#🗺",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,8 +189,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4515329b4ca194b9",
+  "active": "787963b81fb3f015",
   "lastOpenFiles": [
+    "Obsidian-Vault-Structure/03 - Content/Obsidian - Plugins.md",
+    "Dataview.md",
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Administration.md",
+    "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Pentest.md",
+    "Untitled 6.md",
+    "Untitled 1.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0409 - Struct_Secondary_Category_Body.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0407 - Struct_Personal_Body.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0408 - Struct_Secondary_Category_Header.md",
@@ -228,7 +223,6 @@
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907120723.png",
     "Obsidian-Vault-Structure/03 - Content/Templater.md",
     "Obsidian-Vault-Structure/03 - Content/Obsidian Git.md",
-    "Obsidian-Vault-Structure/03 - Content/Obsidian - Plugins.md",
     "Obsidian-Vault-Structure/03 - Content/files",
     "Obsidian-Vault-Structure/03 - Content/Obsidian - Getting Started.md",
     "Obsidian-Vault-Structure/03 - Content/Obsidian - Custom CSS.md",
@@ -238,14 +232,8 @@
     "Obsidian-Vault-Structure/02 - Secondary Categories/02 - Obsidian.md",
     "Obsidian-Vault-Structure/02 - Secondary Categories",
     "Obsidian-Vault-Structure/01 - Primary Categories/01 - Red Team.md",
-    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Pentest.md",
-    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Development.md",
-    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Administration.md",
     "Obsidian-Vault-Structure/01 - Primary Categories",
-    "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
     "Obsidian-Vault-Structure",
-    "Untitled 1.md",
-    "2023-10-29.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Untitled"
