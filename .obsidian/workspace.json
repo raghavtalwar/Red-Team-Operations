@@ -11,12 +11,8 @@
             "id": "40b74a5db3ce7e9b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Adversary Simulation/03 - Content/Obsidian - Custom CSS.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Adversary Simulation/03 - Content/Obsidian - Custom CSS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -127,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adversary Simulation/03 - Content/Obsidian - Custom CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +138,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Adversary Simulation/03 - Content/Obsidian - Custom CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +159,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Adversary Simulation/03 - Content/Obsidian - Custom CSS.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -192,51 +183,53 @@
   },
   "active": "40b74a5db3ce7e9b",
   "lastOpenFiles": [
-    "Adversary Simulation/02 - Secondary Categories/02 - Obsidian.md",
-    "Adversary Simulation/03 - Content/Obsidian - Plugins.md",
-    "Adversary Simulation/03 - Content/Obsidian - Getting Started.md",
-    "Dataview.md",
-    "Adversary Simulation/03 - Content/Obsidian - Custom CSS.md",
-    "Adversary Simulation/03 - Content/Linking Content.md",
+    "Obsidian-Vault-Structure/README.md",
+    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0409 - Struct_Secondary_Category_Body.md",
+    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0407 - Struct_Personal_Body.md",
+    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0408 - Struct_Secondary_Category_Header.md",
+    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0406 - Struct_Documentation_Body.md",
+    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0403 - Struct_TTP_Body.md",
+    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0405 - Struct_Idea_Body.md",
+    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0404 - Struct_Tool_Body.md",
+    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0402 - Struct_Gen_Resources.md",
+    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0401 - Struct_Gen_Header.md",
+    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements",
+    "Obsidian-Vault-Structure/04 - Templates/0400 - Gen_Note.md",
+    "Obsidian-Vault-Structure/04 - Templates",
+    "Obsidian-Vault-Structure/03 - Content/files/responsive_yt.gif",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907125817.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907125653.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907125248.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907124937.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907122512.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907120838.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907121102.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907120756.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907120723.png",
+    "Obsidian-Vault-Structure/03 - Content/Templater.md",
+    "Obsidian-Vault-Structure/03 - Content/Obsidian Git.md",
+    "Obsidian-Vault-Structure/03 - Content/Obsidian - Plugins.md",
+    "Obsidian-Vault-Structure/03 - Content/Obsidian - Custom CSS.md",
+    "Obsidian-Vault-Structure/03 - Content/Linking Content.md",
+    "Obsidian-Vault-Structure/03 - Content/Obsidian - Getting Started.md",
+    "Obsidian-Vault-Structure/03 - Content/files",
+    "Obsidian-Vault-Structure/03 - Content/Admonition.md",
+    "Obsidian-Vault-Structure/03 - Content",
+    "Obsidian-Vault-Structure/02 - Secondary Categories/02 - Obsidian.md",
+    "Obsidian-Vault-Structure/02 - Secondary Categories",
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Red Team.md",
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Development.md",
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Pentest.md",
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Administration.md",
+    "Obsidian-Vault-Structure/01 - Primary Categories",
+    "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
+    "Obsidian-Vault-Structure",
     "Adversary Simulation/000 - Global Index (Start Here!).md",
-    "Adversary Simulation/01 - Primary Categories/01 - Administration.md",
-    "Adversary Simulation/03 - Content/Obsidian Git.md",
-    "Adversary Simulation/03 - Content/Templater.md",
-    "Adversary Simulation/03 - Content/Admonition.md",
-    "Adversary Simulation/01 - Primary Categories/01 - Pentest.md",
-    "Adversary Simulation/01 - Primary Categories/01 - Development.md",
-    "Execution (TA0002).md",
-    "Getting Started.md",
-    "02 - Resources.md",
-    "Initial Access (TA0001).md",
-    "Reconnaissance (TA0043).md",
-    "Resource Development (TA0042).md",
-    "Untitled 6.md",
-    "Untitled 1.md",
-    "Adversary Simulation/04 - Templates/04 - Structural Elements/0409 - Struct_Secondary_Category_Body.md",
-    "Adversary Simulation/04 - Templates/04 - Structural Elements/0407 - Struct_Personal_Body.md",
-    "Adversary Simulation/04 - Templates/04 - Structural Elements/0408 - Struct_Secondary_Category_Header.md",
-    "Adversary Simulation/04 - Templates/04 - Structural Elements/0406 - Struct_Documentation_Body.md",
-    "Adversary Simulation/04 - Templates/04 - Structural Elements/0405 - Struct_Idea_Body.md",
+    "Adversary Simulation/01 - Primary Categories/01 - Red Team.md",
     "Adversary Simulation/04 - Templates/04 - Structural Elements",
     "Adversary Simulation/04 - Templates",
-    "Adversary Simulation/03 - Content/files/responsive_yt.gif",
-    "Adversary Simulation/03 - Content/files/Pasted image 20210907125817.png",
-    "Adversary Simulation/03 - Content/files/Pasted image 20210907125248.png",
-    "Adversary Simulation/03 - Content/files/Pasted image 20210907125653.png",
-    "Adversary Simulation/03 - Content/files/Pasted image 20210907122512.png",
-    "Adversary Simulation/03 - Content/files/Pasted image 20210907121102.png",
-    "Adversary Simulation/03 - Content/files/Pasted image 20210907124937.png",
-    "Adversary Simulation/03 - Content/files/Pasted image 20210907120838.png",
-    "Adversary Simulation/03 - Content/files/Pasted image 20210907120756.png",
-    "Adversary Simulation/03 - Content/files/Pasted image 20210907120723.png",
     "Adversary Simulation/03 - Content/files",
-    "Adversary Simulation/03 - Content",
-    "Adversary Simulation/02 - Secondary Categories",
-    "Adversary Simulation/01 - Primary Categories",
-    "Adversary Simulation",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "Untitled"
+    "Untitled.canvas"
   ]
 }
