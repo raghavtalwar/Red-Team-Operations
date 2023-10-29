@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Execution (TA0002).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Execution (TA0002).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Execution (TA0002).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "Execution (TA0002).md"
               }
             }
           }
@@ -202,10 +201,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "15da5211435146ff",
+  "active": "787963b81fb3f015",
   "lastOpenFiles": [
-    "Execution (TA0002).md",
     "Untitled 1.md",
+    "Execution (TA0002).md",
     "2023-10-29.md",
     "Untitled 1.canvas",
     "Initial Access (TA0001).md",
