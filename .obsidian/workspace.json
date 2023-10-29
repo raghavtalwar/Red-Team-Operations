@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian-Vault-Structure/01 - Primary Categories/01 - Pentest.md",
+                "file": "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "eb3cfdcd1b8fa92f",
@@ -77,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Obsidian-Vault-Structure/01 - Primary Categories/01 - Pentest.md",
+                "file": "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -127,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian-Vault-Structure/01 - Primary Categories/01 - Pentest.md",
+                "file": "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian-Vault-Structure/01 - Primary Categories/01 - Pentest.md",
+                "file": "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian-Vault-Structure/01 - Primary Categories/01 - Pentest.md"
+                "file": "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md"
               }
             }
           }
@@ -192,6 +193,10 @@
   },
   "active": "40b74a5db3ce7e9b",
   "lastOpenFiles": [
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Administration.md",
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Red Team.md",
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Pentest.md",
+    "Obsidian-Vault-Structure/03 - Content/Obsidian Git.md",
     "Obsidian-Vault-Structure/02 - Secondary Categories/02 - Obsidian.md",
     "Obsidian-Vault-Structure/README.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0409 - Struct_Secondary_Category_Body.md",
@@ -217,7 +222,6 @@
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907120756.png",
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907120723.png",
     "Obsidian-Vault-Structure/03 - Content/Templater.md",
-    "Obsidian-Vault-Structure/03 - Content/Obsidian Git.md",
     "Obsidian-Vault-Structure/03 - Content/Obsidian - Plugins.md",
     "Obsidian-Vault-Structure/03 - Content/Obsidian - Custom CSS.md",
     "Obsidian-Vault-Structure/03 - Content/Linking Content.md",
@@ -226,10 +230,7 @@
     "Obsidian-Vault-Structure/03 - Content/Admonition.md",
     "Obsidian-Vault-Structure/03 - Content",
     "Obsidian-Vault-Structure/02 - Secondary Categories",
-    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Red Team.md",
     "Obsidian-Vault-Structure/01 - Primary Categories/01 - Development.md",
-    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Pentest.md",
-    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Administration.md",
     "Obsidian-Vault-Structure/01 - Primary Categories",
     "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
     "Obsidian-Vault-Structure",
