@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f0f2fc2aa3ca4887",
+        "id": "b92b2b8655e91349",
         "type": "tabs",
         "children": [
           {
-            "id": "787963b81fb3f015",
+            "id": "40b74a5db3ce7e9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Adversary Simulation/03 - Content/Obsidian - Getting Started.md",
+                "file": "Adversary Simulation/03 - Content/Obsidian - Custom CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Adversary Simulation/03 - Content/Obsidian - Getting Started.md",
+                "file": "Adversary Simulation/03 - Content/Obsidian - Custom CSS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -100,7 +100,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.769319618371715,
+                  "scale": 0.7145400200723822,
                   "close": true
                 }
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adversary Simulation/03 - Content/Obsidian - Getting Started.md",
+                "file": "Adversary Simulation/03 - Content/Obsidian - Custom CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Adversary Simulation/03 - Content/Obsidian - Getting Started.md",
+                "file": "Adversary Simulation/03 - Content/Obsidian - Custom CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,11 +167,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adversary Simulation/03 - Content/Obsidian - Getting Started.md"
+                "file": "Adversary Simulation/03 - Content/Obsidian - Custom CSS.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -189,25 +190,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "787963b81fb3f015",
+  "active": "40b74a5db3ce7e9b",
   "lastOpenFiles": [
+    "Adversary Simulation/02 - Secondary Categories/02 - Obsidian.md",
+    "Adversary Simulation/03 - Content/Obsidian - Plugins.md",
+    "Adversary Simulation/03 - Content/Obsidian - Getting Started.md",
+    "Dataview.md",
     "Adversary Simulation/03 - Content/Obsidian - Custom CSS.md",
     "Adversary Simulation/03 - Content/Linking Content.md",
-    "Adversary Simulation/03 - Content/Admonition.md",
     "Adversary Simulation/000 - Global Index (Start Here!).md",
+    "Adversary Simulation/01 - Primary Categories/01 - Administration.md",
+    "Adversary Simulation/03 - Content/Obsidian Git.md",
+    "Adversary Simulation/03 - Content/Templater.md",
+    "Adversary Simulation/03 - Content/Admonition.md",
     "Adversary Simulation/01 - Primary Categories/01 - Pentest.md",
     "Adversary Simulation/01 - Primary Categories/01 - Development.md",
     "Execution (TA0002).md",
-    "Adversary Simulation/03 - Content/Obsidian - Getting Started.md",
     "Getting Started.md",
-    "Adversary Simulation/02 - Secondary Categories/02 - Obsidian.md",
-    "Adversary Simulation/01 - Primary Categories/01 - Administration.md",
     "02 - Resources.md",
-    "Dataview.md",
     "Initial Access (TA0001).md",
     "Reconnaissance (TA0043).md",
     "Resource Development (TA0042).md",
-    "Adversary Simulation/03 - Content/Obsidian - Plugins.md",
     "Untitled 6.md",
     "Untitled 1.md",
     "Adversary Simulation/04 - Templates/04 - Structural Elements/0409 - Struct_Secondary_Category_Body.md",
@@ -215,8 +218,6 @@
     "Adversary Simulation/04 - Templates/04 - Structural Elements/0408 - Struct_Secondary_Category_Header.md",
     "Adversary Simulation/04 - Templates/04 - Structural Elements/0406 - Struct_Documentation_Body.md",
     "Adversary Simulation/04 - Templates/04 - Structural Elements/0405 - Struct_Idea_Body.md",
-    "Adversary Simulation/04 - Templates/04 - Structural Elements/0404 - Struct_Tool_Body.md",
-    "Adversary Simulation/04 - Templates/04 - Structural Elements/0401 - Struct_Gen_Header.md",
     "Adversary Simulation/04 - Templates/04 - Structural Elements",
     "Adversary Simulation/04 - Templates",
     "Adversary Simulation/03 - Content/files/responsive_yt.gif",
