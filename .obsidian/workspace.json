@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Execution (TA0002).md",
+                "file": "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
                 "mode": "source",
                 "source": false
               }
@@ -53,13 +53,7 @@
                 "sortOrder": "alphabetical"
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "eb3cfdcd1b8fa92f",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "0a9be3ae67137b9f",
             "type": "leaf",
@@ -74,7 +68,13 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "eb3cfdcd1b8fa92f",
+        "type": "tabs",
+        "children": [
           {
             "id": "3485c19074408601",
             "type": "leaf",
@@ -89,7 +89,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Execution (TA0002).md",
+                "file": "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -119,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Execution (TA0002).md",
+                "file": "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Execution (TA0002).md",
+                "file": "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Execution (TA0002).md"
+                "file": "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md"
               }
             }
           }
@@ -203,8 +203,36 @@
   },
   "active": "787963b81fb3f015",
   "lastOpenFiles": [
-    "Untitled 1.md",
     "Execution (TA0002).md",
+    "Obsidian-Vault-Structure/03 - Content/files/responsive_yt.gif",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907125817.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907125248.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907125653.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907122512.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907121102.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907124937.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907120838.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907120756.png",
+    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907120723.png",
+    "Obsidian-Vault-Structure/03 - Content/Templater.md",
+    "Obsidian-Vault-Structure/03 - Content/Obsidian Git.md",
+    "Obsidian-Vault-Structure/03 - Content/Obsidian - Plugins.md",
+    "Obsidian-Vault-Structure/03 - Content/files",
+    "Obsidian-Vault-Structure/03 - Content/Obsidian - Getting Started.md",
+    "Obsidian-Vault-Structure/03 - Content/Obsidian - Custom CSS.md",
+    "Obsidian-Vault-Structure/03 - Content/Linking Content.md",
+    "Obsidian-Vault-Structure/03 - Content/Admonition.md",
+    "Obsidian-Vault-Structure/03 - Content",
+    "Obsidian-Vault-Structure/02 - Secondary Categories/02 - Obsidian.md",
+    "Obsidian-Vault-Structure/02 - Secondary Categories",
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Red Team.md",
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Pentest.md",
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Development.md",
+    "Obsidian-Vault-Structure/01 - Primary Categories/01 - Administration.md",
+    "Obsidian-Vault-Structure/01 - Primary Categories",
+    "Obsidian-Vault-Structure/000 - Global Index (Start Here!).md",
+    "Obsidian-Vault-Structure",
+    "Untitled 1.md",
     "2023-10-29.md",
     "Untitled 1.canvas",
     "Initial Access (TA0001).md",
