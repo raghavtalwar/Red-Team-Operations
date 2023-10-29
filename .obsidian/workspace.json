@@ -19,8 +19,12 @@
             "id": "39669140713a4ad7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Execution (TA0002).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Execution (TA0002).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Execution (TA0002).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Execution (TA0002).md"
+              }
             }
           }
         ]
@@ -147,11 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "39669140713a4ad7",
+  "active": "0e24ccb58abd3cd7",
   "lastOpenFiles": [
+    "Reconnaissance (TA0043).md",
     "README.md",
     "Execution (TA0002).md",
-    "Reconnaissance (TA0043).md",
     "Resource Development (TA0042).md",
     "Initial Access (TA0001).md"
   ]
