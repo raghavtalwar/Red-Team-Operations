@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Outer/Inner 1.md",
+                "file": "Reconnaissance (TA0043)/Inner 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Outer/Inner 1.md",
+                "file": "Reconnaissance (TA0043)/Inner 1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Outer/Inner 1.md",
+                "file": "Reconnaissance (TA0043)/Inner 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Outer/Inner 1.md",
+                "file": "Reconnaissance (TA0043)/Inner 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Outer/Inner 1.md"
+                "file": "Reconnaissance (TA0043)/Inner 1.md"
               }
             }
           }
@@ -203,15 +203,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "763b4380cd9b79c2",
+  "active": "8354fdf2ea72ca58",
   "lastOpenFiles": [
+    "Untitled 8",
+    "Untitled 7",
+    "Untitled 6",
+    "Untitled 5",
+    "Untitled 4",
+    "Untitled 3",
+    "Untitled 2",
+    "Initial Access (TA0001)",
     "Trial.md",
-    "Outer/Inner 1.md",
+    "Reconnaissance (TA0043)/Inner 1.md",
     "Outer/Untitled",
-    "Untitled",
-    "Outer/Untitled 1.md",
+    "Resource Development (TA0042)",
+    "Reconnaissance (TA0043)/Untitled 1.md",
     "Execution (TA0002).md",
-    "Outer",
+    "Reconnaissance (TA0043)",
     "Pasted image 20231104174505.png",
     "Pasted image 20231030015345.png",
     "pplp.md",
@@ -237,19 +245,12 @@
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0406 - Struct_Documentation_Body.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0403 - Struct_TTP_Body.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0405 - Struct_Idea_Body.md",
-    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements",
-    "Obsidian-Vault-Structure/04 - Templates",
     "Obsidian-Vault-Structure/03 - Content/files/responsive_yt.gif",
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907125817.png",
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907125653.png",
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907125248.png",
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907124937.png",
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907122512.png",
-    "Obsidian-Vault-Structure/03 - Content/files",
-    "Obsidian-Vault-Structure/03 - Content",
-    "Obsidian-Vault-Structure/02 - Secondary Categories",
-    "Obsidian-Vault-Structure/01 - Primary Categories",
-    "Obsidian-Vault-Structure",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
