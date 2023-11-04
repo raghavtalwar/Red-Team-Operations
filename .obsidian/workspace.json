@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trial.md",
+                "file": "Execution (TA0002).md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Trial.md",
+                "file": "Execution (TA0002).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trial.md",
+                "file": "Execution (TA0002).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trial.md",
+                "file": "Execution (TA0002).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trial.md"
+                "file": "Execution (TA0002).md"
               }
             }
           }
@@ -205,9 +205,9 @@
   },
   "active": "763b4380cd9b79c2",
   "lastOpenFiles": [
+    "Trial.md",
     "Pasted image 20231104174505.png",
     "Execution (TA0002).md",
-    "Trial.md",
     "Pasted image 20231030015345.png",
     "pplp.md",
     "Pasted image 20231030013655.png",
@@ -242,7 +242,6 @@
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907125248.png",
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907124937.png",
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907122512.png",
-    "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907120838.png",
     "Obsidian-Vault-Structure/03 - Content/files",
     "Obsidian-Vault-Structure/03 - Content",
     "Obsidian-Vault-Structure/02 - Secondary Categories",

