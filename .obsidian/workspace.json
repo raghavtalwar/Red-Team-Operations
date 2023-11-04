@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Outer/Inner 1.md",
+                "file": "Trial.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Outer/Inner 1.md",
+                "file": "Trial.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Outer/Inner 1.md",
+                "file": "Trial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Outer/Inner 1.md",
+                "file": "Trial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Outer/Inner 1.md"
+                "file": "Trial.md"
               }
             }
           }
@@ -205,8 +205,10 @@
   },
   "active": "763b4380cd9b79c2",
   "lastOpenFiles": [
-    "Outer/Untitled 1.md",
     "Outer/Inner 1.md",
+    "Outer/Untitled",
+    "Untitled",
+    "Outer/Untitled 1.md",
     "Execution (TA0002).md",
     "Outer",
     "Trial.md",
@@ -235,7 +237,6 @@
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0406 - Struct_Documentation_Body.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0403 - Struct_TTP_Body.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0405 - Struct_Idea_Body.md",
-    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0404 - Struct_Tool_Body.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements",
     "Obsidian-Vault-Structure/04 - Templates",
     "Obsidian-Vault-Structure/03 - Content/files/responsive_yt.gif",
@@ -249,8 +250,6 @@
     "Obsidian-Vault-Structure/02 - Secondary Categories",
     "Obsidian-Vault-Structure/01 - Primary Categories",
     "Obsidian-Vault-Structure",
-    "Adversary Simulation/04 - Templates/04 - Structural Elements",
-    "Adversary Simulation/04 - Templates",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
