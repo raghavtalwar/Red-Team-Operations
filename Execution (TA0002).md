@@ -3,7 +3,6 @@
 
 Hello Trying
 Are u syncing
-![[Pasted image 20231030015345.png]]
 ## Enumeration 
 // Some code
 
