@@ -16,3 +16,4 @@ C:\AD\Tools\Rubeus.exe asktgt /user:ciadmin /aes256:<aes256 key of ciadmin> /ops
 [[Reconnaissance (TA0043)]]
 
 [[#Enumeration]] 
+
