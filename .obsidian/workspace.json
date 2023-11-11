@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reconnaissance (TA0043)/Inner 1.md",
+                "file": "Collection (TA0009)/YY.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Execution (TA0002).md",
+                "file": "Collection (TA0009)/YY.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Execution (TA0002).md",
+                "file": "Collection (TA0009)/YY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Execution (TA0002).md",
+                "file": "Collection (TA0009)/YY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Execution (TA0002).md"
+                "file": "Collection (TA0009)/YY.md"
               }
             }
           }
@@ -203,8 +203,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8354fdf2ea72ca58",
+  "active": "763b4380cd9b79c2",
   "lastOpenFiles": [
+    "Execution (TA0002).md",
+    "Collection (TA0009)/YY.md",
     "ATT&CK – Impact (TA0040)",
     "Exfiltration (TA0010)",
     "Command and Control (TA0011)",
@@ -215,11 +217,9 @@
     "Defense Evasion (TA0005)",
     "Privilege Escalation (TA0004)",
     "Persistence (TA0003)",
-    "Execution (TA0002)",
     "Trial.md",
     "Reconnaissance (TA0043)/Inner 1.md",
     "Reconnaissance (TA0043)/Untitled 1.md",
-    "Execution (TA0002).md",
     "Pasted image 20231104174505.png",
     "Pasted image 20231030015345.png",
     "pplp.md",
