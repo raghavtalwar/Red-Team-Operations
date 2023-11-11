@@ -90,7 +90,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Collection (TA0009)/YY.md",
+                "file": "Execution (TA0002).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collection (TA0009)/YY.md",
+                "file": "Execution (TA0002).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Collection (TA0009)/YY.md",
+                "file": "Execution (TA0002).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Collection (TA0009)/YY.md"
+                "file": "Execution (TA0002).md"
               }
             }
           }
