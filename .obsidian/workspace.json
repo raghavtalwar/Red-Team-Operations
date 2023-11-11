@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reconnaissance (TA0043)/Inner 1.md",
+                "file": "Reconnaissance (TA0043)/Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Reconnaissance (TA0043)/Inner 1.md",
+                "file": "Reconnaissance (TA0043)/Untitled 1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reconnaissance (TA0043)/Inner 1.md",
+                "file": "Reconnaissance (TA0043)/Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reconnaissance (TA0043)/Inner 1.md",
+                "file": "Reconnaissance (TA0043)/Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reconnaissance (TA0043)/Inner 1.md"
+                "file": "Reconnaissance (TA0043)/Untitled 1.md"
               }
             }
           }
@@ -203,8 +203,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "763b4380cd9b79c2",
+  "active": "8354fdf2ea72ca58",
   "lastOpenFiles": [
+    "Reconnaissance (TA0043)/Inner 1.md",
     "Reconnaissance (TA0043)/Untitled 1.md",
     "Initial Access (TA0001).md",
     "Collection (TA0009)/YY.md",
@@ -220,7 +221,6 @@
     "Privilege Escalation (TA0004)",
     "Persistence (TA0003)",
     "Trial.md",
-    "Reconnaissance (TA0043)/Inner 1.md",
     "Pasted image 20231104174505.png",
     "Pasted image 20231030015345.png",
     "pplp.md",
