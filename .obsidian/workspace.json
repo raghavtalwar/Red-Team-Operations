@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reconnaissance (TA0043)/Untitled 1.md",
+                "file": "Reconnaissance (TA0043)/Inner 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Reconnaissance (TA0043)/Untitled 1.md",
+                "file": "Reconnaissance (TA0043)/Inner 1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reconnaissance (TA0043)/Untitled 1.md",
+                "file": "Reconnaissance (TA0043)/Inner 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reconnaissance (TA0043)/Untitled 1.md",
+                "file": "Reconnaissance (TA0043)/Inner 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reconnaissance (TA0043)/Untitled 1.md"
+                "file": "Reconnaissance (TA0043)/Inner 1.md"
               }
             }
           }
@@ -203,8 +203,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8354fdf2ea72ca58",
+  "active": "763b4380cd9b79c2",
   "lastOpenFiles": [
+    "Reconnaissance (TA0043)/Untitled 1.md",
+    "Initial Access (TA0001).md",
     "Collection (TA0009)/YY.md",
     "Execution (TA0002).md",
     "ATT&CK – Impact (TA0040)",
@@ -219,7 +221,6 @@
     "Persistence (TA0003)",
     "Trial.md",
     "Reconnaissance (TA0043)/Inner 1.md",
-    "Reconnaissance (TA0043)/Untitled 1.md",
     "Pasted image 20231104174505.png",
     "Pasted image 20231030015345.png",
     "pplp.md",
@@ -244,7 +245,6 @@
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0408 - Struct_Secondary_Category_Header.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0406 - Struct_Documentation_Body.md",
     "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0403 - Struct_TTP_Body.md",
-    "Obsidian-Vault-Structure/04 - Templates/04 - Structural Elements/0405 - Struct_Idea_Body.md",
     "Obsidian-Vault-Structure/03 - Content/files/responsive_yt.gif",
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907125817.png",
     "Obsidian-Vault-Structure/03 - Content/files/Pasted image 20210907125653.png",
