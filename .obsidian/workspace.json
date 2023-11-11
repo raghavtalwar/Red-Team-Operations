@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collection (TA0009)/YY.md",
+                "file": "Reconnaissance (TA0043)/Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Collection (TA0009)/YY.md",
+                "file": "Reconnaissance (TA0043)/Untitled 1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collection (TA0009)/YY.md",
+                "file": "Reconnaissance (TA0043)/Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Collection (TA0009)/YY.md",
+                "file": "Reconnaissance (TA0043)/Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Collection (TA0009)/YY.md"
+                "file": "Reconnaissance (TA0043)/Untitled 1.md"
               }
             }
           }
@@ -203,10 +203,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "763b4380cd9b79c2",
+  "active": "8354fdf2ea72ca58",
   "lastOpenFiles": [
-    "Execution (TA0002).md",
     "Collection (TA0009)/YY.md",
+    "Execution (TA0002).md",
     "ATT&CK – Impact (TA0040)",
     "Exfiltration (TA0010)",
     "Command and Control (TA0011)",
