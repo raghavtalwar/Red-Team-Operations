@@ -4,7 +4,7 @@ Tags: [[Reconnaissance (TA0043)]]
 
 ## RustScan Scanning
 
-Tags: [[#RustScan Scanning]]
+Tags: [[External Recon#RustScan Scanning]]
 
 ```
 #!/bin/bash
