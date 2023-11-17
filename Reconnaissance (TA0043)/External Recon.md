@@ -1,10 +1,10 @@
 
-Tags: [[Reconnaissance (TA0043)]] ^f0fa99
+Tags: [[Reconnaissance (TA0043)]]  ^8e36df
 
 
 ## RustScan Scanning
 
-Tags: [[#RustScan Scanning]][[#^f0fa99|Rustscan]]
+Tags: [[#RustScan Scanning]]
 
 
 ```
