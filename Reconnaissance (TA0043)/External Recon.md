@@ -1,6 +1,8 @@
 
-[[Reconnaissance (TA0043)]]
-##### RustScan Scanning
+Tags: [[Reconnaissance (TA0043)]]
+
+## RustScan Scanning
+
 
 ```
 #!/bin/bash
