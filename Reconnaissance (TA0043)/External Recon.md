@@ -4,8 +4,7 @@ Tags: [[Reconnaissance (TA0043)]]
 
 ## RustScan Scanning
 
-Tags: [[#RustScan Scanning]]
-
+Tags: [[#RustScan Scanning]] [[]]
 
 ```
 #!/bin/bash
