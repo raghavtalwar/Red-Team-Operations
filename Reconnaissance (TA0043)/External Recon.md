@@ -1,8 +1,7 @@
 
 Tags: [[Reconnaissance (TA0043)]]
 
-## RustScan Scanning
-**{{Rustscan}}** - SKmakmcklam. ^1
+## RustScan Scanning**
 
 Tags: #ExternalScanning [[External Recon#RustScan Scanning]]
 
