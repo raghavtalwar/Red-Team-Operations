@@ -26,6 +26,7 @@ echo "Scan complete."
 ```
 
 ## RustScan Scanning
+![[Pasted image 20231118182335.png|left]]
 
 
 ```
