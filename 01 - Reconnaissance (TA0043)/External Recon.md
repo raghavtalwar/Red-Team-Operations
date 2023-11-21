@@ -30,11 +30,12 @@ echo "Scan complete."
 Tools: GoWitness & Chromium
 
 ```
+gowitness server
 ```
 
 
 ## Nuclei Scanner
 
 ```
-
+/opt/nuclei -l allURL.txt -s medium | tee Medium.txt
 ```
