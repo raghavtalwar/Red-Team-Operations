@@ -1,4 +1,4 @@
-Tags: []
+Tags: [[Infrastructure Setup (AWS)]]
 
 2. Provision Ec2 instance - It gets a public IP
 	1. Setup your favourite C2 
