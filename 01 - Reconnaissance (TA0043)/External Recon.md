@@ -44,4 +44,10 @@ gowitness server
 /opt/nuclei -l allURL.txt -s medium | tee Medium.txt
 ```
 
-### Vhost
+### Vhosts Fuzzing
+```
+ffuf -H "Host: FUZZ.group.com" -c -w "/usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt" -u http://group.com/
+
+## Resources
+Hacker Recipes
+```
