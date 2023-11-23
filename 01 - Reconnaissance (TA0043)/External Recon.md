@@ -30,6 +30,10 @@ echo "Scan complete."
 Tools: GoWitness & Chromium
 
 ```
+# Gather
+gowitness file -f allURL.txt   
+
+# View
 gowitness server
 ```
 
@@ -39,3 +43,5 @@ gowitness server
 ```
 /opt/nuclei -l allURL.txt -s medium | tee Medium.txt
 ```
+
+### Vhost
