@@ -51,3 +51,9 @@ ffuf -H "Host: FUZZ.group.com" -c -w "/usr/share/wordlists/seclists/Discovery/DN
 ## Resources
 Hacker Recipes
 ```
+
+### Directory Fuzzing
+```
+## Scan all URL 
+cat allURL.txt | feroxbuster --stdin --silent -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-medium-directories-lowercase.txt -k
+```
