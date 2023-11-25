@@ -1,5 +1,6 @@
 
 Tags: [[Reconnaissance (TA0043)]]
+[01-Reconnaissance](obsidian://search?vault=Vault&query=path:this/folder)
 
 ## RustScan Scanning
 
