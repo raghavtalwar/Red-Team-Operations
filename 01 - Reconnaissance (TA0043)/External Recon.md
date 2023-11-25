@@ -1,7 +1,6 @@
 
 Tags: [[Reconnaissance (TA0043)]]
-[Reconnaissance (TA0043)](obsidian://search?vault=Vault&query=path:this/folder)
-
+[[Reconnaissance (TA0043)]]
 ## RustScan Scanning
 
 Tags: #ExternalScanning [[External Recon#RustScan Scanning]] 
