@@ -1,5 +1,6 @@
 [
   "obsidian-git",
   "obsidian-markmind",
-  "templater-obsidian"
+  "templater-obsidian",
+  "breadcrumbs"
 ]
