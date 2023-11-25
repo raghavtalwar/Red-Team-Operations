@@ -5,7 +5,7 @@
 OBSIDIAN
 - Template
 - Folders 
-- Linking - [[ ]]
+- Linking - [[]]
 
 We can create Folder withs MITRE Name
 
