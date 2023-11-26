@@ -1,4 +1,4 @@
-# 13 - Exfiltration (TA0010) Overview
+# Overview
  
 ```ccard
 type: folder_brief_live

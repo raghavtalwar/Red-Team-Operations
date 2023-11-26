@@ -1,4 +1,4 @@
-# 12 - Command and Control (TA0011) Overview
+# Overview
  
 ```ccard
 type: folder_brief_live

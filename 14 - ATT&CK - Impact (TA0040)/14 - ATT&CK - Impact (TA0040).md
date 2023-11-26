@@ -1,4 +1,4 @@
-# 14 - ATT&CK - Impact (TA0040) Overview
+# Overview
  
 ```ccard
 type: folder_brief_live
