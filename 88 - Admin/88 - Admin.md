@@ -1,6 +1,4 @@
-# Overview
-
-# Community Plugins being used!
+## Community Plugins being used!
 
 ### Waypoint
 - Good to create links from Folder to notes
