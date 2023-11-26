@@ -3,12 +3,14 @@
 #### Waypoint
 - Good to create links from Folder to notes
 - Syntax: %% WAYPOINT %%
+- Link: https://github.com/IdreesInc/Waypoint
 
 #### Folder Note
 - Creates Folder > Links them to > Notes
 - Now we can have a card style display of all the content within that Note
 - Syntax: CTRL + Click > Auto Create Folder Note
-- attaching a note file to a folder, and the folder note file will be hidden by CSS rules.
+- Working: Attaching a note file to a folder, and the folder note file will be hidden by CSS rules.
+- Link: https://github.com/xpgo/obsidian-folder-note-plugin
 
 
 To Do
