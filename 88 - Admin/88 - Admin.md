@@ -12,4 +12,5 @@
 To Do
 1. Headings Colour
 2. Syntax for Code
-3. Linking shortcuts | syc
+3. Linking shortcuts | Syntax
+4. 
