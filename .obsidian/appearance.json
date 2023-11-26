@@ -2,5 +2,10 @@
   "accentColor": "",
   "baseFontSize": 16,
   "cssTheme": "",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "color_buttons",
+    "color_folders",
+    "colorful-headings"
+  ]
 }
