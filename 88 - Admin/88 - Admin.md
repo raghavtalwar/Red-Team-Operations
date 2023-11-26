@@ -17,6 +17,7 @@
 
 To Do
 1. Headings Colour
+	1. Done > 
 2. Syntax for Code
 3. Linking shortcuts | Syntax
 4. Create standard template for each note
