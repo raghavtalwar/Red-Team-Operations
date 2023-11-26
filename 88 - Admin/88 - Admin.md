@@ -13,4 +13,4 @@ To Do
 1. Headings Colour
 2. Syntax for Code
 3. Linking shortcuts | Syntax
-4. 
+4. Create standard template for each note
