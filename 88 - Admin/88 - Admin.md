@@ -9,3 +9,7 @@
 - Now we can have a card style display of all the content within that Note
 
 
+To Do
+1. Headings Colour
+2. Syntax for Code
+3. Linking shortcuts | syc
