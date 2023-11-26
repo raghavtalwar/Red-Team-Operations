@@ -2,5 +2,6 @@
   "obsidian-git",
   "obsidian-markmind",
   "templater-obsidian",
-  "waypoint"
+  "waypoint",
+  "folder-note-plugin"
 ]
