@@ -44,7 +44,7 @@ gowitness server
 /opt/nuclei -l allURL.txt -s medium | tee Medium.txt
 ```
 
-### Vhosts Fuzzing
+## Vhosts Fuzzing
 ```
 ffuf -H "Host: FUZZ.group.com" -c -w "/usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt" -u http://group.com/
 
@@ -52,7 +52,7 @@ ffuf -H "Host: FUZZ.group.com" -c -w "/usr/share/wordlists/seclists/Discovery/DN
 Hacker Recipes
 ```
 
-### Directory Fuzzing
+## Directory Fuzzing
 ```
 ## Scan all URL 
 cat allURL.txt | feroxbuster --stdin --silent -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-medium-directories-lowercase.txt -k
