@@ -21,5 +21,5 @@ To Do
 3. Linking shortcuts | Syntax
 4. Create standard template for each note
 5. Expand > Get > Index
-6. Index on every new page - The whole concept is to have a seperate note?
+6. Index on every new page - The whole concept is to have a separate note?
 7. 
