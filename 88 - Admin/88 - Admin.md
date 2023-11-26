@@ -20,4 +20,6 @@ To Do
 2. Syntax for Code
 3. Linking shortcuts | Syntax
 4. Create standard template for each note
-5. Expand > 
+5. Expand > Get > Index
+6. Index on every new page - The whole concept is to have a seperate note?
+7. 
