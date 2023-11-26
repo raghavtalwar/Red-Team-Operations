@@ -1,4 +1,4 @@
-# Communio
+# Community Plugins being used!
 
 #### Waypoint
 - Good to create links from Folder to notes
