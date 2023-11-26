@@ -5,7 +5,7 @@ Tags: [[Reconnaissance (TA0043)]]
 
 Tags: #ExternalScanning [[External Recon#RustScan Scanning]] 
 
-```
+```bash
 #!/bin/bash
 
 # List of domains
@@ -29,7 +29,7 @@ echo "Scan complete."
 
 Tools: GoWitness & Chromium
 
-```
+```mark
 # Gather
 gowitness file -f allURL.txt   
 
