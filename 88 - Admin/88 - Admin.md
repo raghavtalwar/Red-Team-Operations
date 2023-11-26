@@ -1,9 +1,5 @@
 # Overview
- 
-```ccard
-type: folder_brief_live
-```
- 
+
 # Community Plugins being used!
 
 #### Waypoint
