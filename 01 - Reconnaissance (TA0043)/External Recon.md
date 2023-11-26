@@ -29,7 +29,7 @@ echo "Scan complete."
 
 Tools: GoWitness & Chromium
 
-```mark
+```
 # Gather
 gowitness file -f allURL.txt   
 
