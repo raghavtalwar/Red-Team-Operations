@@ -25,12 +25,12 @@ done
 echo "Scan complete."
 ```
 
-# Subdomain Flyover
+## Subdomain Flyover
 
 Tools: GoWitness & Chromium
 
 ```markdown
-# Gather
+#<b> Gather
 gowitness file -f allURL.txt   
 
 # View
