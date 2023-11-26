@@ -20,3 +20,4 @@ To Do
 2. Syntax for Code
 3. Linking shortcuts | Syntax
 4. Create standard template for each note
+5. Expand > 
