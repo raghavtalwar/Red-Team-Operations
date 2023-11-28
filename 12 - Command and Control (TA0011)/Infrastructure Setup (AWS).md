@@ -1,4 +1,4 @@
-Tags: [[Infrastructure Setup (AWS)]]
+Tags: [[12 - Command and Control (TA0011)]]
 
 1. Provision Ec2 instance - It gets a public IP
 	1. Setup your favourite C2 
