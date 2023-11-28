@@ -1,6 +1,5 @@
 
-Tags: [[Reconnaissance (TA0043)]]
-[[Reconnaissance (TA0043)]]
+Tags: [[]]
 ## RustScan Scanning
 
 Tags: #ExternalScanning [[External Recon#RustScan Scanning]] 
