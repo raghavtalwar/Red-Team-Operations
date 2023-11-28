@@ -1,4 +1,4 @@
-Tags: [[12 - Command and Control (TA0011)]]
+
 
 1. Provision Ec2 instance - It gets a public IP
 	1. Setup your favourite C2 
@@ -7,3 +7,5 @@ Tags: [[12 - Command and Control (TA0011)]]
 3. AWS CloudFront Setup
 
 Note: This process can be automated via AWS CloudFormation Template
+
+https://bigb0ss.medium.com/redteam-c2-redirector-cloud-fronting-setup-aws-e7ed561a3a6c
