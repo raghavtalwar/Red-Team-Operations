@@ -4,7 +4,7 @@
 type: folder_brief_live
 ```
 %% Begin Waypoint %%
-- [[Attack Infrastructure]]
+- [[Attack Infrastructure 101]]
 - [[Infrastructure Setup (AWS)]]
 
 %% End Waypoint %%
