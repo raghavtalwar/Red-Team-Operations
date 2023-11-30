@@ -49,25 +49,34 @@
 ------------------------------------------------------------------------
 ## Domain Names
 - Access a website we use a Domain name, direct IP access sometimes is blocked as well
-- Red team purchased a number of domains, now 
+- Red team always purchases a number of domains:
+	1. Get away with IP address blocking
+	2. Allows us to do load balancing to different IP address
+	3. They are portable and not tied to a particular hosting provider
+- Make sure when we purchase a domain name its not attributable back to us!
 
+### Domain Name Consideration
+- Multiple considerations come to mind when thinking about Domain name
+	1. Purpose - It should have a purpose, tailored to target organisation
+	2. Spam - Make sure its not already added to a blocklist
+	3. Age - Defenders are looking at this, domain only used for a couple of weeks is a red flag
+	4. Categorisation - Domains are categorised, a lot of block occurs due to this for example pornography or guns or hacking are blocked
+	5. Domain history - Look at this especially when buying a old domain.
+
+### Purchase Domains & Categorisations
+- 
 ------------------------------------------------------------------------
-
 ## Digital Certificates
 
 
 ------------------------------------------------------------------------
-
 ## Cloud Providers
 
 
 ------------------------------------------------------------------------
-
 ## DNS Settings for Phishing
 
 ------------------------------------------------------------------------
-
-
 ## Third Party Email Hosting
 
 ```markdown
