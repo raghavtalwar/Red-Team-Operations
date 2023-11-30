@@ -33,6 +33,7 @@
 ![[Pasted image 20231201001010.png]]
 ------------------------------------------------------------------------------------
 ## Functional Segregation
+- Goal: We want different assets for different things!
 - 
 
 
