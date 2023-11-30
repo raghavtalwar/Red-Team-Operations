@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"12 - Command and Control (TA0011)\"  ",
@@ -15,14 +15,14 @@
       }
     },
     {
-      "query": "path:\"01 - Reconnaissance (TA0043)\" path:\"01 - Reconnaissance (TA0043)\"  ",
+      "query": "path:\"01 - Reconnaissance (TA0043)\"  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "path:\"06 - Privilege Escalation (TA0004)\" path:\"06 - Privilege Escalation (TA0004)\"  ",
+      "query": "path:\"06 - Privilege Escalation (TA0004)\"  ",
       "color": {
         "a": 1,
         "rgb": 11657298
@@ -39,13 +39,13 @@
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.44331606942889,
-  "lineSizeMultiplier": 2.43831420306084,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 3.5331009207819504,
-  "close": false
+  "scale": 1.5603502645537832,
+  "close": true
 }
