@@ -25,12 +25,15 @@
 		1. Redirectors are 1st line of infrastructure
 	3. Run implant on Compromised system, it goes to redirectors which forwards the traffic to the C2 Server
 		1. Redirectors Configuration - Tracking pixels, Access control rules that say if traffic is coming from the Target network then forward it to C2 Server
-		2. Otherwise, send it somewhe
-
-------------------------------------------------------------------------
-
-
+		2. Otherwise, send it somewhere else! - Protect C2 Servers from SOC. SOC will investigate the C2 traffic
+		3. SOC will see that compromised host is talking to IPs in the redirectors, they will use tools like virus total, domain classifiers, IBM X-Fore to check reputation of the redirectors
+		4. SOC will query the redirectors to identify anything there. They will never hit C2 servers and they remain protected
+	4. RedELK - Its an elastic stack, it is a Red Team SIEM for us, we can get logs from redirectors, c2 servers and query SOC tool set for indicators of our attacks!
+###### Resource: https://github.com/outflanknl/RedELK 
+![[Pasted image 20231201001010.png]]
+------------------------------------------------------------------------------------
 ## Functional Segregation
+- 
 
 
 ------------------------------------------------------------------------
