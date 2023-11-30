@@ -64,7 +64,20 @@
 	5. Domain history - Look at this especially when buying a old domain.
 
 ### Purchase Domains & Categorisations
-- 
+- Direct access to IP is often blocked outbound
+- Some outbound proxies blocks domain based on categories. Thus purchase domains and categorise them!
+	- Categorisation Sites - Enumerate which ones of the below proxy is being used and categorise accordingly. Note: Red Teamer needs to a put a website up and running before they can request categorisation
+		1. BrightCloud
+		2. Fortiguard
+		3. McAfee
+		4. Palo Alto Network
+		5. Symantec / BlueCoat
+		
+Summary: Red Team purchase domain name and then purchase hosting and put up a website related to that domain. Go to categorisation and request them, some are automated otherwise manual process!
+- Do your recon and figure out 'what is being used at the target organisation' and get your domain categorised!
+
+- Another way - Purchase categorised domain that has expired, it will give us reputation and 
+
 ------------------------------------------------------------------------
 ## Digital Certificates
 
