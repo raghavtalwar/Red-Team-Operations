@@ -76,7 +76,14 @@
 Summary: Red Team purchase domain name and then purchase hosting and put up a website related to that domain. Go to categorisation and request them, some are automated otherwise manual process!
 - Do your recon and figure out 'what is being used at the target organisation' and get your domain categorised!
 
-- Another way - Purchase categorised domain that has expired, it will give us reputation and 
+- Another way - Purchase categorised domain that has expired, we can buy a domain with good age and reputation!
+	- To check if its reputation is good we can use
+		- https://www.expireddomains.net
+		- https://domainhuntergatherer.com
+	- Note: These domains cost more, eg- brand new domain may be 15$ and expired domain may cost us 100$
+
+- Categorisation - 2 Types either for blocking domains or intercepting TLS 
+	- Red Team Tip: Its a possibility that certain organisations might not intercept - a Health or Financial site, Example - If Red team can get a domain and categorised it as a healthcare domain then we might get away with few controls! 
 
 ------------------------------------------------------------------------
 ## Digital Certificates
