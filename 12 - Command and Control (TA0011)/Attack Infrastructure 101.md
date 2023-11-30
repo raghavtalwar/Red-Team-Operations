@@ -34,8 +34,11 @@
 ------------------------------------------------------------------------------------
 ## Functional Segregation
 - Goal: We want different assets for different things!
-	- 
-
+	- Phishing SMTP: We are planning to send phishing mails from our Phishing server, it will have its own domain, own TLS cert, point to its own service provider (cloud or hosted)
+	- Phishing payloads: The payloads that will be downloaded from the Phishing mails are hosted on a different domain with a different TLS cert. Eg2: such as AWS s3 bucket
+	- Long Term C2 - Has its own domains + TLS Cert + Own Hosting
+	- Short Term C2 - Same as above
+- We dont want everything to get burned if on
 
 ------------------------------------------------------------------------
 
