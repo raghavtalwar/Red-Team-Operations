@@ -31,7 +31,7 @@
 	4. RedELK - Its an elastic stack, it is a Red Team SIEM for us, we can get logs from redirectors, c2 servers and query SOC tool set for indicators of our attacks!
 ###### Resource: https://github.com/outflanknl/RedELK 
 ![[Pasted image 20231201001010.png]]
-------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 ## Functional Segregation
 - Goal: We want different assets for different things!
 	- Phishing SMTP: We are planning to send phishing mails from our Phishing server, it will have its own domain, own TLS cert, point to its own service provider (cloud or hosted)
@@ -93,7 +93,7 @@ Summary: Red Team purchase domain name and then purchase hosting and put up a we
 2. Free TLS cert via LetsEncrypt, but Blue Teamer are looking at if the cert is new, when it was renewed and who is the provider. Keep this in mind, free one can get us caught
 3. Don't get burned!
 	1. Paid TLS cert - User check if TLS is used before putting creds into a site
-	2. Modern browsers are hammering down on cleartext HT
+	2. Modern browsers are not happy about cleartext HTTP
 
 ------------------------------------------------------------------------
 ## Cloud Providers
