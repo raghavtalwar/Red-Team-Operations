@@ -87,7 +87,13 @@ Summary: Red Team purchase domain name and then purchase hosting and put up a we
 
 ------------------------------------------------------------------------
 ## Digital Certificates
-
+1. Acquire TLS certificated for all domains
+	1. Encrypt all Command and Control (C2) communication
+	2. Provide TLS - Hosting payload, using it for phishing or credential stealing sites.
+2. Free TLS cert via LetsEncrypt, but Blue Teamer are looking at if the cert is new, when it was renewed and who is the provider. Keep this in mind, free one can get us caught
+3. Don't get burned!
+	1. Paid TLS cert - User check if TLS is used before putting creds into a site
+	2. Modern browsers are hammering down on cleartext HT
 
 ------------------------------------------------------------------------
 ## Cloud Providers
