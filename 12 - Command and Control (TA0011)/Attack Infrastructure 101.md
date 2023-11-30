@@ -38,17 +38,18 @@
 	- Phishing payloads: The payloads that will be downloaded from the Phishing mails are hosted on a different domain with a different TLS cert. Eg2: such as AWS s3 bucket
 	- Long Term C2 - Has its own domains + TLS Cert + Own Hosting
 	- Short Term C2 - Same as above
-- We dont want everything to get burned if on
-
+- We don't want everything to get burned if one gets caught by the Blue Team!
+	- New red engagement means new set of infrastructure should be established
+	- Each of these functions will likely be required for social engineering campaign
 ------------------------------------------------------------------------
-
 ## Redirectors
-
-
+- Goal: ALWAYS have a redirector in front of c2 Server!
+	- Do not expose c2 server to the internet
+- Objective: Act as a disposable server that redirect traffic in order to obfuscate the backend systems.
 ------------------------------------------------------------------------
-
 ## Domain Names
-
+- Access a website we use a Domain name, direct IP access sometimes is blocked as well
+- Red team purchased a number of domains, now 
 
 ------------------------------------------------------------------------
 
@@ -74,17 +75,6 @@
 
 
 ------------------------------------------------------------------------
-
-## Enumeration 
-
-```markdown
-```
-
-## Exploitation 
-
-```markdown
-```
-
 ## Resources
 
 ```markdown
