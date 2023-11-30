@@ -19,6 +19,13 @@
 	- Objective is to not expose the c2 server directly
 
 ### Example: RedELK
+- Advanced Red Team Infrastructure - RedELK available on GitHub
+	1. Setup C2 Servers - We can have 2 C2 Servers such as Cobalt strike & Covenant
+	2. We should never connect a Target system back to a C2 Server. We need to setup Redirectors
+		1. Redirectors are 1st line of infrastructure
+	3. Run implant on Compromised system, it goes to redirectors which forwards the traffic to the C2 Server
+		1. Redirectors Configuration - Tracking pixels, Access control rules that say if traffic is coming from the Target network then forward it to C2 Server
+		2. Otherwise, send it somewhe
 
 ------------------------------------------------------------------------
 
