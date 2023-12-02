@@ -97,7 +97,8 @@ Summary: Red Team purchase domain name and then purchase hosting and put up a we
 
 ------------------------------------------------------------------------
 ## Cloud Providers
-
+- Hosting Linux or Windows systems!
+- 
 
 ------------------------------------------------------------------------
 ## DNS Settings for Phishing
