@@ -17,3 +17,22 @@ find . -type f -exec grep -il "troll" {} \;
 find /opt/troll_den/ -user troll
 ```
 
+------
+### Challenges
+#### Challenge 1 - Reportinator
+![[Pasted image 20231215210435.png]]
+![[Pasted image 20231215210732.png]]
+
+
+
+
+
+
+
+
+
+
+---
+##### Summary
+- Creativity of these challenges are very good
+- Always fun to play 
