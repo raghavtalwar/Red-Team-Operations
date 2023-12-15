@@ -22,7 +22,7 @@ find /opt/troll_den/ -user troll
 #### Challenge 1 - Reportinator
 ![[Pasted image 20231215210435.png]]
 ![[Pasted image 20231215210732.png]]
-
+![[Pasted image 20231215211157.png]]
 
 
 
