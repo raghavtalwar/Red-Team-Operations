@@ -8,3 +8,8 @@ However you decide to relax, be sure to soak in all the whimsical beauty of thes
  find . -iname '*troll*'
 ```
 
+### Task - Find the file somewhere in /opt/troll_den that is owned by the user troll.
+```
+find /opt/troll_den/ -user troll
+```
+
