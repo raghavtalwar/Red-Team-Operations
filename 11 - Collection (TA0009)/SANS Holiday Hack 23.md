@@ -43,6 +43,7 @@ Done
 ### Challenge 2 - Hashcat
 
 `hashcat -w 1 -u 1 --kernel-accel 1 --kernel-loops 1`
+
 ![[Pasted image 20231217015547.png]]
 
 
