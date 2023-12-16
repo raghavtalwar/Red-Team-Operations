@@ -40,6 +40,12 @@ invoke a run-command against the only Virtual Machine (VM) so you can RunShellSc
 
 Done
 
+### Challenge 2 - Hashcat
+
+`hashcat -w 1 -u 1 --kernel-accel 1 --kernel-loops 1`
+![[Pasted image 20231217015547.png]]
+
+
 ---
 ##### Summary
 - Creativity of these challenges are very good
