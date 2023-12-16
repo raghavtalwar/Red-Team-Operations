@@ -26,6 +26,9 @@ find /opt/troll_den/ -user troll
 
 
 
+az group list
+az functionapp list --resource-group northpole-rg2
+az vm list --resource-group northpole-rg2
 
 
 
