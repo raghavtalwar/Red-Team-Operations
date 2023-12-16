@@ -34,9 +34,11 @@ az vm list --resource-group northpole-rg2
 invoke a run-command against the only Virtual Machine (VM) so you can RunShellScript and get a directory listing to reveal a file on the Azure VM.
 - az vm run-command invoke --resource-group "northpole-rg2" --name "NP-VM1" --command-id RunShellScript --scripts 'ls -l'
 
+![[Pasted image 20231217014336.png]]
 
+![[Pasted image 20231217014550.png]]
 
-
+Done
 
 ---
 ##### Summary
