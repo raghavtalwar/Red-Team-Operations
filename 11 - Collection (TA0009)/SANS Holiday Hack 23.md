@@ -62,10 +62,7 @@ hashcat -m18200 -w 1 -u 1 --kernel-accel 1 --kernel-loops 1 '$krb5asrep$23$alaba
 
 GET /jwtDefault/rDecoder.tok > Decoder Token
 
-radioUser role > radioMonitor role > radioDecoder role
-
-Summary:
-
+Summary: radioUser role > radioMonitor role > radioDecoder role
 
 ![[Pasted image 20231231015714.png]]
 
@@ -83,6 +80,9 @@ Decoding 3
 POST /transmit HTTP/2
 Host: captainscomms.com
 myFqy=10426&myGd=1224&myGt=1200
+
+---------
+### Challenge - 
 ##### Summary
 - Creativity of these challenges are very good
 - Always fun to play 
