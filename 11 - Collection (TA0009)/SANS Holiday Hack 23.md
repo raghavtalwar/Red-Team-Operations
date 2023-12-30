@@ -66,6 +66,11 @@ radioUser role > radioMonitor role > radioDecoder role
 
 Summary:
 
+
+![[Pasted image 20231231015714.png]]
+
+![[Pasted image 20231231015742.png]]
+
 Decoding 1
 ![[Pasted image 20231230194832.png]]
 
@@ -75,6 +80,9 @@ Decoding 2
 Decoding 3
 ![[Pasted image 20231230195019.png]]
 
+POST /transmit HTTP/2
+Host: captainscomms.com
+myFqy=10426&myGd=1224&myGt=1200
 ##### Summary
 - Creativity of these challenges are very good
 - Always fun to play 
