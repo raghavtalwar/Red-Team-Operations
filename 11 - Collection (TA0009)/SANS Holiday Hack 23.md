@@ -54,9 +54,17 @@ hashcat -m18200 -w 1 -u 1 --kernel-accel 1 --kernel-loops 1 '$krb5asrep$23$alaba
 ---------
 
 ### Challenge - The Captain Comms
+![[Pasted image 20231230195921.png]]
+
+![[Pasted image 20231230195951.png]]
+
+![[Pasted image 20231230200023.png]]
+
+GET /jwtDefault/rDecoder.tok > Decoder Token
 
 radioUser role > radioMonitor role > radioDecoder role
 
+Summary:
 
 Decoding 1
 ![[Pasted image 20231230194832.png]]
@@ -65,7 +73,7 @@ Decoding 2
 ![[Pasted image 20231230194503.png]]
 
 Decoding 3
-
+![[Pasted image 20231230195019.png]]
 
 ##### Summary
 - Creativity of these challenges are very good
