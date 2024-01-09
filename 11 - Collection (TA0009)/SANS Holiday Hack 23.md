@@ -53,7 +53,7 @@ hashcat -m18200 -w 1 -u 1 --kernel-accel 1 --kernel-loops 1 '$krb5asrep$23$alaba
 ![[Pasted image 20231217024926.png]]
 ---------
 
-### Challenge - The Captain Comms
+### Challenge 3 - The Captain Comms
 ![[Pasted image 20231230195921.png]]
 
 ![[Pasted image 20231230195951.png]]
