@@ -1,6 +1,6 @@
 ## RustScan Scanning
 
-Tags: #ExternalScanning [[External Recon#RustScan Scanning]] 
+Tags: #ExternalScanning 
 
 ```bash
 #!/bin/bash
