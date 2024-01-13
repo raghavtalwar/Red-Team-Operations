@@ -2,13 +2,16 @@
 ## Course Notes & Discord Buddies
 - Pyro: sick! SANS is pretty good stuff, be sure to take advantage of asking the SANS people questions and learning from them because that's fantastic
 - Noopy | RedByte
-
+---
 ## Lab Setup
 - Root Password - Woodywood
 - sec565 Password - Woodywood
 
+
+
+----
 ## SANS SME Support
-### 
+### 3.1 Weaponization - Slide 7 - Custom Executables
 1. How to obfuscate tools like Rubeus or Cred dumping technique to use them on engagements
 
 There are many ways to do this, however, the most effective way is to understand your target environment. Knowing the detective capability, sophistication of capability, alertness of the team, etc.  In general, you may obfuscate using the following consideration:
