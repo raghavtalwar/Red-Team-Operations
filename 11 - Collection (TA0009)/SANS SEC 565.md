@@ -25,7 +25,7 @@ The SEC565 Exercise Workbook is full of critical information that will help you 
 ----
 ## SANS SME Support
 
-Tags: #customExecutables #o
+Tags: #customExecutables #obfuscation
 ### 3.1 Weaponization - Slide 7 - Custom Executables
 1. How to obfuscate tools like Rubeus or Cred dumping technique to use them on engagements
 
