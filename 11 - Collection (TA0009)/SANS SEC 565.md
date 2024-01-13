@@ -14,6 +14,8 @@ Ping Check - `ping -c 4 www.draconem.io
 ## RTO Lab Kickoff
 The SEC565 Exercise Workbook is full of critical information that will help you conduct impactful Red Team Operations by reinforcing the knowledge from the courseware with hands-on practical exercises.
 - Make sure to read Exercise Objectives
+- Exercise preparation needs to be followed
+- Learn the tradec
 
 
 ----
