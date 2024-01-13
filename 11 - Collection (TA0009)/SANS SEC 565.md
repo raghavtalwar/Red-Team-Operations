@@ -11,6 +11,11 @@ IP Check - `ip a | grep tun0 - inet 10.254.252.2/23
 Ping Check - `ping -c 4 www.draconem.io
 
 ----
+## Kickoff
+The SEC565 Exercise Workbook is full of critical information that will help you conduct impactful Red Team Operations by reinforcing the knowledge from the courseware with hands-on practical exercises.
+
+
+----
 ## SANS SME Support
 ### 3.1 Weaponization - Slide 7 - Custom Executables
 1. How to obfuscate tools like Rubeus or Cred dumping technique to use them on engagements
