@@ -17,7 +17,7 @@ The SEC565 Exercise Workbook is full of critical information that will help you 
 - Exercise preparation needs to be followed
 - Learn the tradecraft of Tools - Focus on output and understand it 
 - "On Your Own" and "Walkthrough"
-
+![[Pasted image 20240113175942.png]]
 
 ----
 ## SANS SME Support
