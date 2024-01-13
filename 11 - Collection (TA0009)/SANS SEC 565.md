@@ -16,8 +16,10 @@ The SEC565 Exercise Workbook is full of critical information that will help you 
 - Make sure to read Exercise Objectives
 - Exercise preparation needs to be followed
 - Learn the tradecraft of Tools - Focus on output and understand it 
-- "On Your Own" and "Walkthrough"
+- "On Your Own" and "Walkthrough" 
+- For every exercise, the conclusion section highlights the important concepts and reinforces any Red Team Tips picked up along the way.
 ![[Pasted image 20240113175942.png]]
+Crush Labs inside out - Take advantage of the structure of the exercises to facilitate the maximum learning possible for your particular skill level and background. Good luck!
 
 ----
 ## SANS SME Support
