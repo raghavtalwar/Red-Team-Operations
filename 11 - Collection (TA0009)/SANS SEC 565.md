@@ -7,7 +7,8 @@
 - Root Password - Woodywood
 - sec565 Password - Woodywood
 
-
+IP Check - `ip a | grep tun0 - inet 10.254.252.2/23
+Ping Check - `ping -c 4 www.draconem.io
 
 ----
 ## SANS SME Support
