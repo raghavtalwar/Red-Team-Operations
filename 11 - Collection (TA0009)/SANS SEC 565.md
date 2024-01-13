@@ -11,8 +11,9 @@ IP Check - `ip a | grep tun0 - inet 10.254.252.2/23
 Ping Check - `ping -c 4 www.draconem.io
 
 ----
-## Kickoff
+## RTO Lab Kickoff
 The SEC565 Exercise Workbook is full of critical information that will help you conduct impactful Red Team Operations by reinforcing the knowledge from the courseware with hands-on practical exercises.
+- Make sure to read Exercise Objectives
 
 
 ----
