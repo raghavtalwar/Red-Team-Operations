@@ -58,5 +58,7 @@ Malware is a threat to every Red Team Operator for multiple reasons:
 Prep: `sudo /labs/sec-1/orientation/setup.sh`
 
 
-tcp     LISTEN       0         10                          0.0.0.0:54321                0.0.0.0:*         users:(("[ext4-rsv-conve",pid=5406,fd=3))                                                               
+tcp     LISTEN       0         10                          0.0.0.0:54321                0.0.0.0:*         
+users:((ext4-rsv-conve",pid=5406,fd=3))                   
+
 sec565     5389   5380  0 07:47 pts/0    00:00:00 bash
