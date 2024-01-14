@@ -14,3 +14,5 @@ This course will stress the importance of redirecting traffic from the target en
 - Red space encompasses anything owned by the target.
 - Gray space is anything that is owned by a 3rd party like redirectors in our attack infrastructure  and not associated with the target nor the Red Team.
 - Blue space is anything that is owned/registered to the Red Team, any friendly assets like VMs and C2 servers.
+
+![[Pasted image 20240114153709.png]]
