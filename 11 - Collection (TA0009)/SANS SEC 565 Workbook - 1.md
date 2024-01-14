@@ -18,4 +18,9 @@ This course will stress the importance of redirecting traffic from the target en
 ![[Pasted image 20240114153709.png]]
 
 ##### Troubleshooting
-- 
+- First check the communication between blue and gray space. 
+	- This means testing data flow, redirector or proxy settings, ip addresses, etc. 
+- This should always be tested first because you maintain control of all those assets. 
+- Then check that gray space is able to communicate with red space, 
+	- This generates traffics and logs! 
+- Lastly, or sometimes firstly, ensure the exploit is weaponized for the system you are targeting, test the exploit in a local lab environment.
