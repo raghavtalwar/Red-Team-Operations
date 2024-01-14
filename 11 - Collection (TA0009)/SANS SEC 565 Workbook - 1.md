@@ -44,7 +44,7 @@ If everything is set up and an exploit is thrown through the proxy at the web se
 
 ## VM Review
 New VM for a Red Team, The first question that you should always seek to answer is: "Is it safe to op on this system?"
-- Note: During a red team it was observed that APT already had control over the target asset we  gained access to. 
+- Note: During a red team exercise, it was noted that an Advanced Persistent Threat (APT) had already established control over the targeted asset to which we had gained access.
 
 Malware is a threat to every Red Team Operator for multiple reasons: 
 1. Malware indicates the presence of another adversary 
