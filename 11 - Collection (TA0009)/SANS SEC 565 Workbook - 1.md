@@ -1,5 +1,5 @@
 ## Lab 1.1 - Environment Orientation
-#### Objectives
+### Objectives
 1. Understand the lab environment for the course
 2. Preview labs for the course
 3. VM review
@@ -10,9 +10,12 @@ This course will stress the importance of redirecting traffic from the target en
 	- During sections 1 through 5 you will be able to communicate directly from your VMs to target space, 
 	- During section 6 there are routing rules in place to prevent those direct communications. In section 6 all communications must be redirected through gray space.
 	
-**Threat Landscape**
+##### Threat Landscape
 - Red space encompasses anything owned by the target.
 - Gray space is anything that is owned by a 3rd party like redirectors in our attack infrastructure  and not associated with the target nor the Red Team.
 - Blue space is anything that is owned/registered to the Red Team, any friendly assets like VMs and C2 servers.
 
 ![[Pasted image 20240114153709.png]]
+
+##### Troubleshooting
+- 
