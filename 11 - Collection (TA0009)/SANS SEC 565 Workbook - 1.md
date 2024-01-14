@@ -24,3 +24,4 @@ Be methodical when troubleshooting network communications, start testing connect
 - Then check that gray space is able to communicate with red space, 
 	- This generates traffics and logs! 
 - Lastly, or sometimes firstly, ensure the exploit is weaponized for the system you are targeting, test the exploit in a local lab environment.
+*Exa*
