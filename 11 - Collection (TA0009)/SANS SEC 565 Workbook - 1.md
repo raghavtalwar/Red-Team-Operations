@@ -24,4 +24,12 @@ Be methodical when troubleshooting network communications, start testing connect
 - Then check that gray space is able to communicate with red space, 
 	- This generates traffics and logs! 
 - Lastly, or sometimes firstly, ensure the exploit is weaponized for the system you are targeting, test the exploit in a local lab environment.
-*Exa*
+*Example*
+If everything is set up and an exploit is thrown through the proxy at the web server but there is no call back, then we have to methodically troubleshoot the issue. The first step is to test locally. It could be any one of these issues, listed in priority order.
+
+    Is there a good path between blue space and the proxy?
+    Is the redirector returning traffic from external sources to blue space?
+    Is the proxy able to communicate with the web server in red space?
+    Is the target able to communicate with redirector?
+    Is the exploit weaponized properly, has it been tested against a local test system?
+
