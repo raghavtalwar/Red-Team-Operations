@@ -3,6 +3,15 @@
 1. Understand the lab environment for the course
 2. Preview labs for the course
 3. VM review
+### Conclusion
+This lab provided an overview of the lab environment and how traffic will flow between the VM, systems in gray space, and targets in red space. 
+- A good troubleshooting methodology is important to isolate issues effectively. 
+- This lab also introduced the labs for the remainder of the course. 
+- Lastly, we investigated a suspicious listener using tools available on the system. 
+	- We took advantage of all the information in /proc to understand exactly what the process is doing. 
+	- This abbreviated investigation is a critical skill when exploring each new system that you touch.
+	- This is an important step to ensure he safety of your engagement, your tradecraft, and your tools.
+
 ## Lab Environment 
 This course will stress the importance of redirecting traffic from the target environment to our command-and-control servers.
 - Although we are attached to the target environment via the VPN, we want to ensure we logically separate the assets belonging to the target (red space) from our redirectors in our attack infrastructure (gray space) and our C2 servers and VMs (blue space).
@@ -33,3 +42,4 @@ If everything is set up and an exploit is thrown through the proxy at the web se
     Is the target able to communicate with redirector?
     Is the exploit weaponized properly, has it been tested against a local test system?
 
+## 
