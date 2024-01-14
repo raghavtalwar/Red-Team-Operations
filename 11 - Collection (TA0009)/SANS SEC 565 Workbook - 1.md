@@ -43,4 +43,5 @@ If everything is set up and an exploit is thrown through the proxy at the web se
     Is the exploit weaponized properly, has it been tested against a local test system?
 
 ## VM Review
-New VM
+New VM for a Red Team, The first question that you should always seek to answer is: "Is it safe to op on this system?"
+- Note: During a red team it was observed that APT already had control over a asset we have gained access 
