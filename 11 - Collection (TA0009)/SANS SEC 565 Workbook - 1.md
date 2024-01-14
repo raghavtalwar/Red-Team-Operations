@@ -64,3 +64,5 @@ users:((ext4-rsv-conve",pid=5406,fd=3))
 sec565     5389   5380  0 07:47 pts/0    00:00:00 bash
 
 Note: The process cannot be found | We cannot find it running with that ID
+
+Thus, we look for network connections > Found a sus service > Enumerate process ID for that service > Found that we cannot find it via `ps` > 
