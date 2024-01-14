@@ -43,3 +43,4 @@ If everything is set up and an exploit is thrown through the proxy at the web se
     Is the exploit weaponized properly, has it been tested against a local test system?
 
 ## VM Review
+New VM
