@@ -65,4 +65,4 @@ sec565     5389   5380  0 07:47 pts/0    00:00:00 bash
 
 Note: The process cannot be found | We cannot find it running with that ID
 
-Thus, we look for network connections > Found a sus service > Enumerate process ID for that service > Found that we cannot find it via `ps` > 
+Thus, we look for network connections > Found a sus service > Enumerate process ID for that service > Found that we cannot find it via `ps` > Investigated ps binary and identified that its Trojan > When we run `ps` it hides the malicious process and shows rest > Identified the binary its hiding > 
