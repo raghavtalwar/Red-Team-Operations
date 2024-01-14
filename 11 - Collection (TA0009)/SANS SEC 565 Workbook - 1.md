@@ -54,5 +54,5 @@ Malware is a threat to every Red Team Operator for multiple reasons:
 5. Finding malware on a system should pause the engagement 
 6. Incident Responders must start an investigation
 
-### Lab Prep
+### Lab Walkthrough
 `sudo /labs/sec-1/orientation/setup.sh`
