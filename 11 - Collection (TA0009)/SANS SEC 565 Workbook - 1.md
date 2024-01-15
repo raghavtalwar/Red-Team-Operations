@@ -73,5 +73,3 @@ Thus, we look for network connections > Found a sus service > Enumerate process 
 
 ![[Pasted image 20240115173446.png]]
 
-![[Pasted image 20240115175005.png]]
-
