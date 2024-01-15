@@ -97,4 +97,9 @@ Thus, we look for network connections > Found a sus service > Enumerate process 
 6. Analyze and Organize
 7. Create an Adversary Emulation Plan
 
+### Conclusion
+This lab followed the methodology of Threat Intelligence for Red Team Engagements to understand the target organization; identify an adversary; gather threat intelligence for that adversary; read different sources of threat intelligence for that adversary; Identify and Extract Tactics, Techniques, and Procedures (TTPs) used by the adversary; Create an Adversary Profile; Use MITRE ATT&CK™ Navigator to filter TTPs for selected adversary and fill in the gaps; Analyze and Organize the threat intelligence into a technical flow; and read an example of an Adversary Emulation Plan.
 
+This is a good introduction and example of what a Threat Intelligence Analyst, Project Manager, Trusted Agents, and Red Team members will receive during the Threat Intelligence phase of an Adversary Emulation Red Team Engagement. For a good reference for Threat Intelligence based on MITRE ATT&CK™, read this blog post: https://medium.com/mitre-attack/getting-started-with-attack-cti-4eb205be4b2f
+
+The work done in this lab will be referenced again in the course.
