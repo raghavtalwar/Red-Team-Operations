@@ -68,3 +68,5 @@ Note: The process cannot be found | We cannot find it running with that ID
 Thus, we look for network connections > Found a sus service > Enumerate process ID for that service > Found that we cannot find it via `ps` > Investigated `ps` binary and identified that its Trojan > When we run `ps` it hides the malicious process and shows rest > Identified the binary its hiding > 
 ![[Pasted image 20240115172813.png]]
 
+![[Pasted image 20240115173109.png]]
+
