@@ -84,3 +84,16 @@ Thus, we look for network connections > Found a sus service > Enumerate process 
 ![[Pasted image 20240115190737.png]]
 
 ![[Pasted image 20240115190945.png]]
+
+---
+# Lab 1.2 : Consuming Threat Intelligence
+
+### Objectives
+
+    Practice the methodology of leveraging Threat Intelligence for Red Team Engagements
+    Understand the Target Organization
+    Identify the Adversary
+    Gather Threat Intelligence
+    Extract TTPs
+    Analyze and Organize
+    Create an Adversary Emulation Plan
