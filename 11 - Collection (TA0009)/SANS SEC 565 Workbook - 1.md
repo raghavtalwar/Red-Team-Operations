@@ -107,8 +107,10 @@ This lab followed the methodology of Threat Intelligence for Red Team Engagement
 - Analyze and Organize the threat intelligence into a technical flow; and read an example of an Adversary Emulation Plan.
 
 This is a good introduction and example of what a Threat Intelligence Analyst, Project Manager, Trusted Agents, and Red Team members will receive during the Threat Intelligence phase of an Adversary Emulation Red Team Engagement. 
-- For a good reference for Threat Intelligence based on MITRE ATT&CK™, read this blog post: https://medium.com/mitre-attack/getting-started-with-attack-cti-4eb205be4b2f
+- For a good reference for Threat Intelligence based on MITRE ATT&CK™, read this blog post: 
+	- https://medium.com/mitre-attack/getting-started-with-attack-cti-4eb205be4b2f
 
 The work done in this lab will be referenced again in the course.
+
 
 
