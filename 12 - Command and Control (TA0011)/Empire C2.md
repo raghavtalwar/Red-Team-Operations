@@ -13,33 +13,38 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 
 ### Create an Empire listener
 
+
+```markdown
+
+```
+
 ### Create a stager payload
+
+
+```markdown
+
+```
 
 ### Execute the stager to create an Agent on your Slingshot Linux VM
 
+
+```markdown
+
+```
+
 ### Ensure communication works properly
+
+
+```markdown
+
+```
 
 ### Review the walkthrough
 
 ```markdown
 
 ```
-## Enumeration 
 
-```markdown
 
-```
 
-## Exploitation 
-
-```markdown
-
-```
-
-## Resources
-
-```markdown
-
-```
-
-### Conclusion
+## Conclusion
