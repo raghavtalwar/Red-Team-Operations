@@ -15,6 +15,9 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 
 
 ```markdown
+# Start empire server
+
+# Start empire client
 
 ```
 
