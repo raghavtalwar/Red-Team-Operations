@@ -59,19 +59,17 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 ```
 
 
-## 
+## Research 
 
-[Malleable-C2-Profiles](https://github.com/BC-SECURITY/Malleable-C2-Profiles)
-
-
-[Empire: Empire is a post-exploitation and adversary emulation framework that is used to aid Red Teams and Penetration Testers.](https://github.com/BC-SECURITY/Empire)
+[Empire: Empire is a post-exploitation and adversary emulation framework](https://github.com/BC-SECURITY/Empire)
 
 
 [Starkiller: Starkiller is a Frontend for PowerShell Empire.](https://github.com/BC-SECURITY/Starkiller)
 
+[Malleable-C2-Profiles](https://github.com/BC-SECURITY/Malleable-C2-Profiles)
 
 ## Conclusion
 
 
-rrr
+
 
