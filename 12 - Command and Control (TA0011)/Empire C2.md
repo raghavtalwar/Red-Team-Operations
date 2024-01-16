@@ -11,6 +11,11 @@
 This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engagement where the Red Team prepares a Command and Control listener and creates stager payloads to connect to the listener.
 ## Overview 
 
+##### Installation:
+- Installing Empire
+
+1. Installing Starkiller
+
 ### Create an Empire listener
 
 
