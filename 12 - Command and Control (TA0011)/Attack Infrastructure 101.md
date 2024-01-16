@@ -1,4 +1,4 @@
-Tags: [[02 - Resource Development (TA0042)]]
+Tags: [[02 - Resource Development (TA0042)]] 
 # Setting up the Attack Infrastructure
 
 ## Standard Infrastructure 

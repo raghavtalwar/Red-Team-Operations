@@ -4,7 +4,6 @@
 - Good to create links from Folder to notes
 - Syntax: %% WAYPOINT %%
 - Link: https://github.com/IdreesInc/Waypoint
-
 ### Folder Note
 - Creates Folder > Links them to > Notes
 - Now we can have a card style display of all the content within that Note
