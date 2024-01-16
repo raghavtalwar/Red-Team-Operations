@@ -7,6 +7,5 @@ type: folder_brief_live
 - [[AD]]
 - [[External Recon]]
 - [[Internal Recon]]
-- [[Web Application Pentest Checklist]]
 
 %% End Waypoint %%
