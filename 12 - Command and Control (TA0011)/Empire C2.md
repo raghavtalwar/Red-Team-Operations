@@ -12,13 +12,14 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 ## Overview 
 
 ##### Installation:
-- Installing Empire
+- Installing & Running Empire
 	- `cd /opt`
-	- `git clone https://github.com/BC-SECURITY/Empire/`
+		- `git clone https://github.com/BC-SECURITY/Empire/`
 	- `cd /opt/Empire`
-	- `./setup/install.sh`
+		- `./setup/install.sh`
+		- 
 
-- Installing Starkiller
+- Installing & Running Starkiller
 	- `Once Empire is installed we can install the GUI for Empire known as Starkiller.
 		- ``cd /opt`
 	- `Download an up to date version of Starkiller from the BC-Security Github repo https://github.com/BC-SECURITY/Starkiller/releases 
