@@ -13,8 +13,13 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 
 ##### Installation:
 - Installing Empire
+	- `cd /opt`
+	- `git clone https://github.com/BC-SECURITY/Empire/`
+	- `cd /opt/Empire`
+	- `./setup/install.sh`
 
-1. Installing Starkiller
+- Installing Starkiller
+	- 
 
 ### Create an Empire listener
 
