@@ -57,12 +57,8 @@ Malware is a threat to every Red Team Operator for multiple reasons:
 ### Lab Walkthrough
 Prep: `sudo /labs/sec-1/orientation/setup.sh`
 
-
-tcp     LISTEN       0         10                          0.0.0.0:54321                0.0.0.0:*         
-users:((ext4-rsv-conve",pid=5406,fd=3))                   
-
-sec565     5389   5380  0 07:47 pts/0    00:00:00 bash
-
+Steps:
+1. 
 Note: The process cannot be found | We cannot find it running with that ID
 
 Thus, we look for network connections > Found a sus service > Enumerate process ID for that service > Found that we cannot find it via `ps` > Investigated `ps` binary and identified that its Trojan > When we run `ps` it hides the malicious process and shows rest > Identified the binary its hiding > 
