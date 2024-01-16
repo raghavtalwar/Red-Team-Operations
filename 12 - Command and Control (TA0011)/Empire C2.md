@@ -59,8 +59,7 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 ```
 
 
-## Bonus | Research
-
+## 
 
 [Malleable-C2-Profiles](https://github.com/BC-SECURITY/Malleable-C2-Profiles)
 
@@ -72,3 +71,7 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 
 
 ## Conclusion
+
+
+rrr
+
