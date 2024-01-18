@@ -83,17 +83,17 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 - **Practical C2 Example:** Imagine you have a Beacon payload (a component of Cobalt Strike) implanted on a target system. The Beacon communicates with a Command and Control server controlled by an attacker.
 - **Malleable C2 Profile:** The Malleable C2 profile in this context is like a script that defines how the Beacon communicates with the C2 server.  It defining how the network traffic should appear to evade detection.
 	- For example, the profile may specify:
-		- **Redirectors**
-		- **User-Agent Spoofing:**
-		- **Custom Encryption:**
-		- **DNS Tunneling:**
+		- **Redirectors:** Redirectors are used to hide the true C2 server by acting as an intermediary. When an infected system attempts to communicate with the C2 server, it is redirected through the redirector. This adds a layer of obfuscation, making it more challenging for defenders to identify and block the malicious traffic.
+		- **User-Agent Spoofing:** Customizing the User-Agent string allows the malware to mimic legitimate user agents, making it harder for network defenders to identify malicious traffic based on this attribute.
+		- **Custom Encryption:** Encrypting C2 traffic helps in avoiding signature-based detection. Malleable C2 profiles often allow users to customize encryption algorithms, keys, and other parameters.
+		- **DNS Tunneling:** Instead of traditional HTTP or HTTPS traffic, some C2 frameworks support DNS tunneling, where communication occurs through DNS requests and responses, making detection more challenging.
 		- **Custom Headers:**
 		- **Sleep Time and Jitter:**
 		- **Proxy**
 		- **HTTP Methods:**
-		- **Encrypted and Authenticated Communication:**
+		- **Encrypted and Authenticated Communication:** Using advanced encryption algorithms and authentication mechanisms for C2 communication adds a layer of security and makes it more difficult for defenders to intercept or manipulate the communication.
 		- **Data Exfiltration Techniques:** Customizing how data is exfiltrated can be crucial. This includes techniques like chunked transfer encoding, binary data transmission, or breaking data into multiple requests.
-		- **Domain Generation Algorithms (DGA):**
+		- **Domain Generation Algorithms (DGA):** DGAs dynamically generate domain names, making it challenging for defenders to predict and block C2 communication. The algorithm may incorporate time-based or pseudo-random elements.
 		- **Dynamic Profile Switching:** Switching between different communication profiles dynamically during an operation can make it harder for defenders to create static signatures or patterns for detection.
 		- **Anti-Sandbox Techniques:** Implementing techniques to detect or avoid sandboxes, such as checking for virtualized environments or sandbox artifacts, helps the malware remain undetected during analysis.
 		- **Payload Encoding:** Encoding the payload in transit can help evade signature-based detection. Malleable C2 profiles often allow customization of payload encoding.
