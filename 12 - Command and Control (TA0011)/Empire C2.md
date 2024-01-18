@@ -18,7 +18,7 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 	- `cd /opt/Empire`
 		- `./setup/install.sh`
 	-  `Run: cd /opt/Empire`
-		- `./empire --rest`
+		- `sudo ./ps-empire server`
 
 - Installing & Running Starkiller
 	- `Once Empire is installed we can install the GUI for Empire known as Starkiller.
