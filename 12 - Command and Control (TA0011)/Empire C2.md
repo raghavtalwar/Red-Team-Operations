@@ -92,13 +92,13 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 		- **Proxy**
 		- **HTTP Methods:**
 		- **Encrypted and Authenticated Communication:**
-		- **Data Exfiltration Techniques:**
+		- **Data Exfiltration Techniques:** Customizing how data is exfiltrated can be crucial. This includes techniques like chunked transfer encoding, binary data transmission, or breaking data into multiple requests.
 		- **Domain Generation Algorithms (DGA):**
-		- **Dynamic Profile Switching:**
-		- **Anti-Sandbox Techniques:**
-		- **Payload Encoding:**
-		- **Dynamic Payload Generation:**
-		- **Protocol Mimicking (e.g., Mimicking DNS Over HTTPS - DoH):**
+		- **Dynamic Profile Switching:** Switching between different communication profiles dynamically during an operation can make it harder for defenders to create static signatures or patterns for detection.
+		- **Anti-Sandbox Techniques:** Implementing techniques to detect or avoid sandboxes, such as checking for virtualized environments or sandbox artifacts, helps the malware remain undetected during analysis.
+		- **Payload Encoding:** Encoding the payload in transit can help evade signature-based detection. Malleable C2 profiles often allow customization of payload encoding.
+		- **Dynamic Payload Generation:** Generating payloads on-the-fly or using polymorphic techniques can make it challenging for signature-based detection to identify the malicious
+		- **Protocol Mimicking (e.g., Mimicking DNS Over HTTPS - DoH):** Mimicking legitimate protocols, such as DNS over HTTPS, can help blend malicious traffic with normal, encrypted web traffic.
 
 ## Conclusion
 
