@@ -90,6 +90,11 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 		- **Custom Headers:**
 		- **Sleep Time and Jitter:**
 		- **Proxy**
+		- **HTTP Methods:**
+		- **Payload Encoding:**
+		- **Data Exfiltration Techniques:**
+		- **Domain Generation Algorithms (DGA):**
+		- **Dynamic Profile Switching:**
 
 ## Conclusion
 
