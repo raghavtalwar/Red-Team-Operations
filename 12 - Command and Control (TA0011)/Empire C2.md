@@ -96,6 +96,7 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 		- **Domain Generation Algorithms (DGA):**
 		- **Dynamic Profile Switching:**
 		- **Anti-Sandbox Techniques:**
+		- **Payload Encoding:**
 		- **Dynamic Payload Generation:**
 		- **Protocol Mimicking (e.g., Mimicking DNS Over HTTPS - DoH):**
 
