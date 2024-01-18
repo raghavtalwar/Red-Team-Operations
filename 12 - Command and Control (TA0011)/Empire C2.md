@@ -92,6 +92,7 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 		- **Proxy**
 		- **HTTP Methods:**
 		- **Payload Encoding:**
+		- **Encrypted and Authenticated Communication:**
 		- **Data Exfiltration Techniques:**
 		- **Domain Generation Algorithms (DGA):**
 		- **Dynamic Profile Switching:**
