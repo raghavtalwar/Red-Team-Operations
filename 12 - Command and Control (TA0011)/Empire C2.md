@@ -26,7 +26,7 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 	- `Download an up to date version of Starkiller from the BC-Security Github repo https://github.com/BC-SECURITY/Starkiller/releases 
 		- `chmod +x starkiller-0.0.0.AppImage`
 	- `Run: cd /opt`
-		- `./starkiller-0.0.0.AppImage`
+		- `./starkiller-0.0.0.AppImage --no-sandbox`
 		- `Uri: 127.0.0.1:1337`
 		- `User: empireadmin`
 		- `Pass: password123`
