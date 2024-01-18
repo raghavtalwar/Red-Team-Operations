@@ -79,6 +79,9 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 
 [Malleable-C2-Profiles](https://github.com/BC-SECURITY/Malleable-C2-Profiles)
 
+#### Malleable C2 Profile
+- **Practical C2 Example:** Imagine you have a Beacon payload (a component of Cobalt Strike) implanted on a target system. The Beacon communicates with a Command and Control server controlled by an attacker.
+- **Malleable C2 Profile:**
 
 ## Conclusion
 
