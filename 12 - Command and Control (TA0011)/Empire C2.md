@@ -91,11 +91,13 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 		- **Sleep Time and Jitter:**
 		- **Proxy**
 		- **HTTP Methods:**
-		- **Payload Encoding:**
 		- **Encrypted and Authenticated Communication:**
 		- **Data Exfiltration Techniques:**
 		- **Domain Generation Algorithms (DGA):**
 		- **Dynamic Profile Switching:**
+		- **Anti-Sandbox Techniques:**
+		- **Dynamic Payload Generation:**
+		- **Protocol Mimicking (e.g., Mimicking DNS Over HTTPS - DoH):**
 
 ## Conclusion
 
