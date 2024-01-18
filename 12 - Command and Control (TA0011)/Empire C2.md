@@ -82,6 +82,7 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 #### Malleable C2 Profile
 - **Practical C2 Example:** Imagine you have a Beacon payload (a component of Cobalt Strike) implanted on a target system. The Beacon communicates with a Command and Control server controlled by an attacker.
 - **Malleable C2 Profile:** The Malleable C2 profile in this context is like a script that defines how the Beacon communicates with the C2 server, making the traffic it generates look less suspicious.
+	- 
 	- For example, the profile may specify:
 		- A User-Agent string resembling a common web browser.
 		- Customized URI paths and parameters to mimic legitimate web traffic.
