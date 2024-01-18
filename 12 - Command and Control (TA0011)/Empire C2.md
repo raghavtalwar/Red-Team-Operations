@@ -84,7 +84,12 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 - **Malleable C2 Profile:** The Malleable C2 profile in this context is like a script that defines how the Beacon communicates with the C2 server.  It defining how the network traffic should appear to evade detection.
 	- For example, the profile may specify:
 		- **Redirectors**
-		- 
+		- **User-Agent Spoofing:**
+		- **Custom Encryption:**
+		- **DNS Tunneling:**
+		- **Custom Headers:**
+		- **Sleep Time and Jitter:**
+		- **Proxy**
 
 ## Conclusion
 
