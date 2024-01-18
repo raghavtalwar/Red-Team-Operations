@@ -87,10 +87,10 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 		- **User-Agent Spoofing:** Customizing the User-Agent string allows the malware to mimic legitimate user agents, making it harder for network defenders to identify malicious traffic based on this attribute.
 		- **Custom Encryption:** Encrypting C2 traffic helps in avoiding signature-based detection. Malleable C2 profiles often allow users to customize encryption algorithms, keys, and other parameters.
 		- **DNS Tunneling:** Instead of traditional HTTP or HTTPS traffic, some C2 frameworks support DNS tunneling, where communication occurs through DNS requests and responses, making detection more challenging.
-		- **Custom Headers:**
-		- **Sleep Time and Jitter:**
-		- **Proxy**
-		- **HTTP Methods:**
+		- **Custom Headers:** Modifying and customizing headers, such as User-Agent or Referer, helps to make the C2 traffic look more like legitimate traffic.
+		- **Sleep Time and Jitter:** Introducing random sleep times and jitter in communication intervals makes the C2 traffic less predictable and more difficult to detect.
+		- **Proxy:** Proxies act as intermediaries between the infected system and the actual C2 server. They help hide the true source of the communication, making it harder for defenders to trace back to the malicious activity.
+		- **HTTP Methods:** Modifying the HTTP methods used for communication (e.g., GET, POST) can make the traffic appear more like regular web browsing.
 		- **Encrypted and Authenticated Communication:** Using advanced encryption algorithms and authentication mechanisms for C2 communication adds a layer of security and makes it more difficult for defenders to intercept or manipulate the communication.
 		- **Data Exfiltration Techniques:** Customizing how data is exfiltrated can be crucial. This includes techniques like chunked transfer encoding, binary data transmission, or breaking data into multiple requests.
 		- **Domain Generation Algorithms (DGA):** DGAs dynamically generate domain names, making it challenging for defenders to predict and block C2 communication. The algorithm may incorporate time-based or pseudo-random elements.
