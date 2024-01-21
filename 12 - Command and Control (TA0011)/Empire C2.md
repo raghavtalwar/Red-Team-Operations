@@ -65,7 +65,10 @@ cd /opt/starkiller/
 	+ `cd /opt/Empire/setup/
 	+ `./cert.sh
 5. Submit and now we have a listener listening!
-	- `ss -tulpn > tcp LISTEN     0          128                          0.0.0.0:443                0.0.0.0:*`
+	- `ss -tulpn > tcp LISTEN   0.0.0.0:443   0.0.0.0:*`
+![[Pasted image 20240121151918.png]]
+
+![[Pasted image 20240121151910.png]]
 ### Create a stager payload
 ```markdown
 
