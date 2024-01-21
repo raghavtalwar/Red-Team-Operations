@@ -70,11 +70,13 @@ cd /opt/starkiller/
 ![[Pasted image 20240121151918.png]]
 
 ![[Pasted image 20240121151910.png]]
+*Red Team Tip: Always set a Kill Date to ensure an agent doesn't live forever if it can not make contact with the C2 server.
+
 ### Create a stager payload
 ```markdown
 
 ```
-*Red Team Tip: Always set a Kill Date to ensure an agent doesn't live forever if it can not make contact with the C2 server.
+
 
 ### Execute the stager to create an Agent on your Slingshot Linux VM
 
