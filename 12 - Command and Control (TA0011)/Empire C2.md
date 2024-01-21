@@ -79,15 +79,11 @@ cd /opt/starkiller/
 
 
 ### Execute the stager to create an Agent on your Slingshot Linux VM
-
-
 ```markdown
 
 ```
 
 ### Ensure communication works properly
-
-
 ```markdown
 
 ```
