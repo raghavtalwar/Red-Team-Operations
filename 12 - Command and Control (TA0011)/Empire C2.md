@@ -32,7 +32,6 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 		- `Pass: password123`
 
 ### Create an Empire listener
-
 ```markdown
 # Start Empire server
 cd /opt/Empire/
@@ -46,7 +45,6 @@ cd /home/sec565/tools/
 		* Username: empireadmin
 		* Password: password123
 ```
-#### Create Empire Listener
 1. Click the Create button in the upper right corner of the screen.
 2. Select http in the drop down menu. Then provide the following values:
 	`Name:` interactive-https
@@ -55,9 +53,9 @@ cd /home/sec565/tools/
     `Bind IP:` 0.0.0.0
     `StagingKey:` AddSomethingRandomTo32Characters
     `CertPath:` /opt/Empire/empire/server/data
-1. Leave the rest as defaults and click the SUBMIT button in the upper right corner of the screen.
+3. Leave the rest as defaults and click the SUBMIT button in the upper right corner of the screen.
 	+ Note: Empire will Base64 encode the StagingKey if the string if it is not 32 characters.
-+ New certificates are created by default and the next steps do not need to be taken but they are included in case you would like to generate new certificates.
+4. New certificates are created by default and the next steps do not need to be taken but they are included in case you would like to generate new certificates.
 	+ `sudo su
 	+ `cd /opt/Empire/setup/
 	+ `./cert.sh
