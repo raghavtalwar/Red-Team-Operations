@@ -37,7 +37,13 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 cd /opt/Empire/
 sudo ./ps-empire server
 
-# Start Starkiller client
+# Create
+cd /opt/Empire/
+sudo ./ps-empire client
+	+ Welcome to the Empire
+or
+
+# Start Starkiller GUI client
 cd /home/sec565/tools/
 ./starkiller-1.9.0.AppImage --no-sandbox
 	+ Login into Web Interface
