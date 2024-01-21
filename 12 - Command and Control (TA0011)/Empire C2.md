@@ -56,7 +56,11 @@ cd /home/sec565/tools/
     `StagingKey:` AddSomethingRandomTo32Characters
 3. Leave the rest as defaults and click the SUBMIT button in the upper right corner of the screen.
 	+ Note: Empire will Base64 encode the StagingKey if the string if it is not 32 characters.
-+ 
++ New certificates are created by default and the next steps do not need to be taken but they are included in case you would like to generate new certificates.
+	+ `sudo su
+	+ `cd /opt/Empire/setup/
+	+ `./cert.sh
+
 
 *Red Team Tip: Always set a Kill Date to ensure an agent doesn't live forever if it can not make contact with the C2 server.
 
