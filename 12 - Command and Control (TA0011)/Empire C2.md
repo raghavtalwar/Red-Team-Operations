@@ -42,6 +42,8 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 
 ```
 
+*Red Team Tip: Always set a Kill Date to ensure an agent doesn't live forever if it can not make contact with the C2 server.
+
 ### Create a stager payload
 
 
