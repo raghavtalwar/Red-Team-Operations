@@ -49,23 +49,11 @@ cd /home/sec565/tools/
 #### Create Empire Listener
 1. Click the Create button in the upper right corner of the screen.
 2. Select http in the drop down menu. Then provide the following values:
-	Name: interactive-http
-    Host: 10.254.252.2 <- This must be the ip address of your tun0 adapter
-    Port: 8080
-    Bind IP: 0.0.0.0
-    StagingKey: AddSomethingRandomTo32Characters
-
-```markdown
-# Create Empire Listener
-1. Click the Create button in the upper right corner of the screen.
-2. Select http in the drop down menu. Then provide the following values:
-    Name: interactive-http
-    Host: 10.254.252.2 <- This must be the ip address of your tun0 adapter
-    Port: 8080
-    Bind IP: 0.0.0.0
-    StagingKey: AddSomethingRandomTo32Characters
-
-```
+	`Name:` interactive-http
+	`Host:` 10.254.252.2          // This must be the ip address of your tun0 adapter
+    `Port:` 8080
+    `Bind IP:` 0.0.0.0
+    `StagingKey:` AddSomethingRandomTo32Characters
 
 *Red Team Tip: Always set a Kill Date to ensure an agent doesn't live forever if it can not make contact with the C2 server.
 
