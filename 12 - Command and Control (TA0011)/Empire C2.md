@@ -68,10 +68,7 @@ cd /opt/starkiller/
 
 *Red Team Tip: Always set a Kill Date to ensure an agent doesn't live forever if it can not make contact with the C2 server.
 
-
 ### Create a stager payload
-
-
 ```markdown
 
 ```
