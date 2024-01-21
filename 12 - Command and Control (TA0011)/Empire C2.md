@@ -66,6 +66,7 @@ cd /opt/starkiller/
 	+ `./cert.sh
 5. Submit and now we have a listener listening!
 	- `ss -tulpn > tcp LISTEN   0.0.0.0:443   0.0.0.0:*`
+	
 ![[Pasted image 20240121151918.png]]
 
 ![[Pasted image 20240121151910.png]]
