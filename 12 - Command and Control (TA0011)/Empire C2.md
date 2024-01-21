@@ -35,16 +35,17 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 
 
 ```markdown
-## Start Empire server
+# Start Empire server
 cd /opt/Empire/
 sudo ./ps-empire server
 
-
-## Start Starkiller client
+# Start Starkiller client
 cd /home/sec565/tools/
 ./starkiller-1.9.0.AppImage --no-sandbox
-
-## 
+	+ Web Interface
+	+ Url: https://localhost:1337
+	+ Username: empireadmin
+	+ Password: password123
 
 ```
 
