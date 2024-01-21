@@ -49,6 +49,13 @@ cd /home/sec565/tools/
 
 ```markdown
 # Create Empire Listener
+1. Click the Create button in the upper right corner of the screen.
+2. Select http in the drop down menu. Then provide the following values:
+    Name: interactive-http
+    Host: 10.254.252.2 <- This must be the ip address of your tun0 adapter
+    Port: 8080
+    Bind IP: 0.0.0.0
+    StagingKey: AddSomethingRandomTo32Characters
 
 ```
 
