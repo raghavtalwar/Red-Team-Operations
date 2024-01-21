@@ -43,7 +43,7 @@ sudo ./ps-empire client
 	+ Welcome to the Empire
 or
 # Start Starkiller GUI client
-cd /opt/
+cd /opt/starkiller/
 ./starkiller-1.9.0.AppImage --no-sandbox
 	+ Login into Web Interface
 		* Url: https://localhost:1337
