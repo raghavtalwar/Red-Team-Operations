@@ -59,7 +59,7 @@ cd /home/sec565/tools/
 	+ `sudo su
 	+ `cd /opt/Empire/setup/
 	+ `./cert.sh
-+ Submit and now on the Listeners dashboard, click the three vertical dots icon under actions to bring up the actions menu. Click Copy.
+Submit and now on the Listeners dashboard, click the three vertical dots icon under actions to bring up the actions menu. Click Copy.
 
 *Red Team Tip: Always set a Kill Date to ensure an agent doesn't live forever if it can not make contact with the C2 server.
 
