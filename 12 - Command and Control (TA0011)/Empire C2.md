@@ -33,7 +33,6 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 
 ### Create an Empire listener
 
-
 ```markdown
 # Start Empire server
 cd /opt/Empire/
@@ -42,11 +41,14 @@ sudo ./ps-empire server
 # Start Starkiller client
 cd /home/sec565/tools/
 ./starkiller-1.9.0.AppImage --no-sandbox
-	+ Web Interface
-	+ Url: https://localhost:1337
-	+ Username: empireadmin
-	+ Password: password123
+	+ Login into Web Interface
+		* Url: https://localhost:1337
+		* Username: empireadmin
+		* Password: password123
+```
 
+```markdown
+## Create Listener
 ```
 
 *Red Team Tip: Always set a Kill Date to ensure an agent doesn't live forever if it can not make contact with the C2 server.
