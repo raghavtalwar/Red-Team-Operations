@@ -126,7 +126,12 @@ cd /opt/starkiller/
 		- **Dynamic Payload Generation:** Generating payloads on-the-fly or using polymorphic techniques can make it challenging for signature-based detection to identify the malicious
 		- **Protocol Mimicking (e.g. Mimicking DNS Over HTTPS - DoH):** Mimicking legitimate protocols, such as DNS over HTTPS, can help blend malicious traffic with normal, encrypted web traffic.
 
-#
+#### Network Footprinting
+Lessons learned
+1. The main take away from this bonus section is to dig a little deeper and see what your tool looks like on the network. 
+2. A few extra steps in the setup will make it much harder for the Blue Team to detect your actions. 
+3. As you improve your skillset, learn more and more about your tools to inform decisions during Red Team Engagements.
+
 ## Conclusion
 
 
