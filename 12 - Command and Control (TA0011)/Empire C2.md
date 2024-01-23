@@ -90,6 +90,19 @@ cd /opt/starkiller/
 ![[Pasted image 20240123204357.png]]
 ### Ensure communication works properly | Agent Interaction
 
+1. Click on the chain icon on the left navigation window to bring up the Agents dashboard. Your new agent will get assigned a randomly generated name. On the dashboard you will see important information about your agent:
+
+    The Name column is a randomly generated name assigned by Empire, you can and should change this name to something that is easy to recognize.
+    The Last Seen column will show how long it has been since the agent last checked in. This value may indicate if the agent is still alive or not. The check-in intervals are determined by the Delay and Jitter.
+    The First Seen column will display the time since the agent first registered with the C2 server.
+    The Hostname column displays the internal hostname of the system the agent is running on.
+    The Process column shows which process the agent is currently running in.
+    The Architecture column shows the CPU architecture of the target, this is significant for additional targeting. Exploits and tools must be matched to the appropriate CPU architecture.
+    The Language column shows the type code the agent is executing. PowerShell or Python.
+    The Username column shows the current user context the agent is running under.
+    The Internal IP column will usually display the private IP address of the target.
+
+Click on the agent's name to interact with the agent.
 ```markdown
 
 ```
