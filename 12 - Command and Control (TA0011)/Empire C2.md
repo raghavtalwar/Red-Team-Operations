@@ -82,14 +82,10 @@ cd /opt/starkiller/
 
 ![[Pasted image 20240123202431.png]]
 
-
-
-
 ### Execute the stager to create an Agent on your Slingshot Linux VM
-```markdown
+1. Deliver your stager to Slingshot Linux. On the Stagers dashboard, click the three vertical dots icon under actions to bring up the actions menu. Click Copy to Clipboard.
 
-```
-
+Open up a new terminal window as the user sec565 and enter Ctrl+Shift+v to paste the stager code. You can see here that we are echoing python code into python3. The stager is base64 encoded by default.
 ### Ensure communication works properly
 ```markdown
 
