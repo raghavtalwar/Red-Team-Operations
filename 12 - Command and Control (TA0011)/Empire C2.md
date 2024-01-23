@@ -75,12 +75,14 @@ cd /opt/starkiller/
 ### Create a stager payload
 1. Create an Empire stager. Click on the suitcase icon on the left navigation window to bring up the Stagers dashboard. Then click CREATE in the upper right.
 2. Select multi/launcher in the drop down menu. Then provide the following values:
-    `StarkillerName:` http-slingshot-user
+    `StarkillerName:` https-slingshot-user
     `Listener: `interactive-https
     `Language:` python
 3. Click the Submit button in the upper right corner of the screen.
 
-![[Pasted image 20240123202349.png]]
+![[Pasted image 20240123202431.png]]
+
+
 
 
 ### Execute the stager to create an Agent on your Slingshot Linux VM
