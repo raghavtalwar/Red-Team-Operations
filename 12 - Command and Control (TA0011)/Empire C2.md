@@ -75,20 +75,12 @@ cd /opt/starkiller/
 ### Create a stager payload
 1. Create an Empire stager. Click on the suitcase icon on the left navigation window to bring up the Stagers dashboard. Then click CREATE in the upper right.
 2. Select multi/launcher in the drop down menu. Then provide the following values:
-    StarkillerName: http-slingshot-user
-    Listener: interactive-http
-    Language: python
+    `StarkillerName:` http-slingshot-user
+    `Listener: `interactive-https
+    `Language:` python
+3. Click the Submit button in the upper right corner of the screen.
 
-Click the Create button in the upper right corner of the screen.
-
-Select http in the drop down menu. Then provide the following values:
-
-    Name: interactive-http
-    Host: 10.254.252.2 <- This must be the ip address of your tun0 adapter
-    Port: 8080
-    Bind IP: 0.0.0.0
-    StagingKey: AddSomethingRandomTo32Characters
-
+![[Pasted image 20240123202349.png]]
 
 
 ### Execute the stager to create an Agent on your Slingshot Linux VM
