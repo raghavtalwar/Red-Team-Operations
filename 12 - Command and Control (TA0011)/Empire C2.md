@@ -88,7 +88,8 @@ cd /opt/starkiller/
 3. **Callback:** Press enter and a subprocess will be created, Empire will receive a web request and a new agent will be registered with the C2.
 
 ![[Pasted image 20240123204357.png]]
-### Ensure communication works properly
+### Ensure communication works properly | Agent Interaction
+
 ```markdown
 
 ```
