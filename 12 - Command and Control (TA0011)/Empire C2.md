@@ -126,6 +126,7 @@ cd /opt/starkiller/
 		- **Dynamic Payload Generation:** Generating payloads on-the-fly or using polymorphic techniques can make it challenging for signature-based detection to identify the malicious
 		- **Protocol Mimicking (e.g. Mimicking DNS Over HTTPS - DoH):** Mimicking legitimate protocols, such as DNS over HTTPS, can help blend malicious traffic with normal, encrypted web traffic.
 
+#
 ## Conclusion
 
 
