@@ -148,7 +148,7 @@ Click on the agent's name to interact with the agent.
 Lessons learned
 1. The main take away from this bonus section is to dig a little deeper and see what your tool looks like on the network. 
 2. A few extra steps in the setup will make it much harder for the Blue Team to detect your actions. 
-3. As you improve your skillset, learn more and more about your tools to inform decisions during Red Team Engagements.
+3. As you improve your skillset, learn more and more about your tools to make inform decisions during Red Team Engagements.
 
 ## Conclusion
 
