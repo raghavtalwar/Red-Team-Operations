@@ -97,9 +97,9 @@ cd /opt/starkiller/
 	- The Hostname column displays the internal hostname of the system the agent is running on.
 	- The Process column shows which process the agent is currently running in.
 	- The Architecture column shows the CPU architecture of the target, this is significant for additional targeting. Exploits and tools must be matched to the appropriate CPU architecture.
-    The Language column shows the type code the agent is executing. PowerShell or Python.
-    The Username column shows the current user context the agent is running under.
-    The Internal IP column will usually display the private IP address of the target.
+	- The Language column shows the type code the agent is executing. PowerShell or Python.
+	- The Username column shows the current user context the agent is running under.
+	- The Internal IP column will usually display the private IP address of the target.
 
 Click on the agent's name to interact with the agent.
 ```markdown
