@@ -88,6 +88,7 @@ cd /opt/starkiller/
 3. **Callback:** Press enter and a subprocess will be created, Empire will receive a web request and a new agent will be registered with the C2.
 
 ![[Pasted image 20240123204357.png]]
+
 ### Agent Interaction - Ensure communication works properly 
 
 1. Click on the chain icon on the left navigation window to bring up the Agents dashboard. Your new agent will get assigned a randomly generated name. On the dashboard you will see important information about your agent:
