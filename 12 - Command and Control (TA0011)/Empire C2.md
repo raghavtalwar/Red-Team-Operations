@@ -82,7 +82,7 @@ cd /opt/starkiller/
 
 ![[Pasted image 20240123202431.png]]
 
-### Execute the stager to create an Agent on your Slingshot Linux VM
+### Deliver Execute the stager to create an Agent on your Slingshot Linux VM
 1. **Deliver** your stager to Slingshot Linux. On the Stagers dashboard, click the three vertical dots icon under actions to bring up the actions menu. Click Copy to Clipboard.
 2. **Execute:** Open up a new terminal window as the user sec565 and enter Ctrl+Shift+v to paste the stager code. You can see here that we are echoing python code into python3. The stager is base64 encoded by default.
 3. **Callback:** Press enter and a subprocess will be created, Empire will receive a web request and a new agent will be registered with the C2.
