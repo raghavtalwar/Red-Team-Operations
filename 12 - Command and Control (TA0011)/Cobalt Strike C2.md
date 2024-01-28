@@ -19,7 +19,7 @@
 ### Create a Launcher payload
 
 
-### Execute our Beacon  
+### Deliver Beacon  
 
 
 ### Interacting with our beacon 
