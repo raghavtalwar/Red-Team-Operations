@@ -13,16 +13,16 @@
 ##### Installation
 
 
-### Launch Cob listener
+### Create an Cobalt Strike listener
 
 
-### Create a stager payload
+### Create a Launcher payload
 
 
-### Deliver Stager 
+### Execute our Beacon  
 
 
-### Agent Interaction 
+### Interacting with our beacon 
 
 
 ### Modules 
