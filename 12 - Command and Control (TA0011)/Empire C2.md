@@ -7,9 +7,9 @@
     Execute the stager payload on your Slingshot VM
     Interact with your Agent
     Explore Empire modules
+## Overview 
 
 This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engagement where the Red Team prepares a Command and Control listener and creates stager payloads to connect to the listener.
-## Overview 
 
 ##### Installation
 - Installing & Running Empire

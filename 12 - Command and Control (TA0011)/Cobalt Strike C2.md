@@ -1,13 +1,12 @@
 
-
 ### Objectives
 
-    Review the features of Empire
-    Create a listener on Empire
-    Create stager payloads for your Empire listener
-    Execute the stager payload on your Slingshot VM
-    Interact with your Agent
-    Explore Empire modules
+    Review the features of Cobalt Strike
+    Create a listener
+    Create a payload and host it on the C2 server
+    Execute the payload in the target environment
+    Interact with the Beacon
+    Explore Cobalt Strike modules
 
 ## Overview 
 
