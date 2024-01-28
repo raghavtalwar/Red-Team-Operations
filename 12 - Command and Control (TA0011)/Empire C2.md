@@ -111,9 +111,6 @@ Click on the six square icon on the left navigation window to bring up the Modul
 ![[Pasted image 20240128233317.png]]
 
 
-```
-
-
 ## Research 
 
 [Empire: Empire is a post-exploitation and adversary emulation framework](https://github.com/BC-SECURITY/Empire)
