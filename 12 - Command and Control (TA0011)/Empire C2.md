@@ -107,8 +107,9 @@ Click on the agent's name to interact with the agent.
 ![[Pasted image 20240128122145.png]]
 
 ### Modules & Exploration
+Click on the six square icon on the left navigation window to bring up the Modules dashboard. This page will display all the loaded modules along with their characteristics and mapping to MITRE ATT&CK Techniques. 
+![[Pasted image 20240128233317.png]]
 
-```markdown
 
 ```
 
