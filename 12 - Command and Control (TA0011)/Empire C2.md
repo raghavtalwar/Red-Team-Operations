@@ -151,6 +151,13 @@ Lessons learned
 
 ## Conclusion
 
+- In this lab, we reviewed the features of Empire and configured a listener that will communicate with agents. 
+- The listener was tested by creating a stager payload and executing it on your Slingshot Linux VM. 
 
+- This is a test the Red Team should always run to ensure successful initial access to the target environment. There are additional tests that should be conducted before interacting with the target, we will conduct those tests in a later lab.
+
+- After creating an agent we executed commands remotely and reviewed the available modules.
+
+- Starkiller is a graphical user interface for Empire that helps to keep information organized. You may also interact with Empire entirely form the command line.
 
 
