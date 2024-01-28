@@ -106,7 +106,7 @@ cd /opt/starkiller/
 Click on the agent's name to interact with the agent.
 ![[Pasted image 20240128122145.png]]
 
-### Modules & Exploration
+### Modules 
 Click on the six square icon on the left navigation window to bring up the Modules dashboard. This page will display all the loaded modules along with their characteristics and mapping to MITRE ATT&CK Techniques. 
 ![[Pasted image 20240128233317.png]]
 
@@ -150,8 +150,10 @@ Lessons learned
 	4. *As you improve your skillset, learn more and more about your tools to make inform decisions during Red Team Engagements.*
 
 ## Conclusion
-- In this lab, we reviewed the features of Empire and configured a listener that will communicate with agents. 
-- The listener was tested by creating a stager payload and executing it on your Slingshot Linux VM. 
+- In this lab, we reviewed the features of Empire and 
+	- Configured a listener that will communicate with agents. 
+- The listener was tested by creating a stager payload and 
+	- Executing it on your Slingshot Linux VM. 
 
 - This is a test the Red Team should always run to ensure successful initial access to the target environment. There are additional tests that should be conducted before interacting with the target, we will conduct those tests in a later lab.
 
