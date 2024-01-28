@@ -144,9 +144,10 @@ Click on the six square icon on the left navigation window to bring up the Modul
 
 #### Network Footprinting
 Lessons learned
-1. The main take away from this bonus section is to dig a little deeper and see what your tool looks like on the network. 
-2. A few extra steps in the setup will make it much harder for the Blue Team to detect your actions. 
-3. *As you improve your skillset, learn more and more about your tools to make inform decisions during Red Team Engagements.*
+1.  From a terminal screen start Wireshark with sudo wireshark & and start sniffing on the local adapter by double clicking on Loopback: lo.
+2. The main take away from this bonus section is to dig a little deeper and see what your tool looks like on the network. 
+3. A few extra steps in the setup will make it much harder for the Blue Team to detect your actions. 
+4. *As you improve your skillset, learn more and more about your tools to make inform decisions during Red Team Engagements.*
 
 ## Conclusion
 
