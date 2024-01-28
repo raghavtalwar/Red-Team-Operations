@@ -13,10 +13,11 @@
 ##### Installation
 
 
-### Create an Empire listener
+### Launch Cob listener
 
 
 ### Create a stager payload
+
 
 ### Deliver Stager 
 
