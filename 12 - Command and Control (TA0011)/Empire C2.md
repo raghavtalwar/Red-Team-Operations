@@ -104,9 +104,7 @@ cd /opt/starkiller/
 	- The Internal IP column will usually display the private IP address of the target.
 
 Click on the agent's name to interact with the agent.
-```markdown
-
-```
+![[Pasted image 20240128122145.png]]
 
 ### Modules & Exploration
 
