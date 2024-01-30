@@ -46,6 +46,8 @@ In Cobalt Strike there are multiple ways to setup a listener.:
 Cobalt Strike supports host rotation as well, This will make sure that the beacon will rotate hosts on a predefined set of rules.
 - It can be set to Random or set as a fallback mechanism. 
 - Not only does this help reduce indicators of compromise as the beacon will not phone home to the same IP all the time, it also makes it more robust in case one of your IPs or domain names get blacklisted. 
+
+![[Pasted image 20240130231227.png]]
 ### Create a Launcher payload
 
 
