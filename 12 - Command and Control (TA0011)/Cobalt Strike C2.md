@@ -206,7 +206,8 @@ We can also execute shell commands using shell or PowerShell commands using Powe
 ### Modules 
 
 Cobalt Strike also has built-in file browsing capabilities.
- Right click your beacon in the beacon overview on the top side of the client and select `Explore -> File Browser`
+Right click your beacon in the beacon overview on the top side of the client and select `Explore -> File Browser`
+![[Pasted image 20240131001504.png]]
 
 ## Research | Bonus
 
