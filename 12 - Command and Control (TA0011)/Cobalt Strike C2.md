@@ -52,8 +52,12 @@ Cobalt Strike supports host rotation as well, This will make sure that the beaco
 3. Press the Save button, if all went well a new Listener should be registered and visible in the Listeners tab.
 ![[Pasted image 20240130231443.png]]
 ### Create a Launcher payload
-1. Cobalt Strike supports multiple file extensions to generate payloads, ranging from binaries to raw shellcode to PowerShell scripts and yes... even Macros! 
-	1. 
+Cobalt Strike supports multiple file extensions to generate payloads, ranging from binaries to raw shellcode to PowerShell scripts and yes... even Macros! 
+
+The easiest way to infect a victim is by execution of a PowerShell Script:
+1. Navigating to the Attacks tab in the top of your client and selecting `Scripted Web Delivery (S)`
+	1. Note:  Cobalt Strike Allows you to generate a malicious script to execute Beacon and host it on the Cobalt Strike server at the same time. *Check OPSEC Tip Bel*
+2. 
 
 
 
