@@ -186,7 +186,7 @@ Beacon Commands
     windows_error_code        Show the Windows error code for a Windows error code number
 
 ```
-###### Default Config + Malleaable Profile
+###### Default Config + Malleable Profile
 - When not using a Malleable Profile (a file that can change the way Cobalt Strike beacons behave, that has to be set on the server side.), Cobalt Strike falls back to default values. 
 - By default, Cobalt Strike beacons will sleep for 1 minute, for the sake of this lab, let's change that behavior and make our shorthaul interactive for a while. 
 	- Make Beacon interactive by reducing shorthaul - `beacon> sleep 0`
