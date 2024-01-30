@@ -33,7 +33,15 @@ The cobalt strike client can be found on the student instance, which can be reac
 1. A command and control server is useless if we do not listen for new incoming connections, Let's fix that right now.
 
 In Cobalt Strike there are multiple ways to setup a listener.:
-1.  Click Headphone icon on menu or Click on Cobalt Strike on the top of the client and then select Listeners. 
+1.  Click Headphone icon on menu or Click on Cobalt Strike on the top of the menu and then select Listeners. 
+2. A new tab is now going to open in the bottom half of your client called Listeners, go ahead and click the Add button.
+	1. Name : The name of the listener, pick something descriptive for example HTTPS-Short or DNS-Long
+	2. Payload: This is what type of payload the listener should expect, there are a bunch of options here as Cobalt Strike supports:
+        `Peer-to-peer` connections over `TCP` or `SMB`.
+        Can communicate to the internet over `DNS, HTTP or HTTPS`.
+        There is also support for metasploit through `Foreign` listeners
+        Finally, the concept of externalC2 which allows you to create your own command and control channel that will interface with Cobalt Strike.
+
 
 ### Create a Launcher payload
 
