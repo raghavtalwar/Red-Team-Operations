@@ -42,7 +42,10 @@ In Cobalt Strike there are multiple ways to setup a listener.:
         There is also support for metasploit through `Foreign` listeners
     3. Finally, the concept of `externalC2` which allows you to create your own command and control channel that will interface with Cobalt Strike.
 
-Cobalt Strike supports host rotation as well, This will make sure that the beacon will rotate hosts on a predefined set of rules. It can be set to Random or set as a fallback mechanism. Not only does this help reduce indicators of compromise as the beacon will not phone home to the same IP all the time, it also makes it more robust in case one of your IPs or domain names get blacklisted. 
+###### Host Rotation 
+Cobalt Strike supports host rotation as well, This will make sure that the beacon will rotate hosts on a predefined set of rules.
+- It can be set to Random or set as a fallback mechanism. 
+- Not only does this help reduce indicators of compromise as the beacon will not phone home to the same IP all the time, it also makes it more robust in case one of your IPs or domain names get blacklisted. 
 ### Create a Launcher payload
 
 
