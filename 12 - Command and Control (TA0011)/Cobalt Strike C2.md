@@ -58,8 +58,8 @@ Cobalt Strike supports host rotation as well, This will make sure that the beaco
 
 
 *Red Team Tip: It is not smart to take the approach we are showing in this exercise in a stealthy red team.
-Hosting a malicious PowerShell script directly on the server exposes the IP of the server in case the SOC catches wind of your engagement.
-A better way to do this would be to have a separate "staging" server that is hardened for example using rewrite conditions based on URL and user agents, it is also smart to modify the generated script so static detections can be bypassed. For example leveraging AWS s3 bucket* 
+- *Hosting a malicious PowerShell script directly on the server exposes the IP of the server in case the SOC catches wind of your engagement.
+- *A better way to do this would be to have a separate "staging" server that is hardened for example using rewrite conditions based on URL and user agents, it is also smart to modify the generated script so static detections can be bypassed. For example leveraging AWS s3 bucket
 
 ### Deliver Beacon  
 
