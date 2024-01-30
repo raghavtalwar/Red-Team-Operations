@@ -1,8 +1,8 @@
 ###### Tags: [[]] | #
 
 Obsidian Linking Example: 
-1. Link: If creating a Cheatsheet on a tool we can link its underlying stuff to a note or link it to a c2 
-2. Tool cheatsheet can create links to technique theory
+1. One of the key advantages of obsidian comes from it’s linking feature that allows you to link notes together by referencing a note using the double bracket notation.
+2. Tool cheatsheet can create links to technique theory or achieve it via c2
 ## Overview 
 
 ```markdown
