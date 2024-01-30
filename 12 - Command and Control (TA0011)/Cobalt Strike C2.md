@@ -40,9 +40,8 @@ In Cobalt Strike there are multiple ways to setup a listener.:
         `Peer-to-peer` connections over `TCP` or `SMB`.
         Can communicate to the internet over `DNS, HTTP or HTTPS`.
         There is also support for metasploit through `Foreign` listeners
-        Finally, the concept of externalC2 which allows you to create your own command and control channel that will interface with Cobalt Strike.
 
-
+Finally, the concept of `externalC2` which allows you to create your own command and control channel that will interface with Cobalt Strike.
 ### Create a Launcher payload
 
 
