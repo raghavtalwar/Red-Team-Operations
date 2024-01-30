@@ -35,13 +35,14 @@ The cobalt strike client can be found on the student instance, which can be reac
 In Cobalt Strike there are multiple ways to setup a listener.:
 1.  Click Headphone icon on menu or Click on Cobalt Strike on the top of the menu and then select Listeners. 
 2. A new tab is now going to open in the bottom half of your client called Listeners, go ahead and click the Add button.
-	1. Name : The name of the listener, pick something descriptive for example HTTPS-Short or DNS-Long
-	2. Payload: This is what type of payload the listener should expect, there are a bunch of options here as Cobalt Strike supports:
+	1. `Name:` The name of the listener, pick something descriptive for example HTTPS-Short or DNS-Long
+	2. `Payload:` This is what type of payload the listener should expect, there are a bunch of options here as Cobalt Strike supports:
         `Peer-to-peer` connections over `TCP` or `SMB`.
         Can communicate to the internet over `DNS, HTTP or HTTPS`.
         There is also support for metasploit through `Foreign` listeners
+    3. Finally, the concept of `externalC2` which allows you to create your own command and control channel that will interface with Cobalt Strike.
 
-Finally, the concept of `externalC2` which allows you to create your own command and control channel that will interface with Cobalt Strike.
+Cobalt Strike supports host rotation as well, This will make sure that the beacon will rotate hosts on a predefined set of rules. It can be set to Random or set as a fallback mechanism. Not only does this help reduce indicators of compromise as the beacon will not phone home to the same IP all the time, it also makes it more robust in case one of your IPs or domain names get blacklisted. 
 ### Create a Launcher payload
 
 
