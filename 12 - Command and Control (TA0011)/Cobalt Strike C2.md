@@ -56,9 +56,10 @@ Cobalt Strike supports multiple file extensions to generate payloads, ranging fr
 
 The easiest way to infect a victim is by execution of a PowerShell Script:
 1. Navigating to the Attacks tab in the top of your client and selecting `Scripted Web Delivery (S)`
-	1. Note:  Cobalt Strike Allows you to generate a malicious script to execute Beacon and host it on the Cobalt Strike server at the same time. *Check OPSEC Tip Bel*
-2. 
-
+	1. Note:  Cobalt Strike Allows you to generate a malicious script to execute Beacon and host it on the Cobalt Strike server at the same time. *Check OPSEC Tip Below*
+2. Please check and fill in the following values:
+![[Pasted image 20240130232846.png]]
+3. A new Dialogue should appear with the url that you can copy paste. We can also  automatically copy the URL back to your clipboard by going to Site Management -> Manage on top of your Cobalt Strike Client
 
 
 *Red Team Tip: It is not smart to take the approach we are showing in this exercise in a stealthy red team.
