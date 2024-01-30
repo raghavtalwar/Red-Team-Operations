@@ -30,9 +30,9 @@ The cobalt strike client can be found on the student instance, which can be reac
 
 ![[Pasted image 20240130225923.png]]
 ### Create an Cobalt Strike listener
-1. A command and control server is useless if we do not listen for new incoming connections, Let's fix that right now.
+A command and control server is useless if we do not listen for new incoming connections, Let's fix that right now. In this guide we are looking at easiest example to setup a Listener and Launcher/Payload
 
-In Cobalt Strike there are multiple ways to setup a listener.:
+In Cobalt Strike there are multiple ways to setup a listener:
 1.  Click Headphone icon on menu or Click on Cobalt Strike on the top of the menu and then select Listeners. 
 2. A new tab is now going to open in the bottom half of your client called Listeners, go ahead and click the Add button.
 	1. `Name:` The name of the listener, pick something descriptive for example HTTPS-Short or DNS-Long
@@ -54,6 +54,8 @@ Cobalt Strike supports host rotation as well, This will make sure that the beaco
 ### Create a Launcher payload
 1. Cobalt Strike supports multiple file extensions to generate payloads, ranging from binaries to raw shellcode to PowerShell scripts and yes... even Macros! 
 	1. 
+
+
 
 ### Deliver Beacon  
 
