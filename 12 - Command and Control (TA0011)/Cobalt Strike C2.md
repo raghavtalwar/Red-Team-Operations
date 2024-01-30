@@ -10,7 +10,17 @@
 
 ## Overview 
 
+The cobalt strike client can be found on the student instance, which can be reached via guacamole only. The credentials are:
+
+    url: http://10.130.2.22:8080/guacamole
+    username: student
+    password: Sec565!!
+
 ##### Installation
+
+
+
+![[Pasted image 20240130225807.png]]
 
 
 ### Create an Cobalt Strike listener
