@@ -191,7 +191,8 @@ Beacon Commands
 - By default, Cobalt Strike beacons will sleep for 1 minute, for the sake of this lab, let's change that behavior and make our shorthaul interactive for a while. 
 	- Make Beacon interactive by reducing shorthaul - `beacon> sleep 0`
 
-
+6. 
+7. 
 
 ### Modules 
 
