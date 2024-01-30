@@ -37,7 +37,7 @@
 ## Conclusion
 - In this lab we explored another command and control framework. 
 - We created a listener and a PowerShell launcher. 
-	- We RDP'd directly into the environment and used a download cradle to retrieve and execute our launcher. 
+	- We RDP directly into the environment and used a download cradle to retrieve and execute our launcher. 
 	- We explored a few of the tasks/modules that the framework provides including how to transform our shorthaul into an interactive haul instead.
 
 
