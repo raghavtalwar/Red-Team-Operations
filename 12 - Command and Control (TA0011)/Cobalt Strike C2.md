@@ -192,7 +192,7 @@ Beacon Commands
 	- Make Beacon interactive by reducing shorthaul - `beacon> sleep 0`
 
 6. One of the commands is the `sleep` command, which modifies how long a beacon should sleep, we can find out more information about the sleep command by typing `help sleep`
-7. Let's make our beacon interactive by typing sleep 0 After a few seconds (60 at most), beacon should become interactive. You can validate this because the last column in the beacon overview on the top of the client will refresh very quickly.
+7. Let's make our beacon interactive by typing `sleep 0` After a few seconds (60 at most), beacon should become interactive. You can validate this because the last column in the beacon overview on the top of the client will refresh very quickly.
 
 ### Modules 
 
