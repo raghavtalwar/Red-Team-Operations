@@ -30,7 +30,10 @@ The cobalt strike client can be found on the student instance, which can be reac
 
 ![[Pasted image 20240130225923.png]]
 ### Create an Cobalt Strike listener
+1. A command and control server is useless if we do not listen for new incoming connections, Let's fix that right now.
 
+In Cobalt Strike there are multiple ways to setup a listener.:
+1.  Click Headphone icon on menu or Click on Cobalt Strike on the top of the client and then select Listeners. 
 
 ### Create a Launcher payload
 
