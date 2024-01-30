@@ -17,12 +17,18 @@ The cobalt strike client can be found on the student instance, which can be reac
     password: Sec565!!
 
 ##### Installation
-
-
+1. Start the Cobalt Strike client by navigating to C:\Tools\cobaltstrike and double clicking the cobaltstrike application.
 
 ![[Pasted image 20240130225807.png]]
 
+2. In the client please fill in the following values:
+    `Host:` 10.130.4.100
+    Select a username that you really like (or keep Neo)
+    As password, please fill in the following sec565@!
 
+3. If everything looks OK, click the Connect button. 
+
+![[Pasted image 20240130225923.png]]
 ### Create an Cobalt Strike listener
 
 
