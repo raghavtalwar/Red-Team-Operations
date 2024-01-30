@@ -48,8 +48,12 @@ Cobalt Strike supports host rotation as well, This will make sure that the beaco
 - Not only does this help reduce indicators of compromise as the beacon will not phone home to the same IP all the time, it also makes it more robust in case one of your IPs or domain names get blacklisted. 
 
 ![[Pasted image 20240130231227.png]]
-### Create a Launcher payload
 
+3. Press the Save button, if all went well a new Listener should be registered and visible in the Listeners tab.
+![[Pasted image 20240130231443.png]]
+### Create a Launcher payload
+1. Cobalt Strike supports multiple file extensions to generate payloads, ranging from binaries to raw shellcode to PowerShell scripts and yes... even Macros! 
+	1. 
 
 ### Deliver Beacon  
 
