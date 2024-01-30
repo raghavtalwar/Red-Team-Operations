@@ -30,7 +30,6 @@
 
 ## Research | Bonus
 
-
 [Malleable-C2-Profiles](https://github.com/BC-SECURITY/Malleable-C2-Profiles)
 
 #### Malleable C2 Profile
