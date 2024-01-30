@@ -200,8 +200,8 @@ Beacon Commands
     `getuid
 
 We can also execute shell commands using shell or PowerShell commands using Powershell, for example:
-    shell net localgroup administrators
-    powershell get-service
+    `shell net localgroup administrators
+    `powershell get-service
 
 ### Modules 
 
