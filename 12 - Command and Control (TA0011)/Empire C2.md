@@ -1,4 +1,3 @@
-
 ### Objectives
 
     Review the features of Empire
