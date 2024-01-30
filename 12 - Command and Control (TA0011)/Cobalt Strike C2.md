@@ -35,9 +35,6 @@
 #### Malleable C2 Profile
 1. 
 
-#### Network Footprinting
-Lessons learned
-	1. 
 
 ## Conclusion
 - 
