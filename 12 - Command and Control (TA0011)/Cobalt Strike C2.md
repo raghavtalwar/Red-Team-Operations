@@ -76,7 +76,9 @@ xfreerdp +clipboard /cert-ignore /u:Gareth.Kilgallen /p:Hu825meapvsAq#Rx /v:wk01
 3. The window should disappear and a new beacon should check in and register on the C2.
 ![[Pasted image 20240130233038.png]]
 ### Interacting with our beacon 
+When not using a Malleable Profile (a file that can change the way Cobalt Strike beacons behave, that has to be set on the server side.), Cobalt Strike falls back to default values. 
 
+By default, Cobalt Strike beacons will sleep for 1 minute, for the sake of this lab, let's change that behavior and make our shorthaul interactive for a while. 
 
 ### Modules 
 
