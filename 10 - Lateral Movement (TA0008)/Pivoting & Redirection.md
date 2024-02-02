@@ -6,9 +6,10 @@
     Find the port for the FTP Server on 10.212.243.13
     Review the walkthrough
 
-```md
+```markdown
 sec565@slingshot:/labs/sec-2/pivoting/backup$ ls
 config  config-with-comments  id_ed25519
 
-# dcs
+# SSH to the bastion host
+
 ```
