@@ -13,3 +13,5 @@ config  config-with-comments  id_ed25519
 # SSH to the bastion host
 
 ```
+
+In Local port forwarding, <Local Port> comes first whereas Remote port forwarding we mention <rRemote Port>
