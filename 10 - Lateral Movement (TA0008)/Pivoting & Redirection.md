@@ -124,5 +124,7 @@ In Local port forwarding, <Local Port> comes first whereas Remote port forwardin
 
 [Tunneling and Port Forwarding Cheat Sheet](https://github.com/twelvesec/port-forwarding)
 
+1. Link Proxychains > Access Methods Here
+	1. Simple method is to take a page and see how can you link it to other pages
 ## Conclusion
 
