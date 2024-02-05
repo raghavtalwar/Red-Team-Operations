@@ -92,6 +92,17 @@ In Local port forwarding, <Local Port> comes first whereas Remote port forwardin
 #### Notes
 - Method works on both Linux & Windows
 
+----
+## [[Pivoting w/o SSH - SShuttel]] 
+### Overview
+
+### Enumeration 
+
+### Exploitation
+
+#### Notes
+- Method works on both Linux & Windows
+
 -----
 ## Research | Bonus
 
