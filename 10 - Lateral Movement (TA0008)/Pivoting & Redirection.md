@@ -83,6 +83,7 @@ In Local port forwarding, <Local Port> comes first whereas Remote port forwardin
 -----
 ## Research | Bonus
 
+[Tunneling and Port Forwarding Cheat Sheet](https://github.com/twelvesec/port-forwarding)
 
 ## Conclusion
 
