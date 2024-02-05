@@ -7,7 +7,6 @@
     Catch the beacon on pivot-1 on port 58671
     Find the port for the FTP Server on 10.212.243.13
     Review the walkthrough
-
 ##### Scenario for Pivoting
 Attacker Machine > Pivot Machine > Target Machine
 1. Once we gain access to the Pivot Machine
@@ -18,7 +17,6 @@ Attacker Machine > Pivot Machine > Target Machine
 Attacker Machine </> Pivot Machine
 - We might discover Services running on Localhost or on another internal network range
 	- Internal ports can be reached by a Threat attacker via Port Forwarding
-
 ##### Scenario for Dynamic Port forwarding (Tunneling)
 Attacker Machine < Pivot Machine
 - EDR Bypass: We can create a Dynamic port forwarding socks Tunnel
@@ -120,7 +118,6 @@ In Local port forwarding, <Local Port> comes first whereas Remote port forwardin
 ### Exploitation
 
 #### Notes
-- Method works on both Linux & Windows
 
 -----
 ## Research | Bonus
