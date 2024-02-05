@@ -21,6 +21,8 @@ Attacker Machine </> Pivot Machine
 Attacker Machine < Pivot Machine
 - EDR Bypass: We can create a Dynamic port forwarding socks Tunnel
 
+##### Scenario for Redirection
+
 
 ```markdown
 sec565@slingshot:/labs/sec-2/pivoting/backup$ ls
