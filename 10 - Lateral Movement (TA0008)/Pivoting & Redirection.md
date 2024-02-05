@@ -8,10 +8,16 @@
     Find the port for the FTP Server on 10.212.243.13
     Review the walkthrough
 
-#### Scenario for Pivoting
+##### Scenario for Pivoting
+Attacker Machine > Pivot Machine > Target Machine
+1. Once we gain access to the Pivot Machine
+2. `ipconfig / ifconfig` > We are connected to a another network
+3. Check other Live Machines on that Target Network
+4. Scan for Open Ports > Target Machine
+##### Scenario for Port forwarding (with SSH) & Tunneling (w/o SSH)
 
 
-#### Sc
+
 ```markdown
 sec565@slingshot:/labs/sec-2/pivoting/backup$ ls
 config  config-with-comments  id_ed25519
@@ -68,11 +74,6 @@ In Local port forwarding, <Local Port> comes first whereas Remote port forwardin
 
 ### Overview
 
-Attacker Machine > Pivot Machine > Target Machine
-1. Once we gain access to the Pivot Machine
-2. `ipconfig / ifconfig` > We are connected to a another network
-3. Check other Live Machines on that Target Network
-4. Scan for Open Ports > Target Machine
 ### Enumeration 
 
 ### Exploitation
