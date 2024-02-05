@@ -28,7 +28,7 @@ config  config-with-comments  id_ed25519
 
 #### Resources
 
-
+-----
 ## Remote Port Forwarding
 
 `In Local port forwarding, <Local Port> comes first whereas Remote port forwarding we mention <Remote Port>
@@ -41,8 +41,18 @@ config  config-with-comments  id_ed25519
 
 #### Resources
 
-## D
+-----
+## Dynamic Port Forwarding 
 
+### Overview
+
+### Enumeration 
+
+### Exploitation
+
+#### Resources
+
+-----
 # Pivoting
 
 ### Overview
