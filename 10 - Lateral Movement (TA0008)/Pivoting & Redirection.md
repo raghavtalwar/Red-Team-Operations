@@ -21,7 +21,7 @@ Attacker Machine <> Pivot Machine
 
 ##### Scenario for Dynamic Port forwarding (Tunneling)
 Attacker Machine < Pivot Machine
-- EDR Bypass: We can create a Dynamic socks proxy Tunnel
+- EDR Bypass: We can create a Dynamic port forwarding socks proxy Tunnel
 
 
 ```markdown
