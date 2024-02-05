@@ -14,13 +14,13 @@ config  config-with-comments  id_ed25519
 
 # SSH to the bastion host
 
+`In Local port forwarding, <Local Port> comes first whereas Remote port forwarding we mention <Remote Port> 
+
 ```
 
 # Port Forwarding
 
 ## [[Local Port Forwarding]]
-
-`In Local port forwarding, <Local Port> comes first whereas Remote port forwarding we mention <Remote Port> 
 
 ### Overview
 
@@ -28,7 +28,7 @@ config  config-with-comments  id_ed25519
 
 ### Exploitation
 
-#### Resources
+#### Notes
 
 -----
 ## [[Remote Port Forwarding]]
@@ -41,7 +41,7 @@ config  config-with-comments  id_ed25519
 
 ### Exploitation
 
-#### Resources
+#### Notes
 
 -----
 ## [[Dynamic Port Forwarding]] 
@@ -52,7 +52,7 @@ config  config-with-comments  id_ed25519
 
 ### Exploitation
 
-#### Resources
+#### Notes
 
 -----
 # Pivoting
@@ -63,7 +63,7 @@ config  config-with-comments  id_ed25519
 
 ### Exploitation
 
-#### Resources
+#### Notes
 
 -----
 ## Research | Bonus
