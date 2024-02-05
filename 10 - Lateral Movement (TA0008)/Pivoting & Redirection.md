@@ -20,7 +20,7 @@ config  config-with-comments  id_ed25519
 
 ## Local Port Forwarding
 
-`In Local port forwarding, <Local Port> comes first whereas Remote port forwarding we mention <Remote Port>
+`In Local port forwarding, <Local Port> comes first whereas Remote port forwarding we mention <Remote Port> 
 
 ### Overview
 
