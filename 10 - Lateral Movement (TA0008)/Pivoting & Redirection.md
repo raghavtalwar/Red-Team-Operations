@@ -15,13 +15,13 @@ Attacker Machine > Pivot Machine > Target Machine
 3. Check other Live Machines on that Target Network
 4. Scan for Open Ports > Target Machine
 ##### Scenario for Local & Dynamic Port forwarding (with SSH) 
-Attacker Machine <> Pivot Machine
+Attacker Machine </> Pivot Machine
 - We might discover Services running on Localhost or on another internal network range
 	- Internal ports can be reached by a Threat attacker via Port Forwarding
 
 ##### Scenario for Dynamic Port forwarding (Tunneling)
 Attacker Machine < Pivot Machine
-- EDR Bypass: We can create a Dynamic port forwarding socks proxy Tunnel
+- EDR Bypass: We can create a Dynamic port forwarding socks Tunnel
 
 
 ```markdown
@@ -41,6 +41,9 @@ config  config-with-comments  id_ed25519
 ### Enumeration 
 
 ### Exploitation
+```
+sudo ssh -L 5080:10.199.2.120:800 bastion@127.0.0.1 -i id_ed25519
+```
 
 #### Notes
 
