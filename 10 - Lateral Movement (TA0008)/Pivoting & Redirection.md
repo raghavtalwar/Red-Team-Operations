@@ -42,7 +42,7 @@ config  config-with-comments  id_ed25519
 
 ### Exploitation
 ```
-sudo ssh -p 2222 -L 5080:10.199.2.120:800 bastion@127.0.0.1 -i id_ed25519
+sudo ssh -p 2222 -L 0.0.0.0:5080:10.199.2.120:800 bastion@127.0.0.1 -i id_ed25519
 ```
 
 #### Notes
