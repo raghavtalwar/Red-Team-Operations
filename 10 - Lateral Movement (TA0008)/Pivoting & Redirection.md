@@ -64,6 +64,13 @@ In Local port forwarding, <Local Port> comes first whereas Remote port forwardin
 
 ### Overview
 
+## Scenario for Pivoting
+
+Attacker Machine > Pivot Machine > Target Machine
+1. Once we gain acces to the Pivot Machine
+2. `ipconfig / ifconfig` > We are connected to a another network
+3. Check other Live Machines on that Target Network
+4. Scan for Open Ports > Target Machine
 ### Enumeration 
 
 ### Exploitation
