@@ -60,6 +60,18 @@ In Local port forwarding, <Local Port> comes first whereas Remote port forwardin
 -----
 # Pivoting
 
+## [[Pivoting via SSH]]
+
+### Overview
+
+### Enumeration 
+
+### Exploitation
+
+#### Notes
+
+----
+## [[Pivoting w/o SSH]]
 ### Overview
 
 ### Enumeration 
