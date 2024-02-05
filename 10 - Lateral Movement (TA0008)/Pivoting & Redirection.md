@@ -15,7 +15,12 @@ Attacker Machine > Pivot Machine > Target Machine
 3. Check other Live Machines on that Target Network
 4. Scan for Open Ports > Target Machine
 ##### Scenario for Port forwarding (with SSH) & Tunneling (w/o SSH)
-
+Attacker Machine <> Pivot Machine
+- We might discover Services running on Localhost or on another internal network range
+	- Internal ports can be reached by a Threat attacker via Port Forwarding
+	
+Attacker Machine < Pivot Machine
+- EDR Bypass: We can create a Dyanmic socks proxy Tu
 
 
 ```markdown
