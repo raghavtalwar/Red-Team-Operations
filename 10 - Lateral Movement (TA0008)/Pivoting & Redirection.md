@@ -14,13 +14,14 @@ Attacker Machine > Pivot Machine > Target Machine
 2. `ipconfig / ifconfig` > We are connected to a another network
 3. Check other Live Machines on that Target Network
 4. Scan for Open Ports > Target Machine
-##### Scenario for Port forwarding (with SSH) & Tunneling (w/o SSH)
+##### Scenario for Local & Dynamic Port forwarding (with SSH) 
 Attacker Machine <> Pivot Machine
 - We might discover Services running on Localhost or on another internal network range
 	- Internal ports can be reached by a Threat attacker via Port Forwarding
-	
+
+##### Scenario for Dynamic Port forwarding (Tunneling)
 Attacker Machine < Pivot Machine
-- EDR Bypass: We can create a Dyanmic socks proxy Tu
+- EDR Bypass: We can create a Dynamic socks proxy Tunnel
 
 
 ```markdown
