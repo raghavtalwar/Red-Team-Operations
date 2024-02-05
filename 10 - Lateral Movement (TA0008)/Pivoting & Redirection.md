@@ -79,6 +79,18 @@ In Local port forwarding, <Local Port> comes first whereas Remote port forwardin
 ### Exploitation
 
 #### Notes
+- Method works on both Linux & Windows
+
+----
+## [[Pivoting w/o SSH - Socat]] 
+### Overview
+
+### Enumeration 
+
+### Exploitation
+
+#### Notes
+- Method works on both Linux & Windows
 
 -----
 ## Research | Bonus
