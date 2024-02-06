@@ -37,7 +37,10 @@ config  config-with-comments  id_ed25519
 ## [[Local Port Forwarding]]
 
 ### Overview
-
+**Bastion Host**
+- First we need access to the network, access is protected with a bastion host. 
+- In certain network configurations, the bastion host is hardened and available on the public internet.
+- The key is to configure this host to have as little attack surface as possible, resiliency to internet traffic, and to perform authentication on incoming connections.
 ### Enumeration 
 
 ### Exploitation
