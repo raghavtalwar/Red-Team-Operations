@@ -66,11 +66,13 @@ Fill from Gitbook & PwC Notes
 ### Exploitation
 ```markdown
 # SSH 
+ssh -p 2222 bastion@pivotclub -D 9050
+- Proxychains config
+cat /etc/proxychains.conf
+	+ socks4 	127.0.0.1 9050  
 
-
-# Proxychains config
-- Last Line
-socks4 	127.0.0.1 9050
+# Proxychains to reach internal subnet
+proxychains curl http://10.199.2.120
 ```
 
 #### Notes
