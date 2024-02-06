@@ -110,7 +110,10 @@ The address is `10.212.243.13` with `user: tyler and password: fightclub`
 
 ### Exploitation
 ```markdown
+# Method 1 - Local Port Forwarding + SSH into the Target host
 
+
+# Method 2 - Single SSH Command
 ```
 ![[Pasted image 20240206233249.png]]
 #### Notes
