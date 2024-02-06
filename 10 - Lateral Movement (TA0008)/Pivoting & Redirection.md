@@ -41,6 +41,8 @@ config  config-with-comments  id_ed25519
 to a private subnet.
 - In certain network configurations, the bastion host is hardened and available on the public internet.
 - The key is to configure this host to have as little attack surface as possible, resiliency to internet traffic, and to perform authentication on incoming connections.
+
+Challenge 1: The next challenge is to forward a port to view a web server on an internal network. The address is 10.199.2.120 and it is listening on port 80.
 ### Enumeration 
 
 
@@ -73,7 +75,7 @@ Fill from Gitbook & PwC Notes
 ## [[Dynamic Port Forwarding]] 
 
 ### Overview
-Challenge 1: The next challenge is to forward a port or create a forward tunnel to view a web server on an internal network. The address is 10.199.2.120 and it is listening on port 80.
+Challenge 2: The next challenge is to create a forward tunnel to view a web server on an internal network. The address is 10.199.2.120 and it is listening on port 80.
 ### Enumeration 
 
 Learn how can we identify the internal network range that is only accessible by the Pivot Machine
@@ -100,7 +102,7 @@ proxychains curl http://10.199.2.120
 ## [[Double Pivoting via SSH]]
 
 ### Overview
-Challenge 2: The next challenge is to SSH to the pivot host through the bastion. 
+Challenge 3: The next challenge is to SSH to the pivot host through the bastion. 
 The address is `10.212.243.13` with `user: tyler and password: fightclub`
 - We will use the bastion host to communicate with a Jumphost or an intermediary host. In the first method we will use a forward tunnel to the second SSH host in order to connect.
 
