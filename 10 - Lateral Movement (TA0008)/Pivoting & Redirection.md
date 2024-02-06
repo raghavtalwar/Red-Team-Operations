@@ -129,13 +129,14 @@ In Local port forwarding, <Local Port> comes first whereas Remote port forwardin
 1. Link SSH , Proxychains Configuration & its Usage > Access Methods with this one
 	1. Simple method is to take a page and see how can you link it to other pages
 
-#### [[Proxychains & SSH Configuration]]
+#### [[Proxychains Cheatsheet & Configuration]]
 ```markdown
+
 
 
 # Proxychains in action
 proxychains curl http://10.199.2.120
 ```
-#### [[Proxychains Cheatsheet]]
+
 ## Conclusion
 
