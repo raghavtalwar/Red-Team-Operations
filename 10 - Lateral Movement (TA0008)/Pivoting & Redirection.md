@@ -114,7 +114,7 @@ The address is `10.212.243.13` with `user: tyler and password: fightclub`
 ```
 ![[Pasted image 20240206233249.png]]
 #### Notes
-
+- Loca
 ----
 ## [[Pivoting w/o SSH - Chisel (HTTP Tunnel)]] 
 ### Overview
