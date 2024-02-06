@@ -63,39 +63,17 @@ ssh -p 2222 bastion@pivotclub -L 0.0.0.0:5080:10.199.2.120:80
 
 Fill from Gitbook & PwC Notes
 ### Overview
-The next challenge is to forward a port or create a forward tunnel to view a web server on an internal network. The address is 10.199.2.120 and it is listening on port 80.
+
 ### Enumeration 
 
-Learn how can we identify the internal network range that is only accessible by the Pivot Machine
-- Attacker Machine > Pivot Machine > Target Machine
-```markdown
-# Network
-```
 ### Exploitation
-```markdown
-# SSH 
-ssh -p 2222 bastion@pivotclub -D 9050
-- Proxychains config
-cat /etc/proxychains.conf
-	+ socks4 	127.0.0.1 9050  
-
-# Proxychains to reach internal subnet
-proxychains curl http://10.199.2.120
-```
-
 #### Notes
 
 -----
 ## [[Dynamic Port Forwarding]] 
 
 ### Overview
-
-### Enumeration 
-
-### Exploitation
-
-### Overview
-The next challenge is to forward a port or create a forward tunnel to view a web server on an internal network. The address is 10.199.2.120 and it is listening on port 80.
+Challenge 1: The next challenge is to forward a port or create a forward tunnel to view a web server on an internal network. The address is 10.199.2.120 and it is listening on port 80.
 ### Enumeration 
 
 Learn how can we identify the internal network range that is only accessible by the Pivot Machine
@@ -114,8 +92,6 @@ cat /etc/proxychains.conf
 # Proxychains to reach internal subnet
 proxychains curl http://10.199.2.120
 ```
-
-
 #### Notes
 
 -----
@@ -124,6 +100,7 @@ proxychains curl http://10.199.2.120
 ## [[Double Pivoting via SSH]]
 
 ### Overview
+Challenge 2: You will use the bastion host to communicate with a Jumphost or an intermediary host. In the first method we will use a forward tunnel to the second SSH host in order to connect.
 
 ### Enumeration 
 
