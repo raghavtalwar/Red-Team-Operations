@@ -45,18 +45,20 @@ config  config-with-comments  id_ed25519
 # SSH 
 ssh -p 2222 bastion@pivotclub -L 0.0.0.0:5080:10.199.2.120:80
 ```
+![[Pasted image 20240206224447.png]]
 #### Notes
 
 ```markdown
 # Syntax Formatting
-In Local port forwarding, <Local Port> comes first whereas Remote port forwarding we mention <Remote Port>
+- L <local_port>:<remote_host>:<remote_port>.
+	- In Local port forwarding, <Local Port> comes first whereas
+	- Remote port forwarding we <Remote Port> comes first
 ```
 
 -----
 ## [[Remote Port Forwarding]]
 
-`In Local port forwarding, <Local Port> comes first whereas Remote port forwarding we mention <Remote Port>
-
+Fill from Gitbook & PwC Notes
 ### Overview
 
 ### Enumeration 
