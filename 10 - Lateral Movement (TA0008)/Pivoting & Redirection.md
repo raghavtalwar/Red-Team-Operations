@@ -94,12 +94,34 @@ proxychains curl http://10.199.2.120
 
 ### Exploitation
 
+### Overview
+The next challenge is to forward a port or create a forward tunnel to view a web server on an internal network. The address is 10.199.2.120 and it is listening on port 80.
+### Enumeration 
+
+Learn how can we identify the internal network range that is only accessible by the Pivot Machine
+- Attacker Machine > Pivot Machine > Target Machine
+```markdown
+# Network
+```
+### Exploitation
+```markdown
+# SSH 
+ssh -p 2222 bastion@pivotclub -D 9050
+- Proxychains config
+cat /etc/proxychains.conf
+	+ socks4 	127.0.0.1 9050  
+
+# Proxychains to reach internal subnet
+proxychains curl http://10.199.2.120
+```
+
+
 #### Notes
 
 -----
 # Pivoting
 
-## [[Pivoting via SSH]]
+## [[Double Pivoting via SSH]]
 
 ### Overview
 
