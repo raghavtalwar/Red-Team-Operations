@@ -67,6 +67,10 @@ Fill from Gitbook & PwC Notes
 ```markdown
 # SSH 
 
+
+# Proxychains config
+- Last Line
+socks4 	127.0.0.1 9050
 ```
 
 #### Notes
