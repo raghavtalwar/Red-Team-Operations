@@ -116,11 +116,15 @@ The address is `10.212.243.13` with `user: tyler and password: fightclub`
 
 # Method 2 - Single SSH Command to gain access to the Target host
 
+
+- Before you exit the SSH session in your first terminal window, run ifconfig and take note of the two network adapters.
+
 ```
 ![[Pasted image 20240206233249.png]]
 #### Notes
 - Local and Remote port forwarding both will make the Target machine port accessible from the Attacker machine
-- 
+- When you are ready to tear down / close the SSH sessions and tunnels, (Double Pivoting via SSH)
+	- Start from the inner most tunnel. If you try to kill your initial bastion connection, SSH will leave the exit in a pending status until inner tunnels/sessions have had a chance to exit.
 ----
 ## [[Pivoting w/o SSH - Chisel (HTTP Tunnel)]] 
 ### Overview
