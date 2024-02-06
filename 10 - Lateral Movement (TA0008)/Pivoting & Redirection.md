@@ -42,7 +42,7 @@ config  config-with-comments  id_ed25519
 
 ### Exploitation
 ```markdown
-# SSH 
+# SSH Command
 ssh -p 2222 bastion@pivotclub -L 0.0.0.0:5080:10.199.2.120:80
 ```
 ![[Pasted image 20240206224447.png]]
@@ -64,6 +64,10 @@ Fill from Gitbook & PwC Notes
 ### Enumeration 
 
 ### Exploitation
+```markdown
+# SSH 
+
+```
 
 #### Notes
 
