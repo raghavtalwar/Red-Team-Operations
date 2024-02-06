@@ -43,6 +43,7 @@ to a private subnet.
 - The key is to configure this host to have as little attack surface as possible, resiliency to internet traffic, and to perform authentication on incoming connections.
 ### Enumeration 
 
+
 ### Exploitation
 ```markdown
 # SSH Command
@@ -50,7 +51,6 @@ ssh -p 2222 bastion@pivotclub -L 0.0.0.0:5080:10.199.2.120:80
 ```
 ![[Pasted image 20240206224447.png]]
 #### Notes
-
 ```markdown
 # Syntax Formatting
 - L <local_port>:<remote_host>:<remote_port>.
