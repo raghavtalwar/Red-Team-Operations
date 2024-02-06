@@ -102,14 +102,17 @@ proxychains curl http://10.199.2.120
 ## [[Double Pivoting via SSH]]
 
 ### Overview
-Challenge 3: The next challenge is to SSH to the pivot host through the bastion. 
+Challenge 3: The next challenge is to SSH to the pivot host (Target host) through the bastion. 
 The address is `10.212.243.13` with `user: tyler and password: fightclub`
 - We will use the bastion host to communicate with a Jumphost or an intermediary host. In the first method we will use a forward tunnel to the second SSH host in order to connect.
 
 ### Enumeration 
 
 ### Exploitation
+```markdown
 
+```
+![[Pasted image 20240206233249.png]]
 #### Notes
 
 ----
