@@ -60,9 +60,14 @@ ssh -p 2222 bastion@pivotclub -L 0.0.0.0:5080:10.199.2.120:80
 
 Fill from Gitbook & PwC Notes
 ### Overview
-
+The next challenge is to forward a port or create a forward tunnel to view a web server on an internal network. The address is 10.199.2.120 and it is listening on port 80.
 ### Enumeration 
 
+Learn how can we identify the internal network range that is only accessible by the Pivot Machine
+- Attacker Machine > Pivot Machine > Target Machine
+```markdown
+# Network
+```
 ### Exploitation
 ```markdown
 # SSH 
