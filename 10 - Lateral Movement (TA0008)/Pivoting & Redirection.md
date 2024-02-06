@@ -132,6 +132,10 @@ In Local port forwarding, <Local Port> comes first whereas Remote port forwardin
 #### [[Proxychains & SSH Configuration]]
 ```markdown
 
+
+# Proxychains in action
+proxychains curl http://10.199.2.120
 ```
+#### [[Proxychains Cheatsheet]]
 ## Conclusion
 
