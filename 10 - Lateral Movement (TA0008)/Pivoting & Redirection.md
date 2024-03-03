@@ -69,6 +69,11 @@ Fill from Gitbook & PwC Notes
 ### Enumeration 
 
 ### Exploitation
+```
+# SSH Command
+
+# 
+```
 #### Notes
 
 -----
