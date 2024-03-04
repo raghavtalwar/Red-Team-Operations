@@ -163,6 +163,11 @@ ssh tyler@10.212.243.13 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/n
 #
 ssh -p 2222 bastion@pivotclub -L2223:10.212.243.13:22
 
+# 
+ssh -p 2223 tyler@localhost -R10.112.3.199:58671:127.0.0.1:58671
+
+# 
+nc -klvp 58671
 
 
 ```
