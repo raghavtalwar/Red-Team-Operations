@@ -139,6 +139,8 @@ ssh -p 2222 bastion@pivotclub -L2223:10.212.243.13:22
 
 # Method 2 - Single SSH Command to gain access to the Target host
 ssh tyler@10.212.243.13 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -J bastion@pivotclub:2222
+	+ Enter Bastion password
+	+ Now enter 
 
 - Before you exit the SSH session in your first terminal window, run ifconfig and take note of the two network adapters.
 ```
