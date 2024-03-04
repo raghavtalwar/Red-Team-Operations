@@ -151,7 +151,7 @@ ssh tyler@10.212.243.13 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/n
 - When you are ready to tear down / close the SSH sessions and tunnels, (Double Pivoting via SSH)
 	- Start from the inner most tunnel. If you try to kill your initial bastion connection, SSH will leave the exit in a pending status until inner tunnels/sessions have had a chance to exit.
 
-## Catch a beacon (Local port forwarding )
+## Catch a beacon (Local & Remote port forwarding)
 
 Challenge 4: Something is beaconing to ip 10.112.3.199 pivot on port 58671, Can you tunnel it back?
 
