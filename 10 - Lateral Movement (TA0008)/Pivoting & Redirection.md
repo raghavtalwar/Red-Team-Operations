@@ -150,6 +150,11 @@ ssh tyler@10.212.243.13 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/n
 - Local and Remote port forwarding both will make the Target machine port accessible from the Attacker machine
 - When you are ready to tear down / close the SSH sessions and tunnels, (Double Pivoting via SSH)
 	- Start from the inner most tunnel. If you try to kill your initial bastion connection, SSH will leave the exit in a pending status until inner tunnels/sessions have had a chance to exit.
+
+## 
+
+![[Pasted image 20240304235457.png]]
+
 ----
 ## [[Pivoting w/o SSH - Chisel (HTTP Tunnel)]] 
 ### Overview
