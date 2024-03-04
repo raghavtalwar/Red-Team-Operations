@@ -117,7 +117,22 @@ The address is `10.212.243.13` with `user: tyler and password: fightclub`
 - 
 ```markdown
 
-for i in $(seq 1 254); do (ping -c 1 10.212.243.${i} | grep "bytes from" &); done;
+# Scan Envrionment for Live Machines via Ping
+
+for i in $(seq 1 254); do (ping -c 1 10.2.2.${i} | grep "bytes from" &); done;
+
+# Alternative to Nmap Scan
+
+
+
+# Fast Nmap Via Proxychains Trick using xargs and multithreading
+
+- To scan 65535 ports at a normal speed :
+
+seq 1 65535 | xargs -P 50 -I port proxychains -q nmap -p port -sT -T4 10.42.42.2 -oG 10.42.42.2 --open --append-output 10.42.42.2 -Pn -n
+
+
+
 ```
 ### Exploitation
 ```markdown
