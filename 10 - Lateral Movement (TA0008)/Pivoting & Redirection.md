@@ -162,17 +162,14 @@ Challenge 4: Something is beaconing to ip 10.112.3.199 pivot on port 58671, Can 
 ### Exploitation
 
 ```markdown
-
-# set up an SSH session with the bastion and a port forward to pivot-1 10.212.243.13
+# Set up an SSH session with the bastion and a port forward to pivot-1 10.212.243.13
 ssh -p 2222 bastion@pivotclub -L2223:10.212.243.13:22
 
-# 
+# Now we will set up a reverse tunnel by running the following on your host in your second terminal window
 ssh -p 2223 tyler@localhost -R10.112.3.199:58671:127.0.0.1:58671
 
-# 
+# In your third terminal window, create a netcat listener on your host to catch the beacon. 
 nc -klvp 58671
-
-
 ```
 
 ![[Pasted image 20240304235457.png]]
