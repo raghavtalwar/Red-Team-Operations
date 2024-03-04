@@ -118,21 +118,17 @@ The address is `10.212.243.13` with `user: tyler and password: fightclub`
 ```markdown
 
 # Scan Envrionment for Live Machines via Ping
-
 for i in $(seq 1 254); do (ping -c 1 10.2.2.${i} | grep "bytes from" &); done;
 
 # Alternative to Nmap Scan
 
-
+for p in $(seq 1 65535); do (nc -nvzw1 192.168.56.101 $p 2>&1 | grep open &) ;done
+(UNKNOWN) [192.168.56.101] 1194 (openvpn) : Connection refused
+(UNKNOWN) [192.168.56.101] 8080 (http-alt) open
 
 # Fast Nmap Via Proxychains Trick using xargs and multithreading
-
 - To scan 65535 ports at a normal speed :
-
 seq 1 65535 | xargs -P 50 -I port proxychains -q nmap -p port -sT -T4 10.42.42.2 -oG 10.42.42.2 --open --append-output 10.42.42.2 -Pn -n
-
-
-
 ```
 ### Exploitation
 ```markdown
