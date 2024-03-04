@@ -158,6 +158,7 @@ Challenge 4: Something is beaconing to ip 10.112.3.199 pivot on port 58671, Can 
 ### Overview
 
 ### Enumeration 
+- Send SANS support m
 
 ### Exploitation
 
