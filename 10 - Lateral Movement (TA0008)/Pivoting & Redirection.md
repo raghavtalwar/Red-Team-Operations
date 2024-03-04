@@ -123,7 +123,7 @@ Identifying range
 # Scan Envrionment for Live Machines via Ping
 for i in $(seq 1 254); do (ping -c 1 10.2.2.${i} | grep "bytes from" &); done;
 
-# Alternative to Nmap Scan via Netcat
+# Alternative to Nmap Scan via Netcat Port Scanning
 for p in $(seq 1 65535); do (nc -nvzw1 192.168.56.101 $p 2>&1 | grep open &); done
 (UNKNOWN) [192.168.56.101] 1194 (openvpn) : Connection refused
 (UNKNOWN) [192.168.56.101] 8080 (http-alt) open
