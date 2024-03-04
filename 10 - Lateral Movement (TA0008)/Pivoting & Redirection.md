@@ -163,7 +163,7 @@ Challenge 4: Something is beaconing to ip 10.112.3.199 pivot on port 58671, Can 
 
 ```markdown
 
-#
+# set up an SSH session with the bastion and a port forward to pivot-1 10.212.243.13
 ssh -p 2222 bastion@pivotclub -L2223:10.212.243.13:22
 
 # 
