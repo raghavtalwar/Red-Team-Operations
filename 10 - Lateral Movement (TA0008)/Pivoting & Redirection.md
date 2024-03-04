@@ -97,6 +97,7 @@ Learn how can we identify the internal network range that is only accessible by 
 ```markdown
 # SSH 
 ssh -p 2222 bastion@pivotclub -D 9050
+
 - Proxychains config
 cat /etc/proxychains.conf
 	+ socks4 	127.0.0.1 9050  
