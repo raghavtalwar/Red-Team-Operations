@@ -180,6 +180,14 @@ nc -klvp 58671
 
 ## Find the FTP Server
 
+Challenge 5: Scan for the random high port that is hosting an ftp server on 10.112.3.128. 
+When you find it, SSH with user: tyler and pass: squanderedpotential
+
+Challenge 6: SSH to pivot-2
+  ip: 10.112.3.12
+  port: 22
+  user: paulson
+  key: stolen from FTP
 ### Overview
 You will now SSH to the bastion, set up a forward tunnel, then SSH through the tunnel to the first pivot. On the second SSH session we will set up a socks proxy with -D. Once we establish this socks proxy we can use proxy chains to proxy our scanning and ftp traffic into the internal network.
 
