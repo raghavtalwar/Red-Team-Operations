@@ -67,7 +67,8 @@ Fill from Gitbook & PwC Notes
 ### Overview
 
 ### Enumeration 
-
+```
+```
 ### Exploitation
 ```markdown
 ### SSH Command
@@ -76,8 +77,6 @@ ssh -N -L $LOCAL_ADDRESS:$LOCAL_PORT:$REMOTE_ADDRESS:$REMOTE_PORT user@target
 
 # Remote port forwarding
 ssh -N -R $REMOTE_ADDRESS:$REMOTE_PORT:$LOCAL_ADDRESS:$LOCAL_PORT user@target
-
-# Syntax Formatting
 ```
 #### Notes
 
