@@ -116,7 +116,6 @@ The address is `10.212.243.13` with `user: tyler and password: fightclub`
 - Look into identifying range
 - 
 ```markdown
-
 # Scan Envrionment for Live Machines via Ping
 for i in $(seq 1 254); do (ping -c 1 10.2.2.${i} | grep "bytes from" &); done;
 
