@@ -152,6 +152,20 @@ ssh tyler@10.212.243.13 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/n
 	- Start from the inner most tunnel. If you try to kill your initial bastion connection, SSH will leave the exit in a pending status until inner tunnels/sessions have had a chance to exit.
 
 ## 
+### Overview
+
+### Enumeration 
+
+### Exploitation
+
+```markdown
+
+#
+ssh -p 2222 bastion@pivotclub -L2223:10.212.243.13:22
+
+
+
+```
 
 ![[Pasted image 20240304235457.png]]
 
