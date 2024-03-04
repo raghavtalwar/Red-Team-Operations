@@ -187,7 +187,15 @@ You will now SSH to the bastion, set up a forward tunnel, then SSH through the t
 
 
 ### Exploitation
-```
+```markdown
+# 
+ssh -p 2222 bastion@pivotclub -L2223:10.212.243.13:22
+
+# 
+ssh -p 2223 tyler@localhost -D9050
+
+# 
+proxychains nmap -Pn -sT -p- 10.112.3.207
 
 ```
 ![[Pasted image 20240305001728.png]]
