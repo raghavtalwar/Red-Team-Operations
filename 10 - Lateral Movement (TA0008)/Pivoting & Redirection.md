@@ -70,7 +70,12 @@ Fill from Gitbook & PwC Notes
 
 ### Exploitation
 ```markdown
-# SSH Command
+### SSH Command
+# Local port forwarding
+ssh -N -L $LOCAL_ADDRESS:$LOCAL_PORT:$REMOTE_ADDRESS:$REMOTE_PORT user@target
+
+# Remote port forwarding
+ssh -N -R $REMOTE_ADDRESS:$REMOTE_PORT:$LOCAL_ADDRESS:$LOCAL_PORT user@target
 
 # Syntax Formatting
 ```
