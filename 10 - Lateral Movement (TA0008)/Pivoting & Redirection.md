@@ -113,7 +113,7 @@ The address is `10.212.243.13` with `user: tyler and password: fightclub`
 
 **Scenario: Attacker Machine > Bastion / Pivot Machine > Target Range > Target Host** 
 ### Enumeration 
-- Look into identifying range
+Identifying range
 ```markdown
 # Scan Envrionment for Live Machines via Ping
 for i in $(seq 1 254); do (ping -c 1 10.2.2.${i} | grep "bytes from" &); done;
