@@ -113,7 +113,8 @@ The address is `10.212.243.13` with `user: tyler and password: fightclub`
 
 **Scenario: Attacker Machine > Bastion / Pivot Machine > Target Range > Target Host** 
 ### Enumeration 
-
+- Look into identifying range
+- 
 
 ### Exploitation
 ```markdown
@@ -124,7 +125,6 @@ ssh -p 2222 bastion@pivotclub -L2223:10.212.243.13:22
 ssh tyler@10.212.243.13 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -J bastion@pivotclub:2222
 
 - Before you exit the SSH session in your first terminal window, run ifconfig and take note of the two network adapters.
-
 ```
 ![[Pasted image 20240206233249.png]]
 #### Notes
