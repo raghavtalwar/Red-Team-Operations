@@ -115,7 +115,10 @@ The address is `10.212.243.13` with `user: tyler and password: fightclub`
 ### Enumeration 
 - Look into identifying range
 - 
+```markdown
 
+for i in $(seq 1 254); do (ping -c 1 10.212.243.${i} | grep "bytes from" &); done;
+```
 ### Exploitation
 ```markdown
 # Method 1 - Local Port Forwarding + SSH into the Target host
