@@ -156,6 +156,7 @@ ssh tyler@10.212.243.13 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/n
 Challenge 4: Something is beaconing to ip 10.112.3.199 pivot on port 58671, Can you tunnel it back?
 
 ### Overview
+You will now SSH to the first pivot but this time you will establish a reverse tunnel on port 58671 to catch the beacon. You will also reference the secondary network interface in your reverse tunnel or else you SSH reverse tunnel will be bound to the primary adapter.
 
 ### Enumeration 
 - Send SANS support mail 
@@ -176,6 +177,20 @@ nc -klvp 58671
 
 ![[Pasted image 20240304235457.png]]
 
+
+## Find the FTP Server
+
+### Overview
+You will now SSH to the bastion, set up a forward tunnel, then SSH through the tunnel to the first pivot. On the second SSH session we will set up a socks proxy with -D. Once we establish this socks proxy we can use proxy chains to proxy our scanning and ftp traffic into the internal network.
+
+### Enumeration 
+
+
+### Exploitation
+```
+
+```
+![[Pasted image 20240305001728.png]]
 ----
 ## [[Pivoting w/o SSH - Chisel (HTTP Tunnel)]] 
 ### Overview
