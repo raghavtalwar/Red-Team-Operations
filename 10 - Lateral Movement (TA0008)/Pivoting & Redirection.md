@@ -190,10 +190,6 @@ Challenge 6: SSH to pivot-2
   key: stolen from FTP
 ### Overview
 You will now SSH to the bastion, set up a forward tunnel, then SSH through the tunnel to the first pivot. On the second SSH session we will set up a socks proxy with -D. Once we establish this socks proxy we can use proxy chains to proxy our scanning and ftp traffic into the internal network.
-
-### Enumeration 
-
-
 ### Exploitation
 ```markdown
 # Run the following SSH command from your host to set up an SSH session with the bastion and a port forward to host 10.212.243.13
@@ -258,3 +254,6 @@ proxychains curl http://10.199.2.120
 
 ## Conclusion
 
+In this lab you created multiple SSH tunnels to pivot through network segments to access resources that were not publicly available. 
+- You were able to send traffic into a network segment using forward tunnels and receive traffic with reverse tunnels. 
+- The dynamic port forwarding set up a socks proxy that took traffic destined to another network and proxied traffic back and forth through the SSH connections.
