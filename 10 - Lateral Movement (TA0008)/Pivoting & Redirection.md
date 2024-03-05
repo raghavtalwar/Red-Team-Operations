@@ -197,10 +197,10 @@ You will now SSH to the bastion, set up a forward tunnel, then SSH through the t
 
 ### Exploitation
 ```markdown
-# 
+# Run the following SSH command from your host to set up an SSH session with the bastion and a port forward to host 10.212.243.13
 ssh -p 2222 bastion@pivotclub -L2223:10.212.243.13:22
 
-# 
+# Now lets set up a new SSH session with dynamic port forwarding through the forward tunnel we just created with -L2223:10.212.243.13:22
 ssh -p 2223 tyler@localhost -D9050
 
 # 
