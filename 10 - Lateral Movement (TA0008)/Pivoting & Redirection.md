@@ -131,8 +131,7 @@ for p in $(seq 1 65535); do (nc -nvzw1 192.168.56.101 $p 2>&1 | grep open &); do
 
 # Fast Nmap Via Proxychains Trick using xargs and multithreading
 - To scan 65535 ports at a normal speed :
-seq 1 65535 | xargs -P 50 -I port proxychains -q nmap -p port -sT -T4 10.42.42.2 -oG 10.42.42.2 --open --append-output 10.42.42.2 -Pn -n
-seq 1 65535 | xargs -P 50 -I port proxychains nmap -sT -p port -T4 10.112.3.207 -oG scan_results.txt --open --append-output -Pn -n
+seq 1 65535 | xargs -P 50 -I port proxychains -q nmap -sT -p port -T4 10.112.3.207 -oG scan_results.txt --open --append-output -Pn -n
 
 ```
 ### Exploitation
