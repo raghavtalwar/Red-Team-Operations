@@ -132,7 +132,6 @@ for p in $(seq 1 65535); do (nc -nvzw1 192.168.56.101 $p 2>&1 | grep open &); do
 # Fast Nmap Via Proxychains Trick using xargs and multithreading
 - To scan 65535 ports at a normal speed :
 seq 1 65535 | xargs -P 50 -I port proxychains -q nmap -sT -p port -T4 10.112.3.207 -oG scan_results.txt --open --append-output -Pn -n
-
 ```
 ### Exploitation
 ```markdown
@@ -203,9 +202,9 @@ ssh -p 2222 bastion@pivotclub -L2223:10.212.243.13:22
 # Now lets set up a new SSH session with dynamic port forwarding through the forward tunnel we just created with -L2223:10.212.243.13:22
 ssh -p 2223 tyler@localhost -D9050
 
-# 
+# Once we have socks proxy from the -D9050 argument in the second SSH sessions, we can direct traffic through that proxy with proxychains. Scan for the ftp server on host 10.112.3.207 by scanning all ports. 
 proxychains nmap -Pn -sT -p- 10.112.3.207
-
+proxychains nmap -Pn -sT -p 53121 -sV 10.112.3.207
 ```
 ![[Pasted image 20240305001728.png]]
 ----
