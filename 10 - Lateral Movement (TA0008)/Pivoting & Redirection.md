@@ -239,7 +239,6 @@ proxychains nmap -Pn -sT -p 53121 -sV 10.112.3.207
 
 1. Link SSH , Proxychains Configuration & its Usage > Access Methods with this one
 	1. Simple method is to take a page and see how can you link it to other pages
-
 #### [[Proxychains Cheatsheet & Configuration]]
 ```markdown
 
