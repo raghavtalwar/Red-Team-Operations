@@ -16,6 +16,6 @@
 
 
 #### Notes
-- Add a link to 
+- Add a link to Empire on how we are leveraging C2 stager to perform routing 
 
 ## Conclusion
