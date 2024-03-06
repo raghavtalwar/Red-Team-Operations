@@ -43,7 +43,7 @@
 	- New red engagement means new set of infrastructure should be established
 	- Each of these functions will likely be required for social engineering campaign
 ------------------------------------------------------------------------
-## 
+## Redirectors [[Setting Up Redirectors]]
 - Goal: ALWAYS have a redirector in front of c2 Server!
 	- Do not expose c2 server to the internet
 - Objective: Act as a disposable server that redirect traffic in order to obfuscate the backend systems.
