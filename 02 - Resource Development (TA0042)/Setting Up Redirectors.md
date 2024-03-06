@@ -5,7 +5,25 @@
     Create a listener on Empire that will expect redirector routing
     Create stager payloads that will route through the redirector
     Execute the stager payload in the lab environment
-    
+
+### Overview
+
+```markdown
+```
+### Enumeration 
+
+```markdown
+```
+
+## Exploitation 
+
+```markdown
+```
+
+## Resources
+
+```markdown
+```
 ### Overview
 
 
