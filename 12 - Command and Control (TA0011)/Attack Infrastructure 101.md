@@ -69,7 +69,7 @@
 - Some outbound proxies blocks domain based on categories. Thus purchase domains and categorise them!
 	- Categorisation Sites - Enumerate which ones of the below proxy is being used and categorise accordingly. Note: Red Teamer needs to a put a website up and running before they can request categorisation
 		1. BrightCloud
-		2. Fortiguard
+		2. FortiGuard
 		3. McAfee
 		4. Palo Alto Network
 		5. Symantec / BlueCoat
