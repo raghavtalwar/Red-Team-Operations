@@ -1,4 +1,4 @@
-
+#### Tags: [[12 - Command and Control (TA0011)]]
 ## Objectives
 
     Understand the use of redirectors in attack infrastructure
@@ -15,23 +15,15 @@
 ```markdown
 ```
 
-## Exploitation 
+### Exploitation 
 
 ```markdown
 ```
 
-## Resources
+### Resources | Notes
 
 ```markdown
 ```
-### Overview
-
-
-### Enumeration 
-
-
-### Exploitation
-
 
 #### Notes
 - Add a link to Empire on how we are leveraging C2 stager to perform routing via redirector to reach the Empire listener
