@@ -28,4 +28,8 @@
 #### Notes
 - Add a link to Empire on how we are leveraging C2 stager to perform routing via redirector to reach the Empire listener
 
+
+
+
+
 ## Conclusion
