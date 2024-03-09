@@ -17,9 +17,12 @@
 
 ### Exploitation
 
-socat Redirection
+1. Launch Empire
 
-Create Listener
+2. Provision VPS
+3. socat Redirection
+
+#### 4. Create Listener
 
 Create Stager
 
