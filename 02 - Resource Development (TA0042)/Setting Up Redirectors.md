@@ -17,6 +17,13 @@
 
 ### Exploitation
 
+socat Redirection
+
+Create Listener
+
+Create Stager
+
+Deliver Stager
 
 Agent Interaction
 
@@ -24,12 +31,13 @@ Agent Interaction
 ```markdown
 ```
 
-### Resources | Notes
+### Conclusion
+
+
+### Resources | Notes | Bonus
 
 ```markdown
 ```
-
-### Conclusion
 
 #### Notes
 - Add a link to Empire on how we are leveraging C2 stager to perform routing via redirector to reach the Empire listener
