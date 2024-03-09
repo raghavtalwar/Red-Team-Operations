@@ -33,7 +33,7 @@
 - Create a stager payload
 
 #### 6. Deliver Stager
-Execute the stager to create an Agent in the target environment via RDP: 
+- Execute the stager to create an Agent in the target environment via RDP: 
 `xfreerdp +clipboard /cert-ignore /u:Gareth.Kilgallen /p:Hu825meapvsAq#Rx /v:wk01.draconem.corp
 
 #### 7. Agent Interaction
