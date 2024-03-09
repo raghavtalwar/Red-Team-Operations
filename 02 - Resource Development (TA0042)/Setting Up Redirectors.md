@@ -28,8 +28,8 @@
 
 #### 6. Deliver Stager
 
-#### 7. Agent Interaction
 
+#### 7. Agent Interaction
 
 ```markdown
 ```
