@@ -17,18 +17,18 @@
 
 ### Exploitation
 
-1. Launch Empire
+#### 1. Launch Empire
 
-2. Provision VPS
-3. socat Redirection
+#### 2. Provision VPS
+#### 3. socat Redirection
 
 #### 4. Create Listener
 
-Create Stager
+#### 5. Create Stager
 
-Deliver Stager
+#### 6. Deliver Stager
 
-Agent Interaction
+#### 7. Agent Interaction
 
 
 ```markdown
