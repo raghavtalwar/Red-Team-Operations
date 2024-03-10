@@ -39,8 +39,11 @@ This lab will focus on the:
 ### 3. socat Redirection
 1. SSH to your new VPS as root and using one of the passwords provided by vpspawn.com. 
 	1. `ssh root@4-8-15.vpspawn.com`
-2. 
+2. Take note of the eth0 adapter's IP, you will need this later.
+	1. `ip a`
 3. Then create a screen session and run socat using the syntax below:
+	1. `screen -S socat443`
+	2. `socat TCP4-LISTEN:443,fork TCP4:<C2-IP-Address or Hostname>:443`
 
 ### 4. Create Listener
 - Create an Empire listener with a Host set to a redirector address
