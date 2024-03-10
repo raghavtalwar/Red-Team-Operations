@@ -103,9 +103,9 @@ Open a command prompt by clicking the windows icon in the lower left and typing 
 
 ### Resources | Notes | Bonus
 
-Now all the C2 traffic is routed through a redirector in gray space. This creates one hop between your C2 server and the target network. 
-- If Incident Responders conduct network forensics, they would get the DNS or IP address of the temporary VPS instead of your C2 server. 
-- The Blue Team can ask the VPS provider for logs around the time of the incident through Law Enforcement channels or by filling out an Abuse report. 
+Now all the C2 traffic is routed through a redirector in gray space. This creates one hop between your C2 server and the target network.
+- If Incident Responders conduct network forensics, they would get the DNS or IP address of the temporary VPS instead of your C2 server.
+- The Blue Team can ask the VPS provider for logs around the time of the incident through Law Enforcement channels or by filling out an Abuse report.
 - With one hop that might be a concern, but redirectors can be chained together to make it more difficult to unravel the whole chain.
 - If chaining redirectors, use different providers in different geographic areas.
 ## Conclusion
