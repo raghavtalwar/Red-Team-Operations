@@ -146,4 +146,6 @@ GatewayPorts yes
 AllowTcpForwarding yes
 ```
 3. Restart the ssh daemon with `service sshd restart or systemctl restart sshd` for the new configuration to take effect.
-4. ssh to the redirector and establish a reverse port forward:
+4. SSH to the redirector and establish a reverse port forward:
+	`ssh root@4-8-15.vpspawn.com -R 443:localhost:443`
+5. We have now opened a listener on port 443 on the redirector, any communication to that port will then be sent through the SSH tunnel to our Slingshot Linux VM.
