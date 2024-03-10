@@ -37,7 +37,7 @@ This lab will focus on the:
 ![[Pasted image 20240310165118.png]]
 
 ### 3. socat Redirection
-
+1. SSH to your new VPS as root and using one of the passwords provided by vpspawn.com. Then create a screen session and run socat using the syntax below:
 
 ### 4. Create Listener
 - Create an Empire listener with a Host set to a redirector address
