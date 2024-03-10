@@ -99,9 +99,6 @@ Click on the chain icon on the left navigation window to bring up the Agents das
 
 If you look at the VIEW tab of the agent you will see that the External IP is the IP of your redirector while the internal IP is the IP of the host.
 
-```markdown
-```
-
 Let's run Seatbelt from GhostPack which will allow us to get a lot of information about the user and host on this system. Provide the following values on the INTERACT tab of the agent and click submit:
 
     Execute Module: csharp/GhostPack/Seatbelt
@@ -125,4 +122,6 @@ In this lab we created an HTTP listener that was configured with X.509 certifica
 - Lastly, we were assured that all the communication worked because the Agent was spawned and we could see that the traffic was directed to our C2 through the redirector.
 
 ---
-##### Bonus - iptables
+##### BONUS - iptables
+
+
