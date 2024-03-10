@@ -6,10 +6,13 @@
     Create stager payloads that will route through the redirector
     Execute the stager payload in the lab environment
 
-### Overview
+## Overview
+This lab will focus on the:
+- Use of redirectors to create a buffer between the C2 server and the Target network. 
+- We will create an account on a Virtual Private Server (VPS) vendor and 
+- Provision two VPS's to redirect traffic through.
 
-```markdown
-```
+![[Pasted image 20240310163005.png]]
 
 ### 1. Launch [[Empire C2#Create an Empire listener|Empire C2 & Setup Communication]]
 
