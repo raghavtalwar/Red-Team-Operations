@@ -55,6 +55,18 @@ Note: The use of screen is a safety mechanism because we can get back to shell t
 ### 4. Create Listener
 - Create an Empire listener with a Host set to a redirector address
 
+Click the Create button in the upper right corner of the screen.
+
+Select http in the drop down menu. Then provide the following values:
+
+    Name: interactive-https
+    Host: https://10.130.7.5:443 <- This must be the ip address or hostname of the redirector
+    Port: 443
+    Bind IP: 0.0.0.0
+    StagingKey: AddSomethingRandomTo32Characters
+    CertPath: /opt/Empire/empire/server/data
+
+Leave the rest as defaults and click the SUBMIT button in the upper right corner of the screen.
 
 ###### Note: Listener will have the IP address or hostname of the redirector and not your tun0 adapter. 
 - When building a stager - Redirector IP / Host value will be used for communication, you do not want your C2 server's address or hostname here.
