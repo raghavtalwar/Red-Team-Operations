@@ -55,6 +55,7 @@ Note: The use of screen is a safety mechanism because we can get back to shell t
 ### 4. Create Listener
 - Create an Empire listener with a Host set to a redirector address
 
+
 #### 5. Create Stager
 - Create a stager payload
 
