@@ -95,15 +95,17 @@ Open a command prompt by clicking the windows icon in the lower left and typing 
 ![[Pasted image 20240310174630.png]]
 ### 7. Agent Interaction
 
-Click on the chain icon on the left navigation window to bring up the Agents dashboard. You may now create tasks to explore the new system.
+Click on the chain icon on the left navigation window to bring up the Agents dashboard. 
+- You may now create tasks to explore the new system.
 
 If you look at the VIEW tab of the agent you will see that the External IP is the IP of your redirector while the internal IP is the IP of the host.
 
-Let's run Seatbelt from GhostPack which will allow us to get a lot of information about the user and host on this system. Provide the following values on the INTERACT tab of the agent and click submit:
+Let's run Seatbelt from GhostPack which will allow us to get a lot of information about the user and host on this system. 
+- Provide the following values on the INTERACT tab of the agent and click submit:
 
-    Execute Module: csharp/GhostPack/Seatbelt
-    DotNetVersion: Net35
-    Command: -group=user
+	    Execute Module: csharp/GhostPack/Seatbelt
+	    DotNetVersion: Net35
+	    Command: -group=user
 
 ![[Pasted image 20240310181957.png]]
 #### Notes
