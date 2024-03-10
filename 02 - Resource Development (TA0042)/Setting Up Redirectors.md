@@ -101,7 +101,8 @@ Open a command prompt by clicking the windows icon in the lower left and typing 
 ### Conclusion
 
 
-### Resources | Notes | Bonus
+ 
+#### Notes
 
 Now all the C2 traffic is routed through a redirector in gray space. This creates one hop between your C2 server and the target network.
 - If Incident Responders conduct network forensics, they would get the DNS or IP address of the temporary VPS instead of your C2 server.
