@@ -86,10 +86,12 @@ Leave the rest as defaults and click the SUBMIT button in the upper right corner
 `xfreerdp +clipboard /cert-ignore /u:Gareth.Kilgallen /p:Hu825meapvsAq#Rx /v:wk01.draconem.corp
 
 ![[Pasted image 20240310174517.png]]
-
-![[Pasted image 20240310174415.png]]
 ###### Note: In a real engagement you would avoid RDP and if you absolutely must, you should use a proxy for the connection.
 - We are going to RDP to the target network, consider this a system you control and disregard communication path, OPSEC, and tradecraft on this system only. 
+
+Open a command prompt by clicking the windows icon in the lower left and typing cmd.exe. Then right click in the command prompt. 
+- You should see a lot of encoded text. Press Enter to spawn a new agent. The command prompt should close automatically. You may now exit your RDP session.
+
 #### 7. Agent Interaction
 
 ```markdown
