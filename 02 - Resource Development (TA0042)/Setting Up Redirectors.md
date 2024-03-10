@@ -17,7 +17,7 @@
 
 ### Exploitation
 
-#### 1. Launch [[Empire C2#Create an Empire listener|Empire C2 &  Cheatsheet]]
+#### 1. Launch [[Empire C2#Create an Empire listener|Empire C2 & Setup Communication]]
 
 
 #### 2. Provision VPS
