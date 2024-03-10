@@ -123,3 +123,6 @@ In this lab we created an HTTP listener that was configured with X.509 certifica
 - For the purposes of the lab, we used direct RDP access to execute our stager code. 
 - In a real engagement other delivery methods like phishing would be necessary to get that initial access. 
 - Lastly, we were assured that all the communication worked because the Agent was spawned and we could see that the traffic was directed to our C2 through the redirector.
+
+---
+##### Bonus - iptables
