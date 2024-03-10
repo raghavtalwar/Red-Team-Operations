@@ -22,6 +22,10 @@ This lab will focus on the:
 2. Start the StarKiller from the terminal.
 	1. `./starkiller-1.9.0.AppImage --no-sandbox`
 3. Log into Starkiller UI
+	1. `Url: https://localhost:1337 | Username: empireadmin | Password: password123
+4. Create certificates for HTTPS, this is optional as Empire normally already has bundled default certificates, but let's do it for good measure.
+	1. `cd /opt/Empire/setup/ && 
+`
 
 #### Redirector Communication Pattern
 1. C2 Listener will use Redirector IP Address
