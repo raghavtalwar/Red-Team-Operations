@@ -17,7 +17,9 @@ This lab will focus on the:
 
 ### 1. Launch [[Empire C2#Create an Empire listener|Empire C2 & Setup Communication]]
 
-
+Redirector Communication Pattern
+1. C2 Listener will get Redirector IP Address
+2. C2 Stager will callback to Re
 ### 2. Provision VPS
 
 
