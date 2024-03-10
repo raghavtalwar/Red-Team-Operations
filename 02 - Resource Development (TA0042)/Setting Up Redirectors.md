@@ -140,5 +140,10 @@ root@4-8-15:~# service sshd restart or systemctl restart sshd
 ##### BONUS - SSH | Redirector Configuration
 1. By default the SSH daemon will not allow remote port forwards to bind to all adapters (0.0.0.0) unless the configuration is set properly. 
 2. Open the SSH daemon config with `vim /etc/ssh/sshd_config`  on the redirector. 
-3. Change the value of `GatewayPorts and AllowTcpForwarding to yes.`
-
+```markdown
+# Change the value of `GatewayPorts and AllowTcpForwarding to yes.`
+GatewayPorts yes
+AllowTcpForwarding yes
+```
+3. Restart the ssh daemon with `service sshd restart or systemctl restart sshd` for the new configuration to take effect.
+4. ssh to the redirector and establish a reverse port forward:
