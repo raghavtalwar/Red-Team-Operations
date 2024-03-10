@@ -17,7 +17,7 @@
 
 ### Exploitation
 
-#### 1. Launch Empire
+#### 1. Launch Empire [[Empire C2]]
 
 
 #### 2. Provision VPS
