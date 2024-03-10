@@ -17,6 +17,12 @@ This lab will focus on the:
 
 ### 1. Launch [[Empire C2#Create an Empire listener|Empire C2 & Setup Communication]]
 
+1. Launch Empire by starting the server 
+	1. `sudo ./ps-empire server`
+2. Start the StarKiller from the terminal.
+	1. `./starkiller-1.9.0.AppImage --no-sandbox`
+3. Log into Starkiller UI
+
 #### Redirector Communication Pattern
 1. C2 Listener will use Redirector IP Address
 2. The VPS running Redirector will leverage socat to redirect traffic from Stager (incoming) to Listener (outgoing)
