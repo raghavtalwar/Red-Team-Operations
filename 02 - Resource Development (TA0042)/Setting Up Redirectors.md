@@ -102,10 +102,8 @@ Open a command prompt by clicking the windows icon in the lower left and typing 
 
 
 ### Resources | Notes | Bonus
-Now all the C2 traffic is routed through a redirector in gray space. This creates one hop between your C2 server and the target network. If Incident Responders conduct network forensics, they would get the DNS or IP address of the temporary VPS instead of your C2 server. The Blue Team can ask the VPS provider for logs around the time of the incident through Law Enforcement channels or by filling out an Abuse report. With one hop that might be a concern, but redirectors can be chained together to make it more difficult to unravel the whole chain. If chaining redirectors, use different providers in different geographic areas.
 
-```markdown
-```
+Now all the C2 traffic is routed through a redirector in gray space. This creates one hop between your C2 server and the target network. If Incident Responders conduct network forensics, they would get the DNS or IP address of the temporary VPS instead of your C2 server. The Blue Team can ask the VPS provider for logs around the time of the incident through Law Enforcement channels or by filling out an Abuse report. With one hop that might be a concern, but redirectors can be chained together to make it more difficult to unravel the whole chain. If chaining redirectors, use different providers in different geographic areas.
 ## Conclusion
 
 In this lab we created an HTTP listener that was configured with X.509 certificates to safeguard our C2 traffic. We then generated a PowerShell stager and delivered it to the windows system in the target environment. For the purposes of the lab, we used direct RDP access to execute our stager code. In a real engagement other delivery methods like phishing would be necessary to get that initial access. Lastly, we were assured that all the communication worked because the Agent was spawned and we could see that the traffic was directed to our C2 through the redirector.
