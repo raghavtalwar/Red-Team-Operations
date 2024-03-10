@@ -35,7 +35,7 @@ This lab will focus on the:
 16-23-42.vpspawn.com with credentials root : ONth3NET?
 ```
 ![[Pasted image 20240310165118.png]]
-Refer [[^]]
+Refer [[Setting Up Redirectors#BONUS - SSH Redirector Configuration|]]
 ### 3. socat Redirection
 1. SSH to your new VPS as root and using one of the passwords provided by vpspawn.com. 
 	1. `ssh root@4-8-15.vpspawn.com`
