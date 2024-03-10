@@ -91,7 +91,8 @@ Leave the rest as defaults and click the SUBMIT button in the upper right corner
 
 Open a command prompt by clicking the windows icon in the lower left and typing cmd.exe. Then right click in the command prompt. 
 - You should see a lot of encoded text. Press Enter to spawn a new agent. The command prompt should close automatically. You may now exit your RDP session.
-
+![[Pasted image 20240310174620.png]]
+![[Pasted image 20240310174630.png]]
 #### 7. Agent Interaction
 
 ```markdown
