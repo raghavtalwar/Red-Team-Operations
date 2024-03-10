@@ -70,9 +70,16 @@ Leave the rest as defaults and click the SUBMIT button in the upper right corner
 
 ![[Pasted image 20240310173626.png]]
 ### 5. Create Stager
-- Create a stager payload
 
+Create an Empire stager. Click on the suitcase icon on the left navigation window to bring up the Stagers dashboard. Then click CREATE in the upper right.
 
+Select multi/launcher in the drop down menu. Then provide the following values:
+
+    StarkillerName: interactive-https-pwsh
+    Listener: interactive-https
+    Language: powershell
+
+Leave the rest as defaults and click the SUBMIT button in the upper right corner of the screen
 
 ![[Pasted image 20240310173648.png]]
 
