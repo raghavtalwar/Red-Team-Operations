@@ -47,6 +47,11 @@ This lab will focus on the:
 
 Note: The C2 IP addr or hostname can be the value of your tun0 adapter.
 
+Note: The use of screen is a safety mechanism because we can get back to shell that has our socat process if we get disconnected from our redirector.
+- To detach from the screen session type` Ctrl+a then d`. 
+- To view screen sessions run `screen -ls` 
+- To reattach to a detached screen run `screen -r <screen session name>.`
+
 ### 4. Create Listener
 - Create an Empire listener with a Host set to a redirector address
 
