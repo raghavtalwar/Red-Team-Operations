@@ -125,5 +125,5 @@ In this lab we created an HTTP listener that was configured with X.509 certifica
 
 ---
 ##### BONUS - iptables
-
-
+1. Try to establish redirection with iptables on the redirector (not your Slingshot Linux VM). First enable ipv4 forwarding with `sysctl net.ipv4.ip_forward=1` and then establish a prerouting rule.
+2. Create iptables rules
