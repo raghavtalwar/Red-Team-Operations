@@ -45,6 +45,8 @@ This lab will focus on the:
 	1. `screen -S socat443`
 	2. `socat TCP4-LISTEN:443,fork TCP4:<C2-IP-Address or Hostname>:443`
 
+Note: The C2 IP addr or hostname can be the value of your tun0 adapter.
+
 ### 4. Create Listener
 - Create an Empire listener with a Host set to a redirector address
 
