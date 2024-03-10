@@ -19,7 +19,7 @@ This lab will focus on the:
 
 Redirector Communication Pattern
 1. C2 Listener will get Redirector IP Address
-2. C2 Stager will callback to Re
+2. C2 Stager will callback to Redirector IP Address
 ### 2. Provision VPS
 
 
