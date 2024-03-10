@@ -60,7 +60,7 @@ cd /opt/starkiller/
     `CertPath:` /opt/Empire/empire/server/data
 3. Leave the rest as defaults and click the SUBMIT button in the upper right corner of the screen.
 	+ Note: Empire will Base64 encode the StagingKey if the string if it is not 32 characters.
-4. New certificates are created by default and the next steps do not need to be taken but they are included in case you would like to generate new certificates.
+4. Create certificates for HTTPS, this is optional as Empire normally already has bundled default certificates, but let's do it for good measure.
 	+ `sudo su
 	+ `cd /opt/Empire/setup/
 	+ `./cert.sh
