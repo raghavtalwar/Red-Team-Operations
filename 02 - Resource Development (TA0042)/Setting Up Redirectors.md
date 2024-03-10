@@ -95,6 +95,10 @@ Open a command prompt by clicking the windows icon in the lower left and typing 
 ![[Pasted image 20240310174630.png]]
 ### 7. Agent Interaction
 
+Click on the chain icon on the left navigation window to bring up the Agents dashboard. You may now create tasks to explore the new system.
+
+If you look at the VIEW tab of the agent you will see that the External IP is the IP of your redirector while the internal IP is the IP of the host.
+
 ```markdown
 ```
 
