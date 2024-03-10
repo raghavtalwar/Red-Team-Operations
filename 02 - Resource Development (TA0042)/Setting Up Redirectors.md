@@ -136,5 +136,5 @@ root@4-8-15:~# iptables -I FORWARD -j ACCEPT
 root@4-8-15:~# iptables -P FORWARD ACCEPT
 root@4-8-15:~# nano /etc/ssh/sshd_config
 root@4-8-15:~# service sshd restart or systemctl restart sshd
-
 ```
+##### BONUS - SSH
