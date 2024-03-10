@@ -18,7 +18,7 @@ This lab will focus on the:
 ### 1. Launch [[Empire C2#Create an Empire listener|Empire C2 & Setup Communication]]
 
 Redirector Communication Pattern
-1. C2 Listener will get Redirector IP Address
+1. C2 Listener will use Redirector IP Address
 2. The VPS running Redirector will leverage socat to redirect traffic from Stager (incoming) to Listener (outgoing)
 3. C2 Stager will callback to Redirector IP Address
 ### 2. Provision VPS
