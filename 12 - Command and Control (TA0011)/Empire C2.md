@@ -31,6 +31,7 @@ This lab will focus on the Testing Phase of a Red Team Adversary Emulation Engag
 		- `Pass: password123`
 
 ### Create an Empire listener
+
 ```markdown
 # Start Empire server
 cd /opt/Empire/

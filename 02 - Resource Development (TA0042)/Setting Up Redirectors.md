@@ -17,7 +17,7 @@
 
 ### Exploitation
 
-#### 1. Launch Empire [[Empire C2]]
+#### 1. Lunch  [[Empire C2#Create an Empire listener]]
 
 
 #### 2. Provision VPS
