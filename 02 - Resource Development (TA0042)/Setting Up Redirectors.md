@@ -14,7 +14,10 @@ This lab will focus on the:
 - Thus, we will leverage Empire C2 stager (Red Space) to perform routing via redirector (Grey Space) to reach the Empire listener (Blue Space).
 
 ![[Pasted image 20240310163005.png]]
-
+#### Redirector Communication Pattern
+1. C2 Listener will use Redirector IP Address
+2. The VPS running Redirector will leverage socat to redirect traffic from Stager (incoming) to Listener (outgoing)
+3. C2 Stager will callback to Redirector IP Address
 ### 1. Launch [[Empire C2#Create an Empire listener|Empire C2 & Setup Communication]]
 
 1. Launch Empire by starting the server 
@@ -24,15 +27,10 @@ This lab will focus on the:
 3. Log into Starkiller UI
 	1. `Url: https://localhost:1337 | Username: empireadmin | Password: password123
 4. Create certificates for HTTPS, this is optional as Empire normally already has bundled default certificates, but let's do it for good measure.
-	1. `cd /opt/Empire/setup/ && 
-`
-
-#### Redirector Communication Pattern
-1. C2 Listener will use Redirector IP Address
-2. The VPS running Redirector will leverage socat to redirect traffic from Stager (incoming) to Listener (outgoing)
-3. C2 Stager will callback to Redirector IP Address
+	1. `cd /opt/Empire/setup/ && ./cert.sh
 ### 2. Provision VPS
 
+![[Pasted image 20240310165118.png]]
 
 ### 3. socat Redirection
 
