@@ -82,9 +82,11 @@ Leave the rest as defaults and click the SUBMIT button in the upper right corner
 ![[Pasted image 20240310173648.png]]
 
 ### 6. Deliver Stager
-- Execute the stager to create an Agent in the target environment via RDP: 
+- Execute the Stager to create an Agent in the target environment via RDP: 
 `xfreerdp +clipboard /cert-ignore /u:Gareth.Kilgallen /p:Hu825meapvsAq#Rx /v:wk01.draconem.corp
 
+
+###### Note: In a real engagement you would avoid RDP and if you absolutely must, you should use a proxy for the connection.
 #### 7. Agent Interaction
 
 ```markdown
