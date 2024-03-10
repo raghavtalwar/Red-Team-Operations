@@ -102,9 +102,13 @@ If you look at the VIEW tab of the agent you will see that the External IP is th
 ```markdown
 ```
 
+Let's run Seatbelt from GhostPack which will allow us to get a lot of information about the user and host on this system. Provide the following values on the INTERACT tab of the agent and click submit:
 
+    Execute Module: csharp/GhostPack/Seatbelt
+    DotNetVersion: Net35
+    Command: -group=user
 
- 
+![[Pasted image 20240310181957.png]]
 #### Notes
 
 Now all the C2 traffic is routed through a redirector in gray space. This creates one hop between your C2 server and the target network.
