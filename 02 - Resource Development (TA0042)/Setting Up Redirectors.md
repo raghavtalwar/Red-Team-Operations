@@ -8,9 +8,10 @@
 
 ## Overview
 This lab will focus on the:
-- Use of redirectors to create a buffer between the C2 server and the Target network. 
+- Use of redirectors to create a buffer between the C2 server (Blue Space) and the Target network (Red Space). 
 - We will create an account on a Virtual Private Server (VPS) vendor and 
 - Provision two VPS's to redirect traffic through.
+- Thus, we will leverage Empire C2 stager to perform routing via redirector to reach the Empire listener
 
 ![[Pasted image 20240310163005.png]]
 
