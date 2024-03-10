@@ -57,7 +57,7 @@ Note: The use of screen is a safety mechanism because we can get back to shell t
 
 
 ###### Note: Listener will have the IP address or hostname of the redirector and not your tun0 adapter. 
-- When building a stager (Redirector IP) this Host value will be used for communication, you do not want your C2 server's address or hostname here.
+- When building a stager - Redirector IP / Host value will be used for communication, you do not want your C2 server's address or hostname here.
 #### 5. Create Stager
 - Create a stager payload
 
