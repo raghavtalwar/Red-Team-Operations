@@ -85,6 +85,8 @@ Leave the rest as defaults and click the SUBMIT button in the upper right corner
 - Execute the Stager to create an Agent in the target environment via RDP: 
 `xfreerdp +clipboard /cert-ignore /u:Gareth.Kilgallen /p:Hu825meapvsAq#Rx /v:wk01.draconem.corp
 
+![[Pasted image 20240310174517.png]]
+
 ![[Pasted image 20240310174415.png]]
 ###### Note: In a real engagement you would avoid RDP and if you absolutely must, you should use a proxy for the connection.
 - We are going to RDP to the target network, consider this a system you control and disregard communication path, OPSEC, and tradecraft on this system only. 
