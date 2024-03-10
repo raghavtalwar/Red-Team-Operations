@@ -98,7 +98,6 @@ Open a command prompt by clicking the windows icon in the lower left and typing 
 ```markdown
 ```
 
-### Conclusion
 
 
  
@@ -113,4 +112,6 @@ Now all the C2 traffic is routed through a redirector in gray space. This create
 
 In this lab we created an HTTP listener that was configured with X.509 certificates to safeguard our C2 traffic. 
 - We then generated a PowerShell stager and delivered it to the windows system in the target environment. 
-- For the purposes of the lab, we used direct RDP access to execute our stager code. In a real engagement other delivery methods like phishing would be necessary to get that initial access. Lastly, we were assured that all the communication worked because the Agent was spawned and we could see that the traffic was directed to our C2 through the redirector.
+- For the purposes of the lab, we used direct RDP access to execute our stager code. 
+- In a real engagement other delivery methods like phishing would be necessary to get that initial access. 
+- Lastly, we were assured that all the communication worked because the Agent was spawned and we could see that the traffic was directed to our C2 through the redirector.
