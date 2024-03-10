@@ -56,7 +56,7 @@ Note: The use of screen is a safety mechanism because we can get back to shell t
 - Create an Empire listener with a Host set to a redirector address
 
 
-###### Note: The Host field must have the IP address or hostname of the redirector and not your tun0 adapter. 
+###### Note: Listener will have the IP address or hostname of the redirector and not your tun0 adapter. 
 - When building a stager this Host value will be used for communication, you do not want your C2 server's address or hostname here.
 #### 5. Create Stager
 - Create a stager payload
