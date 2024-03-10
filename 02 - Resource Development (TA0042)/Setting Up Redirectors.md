@@ -67,8 +67,14 @@ Select http in the drop down menu. Then provide the following values:
     CertPath: /opt/Empire/empire/server/data
 
 Leave the rest as defaults and click the SUBMIT button in the upper right corner of the screen.
+
+![[Pasted image 20240310173626.png]]
 ### 5. Create Stager
 - Create a stager payload
+
+
+
+![[Pasted image 20240310173648.png]]
 
 #### 6. Deliver Stager
 - Execute the stager to create an Agent in the target environment via RDP: 
