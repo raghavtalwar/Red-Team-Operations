@@ -30,11 +30,9 @@ This lab will focus on the:
 	1. `cd /opt/Empire/setup/ && ./cert.sh
 ### 2. Provision VPS
 ```markdown
-# VPS
+# Spawn VPS for redirection:
 4-8-15.vpspawn.com with credentials root : 0wnTHEnet!
 16-23-42.vpspawn.com with credentials root : ONth3NET?
-
-
 ```
 ![[Pasted image 20240310165118.png]]
 
