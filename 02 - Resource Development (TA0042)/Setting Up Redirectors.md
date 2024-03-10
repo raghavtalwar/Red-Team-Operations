@@ -10,20 +10,14 @@
 
 ```markdown
 ```
-### Enumeration 
 
-```markdown
-```
-
-### Exploitation
-
-#### 1. Launch [[Empire C2#Create an Empire listener|Empire C2 & Setup Communication]]
+### 1. Launch [[Empire C2#Create an Empire listener|Empire C2 & Setup Communication]]
 
 
-#### 2. Provision VPS
+### 2. Provision VPS
 
 
-#### 3. socat Redirection
+### 3. socat Redirection
 
 
 #### 4. Create Listener
