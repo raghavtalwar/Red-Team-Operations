@@ -243,7 +243,6 @@ proxychains nmap -Pn -sT -p 53121 -sV 10.112.3.207
 ```markdown
 
 
-
 # Proxychains in action
 proxychains curl http://10.199.2.120
 ```
