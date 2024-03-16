@@ -16,7 +16,7 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 ### 3. Executing Stager with rundll32.exe
 
-[[[Creating and Testing Payloads]]
+[[[Creating and Testing Payloads#2. Create Payload Stager]]
 
 
 ### 4. Executing Stager with regsvr32.exe
