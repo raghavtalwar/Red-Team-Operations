@@ -10,9 +10,12 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 ### 1. Launch [[Empire C2#Create an Empire listener]]
 
+
 ### Creating Payloads in Empire
 
+
 ### Executing Techniques
+
 
 ### 2. Create Powershell Stager
 
