@@ -25,7 +25,7 @@ and create 2 - Payloads & Execution Tech
 
 ### 3. Executing Stager with rundll32.exe
 
-#### [[Creating and Testing Payloads#Creating Payloads|Creating Payload in Empire]]
+#### [[Creating and Testing Payloads#C|Creating Payload in Empire]]
 
 #### [[Creating and Testing Payloads#2. Create Payload Stager|Executing Payloads Techniques]]
 
