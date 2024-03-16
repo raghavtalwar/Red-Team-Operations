@@ -15,6 +15,7 @@ This lab will focus on creating multiple payloads and then testing them in the s
 ### Executing Techniques
 
 ### 2. Create Powershell Stager 
+
 ### 3. Executing Stager with rundll32.exe
 
 #### [[Creating and Testing Payloads#2. Create Payload Stager|Creating Payload in Empire]]
