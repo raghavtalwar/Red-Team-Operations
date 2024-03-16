@@ -12,9 +12,9 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 #### Create Payload Stager 
 
-#### Executing Stager with rundll32
+#### Executing Stager with rundll32.exe
 
-#### Executing Stager with regsvr32
+#### Executing Stager with regsvr32.exe
 
 #### Create WMIC Stager
 
