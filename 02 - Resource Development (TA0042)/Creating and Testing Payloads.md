@@ -25,7 +25,9 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 #### Notes
 - Create Links
-- Maybe in bonus section learn to deploy payload without RDP 
+- Bonus RT Sections 
+	- Learn to deploy payload without RDP 
+	- Learn to leverage Cobalt strike for payload creation
 
 ## Conclusion
 
