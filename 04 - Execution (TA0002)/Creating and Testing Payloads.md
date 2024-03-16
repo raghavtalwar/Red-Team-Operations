@@ -11,7 +11,7 @@ This lab will focus on creating multiple payloads and then testing them in the s
 ### 1. Launch [[Empire C2#Create an Empire listener]]
 
 
-### 2. Create Payload Stager
+### 2. Create Payload Stager 
 
 
 ### 3. Executing Stager with rundll32.exe
