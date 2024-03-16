@@ -12,6 +12,9 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 
 ### [[Creating Payloads]]
+- Aise 4 headings and red bold 
+	- Payload
+	- Execution
 
 
 ### Executing Techniques
