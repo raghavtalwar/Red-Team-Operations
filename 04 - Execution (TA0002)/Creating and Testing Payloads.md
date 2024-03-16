@@ -10,25 +10,26 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 ### 1. Launch [[Empire C2#Create an Empire listener]]
 
-### Create Payload Stager
+
+### 2. Create Payload Stager
 
 
-### Executing Stager with rundll32.exe
+### 3. Executing Stager with rundll32.exe
 
 
-### Executing Stager with regsvr32.exe
+### 4. Executing Stager with regsvr32.exe
 
 
-### Create WMIC Stager
+### 5. Create WMIC Stager
 
 
-### Executing Stager with wmic
+### 6. Executing Stager with wmic
 
 
-### Create HTA Stager
+### 7. Create HTA Stager
 
 
-### Executing Stager with mshta.exe
+### 8. Executing Stager with mshta.exe
 
 
 #### Notes
