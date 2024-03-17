@@ -12,9 +12,9 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 ## [[PowerShell Stager with rundll32.exe]]
 
-#### *Payload:* 
+#### *Payload:* Create Powershell Stager
 
-#### *Execution Technique:* 
+#### *Execution Technique:* Executing Stager with rundll32.exe
 
 ----
 ## [[SCT stager and execute with regsvr32.exe]]
@@ -26,9 +26,9 @@ This lab will focus on creating multiple payloads and then testing them in the s
 ---
 ## [[WMIC stager and execute with wmic]]
 
-#### *Payload:*
+#### *Payload:* Create WMIC Stager
 
-#### *Execution Technique:*
+#### *Execution Technique:* Executing Stager with regsvr32.exe
 
 ---
 
@@ -45,14 +45,6 @@ Link to Heading
 and create 2 - Payloads & Execution Tech 
 
 
-
-### 2. Create Powershell Stager
-
-### 3. Executing Stager with rundll32.exe
-
-### 4. Executing Stager with regsvr32.exe
-
-### 5. Create WMIC Stager
 
 ### 6. Executing Stager with wmic
 
