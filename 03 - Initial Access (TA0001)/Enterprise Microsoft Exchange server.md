@@ -9,10 +9,10 @@
 ### Scan Microsoft Exchange
 
 
-### Launch [[Empire C2#Create an Empire listener]] 
+### Launch [[Empire C2#Create an Empire listener]]
 
 
-### Create Interactive HTTP pwsh PowerShell Stager 
+### Create Interactive HTTP pwsh PowerShell Stager
 
 
 ### Interact with the Web Shell
