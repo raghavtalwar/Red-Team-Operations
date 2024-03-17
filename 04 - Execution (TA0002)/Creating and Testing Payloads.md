@@ -5,7 +5,7 @@
     Create different payloads for familiarity
     Test payloads from the range
     Use additional tools to enhance payloads
-## Overview
+## [Overview](Laakkk)
 This lab will focus on creating multiple payloads and then testing them in the student range. We will use various methods to gain familiarity with different techniques.
 
 ### 1. Launch [[Empire C2#Create an Empire listener]]
@@ -16,8 +16,7 @@ This lab will focus on creating multiple payloads and then testing them in the s
 	- Payload
 	- Execution
 
-[[Creating and Testing Payloads#*Payloads *]]
-## [PowerShell Stager with rundll32.exe](PowerShell Stager with rundll32.exe)
+## [[PowerShell Stager with rundll32.exe]]
 
 #### *Payloads:* 
 
