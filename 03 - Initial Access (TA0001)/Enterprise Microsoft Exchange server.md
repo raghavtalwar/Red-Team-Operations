@@ -6,14 +6,13 @@
     Execute an Empire stager on the mail server
     Export user emails
     Read user emails for target intelligence
-
 ### Scan Microsoft Exchange
 
 
 ### Launch [[Empire C2#Create an Empire listener]] 
 
 
-### Create PowerShell Stager | Tag: [[Creating and Testing Payloads]]
+### Create Interactive HTTP pwsh PowerShell Stager | Tag: [[Creating and Testing Payloads]]
 
 
 ### Interact with the Web Shell
