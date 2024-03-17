@@ -18,9 +18,9 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 ## [[PowerShell Stager with rundll32.exe]]
 
-#### *Payloads:*
+#### *Payloads:* 
 
-#### *Execution Technique:*
+#### *Execution Technique:* 
 
 ## [[SCT stager and execute with regsvr32.exe]]
 
