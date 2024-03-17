@@ -7,7 +7,17 @@
     Export user emails
     Read user emails for target intelligence
 ### Scan Microsoft Exchange
+```markdown
+# Scan mail server
+cd /labs/sec-3/initial-access/
 
+curl https://raw.githubusercontent.com/GossiTheDog/scanning/main/http-vuln-exchange.nse -o http-vuln-exchange.nse
+
+nmap --script http-vuln-exchange.nse mail.draconem.io
+
+# ProxyLogon
+```
+###### *OPSEC**
 
 ### Launch [[Empire C2#Create an Empire listener]]
 
