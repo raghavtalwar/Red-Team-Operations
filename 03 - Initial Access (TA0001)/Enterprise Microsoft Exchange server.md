@@ -18,7 +18,6 @@
 
 ### Interact with the Web Shell
 
-Creating another listener so link it 
 
 ### Deploy Agent on mail.draconem.io
 
