@@ -1,4 +1,4 @@
-#### Tags: [[12 - Command and Control (TA0011)]]
+#### Tags: [[12 - Command and Control (TA0011)]] | [[Creating and Testing Payloads]]
 ## Objectives
 
     Scan the Microsoft Exchange server
@@ -12,7 +12,7 @@
 ### Launch [[Empire C2#Create an Empire listener]] 
 
 
-### Create Interactive HTTP pwsh PowerShell Stager | Tag: [[Creating and Testing Payloads]]
+### Create Interactive HTTP pwsh PowerShell Stager 
 
 
 ### Interact with the Web Shell
