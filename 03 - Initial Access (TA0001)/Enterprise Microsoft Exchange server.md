@@ -1,4 +1,4 @@
-
+#### Tags: [[12 - Command and Control (TA0011)]]
 ## Objectives
 
     Scan the Microsoft Exchange server
