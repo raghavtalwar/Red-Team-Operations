@@ -7,6 +7,26 @@
     Export user emails
     Read user emails for target intelligence
 
+### Scan Microsoft Exchange
 
+
+### Launch [[Empire C2#Create an Empire listener]] 
+
+
+### Create PowerShell Stager
+
+
+### Interact with the Web Shell
 
 Creating another listener so link it 
+
+### Deploy Agent on mail.draconem.io
+
+
+### Enumerate Users
+
+
+### Export User Emails
+
+
+## Conclusion
