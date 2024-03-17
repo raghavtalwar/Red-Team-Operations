@@ -14,10 +14,10 @@ cd /labs/sec-3/initial-access/
 curl https://raw.githubusercontent.com/GossiTheDog/scanning/main/http-vuln-exchange.nse -o http-vuln-exchange.nse
 
 nmap --script http-vuln-exchange.nse mail.draconem.io
-
-# ProxyLogon
-
 ```
+#### ProxyLogon
+
+
 ###### Red Team Tip: Only use web shells with authentication, otherwise others could leverage your web shell.
 
 ### Launch [[Empire C2#Create an Empire listener]]
