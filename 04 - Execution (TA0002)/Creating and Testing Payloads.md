@@ -16,6 +16,7 @@ This lab will focus on creating multiple payloads and then testing them in the s
 	- Payload
 	- Execution
 
+[[Creating and Testing Payloads#*Payloads *]]
 ## [[PowerShell Stager with rundll32.exe]]
 
 #### *Payloads:* 
