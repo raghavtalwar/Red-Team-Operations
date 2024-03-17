@@ -18,17 +18,26 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 ## [[PowerShell Stager with rundll32.exe]]
 
-#### *Stager*
+#### *Pa:*
 
 #### *Execution Technique:*
 
 ## [[SCT stager and execute with regsvr32.exe]]
 
+#### *Stager:*
 
+#### *Execution Technique:*
 ## [[WMIC stager and execute with wmic]]
 
+#### *Stager:*
+
+#### *Execution Technique:*
 
 ## [[HTA stager and execute with mshta.exe]]
+
+#### *Stager:*
+
+#### *Execution Technique:*
 
 
 ### Executing Techniques
