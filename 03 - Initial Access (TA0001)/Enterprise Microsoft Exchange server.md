@@ -13,7 +13,7 @@
 ### Launch [[Empire C2#Create an Empire listener]] 
 
 
-### Create PowerShell Stager
+### Create PowerShell Stager | Tag: [[Creating and Testing Payloads]]
 
 
 ### Interact with the Web Shell
