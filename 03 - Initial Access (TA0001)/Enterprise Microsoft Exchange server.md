@@ -16,10 +16,10 @@ curl https://raw.githubusercontent.com/GossiTheDog/scanning/main/http-vuln-excha
 nmap --script http-vuln-exchange.nse mail.draconem.io
 ```
 #### ProxyLogon
+- ProxyLogon is the name for CVE-2021-26855 and CVE-2021-27065. CVE-2021-26855 is a vulnerability on Microsoft Exchange that allows authentication bypass. 
+- CVE-2021-27065 is a post authentication file write vulnerability. When chained together, they allow remote code execution by allowing an adversary to bypass authentication and write a web shell to the server.
 
-
-
-###### Red Team Tip: Only use web shells with authentication, otherwise others could leverage your web shell.
+#### Red Team Tip: Only use web shells with authentication, otherwise others could leverage your web shell.
 
 ### Launch [[Empire C2#Create an Empire listener]]
 
