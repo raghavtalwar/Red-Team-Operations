@@ -29,7 +29,7 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 
 
 ### Interact with the Web Shell
-
+- Upload this WebShell on Private GitHub
 
 ### Deploy Agent on mail.draconem.io
 
