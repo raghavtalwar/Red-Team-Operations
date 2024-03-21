@@ -25,7 +25,7 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 ### Launch [[Empire C2#Create an Empire listener]]
 
 
-### Create Interactive HTTP pwsh PowerShell Stager
+### Create Interactive HTTP pwsh PowerShell Stager | Payload
 
 
 ### Interact with the Web Shell
