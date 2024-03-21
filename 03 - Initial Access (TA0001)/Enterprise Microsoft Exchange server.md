@@ -20,6 +20,7 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 - CVE-2021-27065 is a post authentication file write vulnerability. When chained together, they allow remote code execution by allowing an adversary to bypass authentication and write a web shell to the server.
 
 ###### Red Team Tip: Only use web shells with authentication, otherwise others could leverage your web shell.
+- Note: Depending on client we can request White cell to allow us to siluate exploitation
 
 ### Launch [[Empire C2#Create an Empire listener]]
 
