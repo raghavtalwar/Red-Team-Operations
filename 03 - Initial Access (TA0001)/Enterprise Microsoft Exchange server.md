@@ -99,14 +99,17 @@ find /opt/Empire/empire/server/downloads/ | grep pst
 cp /opt/Empire/empire/server/downloads/agent Name/C:/ProgramData/Mark.Goodwin.pst .
 
 readpst -S -o . Mark.Goodwin.pst
-
+```
+![[Pasted image 20240324035812.png]]
+```markdown
 #### readpst has extracted all the emails from the pst file to plain text
 ## We can now read through them for target intelligence
 ll Mark.Goodwin/Inbox/
 
 strings Mark.Goodwin/Inbox/1
 ```
-![[Pasted image 20240324035812.png]]
+![[Pasted image 20240324040015.png]]
+We just found that Mark Goodwin's password has been reset to `C@v3t3Dr@c0n3m!!`
 #### Notes | Bonus
 
 
