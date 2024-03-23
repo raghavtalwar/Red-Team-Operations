@@ -23,11 +23,12 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 - Note: Depending on client we can request White cell to allow us to simulate exploitation to avoid take down production servers.
 
 ### Launch [[Empire C2#Create an Empire listener]]
-
+- Launch Empire and start an http listener on port 8080 for your tun0 interface. 
 
 ### Create Interactive HTTP pwsh PowerShell Stager | Payload
+![[Pasted image 20240324024249.png]]
 
-
+![[Pasted image 20240324024300.png]]
 ### Interact with the Web Shell
 
 - WebShell Path on Target system: `C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\HttpProxy\owa\auth\rt-webshell-xcowe83.aspx`
