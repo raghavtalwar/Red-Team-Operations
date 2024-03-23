@@ -29,6 +29,8 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 
 
 ### Interact with the Web Shell
+
+- WebShell Path on Target system: `C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\HttpProxy\owa\auth\rt-webshell-xcowe83.aspx`
 - Upload this WebShell on Private GitHub
 
 ### Deploy Agent on mail.draconem.io
@@ -39,7 +41,6 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 
 ### Export User Emails
 
-`C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\HttpProxy\owa\auth\rt-webshell-xcowe83.aspx`
 
 ### Read User Emails
 
