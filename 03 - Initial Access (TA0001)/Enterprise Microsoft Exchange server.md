@@ -26,7 +26,6 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 - Launch Empire and start an http listener on port 8080 for your tun0 interface. 
 
 ### Create Interactive HTTP pwsh PowerShell Stager | Payload
-![[Pasted image 20240324024249.png]]
 
 
 ### Interact with the Web Shell
