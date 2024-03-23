@@ -53,6 +53,10 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 
 ### Enumerate Users
 
+```markdown
+# 
+powershell -c "Add-PSSnapIn Microsoft.Exchange.Management.Powershell.SnapIn; Get-Recipient | Format-Table -Auto Alias"
+```
 
 ### Export User Emails
 
