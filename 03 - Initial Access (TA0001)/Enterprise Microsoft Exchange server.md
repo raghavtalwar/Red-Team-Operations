@@ -52,6 +52,7 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 ![[Pasted image 20240324032430.png]]
 
 ### Enumerate Users
+- *Goal:* Pick up target intelligence from user email
 - The `Microsoft.Exchange.Management.Powershell.SnapIn` that will allow us use additional PowerShell functions and cmdlets that interact with Microsoft Exchange
 ```markdown
 # Enumerate the users with mailboxes
