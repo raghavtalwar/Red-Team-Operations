@@ -12,7 +12,7 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 ## [[PowerShell Stager with rundll32.exe]]
 
-#### *Payload:* Create Powershell Stager
+#### *Payload:* Create HTTP Powershell Stager
 
 ![[Pasted image 20240317180009.png]]
 
