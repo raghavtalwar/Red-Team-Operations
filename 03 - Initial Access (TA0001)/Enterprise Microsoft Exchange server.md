@@ -41,8 +41,10 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 - ASPX WebShell on Private GitHub: [**AspxRevShell**](https://github.com/raghavtalwar/Arsenal/tree/main/AspxRevShell)
  
 ### Deploy Agent on mail.draconem.io
-Goal: We want to get an agent/beacon on this Microsoft Exchange system in order to bring more tools and capability.
-
+*Goal:* We want to get an agent/beacon on this Microsoft Exchange system in order to bring more tools and capability.
+1. Click Cmd command in the top navigation window. 
+2. Paste your PowerShell stager into Statements to spawn a new agent. 
+3. Click carried out and check starkiller for a new agent.
 ### Enumerate Users
 
 
