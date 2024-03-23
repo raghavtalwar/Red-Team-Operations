@@ -29,7 +29,7 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 
 
 ### Interact with the Web Shell
-- Navigate to URL
+- Navigate to URL to explore the webshell as it comes with a lot of functionality!
 	- Password: `#$pwn3daspx#$h3ll` to authenticate to the web shell
 
 ![[Pasted image 20240324031111.png]]
