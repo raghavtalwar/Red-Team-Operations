@@ -42,7 +42,8 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 
 #### Notes | Bonus
 - IIS Default Directory: `C:\Inetpub`
-- Exchange Default Directory: `"C:\Program _Files_\_Microsoft_\_Exchange Server_\V15\ClientAccess\Owa`
+- Exchange Default Directory: `C:\Program _Files_\_Microsoft_\_Exchange Server_\V15\ClientAccess\Owa`
+- Find a file via PowerShell `Get-ChildItem -Path 'C:\' -Recurse -Include 'rt-webshell-xcowe83.aspx' -File -Force`
 
 
 ## Conclusion
