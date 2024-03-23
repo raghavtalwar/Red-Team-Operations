@@ -62,7 +62,18 @@ powershell -c "Add-PSSnapIn Microsoft.Exchange.Management.Powershell.SnapIn; Get
 ### Export User Emails
 
 ```powershell
+function Export-Email {
+    param (
+        $User
+    )
+    Add-PSSnapIn Microsoft.Exchange.Management.Powershell.SnapIn;
+    $OutFile = "\\127.0.0.1\c$\ProgramData\" + $User + ".pst";
+    New-MailboxExportRequest -Mailbox $User -FilePath $OutFile;
+};
 ```
+
+
+![[Pasted image 20240324033656.png]]
 ### Read User Emails
 
 
