@@ -52,9 +52,9 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 ![[Pasted image 20240324032430.png]]
 
 ### Enumerate Users
-
+- The `Microsoft.Exchange.Management.Powershell.SnapIn` that will allow us use additional PowerShell functions and cmdlets that interact with Microsoft Exchange
 ```markdown
-# 
+# Enumerate the users with mailboxes
 powershell -c "Add-PSSnapIn Microsoft.Exchange.Management.Powershell.SnapIn; Get-Recipient | Format-Table -Auto Alias"
 ```
 
