@@ -39,7 +39,7 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 
 ### Export User Emails
 
-
+`C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\HttpProxy\owa\auth\rt-webshell-xcowe83.aspx`
 
 #### Notes | Bonus
 - IIS Default Directory: `C:\Inetpub`
