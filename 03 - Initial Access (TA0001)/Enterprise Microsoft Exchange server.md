@@ -84,8 +84,9 @@ We will invoke this script with an Empire module called *invoke_script*.
 
 - There are many ways to complete a task but these commands mimic the same techniques used by HAFNIUM, the adversary we are emulating.
 
+![[Pasted image 20240324035153.png]]
 ### Read User Emails
-
+Download the exported mailbox by clicking the down arrow icon in the upper right of the agent screen. The file should be located at c:\ProgramData\Mark.Goodwin.pst. After downloading the file delete it off the mail server by issuing this shell command del c:\ProgramData\Mark.Goodwin.pst.
 
 #### Notes | Bonus
 
