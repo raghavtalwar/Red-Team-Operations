@@ -41,6 +41,9 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 
 `C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\HttpProxy\owa\auth\rt-webshell-xcowe83.aspx`
 
+### Read User Emails
+
+
 #### Notes | Bonus
 - IIS Default Directory: `C:\Inetpub`
 - Exchange Default Directory: `C:\Program _Files_\_Microsoft_\_Exchange Server_\V15\ClientAccess\Owa`
