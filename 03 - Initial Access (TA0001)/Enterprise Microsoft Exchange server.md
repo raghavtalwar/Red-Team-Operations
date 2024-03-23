@@ -41,7 +41,8 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 
 
 #### Notes | Bonus
-
+- IIS Default Directory
+- 
 
 
 ## Conclusion
