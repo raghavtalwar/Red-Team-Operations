@@ -90,16 +90,23 @@ We will invoke this script with an Empire module called *invoke_script*.
 2. The file should be located at `c:\ProgramData\Mark.Goodwin.pst` 
 3. After downloading the file delete it off the mail server by issuing this shell command `del c:\ProgramData\Mark.Goodwin.pst`
 ```markdown
-### Exxample the PST using readpst
+#### Example the PST using readpst
 ## Find the PST file in our Agent download directory & Copy it
 cd /labs/sec-3/initial-access/
 
 find /opt/Empire/empire/server/downloads/ | grep pst
 
-cp /opt/Empire/empire/server/downloads/*/C:/ProgramData/Mark.Goodwin.pst .
+cp /opt/Empire/empire/server/downloads/agent Name/C:/ProgramData/Mark.Goodwin.pst .
 
 readpst -S -o . Mark.Goodwin.pst
+
+#### readpst has extracted all the emails from the pst file to plain text
+## We can now read through them for target intelligence
+ll Mark.Goodwin/Inbox/
+
+strings Mark.Goodwin/Inbox/1
 ```
+![[Pasted image 20240324035812.png]]
 #### Notes | Bonus
 
 
