@@ -40,6 +40,7 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 ### Export User Emails
 
 
+
 #### Notes | Bonus
 - IIS Default Directory: `C:\Inetpub`
 - Exchange Default Directory: `C:\Program _Files_\_Microsoft_\_Exchange Server_\V15\ClientAccess\Owa`
