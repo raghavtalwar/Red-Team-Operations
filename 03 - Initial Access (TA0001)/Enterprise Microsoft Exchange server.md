@@ -41,7 +41,7 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 - ASPX WebShell on Private GitHub: [**AspxRevShell**](https://github.com/raghavtalwar/Arsenal/tree/main/AspxRevShell)
  
 ### Deploy Agent on mail.draconem.io
-
+Goal: We want to get an agent/beacon on this Microsoft Exchange system in order to bring more tools and capability.
 
 ### Enumerate Users
 
