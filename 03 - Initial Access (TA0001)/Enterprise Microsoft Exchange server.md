@@ -28,7 +28,7 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 ### Create Interactive HTTP pwsh PowerShell Stager | Payload
 ![[Pasted image 20240324024249.png]]
 
-![[Pasted image 20240324024300.png]]
+
 ### Interact with the Web Shell
 
 - WebShell Path on Target system: `C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\HttpProxy\owa\auth\rt-webshell-xcowe83.aspx`
