@@ -110,7 +110,10 @@ strings Mark.Goodwin/Inbox/1
 ```
 ![[Pasted image 20240324040015.png]]
 We just found that Mark Goodwin's password has been reset to `C@v3t3Dr@c0n3m!!`
-#### Notes | Bonus
-
-
+#### Bonus
+- Continue to read through the mailboxes of other users to find additional target intelligence.
 ## Conclusion
+- In this lab we used a web shell that was placed on the Microsoft Exchange server to deploy an agent.
+- Once we had positive control of our agent in target space we established our initial access. We were fortunate that our agent is running as SYSTEM and has unfettered access to the system. 
+- We then enumerated users and exported a mailbox to read through emails. In those emails we found that the user `Mark.Goodwin` had their password reset to `C@v3t3Dr@c0n3m!!`. 
+- We will use this information for later labs. Leave your agent running for the next lab.
