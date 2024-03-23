@@ -29,9 +29,14 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 
 
 ### Interact with the Web Shell
+- Navigate to URL
+	- Password: `#$pwn3daspx#$h3ll` to authenticate to the web shell
 
-
-##### Notes
+![[Pasted image 20240324031111.png]]
+#### Notes
+- IIS Default Directory: `C:\Inetpub`
+- Exchange Default Directory: `C:\Program _Files_\_Microsoft_\_Exchange Server_\V15\ClientAccess\Owa`
+- Find a file via PowerShell `Get-ChildItem -Path 'C:\' -Recurse -Include 'rt-webshell-xcowe83.aspx' -File -Force`
 - WebShell Path on Target system: `C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\HttpProxy\owa\auth\rt-webshell-xcowe83.aspx`
 - ASPX WebShell on Private GitHub: [**AspxRevShell**](https://github.com/raghavtalwar/Arsenal/tree/main/AspxRevShell)
  
@@ -48,9 +53,6 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 
 
 #### Notes | Bonus
-- IIS Default Directory: `C:\Inetpub`
-- Exchange Default Directory: `C:\Program _Files_\_Microsoft_\_Exchange Server_\V15\ClientAccess\Owa`
-- Find a file via PowerShell `Get-ChildItem -Path 'C:\' -Recurse -Include 'rt-webshell-xcowe83.aspx' -File -Force`
 
 
 ## Conclusion
