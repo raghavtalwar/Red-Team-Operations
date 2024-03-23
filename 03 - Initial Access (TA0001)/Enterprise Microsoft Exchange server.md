@@ -60,7 +60,7 @@ powershell -c "Add-PSSnapIn Microsoft.Exchange.Management.Powershell.SnapIn; Get
 ```
 ![[Pasted image 20240324033515.png]]
 ### Export User Emails
-
+The Exchange SnapIn, sets an output file and then exports the user's email to a pst file. Create the file on Slingshot Linux at /labs/sec-3/initial-access/export-email.ps1.
 ```powershell
 function Export-Email {
     param (
@@ -75,7 +75,7 @@ function Export-Email {
 
 ![[Pasted image 20240324033656.png]]
 
-
+- There are many ways to complete a task but these commands mimic the same techniques used by HAFNIUM, the adversary we are emulating.
 ### Read User Emails
 
 
