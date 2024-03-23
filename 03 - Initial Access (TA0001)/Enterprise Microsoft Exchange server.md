@@ -30,6 +30,8 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 
 ### Interact with the Web Shell
 
+
+##### Notes
 - WebShell Path on Target system: `C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\HttpProxy\owa\auth\rt-webshell-xcowe83.aspx`
 - WebShell on Private GitHub: [**AspxRevShell**](https://github.com/raghavtalwar/Arsenal/tree/main/AspxRevShell)
  
