@@ -58,10 +58,11 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 # Enumerate the users with mailboxes
 powershell -c "Add-PSSnapIn Microsoft.Exchange.Management.Powershell.SnapIn; Get-Recipient | Format-Table -Auto Alias"
 ```
-
+![[Pasted image 20240324033515.png]]
 ### Export User Emails
 
-
+```powershell
+```
 ### Read User Emails
 
 
