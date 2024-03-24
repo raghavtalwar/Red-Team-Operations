@@ -21,7 +21,7 @@ In real engagements, we should take the following into consideration:
 	- Outbound traffic must go direct to the redirector.
 
 ### Execute Stager on wk01.draconem.io
-
+#### [[Creating and Testing Payloads#Exe]]
 
 ## Conduct Host-Based Discovery with Seatbelt
 
