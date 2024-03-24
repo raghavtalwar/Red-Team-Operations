@@ -16,7 +16,9 @@
 In real engagements, we should take the following into consideration:
 1. **RDP:** Service will not be accessible directly to workstations
 2. **Redirector:** Traffic must be redirected
-3. **Interaction:** Inbound traffic to the target workstation must go through a Pivot, whereas the 
+3. **Interaction:** 
+	- Inbound traffic must go through a Pivot to the target workstation.
+	- Outbound traffic must go direct to the redirector.
 
 ### Execute Stager on wk01.draconem.io
 
