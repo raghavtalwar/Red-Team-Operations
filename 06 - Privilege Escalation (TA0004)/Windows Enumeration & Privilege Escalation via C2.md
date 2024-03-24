@@ -36,7 +36,6 @@ In real engagements, we should take the following into consideration:
 ## Privilege Escalation with PowerUp
 - mango
 - sui
-- 
 
 ### Review PowerUp Results
 
