@@ -13,7 +13,10 @@
 
 
 #### Operational Security
-
+In real engagements, we should take the following into consideration:
+1. **RDP:** Service will not be accessible directly to workstations
+2. **Redirector:** Traffic must be redirected
+3. **Interaction:** Inbound traffic to the target workstation must go through a Pivot, whereas the 
 
 ### Execute Stager on wk01.draconem.io
 
