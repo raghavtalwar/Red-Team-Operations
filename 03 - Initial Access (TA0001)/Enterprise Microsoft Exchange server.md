@@ -25,7 +25,7 @@ nmap --script http-vuln-exchange.nse mail.draconem.io
 ### Launch [[Empire C2#Create an Empire listener]]
 - Launch Empire and start an http listener on port 8080 for your tun0 interface. 
 
-### Create [[Creating and Testing Payloads#*Payload * Create interactive HTTP Powershell Stager|Payload: Create interactive HTTP Powershell Stager]]
+### Create [[Creating and Testing Payloads#*Payload * Create interactive HTTP Powershell Stager|Payload: Interactive HTTP Powershell Stager]]
 
 
 ### Interact with the Web Shell

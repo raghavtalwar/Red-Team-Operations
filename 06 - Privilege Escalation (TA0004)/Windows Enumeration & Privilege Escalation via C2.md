@@ -9,7 +9,7 @@
 ### Launch [[Empire C2#Create an Empire listener|Empire & Starkiller]]
 
 
-### Create a PowerShell Stager
+### Create [[Creating and Testing Payloads#*Payload * Create interactive HTTP Powershell Stager|Payload: Interactive HTTP Powershell Stager]]
 
 
 #### Operational Security
