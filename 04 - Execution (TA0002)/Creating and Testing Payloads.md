@@ -10,7 +10,7 @@ This lab will focus on creating multiple payloads and then testing them in the s
 
 ### Launch [[Empire C2#Create an Empire listener]] 
 
-## [[PowerShell Stager with rundll32.exe]]
+## [[PowerShell HTTP Stager with rundll32.exe]]
 
 #### *Payload:* Create interactive HTTP Powershell Stager
 
