@@ -10,3 +10,21 @@
 
 
 ### Create a PowerShell Stager
+
+
+##### Operational Security
+
+
+### Execute Stager on wk01.draconem.io
+
+
+### Conduct Host-Based Discovery with Seatbelt
+
+
+#### Review Seatbelt Results
+
+
+### Privilege Escalation with PowerUp
+
+
+#### Review PowerUp Results
