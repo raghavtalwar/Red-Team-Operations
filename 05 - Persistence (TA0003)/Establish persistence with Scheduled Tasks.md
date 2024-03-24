@@ -17,3 +17,21 @@
 
 
 ### Execute Stager on wk01.draconem.io
+
+
+## Establish Persistence with Scheduled Tasks
+
+
+### Examine IoCs
+
+
+### Create Shortcut to Backdoor
+
+
+## Establish Persistence with Backdoored .LNK
+
+
+### Examine IoCs
+
+
+#### Notes | Bonues
