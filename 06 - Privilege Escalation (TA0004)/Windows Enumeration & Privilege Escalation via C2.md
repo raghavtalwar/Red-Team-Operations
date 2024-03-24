@@ -28,3 +28,14 @@
 
 
 #### Review PowerUp Results
+
+
+### Exploiting Unquoted Service Path
+#### Create a Windows Service Binary
+
+#### Serve and Transfer the Payload
+
+
+### Dump Hashes with the Elevated Agent
+
+
