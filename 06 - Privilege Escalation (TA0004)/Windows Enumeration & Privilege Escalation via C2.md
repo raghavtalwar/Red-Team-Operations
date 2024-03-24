@@ -8,9 +8,7 @@
 
 ### Launch [[Empire C2#Create an Empire listener|Empire & Starkiller]]
 
-
-### Create [[Creating and Testing Payloads#*Payload * Create interactive HTTP Powershell Stager|Payload: Interactive HTTP Powershell Stager]]
-
+### Execute Stager on wk01.draconem.io - [[Creating and Testing Payloads#PowerShell HTTP Stager with rundll32.exe|Create interactive HTTP PowerShell Stager & Execute via rundll32.exe or PowerShell console]]
 
 #### Operational Security
 In real engagements, we should take the following into consideration:
@@ -19,8 +17,6 @@ In real engagements, we should take the following into consideration:
 3. **Interaction:** 
 	- Inbound traffic must go through a Pivot to the target workstation.
 	- Outbound traffic must go direct to the redirector.
-
-### Execute Stager on wk01.draconem.io - [[Creating and Testing Payloads#PowerShell HTTP Stager with rundll32.exe|Create interactive HTTP PowerShell Stager & Execute via rundll32.exe or PowerShell console]]
 
 ----
 ## Conduct Host-Based Discovery with Seatbelt
