@@ -29,6 +29,8 @@ In real engagements, we should take the following into consideration:
 3. *DNSCache check:*
 4. *DotNet check:*
 5. *InterestingProcesses*
+6. WindowsDefender
+7. WindowsEventForwarding
 
 ## Privilege Escalation with PowerUp
 
