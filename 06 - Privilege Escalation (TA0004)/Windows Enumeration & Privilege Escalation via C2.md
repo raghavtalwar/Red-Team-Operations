@@ -20,9 +20,9 @@ In real engagements, we should take the following into consideration:
 	- Inbound traffic must go through a Pivot to the target workstation.
 	- Outbound traffic must go direct to the redirector.
 
-### Execute Stager on wk01.draconem.io
-#### [[Creating and Testing Payloads#*Execution Technique*|Create interactive HTTP PowerShell Stager & Execute via rundll32.exe or PowerShell consoel]]
+### Execute Stager on wk01.draconem.io - [[Creating and Testing Payloads#*Execution Technique*|Create interactive HTTP PowerShell Stager & Execute via rundll32.exe or PowerShell console]]
 
+----
 ## Conduct Host-Based Discovery with Seatbelt
 
 
