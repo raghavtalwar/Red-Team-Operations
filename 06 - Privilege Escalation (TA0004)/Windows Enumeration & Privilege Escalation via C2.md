@@ -6,7 +6,7 @@
     Escalate to SYSTEM
     Dump Password Hashes
 
-### Launch Empire and Starkiller
+### Launch [[Empire C2#Create an Empire listener|Empire & Starkiller]]
 
 
 ### Create a PowerShell Stager
