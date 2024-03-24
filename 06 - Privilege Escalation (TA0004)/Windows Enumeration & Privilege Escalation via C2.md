@@ -24,9 +24,11 @@ In real engagements, we should take the following into consideration:
 
 ### Review Seatbelt Results
 
-1. Antivirus check: Failed then review the Process list to identify security products.
-2. ARPTable check:
-3. DNSCache check:
+1. *Antivirus check:* Failed then review the Process list to identify security products.
+2. *ARPTable check:*
+3. *DNSCache check:*
+4. *DotNet check:*
+5. *InterestingProcesses*
 
 ## Privilege Escalation with PowerUp
 
