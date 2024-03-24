@@ -12,31 +12,31 @@
 ### Create a PowerShell Stager
 
 
-##### Operational Security
+#### Operational Security
 
 
 ### Execute Stager on wk01.draconem.io
 
 
-### Conduct Host-Based Discovery with Seatbelt
+## Conduct Host-Based Discovery with Seatbelt
 
 
-#### Review Seatbelt Results
+### Review Seatbelt Results
 
 
-### Privilege Escalation with PowerUp
+## Privilege Escalation with PowerUp
 
 
-#### Review PowerUp Results
+### Review PowerUp Results
 
 
-### Exploiting Unquoted Service Path
-#### Create a Windows Service Binary
+## Exploiting Unquoted Service Path
+### Create a Windows Service Binary
 
-#### Serve and Transfer the Payload
+### Serve and Transfer the Payload
 
 
-### Dump Hashes with the Elevated Agent
+## Dump Hashes with the Elevated Agent
 
 
 #### Notes | Bonus
