@@ -24,6 +24,7 @@ In real engagements, we should take the following into consideration:
 
 ### Review Seatbelt Results
 
+#### Antivirus Check: Failed then review the Process list to identify security products.
 
 ## Privilege Escalation with PowerUp
 
