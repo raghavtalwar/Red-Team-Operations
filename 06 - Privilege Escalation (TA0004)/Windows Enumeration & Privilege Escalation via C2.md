@@ -26,6 +26,7 @@ In real engagements, we should take the following into consideration:
 
 1. Antivirus check: Failed then review the Process list to identify security products.
 2. ARPTable check:
+3. DNSCache check:
 
 ## Privilege Escalation with PowerUp
 
