@@ -29,7 +29,7 @@
 
 
 ## Establish Persistence with Backdoored .LNK
-
+![[Pasted image 20240331062359.png]]
 
 ### Examine IoCs
 
