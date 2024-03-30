@@ -24,13 +24,8 @@ Note: We cannot spawn a 64 bit PS from a 32 bit agent. To spawn a new process / 
 - Observe, we now have a new agent that is a 64-bit process running as SYSTEM!
 
 ![[Pasted image 20240331023805.png]]
-## Enumeration 
-
-```markdown
-```
-
 ## Exploitation 
-
+Interact with your new 64-bit agent, select powershell/credentials/mimikatz/logonpasswords from the Execute Module drop down list. Then click the SUBMIT button.
 ```markdown
 ```
 
