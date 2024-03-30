@@ -21,6 +21,7 @@
 
 ## Establish Persistence with Scheduled Tasks
 
+![[Pasted image 20240331062433.png]]
 
 ### Examine IoCs
 
@@ -29,6 +30,7 @@
 
 
 ## Establish Persistence with Backdoored .LNK
+
 ![[Pasted image 20240331062359.png]]
 
 ### Examine IoCs
