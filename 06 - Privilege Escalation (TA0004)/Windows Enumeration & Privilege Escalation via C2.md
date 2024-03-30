@@ -19,6 +19,17 @@ In real engagements, we should take the following into consideration:
 	- Outbound traffic must go direct to the redirector.
 
 ----
+## Enumeration
+```markdown
+# whoami
+$env:username
+
+# Systeminfo
+
+```
+
+
+----
 ## Conduct Host-Based Discovery with Seatbelt
 
 
