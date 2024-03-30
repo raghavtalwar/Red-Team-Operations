@@ -24,7 +24,9 @@ In real engagements, we should take the following into consideration:
 # whoami
 $env:username
 
-# Systeminfo
+# System name
+### [System.Net.Dns]::GetHostByName(($env:computerName))
+
 
 ```
 
