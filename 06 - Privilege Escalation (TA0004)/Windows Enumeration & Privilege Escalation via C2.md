@@ -10,7 +10,7 @@
 
 ### Execute Stager on wk01.draconem.io - [[Creating and Testing Payloads#PowerShell HTTP Stager with rundll32.exe|Create interactive HTTP PowerShell Stager & Execute via rundll32.exe or PowerShell console]]
 
-#### Operational Security
+### Operational Security
 In real engagements, we should take the following into consideration:
 1. **RDP:** Service will not be accessible directly to workstations
 2. **Redirector:** Traffic must be redirected
@@ -35,7 +35,7 @@ $env:username
 ----
 ## Conduct Host-Based Discovery with Seatbelt
 
-
+![[Pasted image 20240330182528.png]]
 ### Review Seatbelt Results
 
 1. *Antivirus check:* Failed then review the Process list to identify security products.
