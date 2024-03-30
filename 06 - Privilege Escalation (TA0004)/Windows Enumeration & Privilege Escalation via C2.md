@@ -42,7 +42,7 @@ $env:username
 2. *ARPTable check:* The ARPTable section will show relevant network interfaces and the ARP cache.
 	1. ARP cache entries are short lived, the information is usually reliable. The cache may reveal other targets in the same network segment.
 	2. The network interfaces are important as you begin to create a network map of the targets and any device that sits on two networks, has multiple adapters, is a **valuable target**.
-3. *DNSCache check:*
+3. *DNSCache check:* The DNSCache should direct you to the DNS servers in the network.
 4. *DotNet check:*
 5. *InterestingProcesses:*
 6. *WindowsDefender:*
