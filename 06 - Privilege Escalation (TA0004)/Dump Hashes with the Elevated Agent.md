@@ -1,16 +1,23 @@
 #### Tags: [[06 - Privilege Escalation (TA0004)]] [[Empire C2]]
 
 ## Overview 
-- Goal
+- Goal: Use our elevated agent to pull password hashes using mimikatz. 
 
-```markdown
-```
-Always while operating, check Agent or PowerShell for the following:
+### Operating via Agent or PowerShell
+Always check for the following:
 1. Integrity - High
 2. Running as - System
 3. Arch / Bit - 32 Bit or 64 Bit PowerShell Process
 
 This is due to the fact that the binary we compiled with PowerUp is only 32-bit and there is not a 64-bit option.
+- If we run mimikatz with this agent, it will fail due to the architecture mismatch. In fact, many of the modules will not function properly with this 32-bit agent. 
+
+### PowerShell Process
+On 64-bit Windows, the System32 folder holds the 64-bit binaries and the SysWOW64 folder holds the 32-bit binaries. Remember that WOW64 stands for "Windows 32-bit on Windows 64-bit"
+
+`32-bit (x86) PowerShell is located at %SystemRoot%\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+
+`64-bit (x64) PowerShell is located at %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
 
 ![[Pasted image 20240331023805.png]]
 ## Enumeration 
