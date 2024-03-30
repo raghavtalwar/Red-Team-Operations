@@ -19,7 +19,7 @@ In real engagements, we should take the following into consideration:
 	- Outbound traffic must go direct to the redirector.
 
 ----
-## Enumeration
+## Host Enumeration
 ```markdown
 # whoami
 $env:username
@@ -27,7 +27,8 @@ $env:username
 # System name
 ### [System.Net.Dns]::GetHostByName(($env:computerName))
 
-
+# Domain name
+### [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain()
 ```
 
 
