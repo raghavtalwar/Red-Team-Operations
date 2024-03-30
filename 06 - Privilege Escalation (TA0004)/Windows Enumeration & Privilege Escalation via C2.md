@@ -37,7 +37,7 @@ $env:username
 
 ![[Pasted image 20240330182528.png]]
 ### Review Seatbelt Results
-
+Each section 
 1. *Antivirus check:* Failed then review the Process list to identify security products.
 2. *ARPTable check:* The ARPTable section will show relevant network interfaces and the ARP cache.
 	1. ARP cache entries are short lived, the information is usually reliable. The cache may reveal other targets in the same network segment.
