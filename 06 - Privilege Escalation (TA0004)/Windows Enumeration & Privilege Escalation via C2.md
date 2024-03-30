@@ -57,9 +57,6 @@ Each section throws information back at us, we should know how to interpret thos
 
 
 ## [[Unquoted Service Path Enum & Exploitation]]
-### Create a Windows Service Binary
-
-### Serve and Transfer the Payload
 
 
 ## Dump Hashes with the Elevated Agent
