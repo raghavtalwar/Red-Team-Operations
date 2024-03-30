@@ -31,7 +31,6 @@ $env:username
 ### [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain()
 ```
 
-
 ----
 ## Conduct Host-Based Discovery with Seatbelt
 
@@ -57,7 +56,7 @@ Each section throws information back at us, we should know how to interpret thos
 ### Review PowerUp Results
 
 
-## Exploiting Unquoted Service Path
+## [[Unquoted Service Path Enum & Exploitation]]
 ### Create a Windows Service Binary
 
 ### Serve and Transfer the Payload
