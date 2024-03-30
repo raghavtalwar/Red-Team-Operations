@@ -1,10 +1,16 @@
 #### Tags: [[06 - Privilege Escalation (TA0004)]] [[Empire C2]]
 
 ## Overview 
+- Goal
 
 ```markdown
 ```
+Always while operating, check Agent or PowerShell for the following:
+1. Integrity - High
+2. Running as - System
+3. Arch / Bit - 32 Bit or 64 Bit PowerShell Process
 
+This is due to the fact that the binary we compiled with PowerUp is only 32-bit and there is not a 64-bit option.
 
 ![[Pasted image 20240331023805.png]]
 ## Enumeration 
