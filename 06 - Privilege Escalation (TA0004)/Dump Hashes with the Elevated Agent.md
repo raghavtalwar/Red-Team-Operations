@@ -5,6 +5,9 @@
 ```markdown
 ```
 
+![[Pasted image 20240331023720.png]]
+
+![[Pasted image 20240331023805.png]]
 ## Enumeration 
 
 ```markdown
