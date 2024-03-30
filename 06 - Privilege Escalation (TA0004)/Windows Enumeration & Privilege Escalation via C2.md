@@ -51,7 +51,7 @@ Each section throws information back at us, we should understand what was checke
 
 ## Privilege Escalation with PowerUp
 
-
+![[Pasted image 20240331020440.png]]
 ### Review PowerUp Results
 
 
