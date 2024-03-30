@@ -50,8 +50,7 @@ Each section throws information back at us, we should know how to interpret thos
 8. *WindowsFirewall:*
 
 ## Privilege Escalation with PowerUp
-- mango
-- sui
+
 
 ### Review PowerUp Results
 
