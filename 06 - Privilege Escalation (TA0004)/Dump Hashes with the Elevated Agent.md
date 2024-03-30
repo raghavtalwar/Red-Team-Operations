@@ -4,6 +4,7 @@
 
 ```markdown
 ```
+
 ## Enumeration 
 
 ```markdown
@@ -14,10 +15,6 @@
 ```markdown
 ```
 
-## Resources
-
-```markdown
-```
 
 #### Notes | Bonus
 
