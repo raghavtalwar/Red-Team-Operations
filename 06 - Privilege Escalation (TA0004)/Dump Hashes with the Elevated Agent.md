@@ -19,6 +19,8 @@ On 64-bit Windows, the System32 folder holds the 64-bit binaries and the SysWOW6
 
 `64-bit (x64) PowerShell is located at %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
 
+
+
 ![[Pasted image 20240331023805.png]]
 ## Enumeration 
 
