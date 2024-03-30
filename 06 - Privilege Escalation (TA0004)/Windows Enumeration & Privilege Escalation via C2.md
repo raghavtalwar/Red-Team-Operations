@@ -46,8 +46,8 @@ Each section throws information back at us, we should know how to interpret thos
 4. *DotNet check:*
 5. *InterestingProcesses:*
 6. *WindowsDefender:*
-7. *WindowsEventForwarding:*
-8. *WindowsFirewall:*
+7. *WindowsEventForwarding:* This will indicate if event logs are being centralized elsewhere on the network.
+8. *WindowsFirewall:* The WindowsFirewall section should be of particular interest as the rest of the computers on the domain should have similar settings. Take these into consideration as you propagate through the network.
 
 ## Privilege Escalation with PowerUp
 
