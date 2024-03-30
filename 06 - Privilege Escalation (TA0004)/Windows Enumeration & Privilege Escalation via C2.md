@@ -36,7 +36,7 @@ $env:username
 
 ![[Pasted image 20240330182528.png]]
 ### Review Seatbelt Results
-Each section throws information back at us, we should know how to interpret those results!
+Each section throws information back at us, we should understand what was checked and why and how to interpret those results!
 
 1. *Antivirus check:* Failed then review the Process list to identify security products.
 2. *ARPTable check:* The ARPTable section will show relevant network interfaces and the ARP cache.
@@ -45,7 +45,7 @@ Each section throws information back at us, we should know how to interpret thos
 3. *DNSCache check:* The DNSCache should direct you to the DNS servers in the network.
 4. *DotNet check:*
 5. *InterestingProcesses:*
-6. *WindowsDefender:*
+6. *WindowsDefender:* Current Defender Status
 7. *WindowsEventForwarding:* This will indicate if event logs are being centralized elsewhere on the network.
 8. *WindowsFirewall:* The WindowsFirewall section should be of particular interest as the rest of the computers on the domain should have similar settings. Take these into consideration as you propagate through the network.
 
