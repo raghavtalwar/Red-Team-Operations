@@ -1,7 +1,7 @@
 #### Tags: [[06 - Privilege Escalation (TA0004)]] [[Empire C2]]
 
 ## Overview 
-- Goal: Use our elevated agent gained by exploiting  to pull password hashes using mimikatz. 
+- Goal: Use our elevated agent gained by exploiting [[Unquoted Service Path Enum & Exploitation|Unquoted Service Path]] to pull password hashes using mimikatz. 
 
 ### Operating via Agent or PowerShell
 Always check for the following:
