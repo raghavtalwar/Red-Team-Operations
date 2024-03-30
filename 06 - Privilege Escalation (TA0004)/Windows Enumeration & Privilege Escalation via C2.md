@@ -43,8 +43,8 @@ Each section throws information back at us, we should understand what was checke
 	1. ARP cache entries are short lived, the information is usually reliable. The cache may reveal other targets in the same network segment.
 	2. The network interfaces are important as you begin to create a network map of the targets and any device that sits on two networks, has multiple adapters, is a **valuable target**.
 3. *DNSCache check:* The DNSCache should direct you to the DNS servers in the network.
-4. *DotNet check:*
-5. *InterestingProcesses:*
+4. *DotNet check:* The DotNet section will show the latest version of .NET and CLR, this information is relevant for the csharp tools that leverage .NET. Also the status of AMSI can be detrimental to our use of scripting languages.
+5. *InterestingProcesses:* The InterestingProcesses section should indicate processes like security products as well as other indicators that stand out. 
 6. *WindowsDefender:* Current Defender Status
 7. *WindowsEventForwarding:* This will indicate if event logs are being centralized elsewhere on the network.
 8. *WindowsFirewall:* The WindowsFirewall section should be of particular interest as the rest of the computers on the domain should have similar settings. Take these into consideration as you propagate through the network.
