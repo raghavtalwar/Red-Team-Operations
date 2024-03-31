@@ -7,6 +7,7 @@ type: folder_brief_live
 - [[Dump Hashes with the Elevated Agent]]
 - [[Linux Privilege Escalation]]
 - [[Unquoted Service Path Enum & Exploitation]]
+- **Untitled**
 - [[Windows Enumeration & Privilege Escalation via C2]]
 
 %% End Waypoint %%
