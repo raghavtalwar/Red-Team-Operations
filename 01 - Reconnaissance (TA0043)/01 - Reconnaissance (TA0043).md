@@ -4,7 +4,7 @@ type: folder_brief_live
 ```
  
 %% Begin Waypoint %%
-- [[AD]]
+- [[Active Directory Enumeration]]
 - [[External Recon]]
 - [[Internal Recon]]
 
