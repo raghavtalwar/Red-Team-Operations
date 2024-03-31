@@ -58,7 +58,7 @@ Each section throws information back at us, we should understand what was checke
 ## [[Unquoted Service Path Enum & Exploitation]]
 
 
-## Dump Hashes with the Elevated Agent
+## [[Dump Hashes with the Elevated Agent]] 
 
 
 #### Notes | Bonus
