@@ -2,7 +2,6 @@
 ```ccard
 type: folder_brief_live
 ```
-
 %% Begin Waypoint %%
 - **[[Enumerating Active Directory]]**
 	- [[AD Enumeration over C2]]
