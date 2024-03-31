@@ -9,9 +9,6 @@
 
 ### Launch [[Empire C2#Create an Empire listener|Empire & Starkiller]]
 
-
-### Create [[Creating and Testing Payloads#PowerShell HTTP Stager with rundll32.exe|interactive HTTP PowerShell Stager & Execute via rundll32.exe or PowerShell console]]
-
 ##### Operational Security
 In real engagements, we should take the following into consideration:
 1. **RDP:** Service will not be accessible directly to workstations
@@ -20,7 +17,7 @@ In real engagements, we should take the following into consideration:
 	- Inbound traffic must go through a Pivot to the target workstation.
 	- Outbound traffic must go direct to the redirector.
 
-### Execute Stager on wk01.draconem.io
+### Execute Stager on wk01.draconem.io - Create [[Creating and Testing Payloads#PowerShell HTTP Stager with rundll32.exe|interactive HTTP PowerShell Stager & Execute via rundll32.exe or PowerShell console]]
 
 
 ## Establish Persistence with Scheduled Tasks
