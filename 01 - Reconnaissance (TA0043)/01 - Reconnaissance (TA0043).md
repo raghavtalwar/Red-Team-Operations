@@ -7,5 +7,6 @@ type: folder_brief_live
 - [[Active Directory Enumeration]]
 - [[External Recon]]
 - [[Internal Recon]]
+- [[User Enumeration AD]]
 
 %% End Waypoint %%
