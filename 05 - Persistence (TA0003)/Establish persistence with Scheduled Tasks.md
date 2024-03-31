@@ -7,7 +7,7 @@
     Create a shortcut, .lnk file, on the user's desktop
     Backdoor the shortcut, .lnk file, using a persistence module
 
-### Launch Empire and Starkiller
+### Launch [[Empire C2#Create an Empire listener|Empire & Starkiller]]
 
 
 ### Create a PowerShell Stager
