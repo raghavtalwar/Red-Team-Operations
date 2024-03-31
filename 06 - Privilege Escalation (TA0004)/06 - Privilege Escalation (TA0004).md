@@ -7,9 +7,9 @@ type: folder_brief_live
 - **[[AD Priv Esc]]**
 - **Linux Privilege Escalation**
 	- [[Linux Priv Esc Cheatsheet]]
-- **Windows Priv Esc**
+- **Windows Privilege Escalation**
 	- [[Dump Hashes with the Elevated Agent]]
 	- [[Unquoted Service Path Enum & Exploitation]]
-	- [[Windows Enumeration & Privilege Escalation via C2]]
+	- [[Windows Priv Esc via C2]]
 
 %% End Waypoint %%
