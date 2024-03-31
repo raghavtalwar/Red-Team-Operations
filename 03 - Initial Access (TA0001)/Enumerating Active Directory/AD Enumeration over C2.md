@@ -1,15 +1,15 @@
 #### Tags: [[Enumerating Active Directory]]
 
-## Overview 
+## Overview
 
 ```markdown
 ```
-## Enumeration 
+## Enumeration
 
 ```markdown
 ```
 
-## Exploitation 
+## Exploitation
 
 ```markdown
 ```
