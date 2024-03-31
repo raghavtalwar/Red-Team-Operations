@@ -1,4 +1,3 @@
-# Overview
 
 %% Begin Waypoint %%
 - [[Attack Infrastructure 101]]
