@@ -74,3 +74,5 @@ Go through all the books
 - Index 
 	- Not to open the book
 	- Master Cheatsheet
+
+Q > tcpdump > Hey what does this command will accomplish 
