@@ -73,6 +73,7 @@ Each section throws information back at us, we should understand what was checke
 6. BONUS - ADExplorer
 7. BONUS - Using LAPSToolkit for LAPS Enumeration
 8. BONUS - Using SharpAdidnsdump for DNS enumeration
-9. CRTP Desktop Notes + Pentest Laptop notes at some point
+
+CRTP Desktop Notes + Pentest Laptop notes at some point
 
 ## Conclusion
