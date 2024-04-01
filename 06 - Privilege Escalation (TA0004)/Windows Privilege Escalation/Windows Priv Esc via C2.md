@@ -63,7 +63,8 @@ Each section throws information back at us, we should understand what was checke
 
 #### Notes | Bonus
 - Create Links
-- Mindset on how to operate in complex en
+- Mindset on how to operate in complex env
+
 
 
 ## Conclusion
