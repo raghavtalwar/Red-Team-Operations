@@ -67,4 +67,6 @@ Go through all the books
 ![[Pasted image 20240402011834.png]]
 
 - Slide Title Name
-
+	- Pg 2 Slide 6
+	- Time is the enemy 
+	- 
