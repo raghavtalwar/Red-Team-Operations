@@ -82,7 +82,9 @@ Create
 - Go Book by Book
 	- GO one for the Book
 
-
 Q > tcpdump > Hey what does this command will accomplish 
 
+600 Lines of entry
+- Index good but not finding info
+- Make index > A to Z arrange krrdo
 ![[Pasted image 20240402012338.png]]
