@@ -69,4 +69,8 @@ Go through all the books
 - Slide Title Name
 	- Pg 2 Slide 6
 	- Time is the enemy 
-	- 
+	- 90 seconds - 1 question
+
+- Index 
+	- Not to open the book
+	- Master Cheatsheet
