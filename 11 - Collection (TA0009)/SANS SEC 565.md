@@ -91,3 +91,4 @@ Q > tcpdump > Hey what does this command will accomplish
 
 ![[Pasted image 20240402012338.png]]
 
+![[Pasted image 20240402013408.png]]
