@@ -55,3 +55,9 @@ The two have very different way of modification.
 - **Cmdlet Usage:** Modifications often involve the creative use of existing cmdlets.
 - **Easier to Obfuscate:** Scripts can be obfuscated by altering command names, using aliases, or encoding scripts.
 - **Integrated with Windows Environment:** Modifications can leverage deep integration with the Windows OS for specific tasks.
+
+---
+## INDEX
+![[Pasted image 20240402011757.png]]
+![[Pasted image 20240402011753.png]]
+
