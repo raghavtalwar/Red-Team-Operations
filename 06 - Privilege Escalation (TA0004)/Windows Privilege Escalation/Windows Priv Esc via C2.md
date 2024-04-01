@@ -67,6 +67,10 @@ Each section throws information back at us, we should understand what was checke
 
 1. RSAT
 2. AD Module
-
+3. Powerview & Sharpview
+4. BONUS - ADSI
+5. BONUS - ADFind
+6. BONUS - ADExplorer
+7. CRTP Desk
 
 ## Conclusion
