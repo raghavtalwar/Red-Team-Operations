@@ -71,6 +71,8 @@ Each section throws information back at us, we should understand what was checke
 4. BONUS - ADSI
 5. BONUS - ADFind
 6. BONUS - ADExplorer
-7. CRTP Desk
+7. BONUS - Using LAPSToolkit for LAPS Enumeration
+8. BONUS - Using SharpAdidnsdump for DNS enumeration
+9. CRTP Desktop Notes + Pentest Laptop notes at some point
 
 ## Conclusion
