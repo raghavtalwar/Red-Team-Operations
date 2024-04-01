@@ -74,5 +74,8 @@ Go through all the books
 - Index 
 	- Not to open the book
 	- Master Cheatsheet
+	- Close to 20 to 25 days
+	- Improve and Refresh Knowledge
+	- 
 
 Q > tcpdump > Hey what does this command will accomplish 
