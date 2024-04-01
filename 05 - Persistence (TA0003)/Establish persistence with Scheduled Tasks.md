@@ -34,7 +34,7 @@ In real engagements, we should take the following into consideration:
 
 ![[Pasted image 20240331062359.png]]
 
-### Examine IoCs
+	### Examine IoCs
 
 
 #### Notes | Bonus
