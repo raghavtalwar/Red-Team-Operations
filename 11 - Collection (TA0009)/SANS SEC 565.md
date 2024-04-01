@@ -76,6 +76,13 @@ Go through all the books
 	- Master Cheatsheet
 	- Close to 20 to 25 days
 	- Improve and Refresh Knowledge
-	- 
+	- 90 to 95%
+
+Create 
+- Go Book by Book
+	- GO one for the Book
+
 
 Q > tcpdump > Hey what does this command will accomplish 
+
+![[Pasted image 20240402012338.png]]
