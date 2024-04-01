@@ -65,6 +65,8 @@ Each section throws information back at us, we should understand what was checke
 - Create Links
 - Mindset on how to operate in complex env
 
+1. RSAT
+2. AD Module
 
 
 ## Conclusion
