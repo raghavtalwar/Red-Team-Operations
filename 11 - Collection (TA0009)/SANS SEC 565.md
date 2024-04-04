@@ -58,7 +58,7 @@ The two have very different way of modification.
 
 ---
 ## INDEX
-![[Pasted image 20240402011757.png]]
+
 ![[Pasted image 20240402011753.png]]
 
 Go through all the books 
