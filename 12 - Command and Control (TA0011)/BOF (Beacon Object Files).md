@@ -13,3 +13,11 @@ A Beacon Object File (BOF) is a compiled C program designed to run within the Be
 
 
 # Situational Awareness BOF
+
+
+
+# InlineExecute-Assembly
+
+
+##### **Resources**
+
