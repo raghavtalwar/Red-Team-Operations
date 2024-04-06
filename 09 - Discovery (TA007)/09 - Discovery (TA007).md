@@ -5,8 +5,6 @@ type: folder_brief_live
 ```
 
 %% Begin Waypoint %%
-- **Access 2 Credentials AD**
-	- [[Untitled]]
 - **[[Enumerating Active Directory]]**
 	- [[AD Enumeration over C2]]
 	- [[Computer Enumeration AD]]
@@ -15,7 +13,8 @@ type: folder_brief_live
 	- [[Local Administrator Password Solution AD]]
 	- [[RSAT Enumeration AD]]
 	- [[User Enumeration AD]]
-- [[Privilege Hunting AD]]
+- **[[Privilege Hunting AD]]**
+	- [[Untitled]]
 - [[User Impersonation AD]]
 
 %% End Waypoint %%
