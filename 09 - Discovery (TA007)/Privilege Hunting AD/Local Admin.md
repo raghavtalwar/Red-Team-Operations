@@ -4,6 +4,5 @@
 
 ## Specific Computer / User Check
 
-    powershell Find-GPOComputerAdmin -ComputerName hr01
-
-	Get-DomainGPOComputerLocalGroupMapping -Domain dev.testlab.local -ComputerName WINDOWS4.dev.testlab.local -LocalGroup RDP
+Finds users who have local admin rights over hr01 through GPO correlation.
+`powershell Find-GPOComputerAdmin -ComputerName hr01
