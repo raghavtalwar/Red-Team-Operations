@@ -2,7 +2,7 @@
 # Overview
 A Beacon Object File (BOF) is a compiled C program designed to run within the Beacon process, leveraging Beacon's internal APIs.
 - Use Case: Extends the Beacon agent with new post-exploitation features without creating new processes.
-- 
+- Some BOF directly call WIN32 APIs (User Land) whereas Others might leverage direct system calls (Kernel)
 ## Benefits of BOFs
 
     - OPSEC Friendly: Executes within the Beacon process, no new process creation required.
