@@ -16,6 +16,12 @@ A Beacon Object File (BOF) is a compiled C program designed to run within the Be
 # Situational Awareness BOF
 
 
+# InlineExecute-Assembly
+
+
+
+https://github.com/anthemtotheego/InlineExecute-Assembly
+
 # InlineWhispers
 A tool to facilitate the use of direct system calls in Cobalt Strike's Beacon Object Files (BOFs) to evade common security product hooks that monitor Win32 API functions.
 
