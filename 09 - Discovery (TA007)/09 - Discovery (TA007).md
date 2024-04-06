@@ -5,6 +5,8 @@ type: folder_brief_live
 ```
 
 %% Begin Waypoint %%
+- **Access 2 Credentials AD**
+	- [[Untitled]]
 - **[[Enumerating Active Directory]]**
 	- [[AD Enumeration over C2]]
 	- [[Computer Enumeration AD]]
