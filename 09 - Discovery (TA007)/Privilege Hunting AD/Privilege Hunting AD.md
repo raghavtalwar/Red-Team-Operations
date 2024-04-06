@@ -1,23 +1,8 @@
-#### Tags: [[Enumerating Active Directory]]
+# Access 2 Credentials
 
-## Overview 
+%% Begin Waypoint %%
+- [[BloodHound]]
+- [[SMB Shares]]
 
-```markdown
-```
-## Enumeration 
+%% End Waypoint %%
 
-```markdown
-```
-
-## Exploitation 
-
-```markdown
-```
-
-## Resources
-
-```markdown
-```
-
-### Notes | Bonus
-- Create Links to this Page!

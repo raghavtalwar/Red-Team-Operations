@@ -14,7 +14,6 @@ type: folder_brief_live
 	- [[RSAT Enumeration AD]]
 	- [[User Enumeration AD]]
 - **[[Privilege Hunting AD]]**
-	- [[Untitled]]
 - [[User Impersonation AD]]
 
 %% End Waypoint %%
