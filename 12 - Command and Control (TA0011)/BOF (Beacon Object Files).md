@@ -16,9 +16,7 @@ A Beacon Object File (BOF) is a compiled C program designed to run within the Be
 
 
 
-# InlineExecute-Assembly
-Execute .NET in an Existing Process. This tool is an alternative to traditional fork and run execution for Cobalt Strike. The loader can be injected into any process, including the current Beacon. Long-running assemblies will continue to run and send output back to the Beacon, similar to the behavior of execute-assembly. 
-- Link: https://github.com/kyleavery/inject-assembly
 
-##### **Resources**
+
+##### **BOFAllTheThings**
 https://github.com/N7WEra/BofAllTheThings/blob/main/README.md
