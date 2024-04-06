@@ -17,8 +17,7 @@ A Beacon Object File (BOF) is a compiled C program designed to run within the Be
 
 
 # InlineExecute-Assembly
-
-
+Beacon Object File (BOF) that allows security professionals to perform in process .NET assembly execution as an alternative to Cobalt Strikes traditional fork and run execute-assembly module 
 
 https://github.com/anthemtotheego/InlineExecute-Assembly
 
