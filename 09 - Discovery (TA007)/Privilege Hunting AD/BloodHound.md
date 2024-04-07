@@ -2,7 +2,8 @@
 
 **OPSEC**
 - Query what is only required
-- Ex: BOFHound can be used to target DC, and then C2 Logs can be parsed via this Tool. 
+- Ex: BOFHound can be used to target DC, and then query manually and C2 Logs can be parsed via this Tool. 
+	- Upload the JSON files created to BloodHound for better visualisation
 
 ## Overview 
 
