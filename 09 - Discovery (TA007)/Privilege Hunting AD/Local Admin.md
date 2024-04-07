@@ -3,11 +3,13 @@ PowerView: https://raw.githubusercontent.com/ZeroDayLab/PowerSploit/dev/Recon/Po
 # C2 BOF
 the syntax for the Situational Awareness BOF is as follows `netLocalGroupListMembers [groupname] [optional: server]
 
-# Manual
+# Windows
+
+# Lin
 ## Spraying
+- CME
 
-
-## Specific Computer / User Check
+## Specific Computer / User Check via PowerView
 
 Finds users who have local admin rights over hr01 through GPO correlation.
 `powershell Find-GPOComputerAdmin -ComputerName hr01
