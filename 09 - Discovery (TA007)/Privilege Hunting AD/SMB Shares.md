@@ -9,6 +9,10 @@
 ## Check Share
 `cme smb fs01.draconem.corp -u 'Gareth.Kilgallen' -p 'Hu825meapvsAq#Rx' --shares`
 
+
+*Resolve Domain*
+`nslookup <domainName>`
+
 ## Access a Share
 `smbclient //10.10.175.182/Enterprise-Share -U 'enterprise-security%sand_0873959498'
 
