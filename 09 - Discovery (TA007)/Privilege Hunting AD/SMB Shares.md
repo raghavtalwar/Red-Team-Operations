@@ -9,6 +9,7 @@
 ## Check Share
 `cme smb fs01.draconem.corp -u 'Gareth.Kilgallen' -p 'Hu825meapvsAq#Rx' --shares`
 
+![[Pasted image 20240408232447.png]]
 
 *Resolve Domain*
 `nslookup <domainName>`
