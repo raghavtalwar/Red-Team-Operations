@@ -1,23 +1,8 @@
 #### Tags: [[Enumerating Active Directory]]
 
-## Make Token > 
+# Make Token > [[Pass the Hash]] or [[Pass the token]]
+## Enumeration & Exploitation 
 
 ```markdown
+
 ```
-## Enumeration 
-
-```markdown
-```
-
-## Exploitation 
-
-```markdown
-```
-
-## Resources
-
-```markdown
-```
-
-### Notes | Bonus
-- Create Links to this Page!
