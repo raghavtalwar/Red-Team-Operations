@@ -5,6 +5,7 @@
 
 ![[Pasted image 20240408232026.png]]
 # Linux
+
 ## Check Share
 `cme smb fs01.draconem.corp -u 'Gareth.Kilgallen' -p 'Hu825meapvsAq#Rx' --shares`
 
