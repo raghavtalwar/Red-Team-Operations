@@ -1,7 +1,10 @@
 # eKeys > [[Pass the Ticket]]
 
 
-# SamDump > [[Pass the Hash]]
+# SamDump (Local System)> [[Pass the Hash]]
+
+
+# LSA Dump (Domain Cached) 
 
 
 # Cred Vault > Scheduler Task 
