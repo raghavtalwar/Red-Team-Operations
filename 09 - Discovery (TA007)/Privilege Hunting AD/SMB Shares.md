@@ -15,6 +15,14 @@
 `nslookup <domainName>`
 
 ## Access a Share
+### SMBClient
 `smbclient //10.10.175.182/Enterprise-Share -U 'enterprise-security%sand_0873959498'
+
+### SMBMap
+
+
+### SMB Impacket
+`smbclient.py Gareth.Kilgallen:Hu825meapvsAq#Rx@fs01.draconem.corp`
+- 
 
 # Windows
