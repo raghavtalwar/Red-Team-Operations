@@ -3,7 +3,7 @@
 %% Begin Waypoint %%
 - [[BloodHound]]
 - [[Local Admin]]
-- [[SMB Shares]]
+- [[SMB Shares Enumeration]]
 
 %% End Waypoint %%
 
