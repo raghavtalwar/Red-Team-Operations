@@ -23,6 +23,10 @@
 
 ### SMB Impacket
 `smbclient.py Gareth.Kilgallen:Hu825meapvsAq#Rx@fs01.draconem.corp`
-- 
+- `shares
+- `use <Share>
+- `ls`
+- `get <file>`
+- `exit
 
 # Windows
