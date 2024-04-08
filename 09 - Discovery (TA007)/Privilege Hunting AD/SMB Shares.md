@@ -2,7 +2,8 @@
 # C2 BOFs
 
 `execute-assembly C:\Tools\sharpshares.exe shares`
-![[Pasted image 20240408231901.png]]
+
+![[Pasted image 20240408232026.png]]
 # Linux
 ## Check Share
 `cme smb fs01.draconem.corp -u 'Gareth.Kilgallen' -p 'Hu825meapvsAq#Rx' --shares`
