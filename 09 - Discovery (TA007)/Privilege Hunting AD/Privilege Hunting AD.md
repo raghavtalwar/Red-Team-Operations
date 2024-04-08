@@ -3,7 +3,10 @@
 %% Begin Waypoint %%
 - [[BloodHound]]
 - [[Local Admin]]
+- [[Pass the Hash]]
+- [[Pass the token]]
 - [[SMB Shares Enumeration]]
+- [[User Impersonation AD]]
 
 %% End Waypoint %%
 
