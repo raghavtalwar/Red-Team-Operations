@@ -1,6 +1,6 @@
 #### Tags: [[Enumerating Active Directory]]
 
-## Overview 
+## Overview on Socks Proxy
 
 ```markdown
 ```
