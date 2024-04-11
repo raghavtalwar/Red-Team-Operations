@@ -7,7 +7,7 @@ Advantage > 1 Attacker to Many Hosts = WinRM
 - The benefit of Windows Remoting over RDP is that it allows to make changes at scale, instead of having to do everything manually one by one. It should come as no surprise that it is also a popular lateral movement technique for adversaries!
 ###### OPSEC
 Keep in mind that we are using PowerShell for lateral movement in this case, and that PowerShell commands are prone to extensive security measures such as AMSI and script-block logging.
-# C2
+# C2 - Cobalt Strike
 ## Overview 
 
 ```markdown
