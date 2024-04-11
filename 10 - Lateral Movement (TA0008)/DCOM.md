@@ -5,10 +5,14 @@ These Objects allow other software to interact with itself and can be found in e
 - They still have their uses, but the well documented COM objects that can be used for lateral movement are pretty easily spotted nowadays, of course your mileage can vary from environment to environment.
 ###### OPSEC
 DCOM lateral movement has been one of the better lateral movement techniques for years, however as they became more popular and were starting to get more attention by bloggers and open source tooling, detection rates skyrocketed.
-# C2
+# C2 - Cobalt Strike
 ## Enumeration 
+DCOM lateral movement is not built into Cobalt Strike. Furthermore, DCOM does not like token impersonation. As a result you will need a C2 channel as the user you wish to lateraly move with.
+
+Please spawn a new Beacon using the following command (if your listener is called something other than HTTPS-SHORT, please replace with the name of your listener (can be tab completed)) 
 
 ```markdown
+
 ```
 ## Exploitation 
 
