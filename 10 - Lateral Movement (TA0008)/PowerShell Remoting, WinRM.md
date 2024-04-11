@@ -12,10 +12,7 @@ Keep in mind that we are using PowerShell for lateral movement in this case, and
 ## Enumeration 
 Lateral movement with Windows Remoting is very straight forward in Cobalt Strike, Cobalt Strike has a built-in jump command which supports WinRM.
 - However, it only supports kerberos authentication. 
-- As a result we will have to perform the WinRM lateral movement a little bit more manually, which is a good exercise, as it shows you what the jump command does under the hood. 
-```markdown
-```
-
+- As a result, we will have to perform the WinRM lateral movement a little bit more manually, which is a good exercise, as it shows you what the jump command does under the hood. 
 ## Exploitation
 First host a Scripted Web Delivery by Navigating to Attacks -> Scripted Web Delivery (S) in the top half of your Cobalt Strike Client.
 - Fill in the familiar `/WindowsUpate` payload  
