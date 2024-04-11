@@ -7,7 +7,7 @@ type: folder_brief_live
 - [[DCOM]]
 - [[Lateral Movement AD]]
 - [[Pivoting & Redirection]]
-- [[PowerShell Remoting]]
+- [[PowerShell Remoting, WinRM]]
 - [[PsExec]]
 - [[Scheduled Tasks]]
 - [[SCM]]

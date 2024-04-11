@@ -1,3 +1,8 @@
+
+### Technique Overview
+PowerShell Remoting uses Windows Remote Management (WinRM) to allow users to run PowerShell commands on remote computers.
+- Window remoting is another popular remote administration method.
+
 # C2
 ## Overview 
 
