@@ -3,6 +3,11 @@
 PowerShell Remoting uses Windows Remote Management (WinRM) to allow users to run PowerShell commands on remote computers.
 - Window remoting is another popular remote administration method.
 
+1 Attacker to Many Hosts = WinRM
+- The benefit of Windows Remoting over RDP is that it allows to make changes at scale, instead of having to do everything manually one by one. It should come as no surprise that it is also a popular lateral movement technique for adversaries!
+
+OPSEC
+
 # C2
 ## Overview 
 
