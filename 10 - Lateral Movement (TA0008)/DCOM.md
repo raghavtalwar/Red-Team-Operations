@@ -2,9 +2,10 @@
 COM (Component Object Model) objects are objects that are "exposed" on the operating system, much like an API.
 
 These Objects allow other software to interact with itself and can be found in excess on any modern Windows operating system.
+- They still have their uses, but the well documented COM objects that can be used for lateral movement are pretty easily spotted nowadays, of course your mileage can vary from environment to environment.
 
-###### OPS
-DCOM lateral movement has been one of the better lateral movement techniques for years, however as they became more popular and were starting to get more attention by bloggers and open source tooling, detection rates skyrocketted.
+###### OPSEC
+DCOM lateral movement has been one of the better lateral movement techniques for years, however as they became more popular and were starting to get more attention by bloggers and open source tooling, detection rates skyrocketed.
 # C2
 ## Enumeration 
 
