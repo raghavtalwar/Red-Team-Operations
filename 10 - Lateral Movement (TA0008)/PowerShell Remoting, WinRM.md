@@ -8,9 +8,11 @@ Advantage > 1 Attacker to Many Hosts = WinRM
 ###### OPSEC
 Keep in mind that we are using PowerShell for lateral movement in this case, and that PowerShell commands are prone to extensive security measures such as AMSI and script-block logging.
 # C2 - Cobalt Strike
-```
-## Enumeration 
 
+## Enumeration 
+Lateral movement with Windows Remoting is very straight forward in Cobalt Strike, Cobalt Strike has a built-in jump command which supports WinRM.
+- However, it only supports kerberos authentication. 
+- As a result we will have to perform the WinRM lateral movement a little bit more manually, which is a good exercise, as it shows you what the jump command does under the hood. 
 ```markdown
 ```
 
