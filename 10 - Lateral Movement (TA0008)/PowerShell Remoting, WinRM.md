@@ -8,9 +8,6 @@ Advantage > 1 Attacker to Many Hosts = WinRM
 ###### OPSEC
 Keep in mind that we are using PowerShell for lateral movement in this case, and that PowerShell commands are prone to extensive security measures such as AMSI and script-block logging.
 # C2 - Cobalt Strike
-## Overview 
-
-```markdown
 ```
 ## Enumeration 
 
