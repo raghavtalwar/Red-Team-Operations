@@ -8,15 +8,9 @@ WMI is loved by adversaries since it can be used as a trigger based mechanism to
 
 # C2 - Cobalt Strike
 
-## Overview 
-
-```markdown
-```
 ## Enumeration 
-
-```markdown
-```
-
+Cobalt Strike uses WMI in it's built-in remote-exec command. However, once again, only supporting domain authentication.
+-  We can get around this issue by performing our WMI command manually as this allows us to specify username and password (obviously, not OPSEC safe). 
 ## Exploitation 
 
 ```powershell
