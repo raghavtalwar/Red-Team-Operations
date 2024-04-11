@@ -7,7 +7,6 @@
 
 ```markdown
 ```
-
 ## Exploitation 
 
 ```markdown
@@ -23,7 +22,6 @@
 
 ```markdown
 ```
-
 ## Exploitation 
 
 ```markdown
@@ -39,7 +37,6 @@
 
 ```markdown
 ```
-
 ## Exploitation 
 
 ```markdown
