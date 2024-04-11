@@ -1,6 +1,7 @@
 
 ### Technical Overview
-# C2.
+
+# C2
 ## Enumeration 
 
 ```markdown
