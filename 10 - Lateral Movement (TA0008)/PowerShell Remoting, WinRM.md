@@ -17,7 +17,9 @@ Keep in mind that we are using PowerShell for lateral movement in this case, and
 ```markdown
 ```
 
-## Exploitation 
+## Exploitation
+First host a Scripted Web Delivery by Navigating to Attacks -> Scripted Web Delivery (S) in the top half of your Cobalt Strike Client.
+- Fill in the familiar `/WindowsUpate` payload  
 
 ![[Pasted image 20240411234042.png]]
 
