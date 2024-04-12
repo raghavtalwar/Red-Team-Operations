@@ -41,7 +41,7 @@ wmic /node:[targetIP] /user:[admin_user] /password:[password] computersystem LIS
 ### Enumeration
 ```markdown
 # Antivirus
-wmic /namespace:\\root\securitycenter2 path antivirusproduct
+C:\> wmic /namespace:\\root\securitycenter2 path antivirusproduct
 
 # File Search
 wmic DATAFILE where "drive='C:' AND Name like '%password%’" GET Name,readable,size /VALUE
@@ -51,6 +51,18 @@ wmic USERACCOUNT Get Domain,Name,Sid
 
 # Domain Enum
 wmic NTDOMAIN GET DomainControllerAddress,DomainName,Roles /VALUE
+
+# List All Users:
+wmic /NAMESPACE:\\root\directory\ldap PATH ds_user GET ds_samaccountname
+
+# Members of a Group:
+wmic /NAMESPACE:\\root\directory\ldap PATH ds_group where "ds_samaccountname='Domain Admins'" Get ds_member /Value
+
+# List All Computers:
+C:\> wmic /NAMESPACE:\\root\directory\ldap PATH ds_computer GET
+ds_samaccountname
+Execute Commands:
+C:\> wmic process call create "cmd.exe /c calc.exe"
 ```
 
 ### Notes | Bonus
