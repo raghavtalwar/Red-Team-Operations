@@ -23,3 +23,9 @@
 
 
 ## WMIC for Discovery
+```markdown
+# Local System
+wmic computersystem LIST full
+
+# Target System
+```
