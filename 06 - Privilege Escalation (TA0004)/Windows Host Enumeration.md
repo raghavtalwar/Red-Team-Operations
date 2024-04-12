@@ -67,15 +67,16 @@ C:\> wmic process call create "cmd.exe /c calc.exe"
 ```
 
 ### Script - 
+References: https://github.com/FortyNorthSecurity/WMIOps
 ```markdown
 #  Host Enumeration
-Invoke-RemoteScriptWithOutput: Executes a powershell script in memory on the
+• Invoke-RemoteScriptWithOutput: Executes a powershell script in memory on the
 target host via WMI and returns the output
-Invoke-SchedJobManipulation: Allows you to list, delete, or create jobs on a system 
+• Invoke-SchedJobManipulation: Allows you to list, delete, or create jobs on a system 
 
 # System Manipulation
-Get-FileContentsWMI: Reads the contents of a user specified file on a target system
-Invoke-FileTransferOverWMI: Uploads/downloads files to/from the target machine
+• Get-FileContentsWMI: Reads the contents of a user specified file on a target system
+• Invoke-FileTransferOverWMI: Uploads/downloads files to/from the target machine
 
 # File Operations
 • Find-UserSpecifiedFileWMI: Search for a file (wildcard supported) on a target system
