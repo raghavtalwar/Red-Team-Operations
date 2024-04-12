@@ -59,9 +59,9 @@ wmic /NAMESPACE:\\root\directory\ldap PATH ds_user GET ds_samaccountname
 wmic /NAMESPACE:\\root\directory\ldap PATH ds_group where "ds_samaccountname='Domain Admins'" Get ds_member /Value
 
 # List All Computers:
-C:\> wmic /NAMESPACE:\\root\directory\ldap PATH ds_computer GET
-ds_samaccountname
-Execute Commands:
+C:\> wmic /NAMESPACE:\\root\directory\ldap PATH ds_computer GET ds_samaccountname
+
+# Execute Commands:
 C:\> wmic process call create "cmd.exe /c calc.exe"
 ```
 
