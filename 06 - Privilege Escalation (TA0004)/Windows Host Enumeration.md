@@ -23,6 +23,10 @@
 
 
 ## WMIC for Discovery
+### Overview
+- WMIC is a command-line tool for controlling Windows machines via the Windows Management Instrumentation
+(WMI) framework
+- Used to interact with systems for processes, services, startup and mor
 ###### OPSEC
 - WMI Activity is logged in Event Log under ID 5957
 ```markdown
@@ -31,4 +35,6 @@ wmic computersystem LIST full
 
 # Target System
 wmic /node:[targetIP] /user:[admin_user] /password:[password] computersystem LIST full
+
+## Use /node:@[filename] to run command on all machines listed one per line in filename
 ```
