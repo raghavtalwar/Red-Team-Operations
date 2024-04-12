@@ -40,13 +40,14 @@ wmic /node:[targetIP] /user:[admin_user] /password:[password] computersystem LIS
 ### Enumeration
 ```markdown
 # Antivirus
-
+wmic /namespace:\\root\securitycenter2 path antivirusproduct
 
 # File Search
-
+wmic DATAFILE where "drive='C:' AND Name like '%password%’" GET Name,readable,size /VALUE
 
 # Local User Account
 
 
 # Domain Enum
+wmic NTDOMAIN GET DomainControllerAddress,DomainName,Roles /VALUE
 ```
