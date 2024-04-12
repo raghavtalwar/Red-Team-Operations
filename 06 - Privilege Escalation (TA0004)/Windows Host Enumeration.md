@@ -22,7 +22,8 @@
 ## Network Sniffers, Ping Sweeps & Port Scans
 
 
-## WMIC for Discovery
+
+# WMIC for Discovery
 ### Overview
 - WMIC is a command-line tool for controlling Windows machines via the Windows Management Instrumentation (WMI) framework
 - Used to interact with systems for processes, services, startup and mor
@@ -46,8 +47,12 @@ wmic /namespace:\\root\securitycenter2 path antivirusproduct
 wmic DATAFILE where "drive='C:' AND Name like '%password%’" GET Name,readable,size /VALUE
 
 # Local User Account
-
+wmic USERACCOUNT Get Domain,Name,Sid
 
 # Domain Enum
 wmic NTDOMAIN GET DomainControllerAddress,DomainName,Roles /VALUE
 ```
+
+### Notes | Bonus
+- Create Links to this Page!
+
