@@ -66,10 +66,14 @@ C:\> wmic /NAMESPACE:\\root\directory\ldap PATH ds_computer GET ds_samaccountnam
 C:\> wmic process call create "cmd.exe /c calc.exe"
 ```
 
-### Script - 
+### Script - WMIOps
 References: https://github.com/FortyNorthSecurity/WMIOps
 ```markdown
 #  Host Enumeration
+• Get-SystemDrivesWMI: Lists all local and network connected drives on target system
+• Get-ActiveNICSWMI: Lists all NICs on target system with an IP address
+
+
 • Invoke-RemoteScriptWithOutput: Executes a powershell script in memory on the
 target host via WMI and returns the output
 • Invoke-SchedJobManipulation: Allows you to list, delete, or create jobs on a system 
@@ -93,17 +97,6 @@ System Manipulation Operations
 • Invoke-SchedJobManipulation: Allows you to list, delete, or create jobs on a system over WMI
 • Invoke-ServiceManipulation: Allows you to start, stop, create, or delete services on a targeted system
 • Invoke-PowerOptionsWMI: Force logs off all users, reboots, or shuts down targeted system
-File Operations
-• Find-UserSpecifiedFileWMI: Search for a file (wildcard supported) on a target system
-• Invoke-FileTransferOverWMI: Uploads or downloads files to/from the target machine over WMI
-References:
-https://github.com/FortyNorthSecurity/WMIOps
-https://attack.mitre.org/techniques/T1047/74© 2023 SANS Institute© SANS Institute 2023
-936a28169011d3b292a24cd2a98f0604
-raghavtalwar4@gmail_com
-24465850
-Raghav Talwar
-ohNr
 ```
 ### Notes | Bonus
 - Create Links to this Page!
