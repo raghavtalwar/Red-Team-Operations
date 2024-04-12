@@ -77,6 +77,10 @@ References: https://github.com/FortyNorthSecurity/WMIOps
 target host via WMI and returns the output
 • Invoke-SchedJobManipulation: Allows you to list, delete, or create jobs on a system 
 
+# User Operations
+• Find-ActiveUsersWMI: Checks if a user is active at the desktop on the target machine
+• Get-ProcessOwnersWMI: Returns all accounts which have active processes on the target syste
+
 # System Manipulation Operations
 • Invoke-CreateShareandExecute: Creates a share, copies file into it, uses WMI to invoke the script
 • Invoke-RemoteScriptWithOutput: Executes a powershell script in memory on the target host via WMI
