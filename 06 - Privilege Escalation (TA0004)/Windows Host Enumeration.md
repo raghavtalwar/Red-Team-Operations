@@ -66,6 +66,10 @@ C:\> wmic /NAMESPACE:\\root\directory\ldap PATH ds_computer GET ds_samaccountnam
 C:\> wmic process call create "cmd.exe /c calc.exe"
 ```
 
+### Script - 
+```
+```
+
 ### Notes | Bonus
 - Create Links to this Page!
 
