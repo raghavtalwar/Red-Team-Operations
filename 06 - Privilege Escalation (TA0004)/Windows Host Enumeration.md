@@ -67,9 +67,43 @@ C:\> wmic process call create "cmd.exe /c calc.exe"
 ```
 
 ### Script - 
-```
+```markdown
+#  Host Enumeration
+Invoke-RemoteScriptWithOutput: Executes a powershell script in memory on the
+target host via WMI and returns the output
+Invoke-SchedJobManipulation: Allows you to list, delete, or create jobs on a system 
+
+# System Manipulation
+Get-FileContentsWMI: Reads the contents of a user specified file on a target system
+Invoke-FileTransferOverWMI: Uploads/downloads files to/from the target machine
+
+# File Operations
+• Find-UserSpecifiedFileWMI: Search for a file (wildcard supported) on a target system
+• Invoke-FileTransferOverWMI: Uploads or downloads files to/from the target machine 
 ```
 
+```
+numeration
+• Get-SystemDrivesWMI: Lists all local and network connected drives on target system
+• Get-ActiveNICSWMI: Lists all NICs on target system with an IP address
+System Manipulation Operations
+• Invoke-CreateShareandExecute: Creates a share, copies file into it, uses WMI to invoke the script
+• Invoke-RemoteScriptWithOutput: Executes a powershell script in memory on the target host via WMI
+• Invoke-SchedJobManipulation: Allows you to list, delete, or create jobs on a system over WMI
+• Invoke-ServiceManipulation: Allows you to start, stop, create, or delete services on a targeted system
+• Invoke-PowerOptionsWMI: Force logs off all users, reboots, or shuts down targeted system
+File Operations
+• Find-UserSpecifiedFileWMI: Search for a file (wildcard supported) on a target system
+• Invoke-FileTransferOverWMI: Uploads or downloads files to/from the target machine over WMI
+References:
+https://github.com/FortyNorthSecurity/WMIOps
+https://attack.mitre.org/techniques/T1047/74© 2023 SANS Institute© SANS Institute 2023
+936a28169011d3b292a24cd2a98f0604
+raghavtalwar4@gmail_com
+24465850
+Raghav Talwar
+ohNr
+```
 ### Notes | Bonus
 - Create Links to this Page!
 
