@@ -1,4 +1,6 @@
 
+###### OPSEC
+- Following enumeration is not OPSEC safe for a Red Team assessment
 ## RunAs
 
 
@@ -18,3 +20,6 @@
 
 
 ## Network Sniffers, Ping Sweeps & Port Scans
+
+
+## WMIC for Discovery
