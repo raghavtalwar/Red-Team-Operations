@@ -4,7 +4,11 @@
 ###### OPSEC
 - Following enumeration may or may not be OPSEC safe for a Red Team assessment. Consider before executing!
 
-## RunAs 
+## Don't touch the disk methods
+1. HTTP Server
+2. SMB Server
+3. RunAs
+
 Can be leverage to run scripts from a non domain joined machine to attack domain
 - SQL scripts
 - SharpView
