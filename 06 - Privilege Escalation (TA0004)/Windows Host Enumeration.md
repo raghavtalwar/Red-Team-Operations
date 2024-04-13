@@ -15,7 +15,9 @@ PS C:\> Get-service
 
 
 ## Process Discovery
-
+```markdown
+# Get info about running processes on a system. Red Team should try to understand what is installed & running - Windows C:\> tasklist C:\ wmic process C:\> Get-Process
+```
 
 
 ## Security Software and Controls
@@ -35,6 +37,15 @@ C:\> Get-LocalUser; Get-LocalGroup
 
 
 ## Network Sniffers, Ping Sweeps & Port Scans
+```markdown
+# Network Sniffers like WireShark or TcpDump - Promiscuous mode requires admin or root privileges Windows 
+
+# Ping Sweep 
+
+# Port Scan
+
+```
+
 
 ## Local Network Enum
 ```markdown
