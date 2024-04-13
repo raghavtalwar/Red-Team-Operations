@@ -36,6 +36,15 @@ C:\> Get-LocalUser; Get-LocalGroup
 
 ## Network Sniffers, Ping Sweeps & Port Scans
 
+## Local Network Enum
+```markdown
+# Identify network config and connections Windows 
+C:\> ipconfig /all; ipconfig /displaydns - Displays the system DNS cache in Windows 
+C:\> netstat -na - Display the current TCP and UDP ports being used
+C:\> arp -a - ARP cache 
+C:\> net session 
+PS C:\> Get-NetTCPConnection
+```
 
 
 # WMIC for Discovery
