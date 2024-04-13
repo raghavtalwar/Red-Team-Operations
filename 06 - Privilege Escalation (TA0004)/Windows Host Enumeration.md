@@ -23,7 +23,15 @@ PS C:\> Get-service
 
 ### Weak File System Permissions
 - Path interception and DLL search order hijacking can be exploited by leveraging weak file system permissions
+```
+# Scheduled Tasks
 
+
+# Services
+
+# Registry Keys
+
+```
 ## Process Discovery
 ```markdown
 # Get info about running processes on a system. Red Team should try to understand what is installed & running 
