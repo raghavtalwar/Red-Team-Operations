@@ -5,16 +5,10 @@
 - Following enumeration may or may not be OPSEC safe for a Red Team assessment. Consider before executing!
 
 ## Don't touch the disk methods
-1. HTTP Server - System
-2. SMB Server - System 
-3. RunAs - Network  
-
-Can be leverage to run scripts from a non domain joined machine to attack domain
-- SQL scripts
-- SharpView
-- We can leverage SMB Share | HTTP as well to execute without touching disk
-- 
-
+1. HTTP Server - System attack
+https://mayfly277.github.io/posts/GOADv2-pwning-part8/ 
+1. SMB Server - System attack
+2. RunAs - Network attacks 
 ## Service Discovery
 ```markdown
 # Get information about services on a system 
