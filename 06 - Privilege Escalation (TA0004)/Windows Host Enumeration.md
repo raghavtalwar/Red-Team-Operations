@@ -22,7 +22,7 @@ PS C:\> Get-service
 - GitBook - Unquoted Service Path and Other "Path Hijacking (interception)" 
 
 ### Weak File System Permissions
-- 
+- Path interception and DLL search order hijacking can be exploited by leveraging weak file system permissions
 
 ## Process Discovery
 ```markdown
