@@ -19,7 +19,8 @@ C:\> wmic service
 PS C:\> Get-service
 ```
 ### Service Misconfiguration
-- GitBook - Unquoted Service Path and Other "Path Hijacking (interception)" 
+- GitBook 
+- Unquoted Service Path and Other "Path Hijacking (interception)" 
 
 ## System Analysis
 ### Weak File System Permissions
