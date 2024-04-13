@@ -5,7 +5,9 @@
 
 
 ## Service Discovery
-
+```markdown
+# Get information about services on a system C:\> sc; tasklist /svc C:\> net start C:\> wmic service PS C:\> Get-service
+```
 
 
 ## Process Discovery
@@ -17,6 +19,13 @@
 
 
 ## Account Discovery 
+```markdown
+# Listing of local system accounts & local groups 
+C:\> whoami; who; w; set 
+C:\> net user; net localgroup 
+C:\> wmic useraccount; wmic group - another way to fetch account info and group membership 
+C:\> Get-LocalUser; Get-LocalGroup
+```
 
 
 
