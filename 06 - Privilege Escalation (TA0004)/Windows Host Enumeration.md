@@ -5,10 +5,15 @@
 - Following enumeration may or may not be OPSEC safe for a Red Team assessment. Consider before executing!
 
 ## Don't touch the disk methods
+###### OPSEC - The disk is Lava
+
 1. HTTP Server - System attack
 https://mayfly277.github.io/posts/GOADv2-pwning-part8/ 
 1. SMB Server - System attack
 2. RunAs - Network attacks 
+
+
+
 ## Service Discovery
 ```markdown
 # Get information about services on a system 
