@@ -18,7 +18,8 @@ C:\> net start
 C:\> wmic service 
 PS C:\> Get-service
 ```
-
+### Service Misconfiguration
+- GitBook - Unquoted Service Path and Other "Path Hijacking (interception)" 
 
 ## Process Discovery
 ```markdown
