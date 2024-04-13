@@ -1,13 +1,8 @@
+#### Overview
+##### [Privilege Escalation Enumeration Script for Windows](https://github.com/itm4n/PrivescCheck/tree/master)
 
 ###### OPSEC
-- Following enumeration is not OPSEC safe for a Red Team assessment
-
-#### Overview
-- Agents: What agents are running on the system? What do they do? 
-- Patching: Are third party used for patching? 
-- What is the process? - Remote access: Can end users remote to their system? If so how? SSH, RDP, VPN clients
-Privilege Escalation Enumeration Script for Windowshttps://github.com/itm4n/PrivescCheck/tree/master
-
+- Following enumeration may or may not be OPSEC safe for a Red Team assessment. Consider before executing!
 
 ## RunAs
 
