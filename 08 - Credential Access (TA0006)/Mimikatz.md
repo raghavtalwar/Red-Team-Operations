@@ -4,8 +4,9 @@
 # SamDump (Local System)> [[Pass the Hash]]
 
 
-# LSA Dump (Domain Cached) 
-
+# LSASS Dump (Domain Cached) 
+- eKeys
+- NTLM Hash > Crack or Pass
 
 # Cred Vault > Scheduler Task 
 
