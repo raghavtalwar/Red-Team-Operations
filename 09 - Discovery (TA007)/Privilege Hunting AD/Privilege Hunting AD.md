@@ -4,7 +4,7 @@
 - [[BloodHound]]
 - [[Local Admin]]
 - [[Pass the Hash]]
-- [[Pass the Ticket]]
+- [[Pass the Ticket . OverPass the Hash]]
 - [[Pass the token]]
 - [[SMB Shares Enumeration]]
 - [[User Impersonation AD]]
