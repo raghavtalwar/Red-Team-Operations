@@ -43,6 +43,7 @@ C:\> REG QUERY HKLM\Software\Microsoft\Windows\CurrentVersion\Run
 C:\> REG QUERY HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce
 ```
 ### UAC
+
 ## Process Discovery
 ```markdown
 # Get info about running processes on a system. Red Team should try to understand what is installed & running 
