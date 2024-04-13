@@ -20,6 +20,7 @@ PS C:\> Get-service
 ```
 ### Service Misconfiguration
 - GitBook - Path Hijacking 
+	- Leverage GitHub > PowerUp Obfuscated 
 - Unquoted Service Path 
 - DLLs Hijacking
 ## System Analysis
