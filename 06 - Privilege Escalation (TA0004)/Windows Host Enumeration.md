@@ -22,7 +22,7 @@ PS C:\> Get-service
 - GitBook - Unquoted Service Path and Other "Path Hijacking (interception)" 
 
 ### Weak File System Permissions
-
+Leverage weak file system permissions that may allow to create or modify existing binary or DLLs
 - Path interception and DLL search order hijacking can be exploited by leveraging weak file system permissions. 
 	• Scheduled Tasks: Tasks can be scheduled to run with multiple permissions. Query scheduled tasks with the schtasks command. If any binary is scheduled to execute from a directory with weak file system permissions, red team can overwrite the binary with their own payload for that same privilege on next execution.
 	• Services: Most services start with SYSTEM privileges, meaning any configured service running from a directory with weak file system permissions can be overwritten to the red team payload for execution on next start. Services can be queried with the sc command.
