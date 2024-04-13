@@ -7,3 +7,5 @@
 
 ```
 # Token Impersonation
+![[Pasted image 20240413194243.png]]
+
