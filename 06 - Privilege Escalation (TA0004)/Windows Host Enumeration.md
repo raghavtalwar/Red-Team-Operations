@@ -23,6 +23,9 @@ PS C:\> Get-service
 
 ### Weak File System Permissions
 - Path interception and DLL search order hijacking can be exploited by leveraging weak file system permissions
+	• Scheduled Tasks: Tasks can be scheduled to run with multiple permissions. Query scheduled tasks with the schtasks command. If any binary is scheduled to execute from a directory with weak file system permissions, red team can overwrite the binary with their own payload for that same privilege on next execution.
+	• Services: Most services start with SYSTEM privileges, meaning any configured service running from a directory with weak file system permissions can be overwritten to the red team payload for execution on next start. Services can be queried with the sc command.
+	• Registry Keys: Reviewing registry keys of binaries that will run may turn up services as well as Run keys.
 ```markdown
 # Scheduled Tasks
 C:\> schtasks /query /fo LIST /v | findstr /I /C:"Task to Run" /C:"TaskName" /C:"Run As"
@@ -32,9 +35,9 @@ PS C:\> Get-ScheduledTask | where {$_.TaskPath -notlike "\Microsoft*"}
 C:\> sc query; sc qc <service name>
 C:\> for /f "tokens=2 delims='='" %a in ('wmic service list full^|find /i "pathname"^|find /i /v "system32"') do @echo %a
 
-
 # Registry Keys
-
+C:\> REG QUERY HKLM\Software\Microsoft\Windows\CurrentVersion\Run
+C:\> REG QUERY HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce
 ```
 ## Process Discovery
 ```markdown
