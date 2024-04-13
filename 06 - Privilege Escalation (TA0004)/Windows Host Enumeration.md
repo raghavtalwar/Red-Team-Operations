@@ -19,9 +19,9 @@ C:\> wmic service
 PS C:\> Get-service
 ```
 ### Service Misconfiguration
-- GitBook 
-- Unquoted Service Path and Other "Path Hijacking (interception)" 
-
+- GitBook - Path Hijacking 
+- Unquoted Service Path 
+- DLLs Hijacking
 ## System Analysis
 ### Weak File System Permissions
 Weak file system permissions may allow us to create or modify existing binary or DLLs
