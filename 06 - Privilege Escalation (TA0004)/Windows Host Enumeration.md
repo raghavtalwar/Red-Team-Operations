@@ -4,8 +4,12 @@
 ###### OPSEC
 - Following enumeration may or may not be OPSEC safe for a Red Team assessment. Consider before executing!
 
-## RunAs
-
+## RunAs 
+Can be leverage to run scripts from a non domain joined machine to attack domain
+- SQL scripts
+- SharpView
+- We can leverage SMB Share | HTTP as well to execute without touching disk
+- 
 
 ## Service Discovery
 ```markdown
