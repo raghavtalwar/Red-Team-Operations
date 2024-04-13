@@ -1,7 +1,7 @@
 
 # SetUID and SetGUID
 • Normally, an executable runs in the current user’s context
-• Some programs may need to be elevated to function properly, but the user does not need to be a sudoers
+• Some programs may need to be elevated to function properly, but the user does not need to be a sudoer
 • Any user can set their program to run as their user
 ```markdown
 # Find SUID
