@@ -9,7 +9,6 @@
 
 ## RunAs
 
-## System 
 
 ## Service Discovery
 ```markdown
@@ -21,6 +20,9 @@ PS C:\> Get-service
 ```
 ### Service Misconfiguration
 - GitBook - Unquoted Service Path and Other "Path Hijacking (interception)" 
+
+### Weak File System Permissions
+- 
 
 ## Process Discovery
 ```markdown
