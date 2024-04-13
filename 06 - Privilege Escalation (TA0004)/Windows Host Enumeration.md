@@ -23,11 +23,15 @@ PS C:\> Get-service
 
 ### Weak File System Permissions
 - Path interception and DLL search order hijacking can be exploited by leveraging weak file system permissions
-```
+```markdown
 # Scheduled Tasks
-
+C:\> schtasks /query /fo LIST /v | findstr /I /C:"Task to Run" /C:"TaskName" /C:"Run As"
+PS C:\> Get-ScheduledTask | where {$_.TaskPath -notlike "\Microsoft*"}
 
 # Services
+C:\> sc query; sc qc <service name>
+C:\> for /f "tokens=2 delims='='" %a in ('wmic service list full^|find /i "pathname"^|find /i /v "system32"') do @echo %a
+
 
 # Registry Keys
 
