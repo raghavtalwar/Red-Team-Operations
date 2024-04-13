@@ -23,9 +23,9 @@ PS C:\> Get-service
 
 ## System Analysis
 ### Weak File System Permissions
-Leverage weak file system permissions that may allow to create or modify existing binary or DLLs
+Weak file system permissions may allow us to create or modify existing binary or DLLs
 - Path interception and DLL search order hijacking can be exploited by leveraging weak file system permissions. 
-	• Scheduled Tasks: Tasks can be scheduled to run with multiple permissions. Query scheduled tasks with the schtasks command. If any binary is scheduled to execute from a directory with weak file system permissions, red team can overwrite the binary with their own payload for that same privilege on next execution.
+	• Scheduled Tasks: Tasks can be scheduled to run with multiple permissions. Query scheduled tasks with the `schtasks` command. If any binary is scheduled to execute from a directory with weak file system permissions, red team can overwrite the binary with their own payload for that same privilege on next execution.
 	• Services: Most services start with SYSTEM privileges, meaning any configured service running from a directory with weak file system permissions can be overwritten to the red team payload for execution on next start. 
 	• Registry Keys: Reviewing registry keys of binaries that will run may turn up services as well as Run keys.
 ```markdown
