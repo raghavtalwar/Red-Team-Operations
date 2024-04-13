@@ -6,7 +6,11 @@
 
 ## Service Discovery
 ```markdown
-# Get information about services on a system C:\> sc; tasklist /svc C:\> net start C:\> wmic service PS C:\> Get-service
+# Get information about services on a system 
+C:\> sc; tasklist /svc 
+C:\> net start 
+C:\> wmic service 
+PS C:\> Get-service
 ```
 
 
@@ -15,7 +19,8 @@
 
 
 ## Security Software and Controls
-
+```markdown
+```
 
 
 ## Account Discovery 
