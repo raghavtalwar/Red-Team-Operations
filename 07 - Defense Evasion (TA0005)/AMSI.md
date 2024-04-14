@@ -20,3 +20,13 @@ Public,Static').GetValue($null)
 ```
 
 ## AMSI under the Hood
+• Now that we have the memory location
+	We can create an arbitrary byte array
+	Place it where amsiContext code should be
+• First look at what should be there in a debugger
+
+## Creating the AMSI Bypass
+Let's create our bypass:
+1. First, we are going to create a new byte array that contains the sentence "sec565 rules!!!" in hexadecimal representation
+2. We will use the Count function to dynamically compute the size of the array
+3. Finally, we will copy the byte array to the amsiContext location, overriding what is currently there
