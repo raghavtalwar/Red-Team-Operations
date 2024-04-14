@@ -53,5 +53,7 @@ echo $ptr
 ```
 
 ## AMSI Bypass in Action
-```
-```
+If we now restart PowerShell and apply the patch and attach WinDbg again, we will see our "sec565 rules!!!" sentence where 'AMSI' used to be in the amsiContext file
+
+string, we effectively broke AMSI's functionality, which allows us to do whatever we want without having to
+worry about AMSI.
