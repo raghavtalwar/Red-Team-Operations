@@ -6,5 +6,10 @@
 - In order to override the `amsiContext` we need to find it
 - Identify the memory address of `amsiContext`
 - Remember, AMSI is being enforced through injecting "amsi.dll" in processes that are being spawned.
-This means that all the functionality of AMSI is available in that process's address space. It is here that we will
-already encounter our first hurdle: the “classic” approach to get this location is identified as malicious by AMSI
+
+This means that all the functionality of AMSI is available in that process's address space. It is here that we will already encounter our first hurdle: the “classic” approach to get this location is identified as malicious by AMSI
+
+## Locate amsiContext
+• Static analysis is the likely mechanism
+• Test this hypothesis
+• Use Unicode characters using built-in PowerShell functionality
