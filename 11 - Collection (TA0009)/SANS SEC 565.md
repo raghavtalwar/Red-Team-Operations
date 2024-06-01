@@ -57,6 +57,13 @@ The two have very different way of modification.
 - **Integrated with Windows Environment:** Modifications can leverage deep integration with the Windows OS for specific tasks.
 
 ---
+## Final Course Content
+- Audio Material
+- Books
+- PDF
+- Lab Videos & Guide
+
+----
 ## INDEX
 
 ![[Pasted image 20240402011753.png]]
