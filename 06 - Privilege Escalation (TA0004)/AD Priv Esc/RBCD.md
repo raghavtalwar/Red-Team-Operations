@@ -2,7 +2,8 @@
 #### Tags: 
 
 ## Overview
-- Resource based constrained delegation - It can be 
+- Resource based constrained delegation - The delegation can be from 
+	1. user to computer 2) user to user
 
 ```markdown
 ```
