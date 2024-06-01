@@ -95,9 +95,9 @@ Thus, we look for network connections > Found a sus service > Enumerate process 
 
 ### Conclusion
 This lab followed the methodology of Threat Intelligence for Red Team Engagements to understand the target organization; 
-- identify an adversary; 
-- gather threat intelligence for that adversary; 
-- read different sources of threat intelligence for that adversary; 
+- Identify an adversary; 
+- Gather threat intelligence for that adversary; 
+- Read different sources of threat intelligence for that adversary; 
 - Identify and Extract Tactics, Techniques, and Procedures (TTPs) used by the adversary; 
 - Create an Adversary Profile; Use MITRE ATT&CK™ Navigator to filter TTPs for selected adversary and fill in the gaps; 
 - Analyze and Organize the threat intelligence into a technical flow; and read an example of an Adversary Emulation Plan.
