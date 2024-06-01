@@ -7,5 +7,6 @@ type: folder_brief_live
 - [[ADCS]]
 - [[Constrained Delegation]]
 - [[Kerberoasting]]
+- [[RBCD]]
 
 %% End Waypoint %%
