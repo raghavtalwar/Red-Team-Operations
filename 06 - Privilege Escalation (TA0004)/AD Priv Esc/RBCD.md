@@ -3,7 +3,8 @@
 
 ## Overview
 - Resource based constrained delegation - The delegation can be from 
-	1. user to computer 2) user to user
+	1. User to Computer
+	2. User to User
 
 ```markdown
 ```
