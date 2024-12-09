@@ -1,18 +1,12 @@
-hh
-jj
-
-check
-
-Trying from hacker  at 5:14
-
-Trying
-
-Trying from another computer
-
-Trying from hacker  at 5:14Trying from hacker  at 5:14Trying from hacker  at 5:14Trying from hacker  at 5:14Trying from hacker  at 5:14
 
 
-
+# No Creds
+1. Network
+	1. Printers
+	2. SQL Database
+2. SMB
+	1. Open Shares
+3. Responder & Relay 
 
 
 

@@ -1,4 +1,4 @@
-Tags: [[02 - Resource Development (TA0042)]] 
+#### Tags: [[02 - Resource Development (TA0042)]] 
 # Setting up the Attack Infrastructure
 
 ## Standard Infrastructure 
@@ -43,7 +43,7 @@ Tags: [[02 - Resource Development (TA0042)]]
 	- New red engagement means new set of infrastructure should be established
 	- Each of these functions will likely be required for social engineering campaign
 ------------------------------------------------------------------------
-## Redirectors
+## Redirectors | Tag: [[Setting Up Redirectors]]
 - Goal: ALWAYS have a redirector in front of c2 Server!
 	- Do not expose c2 server to the internet
 - Objective: Act as a disposable server that redirect traffic in order to obfuscate the backend systems.
@@ -69,7 +69,7 @@ Tags: [[02 - Resource Development (TA0042)]]
 - Some outbound proxies blocks domain based on categories. Thus purchase domains and categorise them!
 	- Categorisation Sites - Enumerate which ones of the below proxy is being used and categorise accordingly. Note: Red Teamer needs to a put a website up and running before they can request categorisation
 		1. BrightCloud
-		2. Fortiguard
+		2. FortiGuard
 		3. McAfee
 		4. Palo Alto Network
 		5. Symantec / BlueCoat
@@ -81,7 +81,7 @@ Summary: Red Team purchase domain name and then purchase hosting and put up a we
 	- To check if its reputation is good we can use
 		- https://www.expireddomains.net
 		- https://domainhuntergatherer.com
-	- Note: These domains cost more, eg- brand new domain may be 15$ and expired domain may cost us 100$
+	- Note: These domains cost more, Eg- brand new domain may be 15$ and expired domain may cost us 100$
 
 - Categorisation - 2 Types either for blocking domains or intercepting TLS 
 	- Red Team Tip: Its a possibility that certain organisations might not intercept - a Health or Financial site, Example - If Red team can get a domain and categorised it as a healthcare domain then we might get away with few controls! 

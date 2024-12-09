@@ -4,7 +4,9 @@ type: folder_brief_live
 ```
 
 %% Begin Waypoint %%
-- [[Linux Privilege Escalation]]
-- [[Windows Privilege Escalation]]
+- **[[AD Priv Esc]]**
+- **[[Linux Privilege Escalation]]**
+- [[Windows Host Enumeration]]
+- **[[Windows Privilege Escalation]]**
 
 %% End Waypoint %%

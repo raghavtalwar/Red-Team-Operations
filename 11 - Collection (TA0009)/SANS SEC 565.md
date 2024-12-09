@@ -55,3 +55,47 @@ The two have very different way of modification.
 - **Cmdlet Usage:** Modifications often involve the creative use of existing cmdlets.
 - **Easier to Obfuscate:** Scripts can be obfuscated by altering command names, using aliases, or encoding scripts.
 - **Integrated with Windows Environment:** Modifications can leverage deep integration with the Windows OS for specific tasks.
+
+---
+## Final Course Content
+- Audio Material
+- Books
+- PDF
+- Lab Videos & Guide
+
+----
+## INDEX
+
+![[Pasted image 20240402011753.png]]
+
+Go through all the books 
+- Make notes of each slide
+
+![[Pasted image 20240402011834.png]]
+
+- Slide Title Name
+	- Pg 2 Slide 6
+	- Time is the enemy 
+	- 90 seconds - 1 question
+
+- Index 
+	- Not to open the book
+	- Master Cheatsheet
+	- Close to 20 to 25 days
+	- Improve and Refresh Knowledge
+	- 90 to 95%
+
+Create 
+- Go Book by Book
+	- GO one for the Book
+
+Q > tcpdump > Hey what does this command will accomplish 
+
+600 Lines of entry
+- Index good but not finding info
+- Make index > A to Z arrange krrdo
+- Organise it via Index alphabetically
+
+![[Pasted image 20240402012338.png]]
+
+![[Pasted image 20240402013408.png]]

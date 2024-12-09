@@ -21,3 +21,22 @@ To Do
 4. Create standard template for each note
 5. Expand > Get > Index
 6. Index on every new page - The whole concept is to have a separate note?
+
+## SEC 565 Schedule
+#### 70 Days Schedule
+### Labs
+### 565.1
+- Revisit and Complete by 10 March
+
+### 565.2
+- Complete this by 8 March
+
+### 565.3
+- Complete this by 16 March
+
+### 565.4
+- Complete this by 31 March | No Excuses
+
+### 565.5
+- Complete this by 14 April  
+- 15 Revision

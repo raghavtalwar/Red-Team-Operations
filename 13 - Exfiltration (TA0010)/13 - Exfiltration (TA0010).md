@@ -1,6 +1,5 @@
-# Overview
- 
-```ccard
-type: folder_brief_live
-```
- 
+
+%% Begin Waypoint %%
+- [[Action on Objectives Exfilteration]]
+
+%% End Waypoint %%
