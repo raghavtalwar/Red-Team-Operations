@@ -2,6 +2,7 @@
 ## Challenge 1 - cURLing
 
 ```markdown
+1) Unlike the defined standards of a curling sheet, embedded devices often have web servers on non-standard ports.  Use curl to retrieve the web page on host "curlingfun" port 8080.
 
 curl -iL http://curlingfun:8080
 
@@ -27,5 +28,9 @@ curl -H "Stone: Granite" https://curlingfun:9090 -k
 
 7) curl will modify your URL unless you tell it not to. For example, use curl to retrieve the following URL containing special characters: https://curlingfun:9090/../../etc/hacks
 
+curl "https://curlingfun:9090/../../etc/hacks" -k --path-as-is
 
+# YAY
+Great work! 
+Once HHC grants your achievement, you may close this terminal.
 ```
