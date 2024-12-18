@@ -34,3 +34,11 @@ curl "https://curlingfun:9090/../../etc/hacks" -k --path-as-is
 Great work! 
 Once HHC grants your achievement, you may close this terminal.
 ```
+
+## Challenge 2 - Frosty Keypad
+
+Syntax: page number, word, letter
+
+The code from the book is S A N T A One number is repeated twice, via the UV light on keypad we know these digits 2 6 7 8 
+
+![[Pasted image 20241218212937.png]]
