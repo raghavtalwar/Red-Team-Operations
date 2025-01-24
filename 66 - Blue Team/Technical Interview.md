@@ -1,0 +1,204 @@
+
+## Position: Senior Threat Analyst
+
+### Generic Questions
+1. Why you want to leave the current job?
+```markdown
+# Story
+Timesheets
+Salesforce 
+Presentations
+Review security controls
+
+Basic penetration tests
+> More technical 
+I want to be part of a team where I’m directly contributing to mitigating risks, analyzing breaches, and building scalable solutions. I believe a technical-focused role like this aligns with my long-term goals and skillset.
+```
+1. Why do you want to work for Coalition?
+```markdown
+# Story
+Coalition brings together active monitoring, incident response, and comprehensive insurance to solve cyber risk.
+
+I believe in the products and services that are being offered by the business and can see a great impact that it has been making. Give an example
+
+2 case studies
+Example 1: For example, A manufacturer that produces industrial components, experienced a cyber attack on their industrial control systems (ICS).
+The company was insured and their Bodily Injury and Property Damage and Business Interruption coverages went into effect. Even better, Coalition’s Security Incident Response Team (SIRT) helped them regain control of their systems and secure their network to prevent another attack from occurring.
+
+Example 2: Healthcare > Affected > The policyholder had been hit with HelloKitty malware, a dangerous new ransomware variant known to exfiltrate its victims’ data before encrypting it. > CIR was able to negotiate the ransom demand down by nearly 75%
+```
+1. Describe a time you learned from a mistake.
+```markdown
+# Story
+- On an internal pentest > Compromised a low level user account but did not enumerate much with it
+- Found it had local admin right on a computer that had Unconstrained delegation enabled > TRUSTED_FOR_DELEGATION flag in the User Account Control (UAC) flags.
+- A setting in Active Directory that allows a user/computer/service account to impersonate users to access resources on their behalf.
+- Systems which are configured for unconstrained delegation will have the TGT (Ticket Granting Ticket) stored into LSASS memory
+- Coerce authentication from the DC$ Comp account to the Host that had Uncons Dele enabled, and ran Rubeus in monitor mode
+- The ticket granting ticket (TGT) of the domain controller machine account will received and captured by Rubeus.
+- Using the Pass the Ticket within Mimikatz the current user account will get high privilege rights on the domain controller.
+
+- So it was kind of attention to detail lesson for myself and dont underestimated
+```
+1. Talk about your background and experience
+```markdown
+# Story
+I currently work as a Senior Associate specializing in offensive security. My role involves red team operations, incident triaging, and threat detection. I’ve gained strong expertise in scripting for automation, analyzing TTPs, and monitoring the dark web for corporate data leaks.
+
+I’ve also been part of projects where my red team knowledge has enhanced defensive strategies, such as improving detection rules for SOCs or testing them out
+- Or mentoring the blue team
+```
+1. When dealing with multiple things at a time, how do you stay organized?
+```markdown
+# Story
+- For technical projects, I document progress and set milestones
+	- I dedicate focused time blocks for deep technical work and allocate time for team collaboration or documentation
+```
+### Interview Prep
+1. Basic questions around experience and toolsets used.
+```markdown
+# Windows XML Event Log | EvtxECmd 
+
+# Timeline Explorer to view CSV created via EvtxECmd
+
+# Registry Explorer
+ShellBags
+
+# Prefetch - Evidence of execution
+Eric Zimmerman tool to review PF files is PECmd.exe
+
+```
+1. Heavy focus on values and culture.
+2. Asked about my background and my familiarity with certain tools.
+3. Why our company over others?
+4. Difference between EDR and Ant-virus.
+```markdown
+# Story
+- EDR: Behavioural analytics
+
+Svchost.exe, or Service Host, is an important Windows process hosting one or more Windows services.
+
+**Process Hollowing:**
+- **What it is:** A technique > Malicious program > Creates a new process (e.g., a legitimate system process like `svchost.exe`) and then "hollows out" > memory of that process by replacing its code with malicious code.
+	- This allows the malware to run under the guise of a trusted process, making it harder to detect.
+
+**Process Injection:**
+- **What it is:** A broader technique where malware injects its code into the memory of a running process. 
+	- This could involve adding malicious code into the memory space of another process (like a browser or system service), allowing the malware to run in the context of that process.
+
+# Mimikatz
+Mimikatz works by interacting with the Local Security Authority Subsystem Service (LSASS) process to extract authentication credentials, such as plaintext passwords, hashes, and Kerberos tickets, stored in memory. It typically does this by reading LSASS memory directly or injecting code to access sensitive data.
+```
+1. Explain DNS
+2. Basic questions like background and skills
+3. What is one project you are most proud of?
+4. What pen testing experience do you have?
+5. Have you stood up a pen testing process?
+6. How many people have you directly managed?
+7. Interview questions ranged from prior industry experience with business email compromises to network intrusions and ransomware.
+```markdown
+## Industry Expereince - Story + Tool leveraged
+# Business email compromise
+- RedLine Stealer > Malpedia > Information stealer like browser creds + crypto + info
+- Malware bazaar > Download Sample EXE + (Leaked source code is avaible on Github)
+- User receive a phishing mail and macro file fetched EXE
+- SentinelOne > Incident Tab > Threats | Alerts
+	- Threats > Based on file hash > Triggered it as malicious > Virus Total confirms
+		- Also Detecting engine > SentinelOne Cloud when binary ran
+	- Threat Overview > Indicators > shown > Suspicious WMI query > Execution, Discovery, Collection and Defense Evasion
+- Explore Threat > Process tree > All Events | Network Actions
+	- Network Actions > Destination IP > This is their C2 server
+	- Leverage who.is / virus total > Lookup IP 
+- Now select the threat > Threat actions > Mitigation actions 
+	- Select kill, quarantine, remediate, rollback
+	- Select remediate > mark as resolved 
+	- Analyst verdict: True positive or Suspicious
+	- Not doing rollback as nothing was encrypted or exfilteration. But if compromised would have been more than WMI query then we could have selected this
+
+# Network intrusion
+
+# Ransomware
+
+# Malware fam
+Malware Families
+
+```
+1. How do you stay organized? How do you help clients succeed?
+2. Just a technical case study to gauge your abilities as an analyst.
+3. Tell me about a time when you faced a difficult situation and what you did?
+```markdown
+# Story
+- Led an red team engagement
+- Client was happy and the exercise became purple team as he wanted to me bring me on the defensive side to train and remediate all those vulnerabilities
+```
+
+### Responsibilities
+- Lead end-to-end event investigations, from MDR alert to client reporting, with Coalitions customers.
+- Identify and investigate incidents to understand the cause and extent of a breach by leveraging technical tooling and threat intelligence sources.                                                                        
+- Conduct forensics, log, and malware analysis across a client’s environment in support of our investigations.                                                                        
+- Leverage findings from the investigation to develop and articulate expert-level opinions to both technical and executive audiences.                                                                        
+- Develop comprehensive written reports and oral presentations to both technical and executive audiences.                                                                        
+- Effectively communicate and collaborate with customers including legal counsel, and technical and executive stakeholders.                                                                        
+- Collaborate with practice leadership in leveraging subject matter expertise in the scoping of customer engagements
+
+### Skills and Qualifications
+- 5+ years of experience in MDR/security monitoring space, including commonly used tools such as SentinelOne and Crowdstrike.    
+```markdown 
+# Story
+- Leveraged SentinelOne to monitor for threats
+- Saw an alert on the Threat page.
+- Open the Threat overview to check the process tree and command line being executed
+	- It was leveraging wget to fetch the reverse shell
+	- Checked the IP via virus total and found that it had been used in the past to host malicious stuff
+- Closed the threat by peforming the quarantine mitigation action which will kill and encrypt and isolate the threat
+	- The client usually asked us to not remediate as they might leverage remaining files and system changes to understand why the activity occured on the host.
+- Leveraged the Alert tab and setup a new rule incase malicious IP communicates again with the system then trigger an alert
+
+# SentinelOne has following actions when you wish to close an threat
+1) Kill
+2) Quarantine
+3) Remediate
+4) Rollback
+```
+- 5+ years of experience and deep technical knowledge of techniques to contain an active incident, collect event data, analyze data for IOCs/IOAs, and evidentiary reporting to internal and external stakeholders. 
+```markdown
+# Story
+Velociraptor offline installer incase of an incident response
+```
+- 5+ years of experience and an understanding of cyber security operations, security monitoring, EDR, and SIEM tooling, e.g., Endgame, Falcon, and Splunk.
+
+
+### Questions to the Panel - 5 
+
+What are the key challenges the MDR team is currently facing?
+
+What opportunities are there for collaboration with other teams, like Engineering, or IT Security, to improve detection and response capabilities?
+
+How does Coalition support ongoing learning and professional development for its MDR team members, especially in staying ahead of emerging threats and tools?
+
+What does success look like in this role, especially in the first few months?
+
+What qualities or skills are you looking for in an candidate for this role?
+
+----
+1) L&D opportunities
+2) Challenges team in facing
+3) Day to Day activity
+4) Reverse engineering 
+
+Why UpGuard
+- I believe in 
+
+Why leave
+
+
+1) Before a merger... conducted 
+2) person profiling
+
+Its all about resolving hits +
+
+### Questions
+1. Understand that they ask me - Why do you want this job
+	1. I know i can provide value from my background and deep dive
+2. What do you see yourself after this job / how your future look like in this role
+	1. Enhance my skills
