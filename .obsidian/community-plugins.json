@@ -1,8 +1,8 @@
 [
+  "breadcrumbs",
+  "folder-note-plugin",
   "obsidian-git",
   "obsidian-markmind",
   "templater-obsidian",
-  "breadcrumbs",
-  "waypoint",
-  "folder-note-plugin"
+  "waypoint"
 ]

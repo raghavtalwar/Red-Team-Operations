@@ -3,6 +3,8 @@
 
 # OR only to exclude workspace cache
 .obsidian/workspace.json
+.obsidian/graph.json
+.obsidian/plugins/obsidian-git/data.json
 
 # Add below lines to exclude OS settings and caches
 .trash/
