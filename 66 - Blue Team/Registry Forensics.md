@@ -44,6 +44,8 @@ Cons: Not present on Windows Server.
 
 -----
 ## Shimcache / AppCompatCache
+- Shimming an executable to make it compatible with newer version of Windows
+
 **Location of ShimCache Database:** `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache`
 - Entries will be pulled from here. Size for *Maximum ShimCache entries* on newer > Windows 2008 and above > 1024 entries
 - There can be multiple ControlSet having their own ShimCache DB.
