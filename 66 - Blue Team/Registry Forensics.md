@@ -79,3 +79,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ---
 ## AmCache
+- Registry Explorer being used to load the artefact
+- 3 Important subkeys under Root:
+### Inventory Applications
+- Example: Thing
