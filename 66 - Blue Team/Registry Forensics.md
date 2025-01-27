@@ -78,3 +78,4 @@ In a dead box forensic image > There will be multiple ControlSet1.. ControlSet2.
 Cons: This will not track native windows binary such as PowerShell, CMD
 
 ---
+## AmCache
