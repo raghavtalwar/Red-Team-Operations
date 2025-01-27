@@ -50,7 +50,8 @@ Cons: Not present on Windows Server.
 
 **Eric Zimmerman Tools** 
 `AppCompatCacheParser.exe
--
+- Perform analysis via Timeline Explorer
+- Timeline Explorer marks "Yes" under "Executed"
 #### Determine current control set
 In a dead box forensic image > There will be multiple ControlSet1.. ControlSet2.. and no CurrentControlSet Folder!
 
