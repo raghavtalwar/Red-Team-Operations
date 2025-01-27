@@ -79,6 +79,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ---
 ## AmCache
+- Location: ``
 - Registry Explorer being used to load the artefact
 - 3 Important subkeys under Root:
 ### Inventory Applications
@@ -88,4 +89,5 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ### Inventory Application File
 - Loose standalone executables
 
-### Inventory Driver B
+### Inventory Driver Binary
+- Drivers
