@@ -79,7 +79,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ---
 ## AmCache
-- Location: ``
+- Location: `C:\Windows\AppCompact\Programs\AmCache.hve` &  Transactional: `.lOG.1` files
 - Registry Explorer being used to load the artefact
 - 3 Important subkeys under Root:
 ### Inventory Applications
