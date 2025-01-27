@@ -48,7 +48,7 @@ Cons: Not present on Windows Server.
 - Entries will be pulled from here. Size for *Maximum ShimCache entries* on newer > Windows 2008 and above > 1024 entries
 - There can be multiple ControlSet having their own ShimCache DB.
 
-**Location of ShimCache Database:** 
+**:** 
 #### Determine current control set
 In a dead box forensic image > There will be multiple ControlSet1.. ControlSet2.. and no CurrentControlSet Folder!
 
@@ -71,3 +71,5 @@ In a dead box forensic image > There will be multiple ControlSet1.. ControlSet2.
 	- New Update: Volatility 3 now includes a plugin called `windows.shimcachemem` that parses this artifact from memory.
 
 Cons: This will not track native windows binary such as PowerShell, CMD
+
+---
