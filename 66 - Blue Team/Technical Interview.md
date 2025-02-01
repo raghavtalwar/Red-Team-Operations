@@ -206,4 +206,6 @@ Its all about resolving hits +
 ### Nick Romano (Senior Threat Analyst) Interview
 - Looking for an Engineer
 	- Threat Hunting
-	- 
+	- Offensive Security
+	- SOC Monitoring
+
