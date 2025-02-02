@@ -138,7 +138,9 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ### Tool Used
 
 ### Location
-
+- Database: `C:\Windows\System32\sru`
+	- All other
+![[Pasted image 20250202183905.png]]
 ### Overview
 - Goes way beyond artefact of execution
 	- Usually for 60 to 30 days, it will collect the following usage: 
