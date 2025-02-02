@@ -150,6 +150,7 @@ SRUM is stored in a DB > Parse the data > Need to grab its DB copy, we can lever
 	- `-d` will look for SRUDB.dat and Software Hive
 	- `--csv` output location
 
+4 
 ### Location
 - Database: `C:\Windows\System32\sru\SRUDB.dat`
 	- All other files are transactional logs and supporting files.
@@ -169,6 +170,8 @@ SRUM is stored in a DB > Parse the data > Need to grab its DB copy, we can lever
 
 ### Example
 ![[Pasted image 20250202190542.png]]
+
+
 
 ----
 ## Template > Common categorisation
