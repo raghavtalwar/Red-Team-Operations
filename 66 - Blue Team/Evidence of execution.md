@@ -83,7 +83,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - *Purpose:* Introduced in Windows 2000 for multi-language support. 
 	- 1 binary can be used in different language
 
-- *Usage:* B
+- *Usage:* Binary has version info section > metadata of the executable
+	- This is what we see in RegEdit
 
 ### Limitations
 -  No timestamp of the execution
