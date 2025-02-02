@@ -83,4 +83,5 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 1. Tool Used
 2. Location
 3. Overview
-4. Limi
+4. Limitations
+5. Example
