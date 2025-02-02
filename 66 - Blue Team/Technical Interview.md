@@ -208,5 +208,7 @@ Its all about resolving hits +
 	- Threat Hunting
 	- Offensive Security
 	- SOC Monitoring
-- Make sure to state indriectly how good you will  the fact that you are 
+- Make sure to state indirectly how good you will be an engineering role
+	- Use AI to analyse last call and give me output on what they are looking for
+	- Tweak that data and share it over call along with achievements
 
