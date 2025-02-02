@@ -106,7 +106,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - Parsing required
 - RegistryExplorer
 	- GUI 
-	- CMD preferred > Large
+	- CMD > Preferred > Large Scale of data
 - RegEdit
 
 ### Location
@@ -119,7 +119,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - Per user evidence of execution artefact for GUI Programs with LAST execution timestamp in UTC.
 	- Stored in NTUser.dat whereas MUICache is stored in USRClass.dat
 
-- *Purpose:* 
+- *Purpose:* Trust but verify with other artefacts.
 
 - *Technical Usage:* ROT 13 is used by this Key
 
@@ -128,8 +128,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 	- Always make sure to check different artefacts to confirm Story!
 ![[Pasted image 20250202180258.png]]
 
-
 ### Example
+
 
 
 ---
