@@ -73,7 +73,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - RegEdit (Easiest)
 ### Location
 - Stored in each user USRCLASS.dat > `KEY_CURRENT_USER > SOFTWARE > CLASSES`
-	- This is the location of USRCLASS
+	- This is the location of USRCLASS.dat on a Live System!
 
 ### Overview
 - Easy artefact 
