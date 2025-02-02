@@ -69,7 +69,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ## MUICache
 
-### Tool Used
+### Tool
 - RegEdit (Easiest)
 ### Location
 - Artefact: `KEY_CURRENT_USER > SOFTWARE > CLASSES > Local Settings > Software > Microsoft > Windows > Shell > MUICache` 
@@ -102,11 +102,15 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ## UserAssist
 
-### Too
+### Tool
+
 ### Location
-1. Overview
-2. Limitations
-3. Example
+
+### Overview
+
+### Limitations
+
+### Example
 
 
 ---
@@ -115,8 +119,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ----
 #### Common categorisation
-4. Tool Used
-5. Location
-6. Overview
-7. Limitations
-8. Example
+2. Tool Used
+3. Location
+4. Overview
+5. Limitations
+6. Example
