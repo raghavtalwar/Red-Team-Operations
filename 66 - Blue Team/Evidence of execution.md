@@ -136,8 +136,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ## SRUM (System Resource Utilization Monitor)
 
 ### Tool Used
-Parse the data, To grab its DB copy, we can leverage volume shadow copy `vssadmin list shadows`
-- Extract Database: There is a kape target that can pull this artefact or use FTK imager.
+SRUM is stored in a DB > Parse the data > Need to grab its DB copy, we can leverage volume shadow copy `vssadmin list shadows`
+- Extract Volume Shadow Copies: There is a kape target that can pull this artefact or use FTK imager.
 
 **FTK Imager method to grab a copy of SRU
 - File > Add evidence item > Physical drive > Chose the OS drive
