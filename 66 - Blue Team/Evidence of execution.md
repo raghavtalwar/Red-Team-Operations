@@ -122,7 +122,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - *Technical Usage:* ROT 13 is used by this Key
 
 ### Limitations
-- Recent version of Windows
+- Recent version of Windows parsing of this artefact has been 
+![[Pasted image 20250202180258.png]]
 
 
 ### Example
