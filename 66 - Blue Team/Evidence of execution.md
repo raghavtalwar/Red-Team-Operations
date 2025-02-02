@@ -72,9 +72,11 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ### Tool Used
 - RegEdit (Easiest)
 ### Location
+- Stored in each user USRCLASS.dat
 
 ### Overview
 - Easy artefact
+- Introduced in windows 2000 for multi language support. 1 binary can be used in different language
 
 ### Limitations
 
