@@ -108,7 +108,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ### Location
 - Stored in NTUser.dat whereas MUICache is stored in USRClass.dat
-- `HEY_CURRENT_USER\Software\Microsoft\Windows`
+- `HEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist`
 
 ### Overview
 - Per user evidence of execution artefact for GUI Programs with LAST execution timestamp in UTC.
