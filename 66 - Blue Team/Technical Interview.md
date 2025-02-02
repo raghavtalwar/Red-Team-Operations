@@ -205,9 +205,9 @@ Its all about resolving hits +
 
 ### Nick Romano (Senior Threat Analyst) Interview
 - Looking for an Engineer
-	- Threat Hunting
 	- Offensive Security
 	- SOC Monitoring
+	- Threat Hunting
 - Make sure to state indirectly how good you will be an engineering role
 	- Use AI to analyse last call and give me output on what they are looking for
 	- Tweak that data and share it over call along with achievements
