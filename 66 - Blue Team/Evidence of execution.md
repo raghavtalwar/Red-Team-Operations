@@ -136,8 +136,11 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ## SRUM (System Resource Utilization Monitor)
 
 ### Tool Used
-- Parse this data via 
+Parse the data, To grab its copy, we can leverage volume shadow copy `vssadmin list shadows`
+- Extract Database: There is a kape target that can pull this artefact or use FTK imager.
 
+FTK Imager
+- File > 
 ### Location
 - Database: `C:\Windows\System32\sru\SRUDB.dat`
 	- All other files are transactional logs and supporting files.
@@ -154,8 +157,6 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - *Technical Usage:* Open Task Manager > App History > All of the data is being fetched from SRUM. 
 	- Backend this information is stored in a Database.
 
-	- To grab its copy, we can leverage volume shadow copy `vssadmin list shadows`
-	- Extract Database: There is a kape target that can pull this artefact or use FTK imager.
 
 ### Limitations 
 
