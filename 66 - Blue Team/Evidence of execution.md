@@ -168,9 +168,11 @@ SRUM is stored in a DB > Parse the data > Need to grab its DB copy, we can lever
 	- Backend this information is stored in a Database.
 
 ### Limitations 
-A powerful feature and forensic artifact built into Windows 8 and later, as well as Windows Server 2019 and later. Although SRUM is included in modern Windows Server versions, it collects less information there, so this lesson primarily focuses on Windows desktop operating systems. Discover how SRUM provides far more than just evidence of execution, offering detailed insights into system activity.
+A powerful feature and forensic artefact built into Windows 8 and later, as well as Windows Server 2019 and later. 
+- Although SRUM is included in modern Windows Server versions, it collects less information there, so this lesson primarily focuses on Windows desktop operating systems.
 
 ### Example
+Discover how SRUM provides far more than just evidence of execution, offering detailed insights into system activity.
 ![[Pasted image 20250202190542.png]]
 
 
