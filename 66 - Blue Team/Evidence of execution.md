@@ -140,7 +140,8 @@ Parse the data, To grab its copy, we can leverage volume shadow copy `vssadmin l
 - Extract Database: There is a kape target that can pull this artefact or use FTK imager.
 
 FTK Imager
-- File > Add evidence item > Physical drive > 
+- File > Add evidence item > Physical drive > Chose the OS drive
+	- Go to Root > Windows > System32 > Select SRU
 ### Location
 - Database: `C:\Windows\System32\sru\SRUDB.dat`
 	- All other files are transactional logs and supporting files.
