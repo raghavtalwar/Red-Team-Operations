@@ -106,6 +106,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - Parsing required
 - RegistryExplorer
 	- GUI 
+	- CMD preferred > Large
 - RegEdit
 
 ### Location
