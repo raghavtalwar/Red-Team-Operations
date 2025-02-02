@@ -1,4 +1,3 @@
-
 ## Offensive Sec to Red Team
 I don’t think i am leaving offensive security, i think i am stepping up to a position to do more interesting work
 

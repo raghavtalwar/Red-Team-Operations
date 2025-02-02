@@ -202,3 +202,10 @@ Its all about resolving hits +
 	1. I know i can provide value from my background and deep dive
 2. What do you see yourself after this job / how your future look like in this role
 	1. Enhance my skills
+
+### Nick Romano (Senior Threat Analyst) Interview
+- Looking for an Engineer
+	- Threat Hunting
+	- Offensive Security
+	- SOC Monitoring
+
