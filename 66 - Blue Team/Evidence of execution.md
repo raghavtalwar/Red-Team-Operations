@@ -103,12 +103,18 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ## UserAssist
 
 ### Tool
+- Parsing required
 
 ### Location
+- Stored in NTUser.dat whereas MUICache is stored in USRClass.dat
 
 ### Overview
 - Per user evidence of execution artefact for GUI Programs
-	- Stored in NTUser.dat whereas 
+	- Stored in NTUser.dat whereas MUICache is stored in USRClass.dat
+
+- *Purpose:* 
+
+- *Usage:* 
 
 ### Limitations
 
