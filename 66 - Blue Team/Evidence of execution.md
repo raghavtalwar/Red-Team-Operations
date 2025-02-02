@@ -57,7 +57,6 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - Example: Things which get showed up in Add / Remove 
 ### Inventory Application File
 - Loose standalone executable
-
 ### Inventory Driver Binary
 - Drivers
 
