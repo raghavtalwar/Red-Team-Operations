@@ -61,3 +61,17 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ### Inventory Driver Binary
 - Drivers
+
+----
+## PCA
+- Windows 11 artefact
+
+---
+
+## MUICache
+
+
+----
+
+## UserAssist
+
