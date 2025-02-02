@@ -69,7 +69,16 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ## MUICache
 
+### Tool Used
+- RegEdit (Easiest)
+### Location
 
+### Overview
+- Easy artefact
+
+### Limitations
+
+### Example
 
 ----
 
@@ -81,8 +90,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ----
 #### Common categorisation
-1. Tool Used
-2. Location
-3. Overview
-4. Limitations
-5. Example
+2. Tool Used
+3. Location
+4. Overview
+5. Limitations
+6. Example
