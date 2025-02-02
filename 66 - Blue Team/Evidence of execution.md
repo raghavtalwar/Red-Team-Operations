@@ -104,6 +104,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ### Tool
 - Parsing required
+- RegistryExplorer
 - RegEdit
 
 ### Location
@@ -118,7 +119,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 - *Purpose:* 
 
-- *Technical Usage:* 
+- *Technical Usage:* ROT 13 is used by this Key
 
 ### Limitations
 - Recent version of Windows
