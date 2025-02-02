@@ -82,15 +82,17 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - Easy artefact 
 - *Purpose:* Introduced in Windows 2000 for multi-language support. 
 	- 1 binary can be used in different language
-- 
+
+- *Usage:* B
 
 ### Limitations
 -  No timestamp of the execution
 
 ### Example
 ![[Pasted image 20250202171653.png]]
-- Every GUI executable will have 2 values
+- Every GUI executed will have 2 values
 	- ApplicationCompany
+	- FriendlyAppName
 
 ----
 
