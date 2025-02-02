@@ -208,4 +208,5 @@ Its all about resolving hits +
 	- Threat Hunting
 	- Offensive Security
 	- SOC Monitoring
+- Make sure to state indriectly how good you will  the fact that you are 
 
