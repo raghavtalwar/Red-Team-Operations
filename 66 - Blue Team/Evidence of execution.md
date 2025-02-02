@@ -136,6 +136,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ## SRUM (System Resource Utilization Monitor)
 
 ### Tool Used
+- Parse this data via 
 
 ### Location
 - Database: `C:\Windows\System32\sru\SRUDB.dat`
@@ -152,6 +153,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 - *Technical Usage:* Open Task Manager > App History > All of the data is being fetched from SRUM. 
 	- Backend this information is stored in a Database.
+	- To grab its copy, we can leverage shadow copy
+	- ``
 
 ### Limitations
 
