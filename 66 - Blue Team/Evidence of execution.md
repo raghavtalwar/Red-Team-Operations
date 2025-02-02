@@ -88,7 +88,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ### Limitations
 -  No timestamp of the execution
-	- 
+	- Values will not have the timestamp but the Reg Keys does
+	- We could find that MuiCache was last updated at XX but cant say which set of values were updated in this Key. As th
 
 ### Example
 ![[Pasted image 20250202171653.png]]
