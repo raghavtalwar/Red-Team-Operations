@@ -151,7 +151,7 @@ SRUM is stored in a DB > Parse the data > Need to grab its DB copy, we can lever
 	- `--csv` output location
 
 **4 Important CSVs Files > Timeline Explorer > Open all 4 CSVs 
-1. App related 
+1. App related - Provides 
 2. Network related 
 ### Location
 - Database: `C:\Windows\System32\sru\SRUDB.dat`
