@@ -152,8 +152,7 @@ SRUM is stored in a DB > Parse the data > Need to grab its DB copy, we can lever
 
 **4 Important CSVs Files > Timeline Explorer > Open all 4 CSVs 
 1. App related - Provides execution timestamp and name
-2. Network related - Provides which inteface was connected at any given time
-	- 
+2. Network related - Provides which inteface was connected at any given time and more
 ### Location
 - Database: `C:\Windows\System32\sru\SRUDB.dat`
 	- All other files are transactional logs and supporting files.
@@ -169,7 +168,7 @@ SRUM is stored in a DB > Parse the data > Need to grab its DB copy, we can lever
 	- Backend this information is stored in a Database.
 
 ### Limitations 
-
+A powerful feature and forensic artifact built into Windows 8 and later, as well as Windows Server 2019 and later. Although SRUM is included in modern Windows Server versions, it collects less information there, so this lesson primarily focuses on Windows desktop operating systems. Discover how SRUM provides far more than just evidence of execution, offering detailed insights into system activity.
 
 ### Example
 ![[Pasted image 20250202190542.png]]
