@@ -141,14 +141,15 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ### Overview
 - Goes way beyond artefact of execution
-	- Usually for 60 to 30 days, it will also 
-		- Energy usage
+	- Usually for 60 to 30 days, it will collect the following usage: 
+		- Energy 
 		- Network related connectivity
-		- Detailed 
+		- Detailed application 
 
 - *Purpose:*
 
-- *Technical Usage:* Open Task Manager > App History > All of the data is being fetched from SRUM
+- *Technical Usage:* Open Task Manager > App History > All of the data is being fetched from SRUM. 
+	- Backend this information is stored in a Database.
 
 ### Limitations
 
