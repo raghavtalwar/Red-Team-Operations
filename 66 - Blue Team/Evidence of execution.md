@@ -107,6 +107,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ### Location
 
 ### Overview
+- Per user evidence of execution artefact for GUI Programs
+	- Stored in NTUser.dat whereas 
 
 ### Limitations
 
