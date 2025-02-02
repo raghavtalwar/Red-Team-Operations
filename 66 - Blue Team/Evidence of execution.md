@@ -109,7 +109,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 	- CMD > ReCMD.exe > Preferred > Large Scale of data
 - RegEdit
 
-- Eric Zimmerman Tools > ReCmd.exe > Batch Examples > Kroll_Batch.reb > 
+- Eric Zimmerman Tools > ReCmd.exe > Batch Examples > Kroll_Batch.reb > UserAssist is one of the artefacts collected by this Bat
 ### Location
 - Stored in NTUser.dat whereas MUICache is stored in USRClass.dat
 - `HEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist`\
