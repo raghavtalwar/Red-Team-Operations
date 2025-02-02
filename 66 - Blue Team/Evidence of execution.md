@@ -158,16 +158,14 @@ SRUM is stored in a DB > Parse the data > Need to grab its DB copy, we can lever
 		- Network related connectivity
 		- Detailed application 
 
-- *Purpose:*
-
 - *Technical Usage:* Open Task Manager > App History > All of the data is being fetched from SRUM. 
 	- Backend this information is stored in a Database.
-
 
 ### Limitations 
 
 
 ### Example
+
 
 ----
 ## Template > Common categorisation
