@@ -77,7 +77,6 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 	
 - Stored in each user USRCLASS.dat > `KEY_CURRENT_USER > SOFTWARE > CLASSES`
 	- This is the location of USRCLASS.dat on a Live System!
-
 ### Overview
 - Easy artefact > Allows us to check PER User artefact of execution for GUI based programs w/o timestamp of execution.
 
@@ -86,12 +85,10 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 - *Usage:* Binary has version info section > metadata of the executable
 	- This is what we see in RegEdit
-
 ### Limitations
 -  No timestamp of the execution
 	- Values will not have the timestamp but the Reg Keys does
 	- We could find that MuiCache was last updated at XX but cant say which set of values were updated in this Key. As there is no Most Recently Used here!
-
 ### Example
 ![[Pasted image 20250202171653.png]]
 - Every GUI executed will have 2 values
@@ -105,14 +102,21 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ## UserAssist
 
+### Too
+### Location
+1. Overview
+2. Limitations
+3. Example
+
+
 ---
 ## SRUM
 
 
 ----
 #### Common categorisation
-2. Tool Used
-3. Location
-4. Overview
-5. Limitations
-6. Example
+4. Tool Used
+5. Location
+6. Overview
+7. Limitations
+8. Example
