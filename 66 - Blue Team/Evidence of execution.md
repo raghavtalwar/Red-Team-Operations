@@ -105,6 +105,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ### Tool
 - Parsing required
 - RegistryExplorer
+	- GUI 
 - RegEdit
 
 ### Location
@@ -122,7 +123,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - *Technical Usage:* ROT 13 is used by this Key
 
 ### Limitations
-- Recent version of Windows parsing of this artefact has been 
+- Recent version of Windows parsing of this artefact has been having inconsistencies. 
+	- Always make sure to check different artefacts to confirm Story!
 ![[Pasted image 20250202180258.png]]
 
 
