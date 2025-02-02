@@ -55,7 +55,6 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ### Inventory Applications
 - Installed applications
 - Example: Things which get showed up in Add / Remove 
-
 ### Inventory Application File
 - Loose standalone executable
 
@@ -75,3 +74,13 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ## UserAssist
 
+---
+## SRUM
+
+
+----
+#### Common categorisation
+1. Tool Used
+2. Location
+3. Overview
+4. Limi
