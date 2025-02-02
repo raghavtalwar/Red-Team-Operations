@@ -83,7 +83,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - *Purpose:* Introduced in Windows 2000 for multi-language support. 
 	- 1 binary can be used in different language
 
-- *Usage:* Binary has version info section > metadata of the executable
+- *Technical Usage:* Binary has version info section > metadata of the executable
 	- This is what we see in RegEdit
 ### Limitations
 -  No timestamp of the execution
@@ -109,14 +109,16 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - Stored in NTUser.dat whereas MUICache is stored in USRClass.dat
 
 ### Overview
-- Per user evidence of execution artefact for GUI Programs
+- Per user evidence of execution artefact for GUI Programs with LAST execution timestamp in UTC.
 	- Stored in NTUser.dat whereas MUICache is stored in USRClass.dat
 
 - *Purpose:* 
 
-- *Usage:* 
+- *Technical Usage:* 
 
 ### Limitations
+- Recent version of Windows
+
 
 ### Example
 
