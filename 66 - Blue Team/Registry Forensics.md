@@ -44,11 +44,16 @@ Cons: Not present on Windows Server.
 
 -----
 ## Shimcache / AppCompatCache
+- Shimming an executable to make it compatible with newer version of Windows
+
 **Location of ShimCache Database:** `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache`
 - Entries will be pulled from here. Size for *Maximum ShimCache entries* on newer > Windows 2008 and above > 1024 entries
 - There can be multiple ControlSet having their own ShimCache DB.
 
-
+**Eric Zimmerman Tools** 
+`AppCompatCacheParser.exe
+- Perform analysis via Timeline Explorer
+- Timeline Explorer marks "Yes" under "Executed"
 #### Determine current control set
 In a dead box forensic image > There will be multiple ControlSet1.. ControlSet2.. and no CurrentControlSet Folder!
 
@@ -71,3 +76,18 @@ In a dead box forensic image > There will be multiple ControlSet1.. ControlSet2.
 	- New Update: Volatility 3 now includes a plugin called `windows.shimcachemem` that parses this artifact from memory.
 
 Cons: This will not track native windows binary such as PowerShell, CMD
+
+---
+## AmCache
+- Location: `C:\Windows\AppCompact\Programs\AmCache.hve` &  Transactional: `.lOG.1` files
+- Registry Explorer being used to load the artefact
+- 3 Important subkeys under Root:
+### Inventory Applications
+- Installed applications
+- Example: Things which get showed up in Add / Remove 
+
+### Inventory Application File
+- Loose standalone executables
+
+### Inventory Driver Binary
+- Drivers
