@@ -88,6 +88,9 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 -  No timestamp of the execution
 
 ### Example
+![[Pasted image 20250202171653.png]]
+- Every GUI executable will have 2 values
+	- ApplicationCompany
 
 ----
 
