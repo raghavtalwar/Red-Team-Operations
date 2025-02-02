@@ -80,7 +80,9 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ### Overview
 - Easy artefact 
-- Introduced in Windows 2000 for multi language support. 1 binary can be used in different language
+- *Purpose:* Introduced in Windows 2000 for multi-language support. 
+	- 1 binary can be used in different language
+- 
 
 ### Limitations
 -  No timestamp of the execution
