@@ -106,9 +106,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 - Parsing required
 - RegistryExplorer
 	- GUI 
-	- CMD > Preferred > Large Scale of data
+	- CMD > ReCMD.exe > Preferred > Large Scale of data
 - RegEdit
-
 ### Location
 - Stored in NTUser.dat whereas MUICache is stored in USRClass.dat
 - `HEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist`\
@@ -129,7 +128,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ![[Pasted image 20250202180258.png]]
 
 ### Example
-
+![[Pasted image 20250202180614.png]]
 
 
 ---
