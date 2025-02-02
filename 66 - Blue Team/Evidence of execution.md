@@ -135,6 +135,21 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ---
 ## SRUM
 
+### Tool Used
+
+### Location
+
+### Overview
+
+
+- *Purpose:*
+
+- *Technical Usage:*
+
+### Limitations
+
+
+### Example
 
 ----
 #### Common categorisation
