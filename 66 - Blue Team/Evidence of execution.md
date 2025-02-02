@@ -146,6 +146,8 @@ SRUM is stored in a DB > Parse the data > Need to grab its DB copy, we can lever
 	- Go to Root > Windows > System32 > Config > Select Software & Grab its Transactional logs as well > Rclick > Export Files > Save on Desktop
 
 **Parse data via SrumECmd.exe (Zimmerman Tool) 
+- SrumECmd.exe
+	- -d will look for S
 
 ### Location
 - Database: `C:\Windows\System32\sru\SRUDB.dat`
@@ -165,7 +167,7 @@ SRUM is stored in a DB > Parse the data > Need to grab its DB copy, we can lever
 
 
 ### Example
-
+![[Pasted image 20250202190542.png]]
 
 ----
 ## Template > Common categorisation
