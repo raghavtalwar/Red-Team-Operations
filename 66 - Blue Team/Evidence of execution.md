@@ -88,12 +88,16 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 ### Limitations
 -  No timestamp of the execution
+	- 
 
 ### Example
 ![[Pasted image 20250202171653.png]]
 - Every GUI executed will have 2 values
 	- ApplicationCompany
 	- FriendlyAppName
+
+- Even if a threat actor renames the binary > MUICache will pull the metadata and help us to see what was really executed
+	- 
 
 ----
 
