@@ -150,7 +150,9 @@ SRUM is stored in a DB > Parse the data > Need to grab its DB copy, we can lever
 	- `-d` will look for SRUDB.dat and Software Hive
 	- `--csv` output location
 
-4 
+**4 Important CSVs Files > Time
+1. App related 
+2. Network related 
 ### Location
 - Database: `C:\Windows\System32\sru\SRUDB.dat`
 	- All other files are transactional logs and supporting files.
