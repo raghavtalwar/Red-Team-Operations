@@ -79,7 +79,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 	- This is the location of USRCLASS.dat on a Live System!
 
 ### Overview
-- Easy artefact 
+- Easy artefact > Allows us to check PER User artefact of execution for GUI based programs w/o timestamp of execution.
+
 - *Purpose:* Introduced in Windows 2000 for multi-language support. 
 	- 1 binary can be used in different language
 
@@ -90,7 +91,6 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 -  No timestamp of the execution
 	- Values will not have the timestamp but the Reg Keys does
 	- We could find that MuiCache was last updated at XX but cant say which set of values were updated in this Key. As there is no Most Recently Used here!
-
 
 ### Example
 ![[Pasted image 20250202171653.png]]
