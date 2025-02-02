@@ -141,7 +141,8 @@ Parse the data, To grab its copy, we can leverage volume shadow copy `vssadmin l
 
 FTK Imager
 - File > Add evidence item > Physical drive > Chose the OS drive
-	- Go to Root > Windows > System32 > Select SRU
+	- Go to Root > Windows > System32 > Select SRU > Rclick > Export Files > Save on Desktop
+- Software Hive - Tool that will parse this artefact, will leverage this 
 ### Location
 - Database: `C:\Windows\System32\sru\SRUDB.dat`
 	- All other files are transactional logs and supporting files.
