@@ -138,8 +138,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ### Tool Used
 
 ### Location
-- Database: `C:\Windows\System32\sru`
-	- All other
+- Database: `C:\Windows\System32\sru\SRUDB.dat`
+	- All other files are transactional logs and supporting files.
 ![[Pasted image 20250202183905.png]]
 ### Overview
 - Goes way beyond artefact of execution
