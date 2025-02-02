@@ -89,7 +89,8 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ### Limitations
 -  No timestamp of the execution
 	- Values will not have the timestamp but the Reg Keys does
-	- We could find that MuiCache was last updated at XX but cant say which set of values were updated in this Key. As th
+	- We could find that MuiCache was last updated at XX but cant say which set of values were updated in this Key. As there is no Most Recently Used here!
+
 
 ### Example
 ![[Pasted image 20250202171653.png]]
@@ -98,7 +99,7 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 	- FriendlyAppName
 
 - Even if a threat actor renames the binary > MUICache will pull the metadata and help us to see what was really executed
-	- 
+	- Everything GUI being executed will be tracked and populated here even if its from a different drive or USB.
 
 ----
 
