@@ -133,14 +133,15 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 
 
 ---
-## SRUM
+## SRUM (System Resource Utilization Monitor)
 
 ### Tool Used
 
 ### Location
 
 ### Overview
-
+- Goes way beyond artefact of execution
+	- Usually for 60 to 30 days, it 
 
 - *Purpose:*
 
@@ -152,9 +153,18 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ### Example
 
 ----
-#### Common categorisation
-2. Tool Used
-3. Location
-4. Overview
-5. Limitations
-6. Example
+## Template > Common categorisation
+### Tool Used
+
+### Location
+
+### Overview
+
+- *Purpose:*
+
+- *Technical Usage:*
+
+### Limitations
+
+
+### Example
