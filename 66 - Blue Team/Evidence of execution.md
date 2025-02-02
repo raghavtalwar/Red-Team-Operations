@@ -147,7 +147,7 @@ SRUM is stored in a DB > Parse the data > Need to grab its DB copy, we can lever
 
 **Parse data via SrumECmd.exe (Zimmerman Tool) 
 - SrumECmd.exe
-	- -d will look for S
+	- `-d` will look for SRUDB.dat and Software Hive
 
 ### Location
 - Database: `C:\Windows\System32\sru\SRUDB.dat`
