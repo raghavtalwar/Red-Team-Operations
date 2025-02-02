@@ -139,11 +139,11 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 Parse the data, To grab its copy, we can leverage volume shadow copy `vssadmin list shadows`
 - Extract Database: There is a kape target that can pull this artefact or use FTK imager.
 
-FTK Imager
+FTK Imager method to grab a copy of SRU
 - File > Add evidence item > Physical drive > Chose the OS drive
 	- Go to Root > Windows > System32 > Select SRU > Rclick > Export Files > Save on Desktop
 - Software Hive - Tool that will parse this artefact, will leverage this to resolve network information
-	- Go to Root > Windows > System32 > Config > Software & Grab its Transactional logs as well
+	- Go to Root > Windows > System32 > Config > Select Software & Grab its Transactional logs as well > Rclick > Export Files > Save on Desktop
 ### Location
 - Database: `C:\Windows\System32\sru\SRUDB.dat`
 	- All other files are transactional logs and supporting files.
