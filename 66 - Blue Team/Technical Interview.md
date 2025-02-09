@@ -204,9 +204,11 @@ What qualities or skills are you looking for in an candidate for this role?
 
 ```markdown
 # Structure
-1. Introdcuton
+1. Introduction
 2. Background & Experience
 3. Basic questions
+	1. Why Coalition
+	2. Why Leave
 4. Job Description questions
 	- Offensive Security
 		- Red Team engagement > Purple Team > Sit with SOC and deliver penetration test
