@@ -207,7 +207,7 @@ What qualities or skills are you looking for in an candidate for this role?
 1. Introduction
 2. Background & Experience
 3. Basic questions
-	1. I am impressed by Coalition's growth in the MDR space and its comprehensive approach, combining cyber insurance with proactive security measures. With my background in threat detection and offensive security, I am confident in my ability to contribute effectively to your team.
+	1. Why Coaltion - I am impressed by Coalition's growth in the MDR space and its comprehensive approach, combining cyber insurance with proactive security measures. With my background in threat detection and offensive security, I am confident in my ability to contribute effectively to your team.
 	2. Why Leave - Looking for more challenges. This role at Coalition allows me to leverage my experience in leading incident investigations while growing my skills in security monitoring and response, which aligns with my long-term career goals.
 4. Job Description questions
 	- Offensive Security
