@@ -209,9 +209,11 @@ What qualities or skills are you looking for in an candidate for this role?
 3. Basic questions
 4. Job Description questions
 	- Offensive Security
-		- 
+		- Red Team engagement > Purple Team > Sit with SOC and deliver penetration test
+		- Cool Bugs 
 	- Blue Team 
 		- Incident response using velociraptor
-		- 
-
+		- SOC monitoring using SentinelOne
+5. Atleast 5 questions to the Interviewer
+6. 
 ```
