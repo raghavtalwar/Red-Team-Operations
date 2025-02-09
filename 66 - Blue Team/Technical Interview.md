@@ -217,5 +217,10 @@ What qualities or skills are you looking for in an candidate for this role?
 5. Atleast 5 questions to the Interviewer
 ```
 
-```
+```markdown
+Experience in **ransomware incidents**, **sending Velociraptor for artefact collection**, and your familiarity with **registry explorer, shell bags,** and **timeline explorer**. Bring up concrete examples like this to demonstrate your hands-on skills, not just the technical concepts.
+
+# Examples
+- Ransomware incident > PsExec being allowed & Encrypted > Backup servers > Velociraptor offline executable for artfe
+- Malware Family that was used
 ```
