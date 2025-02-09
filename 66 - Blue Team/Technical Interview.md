@@ -211,7 +211,7 @@ What qualities or skills are you looking for in an candidate for this role?
 	- Offensive Security
 		- Red Team engagement > Purple Team > Sit with SOC and deliver penetration test
 		- Cool Bugs 
-	- Blue Team 
+	- Blue Team
 		- Incident response using velociraptor
 		- SOC monitoring using SentinelOne
 5. Atleast 5 questions to the Interviewer
@@ -222,8 +222,9 @@ Experience in **ransomware incidents**, **sending Velociraptor for artefact coll
 
 # Examples - Solidify this further via checking for correctness
 - Ransomware incident > PsExec being allowed & Encrypted > Backup servers > Velociraptor offline executable for artfact collection
-	- Analysed Event logs via Timeline explorer 
-	- Analysed registry & shell bags 
-	- evidence of execution artefacts like
+	- Analysed 
+		- Event logs via Timeline explorer
+		- Registry & shell bags 
+		- Evidence of execution artefacts like Prefetch & Shimcache
 - Malware Family that was used
 ```
