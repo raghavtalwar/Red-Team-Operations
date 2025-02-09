@@ -211,6 +211,9 @@ What qualities or skills are you looking for in an candidate for this role?
 	- Offensive Security
 		- Red Team engagement > Purple Team > Sit with SOC and deliver penetration test
 		- Cool Bugs 
+		- Threat modelling for an web application & Developed test cases accordingly
+		- End to End delivery model
+		- Coache
 	- Blue Team
 		- Incident response using velociraptor
 		- SOC monitoring using SentinelOne
