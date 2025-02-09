@@ -226,6 +226,8 @@ What qualities or skills are you looking for in an candidate for this role?
 			-Persistence, Priv Esc & Lateral Movement
 			
 5. Atleast 5 questions to the Interviewer
+	1. What does success look like in this role, especially in the first few months?
+	2. What opportunities are there for collaboration with other teams, like Engineering, or IT Security, to improve detection and response capabilities?
 ```
 
 ```markdown
