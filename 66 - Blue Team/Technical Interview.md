@@ -208,7 +208,7 @@ What qualities or skills are you looking for in an candidate for this role?
 2. Background & Experience
 3. Basic questions
 	1. Why Coalition - I’m excited about Coalition’s growth in the MDR space and the opportunity to work in a well-rounded, proactive security team. I believe my experience in threat detection will allow me to contribute effectively
-	2. Why Leave - I’m looking for a role with more challenges. I believe this role at Coalition will allow me to use my experience to strengthen the team’s defensive strategies while continuing to grow my skills in security monitoring and incident response. I’ve learned a lot in my current position, Coalition offers the chance to grow in areas like lead end-to-end investigations, which aligns with my long-term career goals.
+	2. Why Leave - I’m looking for a role with more challenges. I believe this role at Coalition will allow me to use my experience to strengthen the defensive strategies by leading lead end-to-end investigations incidents while continuing to grow my skills in security monitoring and incident response. I’ve learned a lot in my current position, Coalition offers the chance to grow in areas like lead end-to-end investigations incidents, which aligns with my long-term career goals.
 4. Job Description questions
 	- Offensive Security
 		- Red Team engagement > Purple Team > Sit with SOC and deliver penetration test
