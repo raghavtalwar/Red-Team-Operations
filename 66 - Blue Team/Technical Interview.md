@@ -228,6 +228,8 @@ What qualities or skills are you looking for in an candidate for this role?
 5. Atleast 5 questions to the Interviewer
 	1. What does success look like in this role, especially in the first few months?
 	2. What opportunities are there for collaboration with other teams, like Engineering, or IT Security, to improve detection and response capabilities?
+	3. What are the key challenges the MDR team is currently facing?
+	4. What has your experience been like working at this company, and what do you enjoy most about being part of the team?
 ```
 
 ```markdown
