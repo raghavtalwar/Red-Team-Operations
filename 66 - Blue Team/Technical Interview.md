@@ -215,5 +215,7 @@ What qualities or skills are you looking for in an candidate for this role?
 		- Incident response using velociraptor
 		- SOC monitoring using SentinelOne
 5. Atleast 5 questions to the Interviewer
-6. 
+```
+
+```
 ```
