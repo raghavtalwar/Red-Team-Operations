@@ -205,8 +205,13 @@ What qualities or skills are you looking for in an candidate for this role?
 ```markdown
 # Structure
 1. Introdcuton
-2. Background
-3. 
-
+2. Background & Experience
+3. Basic questions
+4. Job Description questions
+	- Offensive Security
+		- 
+	- Blue Team 
+		- Incident response using velociraptor
+		- 
 
 ```
