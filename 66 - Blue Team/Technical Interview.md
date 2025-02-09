@@ -58,15 +58,13 @@ I’ve also been part of projects where my red team knowledge has enhanced defen
 1. Basic questions around experience and toolsets used.
 ```markdown
 # Windows XML Event Log | EvtxECmd 
-
-# Timeline Explorer to view CSV created via EvtxECmd
+- Timeline Explorer to view CSV created via EvtxECmd
 
 # Registry Explorer
 ShellBags
 
 # Prefetch - Evidence of execution
 Eric Zimmerman tool to review PF files is PECmd.exe
-
 ```
 1. Heavy focus on values and culture.
 2. Asked about my background and my familiarity with certain tools.
