@@ -245,3 +245,8 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 		- Evidence of execution artefacts like Prefetch & Shimcache
 - Malware Family that was used
 ```
+
+```markdown
+# How to isolate an host in SentinelOne
+& Other basic quesiton ar
+```
