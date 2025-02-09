@@ -218,6 +218,12 @@ What qualities or skills are you looking for in an candidate for this role?
 	- Blue Team
 		- Incident response using velociraptor
 		- SOC monitoring using SentinelOne
+		- Investigating Windows Endpoints 
+			- Event Logs
+			- Registry
+			- Evidence of execution
+			- Persistence, Priv Esc & Lateral Movement
+			
 5. Atleast 5 questions to the Interviewer
 ```
 
