@@ -186,21 +186,10 @@ What qualities or skills are you looking for in an candidate for this role?
 3) Day to Day activity
 4) Reverse engineering 
 
-Why UpGuard
-- I believe in 
-
-Why leave
-
-
-1) Before a merger... conducted 
-2) person profiling
-
-Its all about resolving hits +
-
 ### Questions
-1. Understand that they ask me - Why do you want this job
+5. Understand that they ask me - Why do you want this job
 	1. I know i can provide value from my background and deep dive
-2. What do you see yourself after this job / how your future look like in this role
+6. What do you see yourself after this job / how your future look like in this role
 	1. Enhance my skills
 
 ### Nick Romano (Senior Threat Analyst) Interview
@@ -213,3 +202,8 @@ Its all about resolving hits +
 	- Tweak that data and share it over call along with achievements
 
 
+```markdown
+# 
+
+
+```
