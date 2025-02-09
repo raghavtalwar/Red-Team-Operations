@@ -223,6 +223,7 @@ Experience in **ransomware incidents**, **sending Velociraptor for artefact coll
 # Examples - Solidify this further via checking for correctness
 - Ransomware incident > PsExec being allowed & Encrypted > Backup servers > Velociraptor offline executable for artfact collection
 	- Analysed Event logs via Timeline explorer 
-	- Analysed registry & evidence of execution artefacts like shell bags
+	- Analysed registry & shell bags 
+	- evidence of execution artefacts like
 - Malware Family that was used
 ```
