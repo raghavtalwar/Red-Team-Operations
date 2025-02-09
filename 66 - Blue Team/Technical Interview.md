@@ -213,7 +213,8 @@ What qualities or skills are you looking for in an candidate for this role?
 		- Cool Bugs 
 		- Threat modelling for an web application & Developed test cases accordingly
 		- End to End delivery model
-		- Coache
+		- Coached People - On Mitre TTPs & Analysing PowerShell scripts
+		- Improving detection rules for SOCs or testing them out
 	- Blue Team
 		- Incident response using velociraptor
 		- SOC monitoring using SentinelOne
