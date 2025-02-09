@@ -214,7 +214,7 @@ What qualities or skills are you looking for in an candidate for this role?
 		- Threat modelling for an web application & Developed test cases accordingly
 		- End to End delivery model
 		- Coached People - On Mitre TTPs & Analysing PowerShell scripts
-		- Test and improve detection ruleset for SOCs
+		- Creating/Improving and Testing detection ruleset for SOCs
 	- Blue Team
 		- Incident response using velociraptor
 		- SOC monitoring using SentinelOne
