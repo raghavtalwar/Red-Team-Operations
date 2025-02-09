@@ -98,7 +98,7 @@ Mimikatz works by interacting with the Local Security Authority Subsystem Servic
 ## Industry Expereince - Story + Tool leveraged
 # Business email compromise
 - RedLine Stealer > Malpedia > Information stealer like browser creds + crypto + info
-- Malware bazaar > Download Sample EXE + (Leaked source code is avaible on Github)
+	- Malware bazaar > Download Sample EXE + (Leaked source code is avaible on Github)
 - User receive a phishing mail and macro file fetched EXE
 - SentinelOne > Incident Tab > Threats | Alerts
 	- Threats > Based on file hash > Triggered it as malicious > Virus Total confirms
