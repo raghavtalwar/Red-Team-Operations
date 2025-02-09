@@ -150,7 +150,9 @@ Malware Families
 	- Checked the IP via virus total and found that it had been used in the past to host malicious stuff
 - Closed the threat by peforming the quarantine mitigation action which will kill and encrypt and isolate the threat
 	- The client usually asked us to not remediate as they might leverage remaining files and system changes to understand why the activity occured on the host.
-- Leveraged the Alert tab and setup a new rule incase malicious IP communicates again with the system then trigger an alert
+- Leveraged the Alert tab and setup a new rule 
+	- incase malicious IP communicates again with the system then trigger an alert
+	- PowerShell down
 
 # SentinelOne has following actions when you wish to close an threat
 1) Kill
@@ -248,5 +250,5 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 
 ```markdown
 # How to isolate an host in SentinelOne
-& Other basic quesiton ar
+& Other basic quesiton about the Tool but impactful (Maybe checkout a guide)
 ```
