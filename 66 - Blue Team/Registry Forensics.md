@@ -9,7 +9,7 @@ Cheatsheet: https://13cubed.s3.amazonaws.com/downloads/windows_registry_cheat_sh
 
 #### UsrClass.dat
 2 main Artefacts 
-1. MuiCache - Evidence of execution
+1. MuiCache - Evidence of execution of GUI programs
 2. ShellBags - Windows Explorer artefact (Browsing paths like Bags6MRU which is most recently used bag)
 
 ##### Shell Bags 
