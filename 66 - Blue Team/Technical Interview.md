@@ -248,8 +248,16 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 		- Registry & shell bags 
 			1. MuiCache - Evidence of execution of GUI programs
 			2. ShellBags - Windows Folder Browsing artefact
-			
+
+**Real world example**
+1. We would get handed an image
+2. Mount the image via Arsenal Image Mounter
+3. Pull off UserClass.dat and NtUser.dat from the users of interest.
+4. Use ShellBags explorer > Load offline hive option to load those hives and investigate.
+
 		- Evidence of execution artefacts like Prefetch & Shimcache
+			1. 
+
 - Malware Family that was used
 ```
 
