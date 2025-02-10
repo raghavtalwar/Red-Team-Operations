@@ -29,7 +29,8 @@ Cheatsheet: https://13cubed.s3.amazonaws.com/downloads/windows_registry_cheat_sh
 4. Use ShellBags explorer > Load offline hive option to load those hives and investigate.
 
 -----
-## Prefetch
+## Evidence of execution
+### Prefetch
 - Evidence of execution + File referenced
 	- Its a process that creates a record of files that have been executed
 	- Windows uses this to enhance the spin up of executables
