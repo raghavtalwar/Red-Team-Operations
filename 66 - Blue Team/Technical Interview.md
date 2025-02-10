@@ -242,9 +242,9 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 
 - Ransomware incident > PsExec being allowed & Encrypted > Backup servers > Velociraptor offline executable for artfact collection
 	- Analysed 
-		- Event logs via Timeline explorer
+		- Event logs via Timeline explorer - (Event Log Explorer Command Line)
 			- Collect: C:\Windows\System32\winevt\Logs
-			- Analysis: 
+			- Analysis: C:\Tools\Zimmerman\net6\EvtxECmd.exe -d C:\Users\davisrg\Desktop\Logs --csv C:=log_timeline.csv
 		- Registry & shell bags 
 		- Evidence of execution artefacts like Prefetch & Shimcache
 - Malware Family that was used
