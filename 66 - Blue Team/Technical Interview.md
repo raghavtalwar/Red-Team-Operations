@@ -246,6 +246,8 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 			- Collect: C:\Windows\System32\winevt\Logs
 			- Analysis: C:\Tools\Zimmerman\net6\EvtxECmd.exe -d C:\Users\davisrg\Desktop\Logs --csv log_timeline.csv
 		- Registry & shell bags 
+			1. MuiCache - Evidence of execution of GUI programs
+			2. ShellBags - Windows Explorer artefact
 		- Evidence of execution artefacts like Prefetch & Shimcache
 - Malware Family that was used
 ```
