@@ -152,7 +152,7 @@ Malware Families
 	- The client usually asked us to not remediate as they might leverage remaining files and system changes to understand why the activity occured on the host.
 - Leveraged the Alert tab and setup a new rule 
 	- incase malicious IP communicates again with the system then trigger an alert
-	- PowerShell down
+	- PowerShell downgrade
 
 # SentinelOne has following actions when you wish to close an threat
 1) Kill
