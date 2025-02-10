@@ -10,7 +10,7 @@ Cheatsheet: https://13cubed.s3.amazonaws.com/downloads/windows_registry_cheat_sh
 #### UsrClass.dat
 2 main Artefacts 
 1. MuiCache - Evidence of execution of GUI programs
-2. ShellBags - Windows Explorer artefact (Browsing paths like Bags6MRU which is most recently used bag)
+2. ShellBags - Windows Explorer artefact (Browsing paths like BagsMRU which is most recently used bag)
 
 ##### Shell Bags 
 - Zip Files are treated as Folders and Logged within Shell Bags
@@ -23,10 +23,10 @@ Cheatsheet: https://13cubed.s3.amazonaws.com/downloads/windows_registry_cheat_sh
 - Desktop and Network locations like `\\ComputerName\c$\` are stored in NtUser.dat
 
 **Real world example**
-1. We would get handed an image
-2. Mount the image via Arsenal Image Mounter
-3. Pull off UserClass.dat and NtUser.dat from the users of interest.
-4. Use ShellBags explorer > Load offline hive option to load those hives and investigate.
+3. We would get handed an image
+4. Mount the image via Arsenal Image Mounter
+5. Pull off UserClass.dat and NtUser.dat from the users of interest.
+6. Use ShellBags explorer > Load offline hive option to load those hives and investigate.
 
 -----
 ## Evidence of execution
