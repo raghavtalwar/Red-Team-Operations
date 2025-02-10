@@ -244,7 +244,7 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 	- Analysed 
 		- Event logs via Timeline explorer
 			- Collect: C:\Windows\System32\winevt\Logs
-			- Analysis
+			- Analysis: 
 		- Registry & shell bags 
 		- Evidence of execution artefacts like Prefetch & Shimcache
 - Malware Family that was used
