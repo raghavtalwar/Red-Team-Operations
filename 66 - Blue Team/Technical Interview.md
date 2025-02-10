@@ -244,7 +244,7 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 	- Analysed 
 		- Event logs via Timeline explorer - (Event Log Explorer Command Line)
 			- Collect: C:\Windows\System32\winevt\Logs
-			- Analysis: C:\Tools\Zimmerman\net6\EvtxECmd.exe -d C:\Users\davisrg\Desktop\Logs --csv C:=log_timeline.csv
+			- Analysis: C:\Tools\Zimmerman\net6\EvtxECmd.exe -d C:\Users\davisrg\Desktop\Logs --csv log_timeline.csv
 		- Registry & shell bags 
 		- Evidence of execution artefacts like Prefetch & Shimcache
 - Malware Family that was used
