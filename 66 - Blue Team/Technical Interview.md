@@ -256,7 +256,8 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 4. Use ShellBags explorer > Load offline hive option to load those hives and investigate.
 
 		- Evidence of execution artefacts like Prefetch & Shimcache
-			1. 
+			1. Prefetch - - Its a process that creates a record of files that have been executed. Windows uses this to enhance the spin up of executables
+			2. Shimcache - 
 
 - Malware Family that was used
 ```
