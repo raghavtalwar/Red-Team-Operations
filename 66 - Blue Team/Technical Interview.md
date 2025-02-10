@@ -257,7 +257,7 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 
 		- Evidence of execution artefacts like Prefetch & Shimcache
 			1. Prefetch - - Its a process that creates a record of files that have been executed. Windows uses this to enhance the spin up of executables
-			2. Shimcache - 
+			2. Shimcache - `AppCompatCacheParser.exe > Perform analysis via Timeline Explorer > Timeline Explorer marks "Yes" under "Executed"
 
 - Malware Family that was used
 ```
