@@ -243,6 +243,8 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 - Ransomware incident > PsExec being allowed & Encrypted > Backup servers > Velociraptor offline executable for artfact collection
 	- Analysed 
 		- Event logs via Timeline explorer
+			- Collect
+			- Analysis
 		- Registry & shell bags 
 		- Evidence of execution artefacts like Prefetch & Shimcache
 - Malware Family that was used
