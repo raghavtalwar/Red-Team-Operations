@@ -324,7 +324,7 @@ SCCMHunter’s `admin` module also automates this functionality:
 To prevent spoilers and to make sure everybody can complete all of the steps for this exercise, please refrain from executing code on other students’ `SENTRY#` boxes.
 
  1. Execute calc.exe on your SENTRY# device as the logged on user
-
+ 
 1. In the student portal, select the `Desktop` tab.
 2. In the list of available systems, select `SENTRY#` to gain access to the SCCM client device as `TESTSUBJECT#` (where `#` is your student number).
 3. Open a PowerShell command prompt.
