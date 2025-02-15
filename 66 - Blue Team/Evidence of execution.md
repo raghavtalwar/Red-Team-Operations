@@ -130,7 +130,6 @@ Cons: This will not track native windows binary such as PowerShell, CMD
 ### Example
 ![[Pasted image 20250202180614.png]]
 
-
 ---
 ## SRUM (System Resource Utilization Monitor)
 
