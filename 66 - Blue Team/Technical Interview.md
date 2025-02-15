@@ -58,15 +58,13 @@ I’ve also been part of projects where my red team knowledge has enhanced defen
 1. Basic questions around experience and toolsets used.
 ```markdown
 # Windows XML Event Log | EvtxECmd 
-
-# Timeline Explorer to view CSV created via EvtxECmd
+- Timeline Explorer to view CSV created via EvtxECmd
 
 # Registry Explorer
 ShellBags
 
 # Prefetch - Evidence of execution
 Eric Zimmerman tool to review PF files is PECmd.exe
-
 ```
 1. Heavy focus on values and culture.
 2. Asked about my background and my familiarity with certain tools.
@@ -100,7 +98,7 @@ Mimikatz works by interacting with the Local Security Authority Subsystem Servic
 ## Industry Expereince - Story + Tool leveraged
 # Business email compromise
 - RedLine Stealer > Malpedia > Information stealer like browser creds + crypto + info
-- Malware bazaar > Download Sample EXE + (Leaked source code is avaible on Github)
+	- Malware bazaar > Download Sample EXE + (Leaked source code is avaible on Github)
 - User receive a phishing mail and macro file fetched EXE
 - SentinelOne > Incident Tab > Threats | Alerts
 	- Threats > Based on file hash > Triggered it as malicious > Virus Total confirms
@@ -152,7 +150,9 @@ Malware Families
 	- Checked the IP via virus total and found that it had been used in the past to host malicious stuff
 - Closed the threat by peforming the quarantine mitigation action which will kill and encrypt and isolate the threat
 	- The client usually asked us to not remediate as they might leverage remaining files and system changes to understand why the activity occured on the host.
-- Leveraged the Alert tab and setup a new rule incase malicious IP communicates again with the system then trigger an alert
+- Leveraged the Alert tab and setup a new rule 
+	- incase malicious IP communicates again with the system then trigger an alert
+	- PowerShell downgrade
 
 # SentinelOne has following actions when you wish to close an threat
 1) Kill
@@ -186,21 +186,10 @@ What qualities or skills are you looking for in an candidate for this role?
 3) Day to Day activity
 4) Reverse engineering 
 
-Why UpGuard
-- I believe in 
-
-Why leave
-
-
-1) Before a merger... conducted 
-2) person profiling
-
-Its all about resolving hits +
-
 ### Questions
-1. Understand that they ask me - Why do you want this job
+5. Understand that they ask me - Why do you want this job
 	1. I know i can provide value from my background and deep dive
-2. What do you see yourself after this job / how your future look like in this role
+6. What do you see yourself after this job / how your future look like in this role
 	1. Enhance my skills
 
 ### Nick Romano (Senior Threat Analyst) Interview
@@ -212,6 +201,74 @@ Its all about resolving hits +
 	- Use AI to analyse last call and give me output on what they are looking for
 	- Tweak that data and share it over call along with achievements
 
+<<<<<<< HEAD
 #### Preparations
 
 
+=======
+
+```markdown
+# Structure
+1. Introduction
+2. Background & Experience
+3. Basic questions
+	1. Why Coaltion - I am impressed by Coalition's growth in the MDR space and its comprehensive approach, combining cyber insurance with proactive security measures. With my background in threat detection and offensive security, I am confident in my ability to contribute effectively to your team.
+	2. Why Leave - Looking for more challenges. This role at Coalition allows me to leverage my experience in leading incident investigations while growing my skills in security monitoring and response, which aligns with my long-term career goals.
+4. Job Description questions
+	- Offensive Security
+		- Red Team engagement > Purple Team > Sit with SOC and deliver penetration test
+		- Cool Bugs 
+		- Threat modelling for an web application & Developed test cases accordingly
+		- End to End delivery model
+		- Coached People - On Mitre TTPs & Analysing PowerShell scripts
+		- Creating/Improving and Testing detection ruleset for SOCs
+	- Blue Team
+		- Incident response using velociraptor
+		- SOC monitoring using SentinelOne
+			-BEC example
+		- Investigating Windows Endpoints 
+			-Event Logs
+			-Registry
+			-Evidence of execution
+			-Persistence, Priv Esc & Lateral Movement
+			
+5. Atleast 5 questions to the Interviewer
+	1. What does success look like in this role, especially in the first few months?
+	2. What opportunities are there for collaboration with other teams, like Engineering, or IT Security, to improve detection and response capabilities?
+	3. What are the key challenges the MDR team is currently facing?
+	4. What has your experience been like working at this company, and what do you enjoy most about being part of the team?
+```
+
+```markdown
+Experience in **ransomware incidents**, **sending Velociraptor for artefact collection**, and your familiarity with **registry explorer, shell bags,** and **timeline explorer**. Bring up concrete examples like this to demonstrate your hands-on skills, not just the technical concepts.
+
+# Examples - Solidify this further via checking for correctness 
+IMRPOVE YOUR EXAMPLES | STAR METHOD
+
+- Ransomware incident > PsExec being allowed & Encrypted > Backup servers > Velociraptor offline executable for artfact collection
+	- Analysed 
+		- Event logs via Timeline explorer - (Event Log Explorer Command Line)
+			- Collect: C:\Windows\System32\winevt\Logs
+			- Analysis: C:\Tools\Zimmerman\net6\EvtxECmd.exe -d C:\Users\davisrg\Desktop\Logs --csv log_timeline.csv
+		- Registry & shell bags 
+			1. MuiCache - Evidence of execution of GUI programs
+			2. ShellBags - Windows Folder Browsing artefact
+
+**Real world example**
+1. We would get handed an image
+2. Mount the image via Arsenal Image Mounter
+3. Pull off UserClass.dat and NtUser.dat from the users of interest.
+4. Use ShellBags explorer > Load offline hive option to load those hives and investigate.
+
+		- Evidence of execution artefacts like Prefetch & Shimcache
+			1. Prefetch - - Its a process that creates a record of files that have been executed. Windows uses this to enhance the spin up of executables
+			2. Shimcache - `AppCompatCacheParser.exe > Perform analysis via Timeline Explorer > Timeline Explorer marks "Yes" under "Executed"
+
+- Malware Family that was used
+```
+
+```markdown
+# How to isolate an host in SentinelOne
+& Other basic quesiton about the Tool but impactful (Maybe checkout a guide)
+```
+>>>>>>> origin/main
