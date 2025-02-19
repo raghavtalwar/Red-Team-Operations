@@ -285,6 +285,16 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 Understand the business process from him, what are they trying to achieve / key goals
 - Coalition values > ??
 - Purpose > ??
+- What is a day to day in your life, is it more hands on or business capability
 
+Tell him what i loved after talking with Nick, alec and yohannes
+- The definition of threat analyst over here is not just resolving tickets - which is so great.. it helps me grow and do more! The drive for passion and success is something i loved to see.
+
+Question i should prepare
+1. Where do you see yourself in next 5 years
+2. Value
+3. Why do you think you will be suitable 
+4. Experience align with this role
+5. Some strengths and weakness
 
 
