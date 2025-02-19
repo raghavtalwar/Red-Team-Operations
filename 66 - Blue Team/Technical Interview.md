@@ -284,7 +284,7 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 
 Understand the business process from him, what are they trying to achieve / key goals
 - Coalition values > ??
-- Purpose > ??
+- Purpose > Mission to protect the unprotected
 - What is a day to day in your life, is it more hands on or business capability
 
 Tell him what i loved after talking with Nick, Alec and Yohannes
