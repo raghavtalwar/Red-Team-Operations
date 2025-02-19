@@ -282,6 +282,7 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 	- ⁠Speak about how you can leverage this experience and help them grow in the market. 
 	- ⁠Speak about detection engineering building ruleset to catch threat across ( Huntress blog can help )
 
+
 Understand the business process from him, what are they trying to achieve / key goals
 - Coalition values > Culture First
 - Purpose > Mission to protect the unprotected
