@@ -273,5 +273,10 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 ```
 
 ### Last interview
+- Detection engineering is key priority this financial year
+- Make sure to talk about experience
+	- Value delivered 
+- 
+
 
 
