@@ -282,13 +282,15 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 	- ⁠Speak about how you can leverage this experience and help them grow in the market. 
 	- ⁠Speak about detection engineering building ruleset to catch threat across ( Huntress blog can help )
 
-
+QUESTIONS TO HIM
 Understand the business process from him, what are they trying to achieve / key goals
 - Coalition values > Culture First
 - Purpose > Mission to protect the unprotected
 - What is a day to day in your life, is it more hands on or business capability
 - How do you foster a culture of continuous improvement and collaboration within your team, especially in a remote-first work environment?
+- Where do you see Coalition’s MDR program evolving in the next few years, and what excites you the most about that future?
 
+Share that you loved the Team passion
 Tell him what i loved after talking with Nick, Alec and Yohannes
 - The definition of threat analyst over here is not just resolving tickets - which is so great.. it helps me grow and do more! The drive for passion and success is something i loved to see.
 
