@@ -283,7 +283,7 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 	- ⁠Speak about detection engineering building ruleset to catch threat across ( Huntress blog can help )
 
 Understand the business process from him, what are they trying to achieve / key goals
-- Coalition values > ??
+- Coalition values > Culture First, 
 - Purpose > Mission to protect the unprotected
 - What is a day to day in your life, is it more hands on or business capability
 
