@@ -271,4 +271,7 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 # How to isolate an host in SentinelOne
 & Other basic quesiton about the Tool but impactful (Maybe checkout a guide)
 ```
->>>>>>> origin/main
+
+### Last interview
+
+
