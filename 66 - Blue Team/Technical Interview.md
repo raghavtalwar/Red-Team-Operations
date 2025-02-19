@@ -295,13 +295,12 @@ Question i should prepare
 2. Value
 3. Why do you think you will be suitable 
 	1. i have been studying and working in this field for last 5 years
-4. Experience align with this role
-5. Some strengths and weakness
+	2. Broaden my perspective and i provide value
+	3.  ⁠journey started from masters & ctf
+	4. experience and in security for a while
+	5. familiar with sentinel one.. using my offensive security skills.. i can help a company grow
 
-Broaden my perspective and i provide value
-- i have been studying and working in this field for last 5 years
-- ⁠journey started from masters
-- ⁠experience and in security for a while
-- ⁠familiar with sentinel one.. using my offensive security skills.. i can help a company grow
+1. Experience align with this role
+2. Some strengths and weakness
 
 
