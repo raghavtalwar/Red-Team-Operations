@@ -276,7 +276,15 @@ IMRPOVE YOUR EXAMPLES | STAR METHOD
 - Detection engineering is key priority this financial year
 - Make sure to talk about experience
 	- Value delivered 
-- 
+- Looks like an extremely talented and curious person. 
+	- MDR space - Windows endpoint
+	- ⁠Offensive security - best stories
+	- ⁠Speak about how you can leverage this experience and help them grow in the market. 
+	- ⁠Speak about detection engineering building ruleset to catch threat across ( Huntress blog can help )
+
+Understand the business process from him, what are they trying to achieve / key goals
+- Coalition values > ??
+- Purpose > ??
 
 
 
